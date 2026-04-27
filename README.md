@@ -30,21 +30,23 @@ The course was full of "uncommon sense", advice that is based on research and no
 
 > Students give up in their studies not because they don't have 'growth mindset' or are 'distracted by technology'—they don't know how to learn
 
-The section about anti-bullying programs was so shocking to me.
-It was so distrubing... I almost couldn't believe it.
-I blew my mind and I was thinking... why don't we care enough about what we claim we care about?
-To see that instutions would implement programs that are not tested, and sometimes proved to be insignifican or even do harm, because it sounds... not that cool?
+The section about anti-bullying programs was so shocking to me. I almost couldn't believe it!
+To see that instutions would implement programs that are not tested, and sometimes proved to be not helpful or even do harm. I was thinking... why don't we care enough about what we claim we care about?!
 The course was so full of amazing insights that are rarely talked about.
 
 > "Beware of training programs that don't work. Just because 'everyone' is doing the program or it's conducted by a professor from a prestigious university does not mean it is properly vetted or helpful."
 
-Note: you should also join Barara's mailing list, it's very nice.
-
 One thing I also really liked about the course is the sheer amount of recommended resources, tons of books, videos, research paper.
 Kinda a bummer I can't spend too much time on all of that!
+
+The connection with Machine Learning was nice, esp. The Procedural Learning system, where we might end up having deep inctricate connections --which leads to implicit knowledge that experts have and often don't know how to explaint to others -- is like how we don't know how exactly happen in the the hidden layers.
+
 
 I really like such courses that teach some fundamental skills that are extremely useful and transferrable, whether you need to explain something at work, helping a child study, diagonising your own learning problems, it's amazing!
 
 If you only need to take one course on teaching, this is probably it.
+
+Note: you should also join Barara's mailing list, it's very nice.
+
 
 # Reflection
