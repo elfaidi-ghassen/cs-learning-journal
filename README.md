@@ -48,5 +48,58 @@ If you only need to take one course on teaching, this is probably it.
 
 Note: you should also join Barara's mailing list, it's very nice.
 
+### UML Distilled
+
+When you start learning something like UML, you'd be surprised by the amount of boring nonesense -- words words words -- it's kind of ridiculous at times.
+But UML distilled is so different, it's quite practical.
+
+Take aways from the book:
+- why do we need such diagrams? communication and understanding
+  - and they UML is kind of standardized, so you don't have to explain what the symbols mean, etc, that's whole point.
+- UML could be many things, but according to he author, think of it just a language of sketching ideas.
+- the two most useful parts of the UML: class diagrams and sequence diagrams.
+  - even if you don't want to draw them, it's good to be familiar with them.
+- there are multiple ways people use UML -- and they have strong opinions
+  - 1.  as a sketch, something you draw on paper or whiteboard to explain something to your team
+  - 2.  as blueprint: i.e. our goal is to be comprehensive, we care a lot about the deatils and correctness of the diagrams -- not recommended at all.
+
+- some people say that we should create diagrams that are programming language independet
+  - a complete waste of time
+
+> I need to make my biases clear. Almost all the time, my use of the UML is as sketches.
+
+> I'm not a fan of detailed forward-engineered blueprints; **I believe that it's too difficult to do well and slows down a development effort**.
+
+> Blueprinting to a level of subsystem interfaces is reasonable, but even then you should expect to change those interfaces as developers implement the interactions across the interface
+
+> One of my concerns with blueprints is my own observation that it's very hard to get them right, even for a good designer. **I often find that my own designs do not survive contact with coding intact**.
+
+- iterative vs waterfall
+  - Iterative development has many other names, incremental, spiral, etc. some authors make distinctions between them, but... it doesn't matter. [see the section about terminology]
+    - boy do they love terminology and words in this field!
+  - waterfall =
+  - iterative =
+  - many projects claim to do iterative development but are really doing waterfall.
+    - example: "This iteration's code is very buggy, but we'll clean it up at the end."
+    - iterative: each iteration produces a almost-production level code, that is well tested
+
+- important note about making UML diagrams in analysis phase -- i.e. the phase of understanding the business domain and the problem you're trying to solve:
+  - you may end up making diagrams that domain experts don't fully understand
+  - "A diagram that isn't understood by the people who know the domain is worse than useless; all it does is breed a false sense of confidence for the development team."
+
+- if you have to draw UML digitally, I like draw.io, it's pretty simple and flexible. 
+
+- use case diagrams aren't useful, but use cases themselves are useful
+
+
+about UML... just an idea, not sure, might be wrong
+connection with learning theory, about how concept mapping could give us a false sense of understanding, a form of offloading.
+same for UML, could be sort of offloading? sounds... not sure... probably wrong connection. it's not about learning, it's about explaining stuff to others...
+
+One note about use cases and Use case diagrams:
+  - "Many people find this kind of diagram useful. However, I must stress that you don't need to draw a diagram to use use cases. One of the most effective projects I know that used use cases involved keeping each one on an index card and sorting the cards into piles to show what needed building in each iteration."
+
+
+
 
 # Reflection
