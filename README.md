@@ -1,5 +1,7 @@
 # A Student's Journey Into CS and Life
 
+work in progress...
+
 # Reviews
 
 ## Table of Contents
