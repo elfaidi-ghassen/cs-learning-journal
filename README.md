@@ -92,10 +92,6 @@ Take aways from the book:
 
 - use case diagrams aren't useful, but use cases themselves are useful
 
-about UML... just an idea, not sure, might be wrong
-connection with learning theory, about how concept mapping could give us a false sense of understanding, a form of offloading.
-same for UML, could be sort of offloading? sounds... not sure... probably wrong connection. it's not about learning, it's about explaining stuff to others...
-
 One note about use cases and Use case diagrams:
 
 - "Many people find this kind of diagram useful. However, I must stress that you don't need to draw a diagram to use use cases. One of the most effective projects I know that used use cases involved keeping each one on an index card and sorting the cards into piles to show what needed building in each iteration."
