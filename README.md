@@ -105,9 +105,10 @@ Notes about class Diagrams
 Notes about Sequence Diagrams
 
 I have asked two people at uni, two brilliant students who got great graduation projects, I got the same answer:
-> For challenging tasks, I made diagrams, for architecture and flow, just to understand what to do, but I did serious UML only after finishing the project. -- A.
-so basically a form of documentation?
-In some of my projects at uni we were asked to create analysis phase class and sequence diagrams that are "language independent". As Fowler said, it's probably just a waste of time. 
 
+> For challenging tasks, I made diagrams, for architecture and flow, just to understand what to do, but I did serious UML only after finishing the project. -- A.
+
+so basically a form of documentation?
+In some of my projects at uni we were asked to create analysis phase class and sequence diagrams that are "language independent". As Fowler said, it's probably just a waste of time.
 
 # Reflection
