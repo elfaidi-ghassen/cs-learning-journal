@@ -5,6 +5,7 @@
 ## Table of Contents
 
 1. [Uncommon Sense Teaching](#uncommon-sense-teaching)
+2. [UML Distilled](#uml-distilled)
 
 ## Uncommon Sense Teaching
 
@@ -41,19 +42,19 @@ Kinda a bummer I can't spend too much time on all of that!
 
 The connection with Machine Learning was nice, esp. The Procedural Learning system, where we might end up having deep inctricate connections --which leads to implicit knowledge that experts have and often don't know how to explaint to others -- is like how we don't know how exactly happen in the the hidden layers.
 
-
 I really like such courses that teach some fundamental skills that are extremely useful and transferrable, whether you need to explain something at work, helping a child study, diagonising your own learning problems, it's amazing!
 
 If you only need to take one course on teaching, this is probably it.
 
 Note: you should also join Barara's mailing list, it's very nice.
 
-### UML Distilled
+## UML Distilled
 
 When you start learning something like UML, you'd be surprised by the amount of boring nonesense -- words words words -- it's kind of ridiculous at times.
 But UML distilled is so different, it's quite practical.
 
 Take aways from the book:
+
 - why do we need such diagrams? communication and understanding
   - and they UML is kind of standardized, so you don't have to explain what the symbols mean, etc, that's whole point.
 - UML could be many things, but according to he author, think of it just a language of sketching ideas.
@@ -87,19 +88,26 @@ Take aways from the book:
   - you may end up making diagrams that domain experts don't fully understand
   - "A diagram that isn't understood by the people who know the domain is worse than useless; all it does is breed a false sense of confidence for the development team."
 
-- if you have to draw UML digitally, I like draw.io, it's pretty simple and flexible. 
+- if you have to draw UML digitally, I like draw.io, it's pretty simple and flexible.
 
 - use case diagrams aren't useful, but use cases themselves are useful
-
 
 about UML... just an idea, not sure, might be wrong
 connection with learning theory, about how concept mapping could give us a false sense of understanding, a form of offloading.
 same for UML, could be sort of offloading? sounds... not sure... probably wrong connection. it's not about learning, it's about explaining stuff to others...
 
 One note about use cases and Use case diagrams:
-  - "Many people find this kind of diagram useful. However, I must stress that you don't need to draw a diagram to use use cases. One of the most effective projects I know that used use cases involved keeping each one on an index card and sorting the cards into piles to show what needed building in each iteration."
 
+- "Many people find this kind of diagram useful. However, I must stress that you don't need to draw a diagram to use use cases. One of the most effective projects I know that used use cases involved keeping each one on an index card and sorting the cards into piles to show what needed building in each iteration."
 
+Notes about class Diagrams
+
+Notes about Sequence Diagrams
+
+I have asked two people at uni, two brilliant students who got great graduation projects, I got the same answer:
+> For challenging tasks, I made diagrams, for architecture and flow, just to understand what to do, but I did serious UML only after finishing the project. -- A.
+so basically a form of documentation?
+In some of my projects at uni we were asked to create analysis phase class and sequence diagrams that are "language independent". As Fowler said, it's probably just a waste of time. 
 
 
 # Reflection
