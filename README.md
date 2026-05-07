@@ -6,8 +6,42 @@ work in progress...
 
 ## Table of Contents
 
-1. [Uncommon Sense Teaching](#uncommon-sense-teaching)
-2. [UML Distilled](#uml-distilled)
+1. [Computer Networking: A Top Down Approach](#computer-networking-a-top-down-approach)
+2. [Uncommon Sense Teaching](#uncommon-sense-teaching)
+3. [UML Distilled](#uml-distilled)
+
+## Computer Networking: A Top Down Approach
+
+Computer networking is one of the most rewarding subjects in computer science, you suddenly start to understand those terms you hear everywhere.
+Suddenly it's almost hard to remember life where you didn't know those terms and concepts!
+I wasn't very satisfied with my university's approach to computer networks, it was a buttom-approach and kind of boring.
+So I picked up Computer Networking: A Top Down Approach, and boy I'm glad I did, it's one of the most rich learning experiences I've had in computer science, in fact it's when I suddenly thought, "I love computer science".
+
+The book is accompnied by A LOT of extra content, the Wireshark labs in particular were amazing, I highly recommend that you print the labs and annotate them, it's much more fun.
+
+I highly recommend the book, the first two chapters alone are enough for most programmers, in fact by chapter 2, if you do the projects, you'd have built a HTTP server, SMTP server, UDP ping, and a proxy server from scratch using socket programming.
+
+I still remember the thrill I had, disabling the firewall (in the settings) on my laptop (later I realized the client doesn't need to disable the firewall :D)
+, creating a python script that sends "hello" via TCP, and running the "server" (which is just a python program) on my friend's laptop, the server makes turns it into "HELLO" and sends it back.
+a week later I've finished building my multithreaded http server.
+I configured my router (which is... just changing its setting) to do port forwrding to my laptop, so that I can use anyone can use my (insecure) HTTP server anywhere, succesfully putting all the files on my laptop in risk :D, Apache HTTP server is a couple million lines of code for a reason!
+
+At that moment everything started to click, everything is bunch of files and programs, and I thought, "I love computer science".
+
+In highschool, in Tunisia can study some computer science classes, in of them we were taught some very basic PHP and MySQL, we installed MySQL just by pressing "next" in the setup, and suddenly, our PHP code is storing data in the "database". I was puzzeled... like "sir, where is the database", "I mean where is this stuff stored?"
+It was a tough question, but he answer me "it's just some files".
+I didn't buy it, but it set my heart at ease at least, it least it's on the hard disk and not in some other dimension!
+
+After study operating systems, databases and computer networing, I finally understood where is the database. it's just bunch of files and some TCP socket on the top. he was correct.
+
+Some advice:
+
+- when you read the DNS section in chapter 2, buy a domain name
+  - it's around $10 per year, but what you learn with stick with you forever.
+  - if you're a student try getting a domain in Githuab Education Pack for free.
+  - you can for instance host a static website on github pages, and create a CNAME record to point your domain to it.
+  - remember, if you buy a domain like yourname.com, you can add as many prefixes as you want, you can create sub domains like blog.yourname.com or ANYTHING.yourname.com, and even an email address like pm@yourname.com
+  - Also, at some point later it might be also worth getting a VPS for a month where you can practice even more.
 
 ## Uncommon Sense Teaching
 
