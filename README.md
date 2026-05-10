@@ -45,11 +45,6 @@ I didn't buy it, but it set my heart at ease at least, it least it's on the hard
 
 After study operating systems, databases and computer networing, I finally understood where is the database. it's just bunch of files and some TCP socket on the top. he was correct.
 
-- Wireless Networks chapter: wireless networks are everywhere, and I found having a some understanding of them to be helpful. I've always been puzzeled by how WiFi networks in large places like at university works, this chapter answered all of my questions and more!
-- I found the cellular networks (e.g. 4G) a bit dry -- and full of new crazy terms, some of them were really wild, like "eNode-B"!
-
-> if you find LTE terminology a bit opaque, you aren’t alone!
-
 Some advice:
 
 - when you read the DNS section in chapter 2, buy a domain name
@@ -58,6 +53,13 @@ Some advice:
   - you can for instance host a static website on github pages, it will give you something like yourname.github.io. You can then create a CNAME record to point your domain to it.
   - remember, if you buy a domain like yourname.com, you can add as many prefixes as you want, you can create sub domains like blog.yourname.com or basically ANYTHING.yourname.com, and even an email address like pm@yourname.com
   - Also, at some point later it might be also worth getting a VPS for a month where you can practice even more.
+
+Chapters:
+
+Chapter 7: Wireless Networks
+wireless networks are everywhere, and having a some understanding of them to very helpful. I've always been puzzeled by how WiFi networks in large places like universities works, this chapter answered all of my questions and more! The chapter will answer two important questions, How does WiFi and 4G networks work? you in the back seat if a car or bus, watching a youtube video using a cellular network, each of those network towers (base stations) have limited range, so you certainly pass through multiple of them in your journey, yet the video experience is seemless, you don't see any interruption, how does that work?
+
+
 
 ## Uncommon Sense Teaching
 
