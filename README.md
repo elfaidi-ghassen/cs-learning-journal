@@ -224,17 +224,18 @@ Documentaries could be a great way to both enjoy your time and get out of them w
 - [Revolution OS](#link)
 - [A Trip to Infinity](#link)
 
-Readinng novels could be a really fun.
-In Japan they had a famous animated series called World Masterpeice Theater, which is animated works that are based on the classics of literature -- like Anne of Green Gables and Heidi, both directed by the famous Ghibli director. The animated works themselves are great, but I've been reading the originals works and it's so fun!
+Reading novels could be a really fun.
+In Japan they had a famous animated series called World Masterpiece Theater, which is animated works that are based on the classics of literature -- like Anne of Green Gables and Heidi, both directed by the famous Ghibli director. The animated works themselves are great, but I've been reading the originals works and it's so fun!
 I recommend reading A Little Princess -- Hodgson Burnett
 
-An argubaly more useful reading is biographies and auto-biographies, I have two in mind that I really love.
+An arguably more useful reading is biographies and auto-biographies, I have two in mind that I really love.
 - Malcolm X
 - The Road to Mecca -- Mohammed Asad (Leopold Weiss)
 
-I rarely watch movies, because whever I do it often turns out to be a waste of time, but some movies were worth it
+I rarely watch movies, because whenver I do it often turns out to be a waste of time, but some movies were worth it
 - The Flavor of Green Tea Over Rice -- Ozu
 - 12 Angry Men
 - Ilkuru
 - My Neighbors the Yamadas
 
+Another really fun activity I've came across is identifying plants! iNaturalist is a great app to help you identify plants you see in your daily life, knowing the names of the plants and flowers you see everyday makes each walk a more rich experience, you'd start to notice how plants change from season to season.
