@@ -214,3 +214,27 @@ Another example I saw was in Head First Java, taking breaks is proven to be help
 
 What I gather from this that:
 If you apply an advice and you feel benefits from it, it doesn't necessarily mean the explanation is correct.
+
+#### Some ways to have fun
+There are many ways to have fun!
+Documentaries could be a great way to both enjoy your time and get out of them with a new perpective. This is a list of documentaries I really like
+
+- [Schooling the World](#link)
+- [The True Cost](#link)
+- [Revolution OS](#link)
+- [A Trip to Infinity](#link)
+
+Readinng novels could be a really fun.
+In Japan they had a famous animated series called World Masterpeice Theater, which is animated works that are based on the classics of literature -- like Anne of Green Gables and Heidi, both directed by the famous Ghibli director. The animated works themselves are great, but I've been reading the originals works and it's so fun!
+I recommend reading A Little Princess -- Hodgson Burnett
+
+An argubaly more useful reading is biographies and auto-biographies, I have two in mind that I really love.
+- Malcolm X
+- The Road to Mecca -- Mohammed Asad (Leopold Weiss)
+
+I rarely watch movies, because whever I do it often turns out to be a waste of time, but some movies were worth it
+- The Flavor of Green Tea Over Rice -- Ozu
+- 12 Angry Men
+- Ilkuru
+- My Neighbors the Yamadas
+
