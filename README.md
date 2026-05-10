@@ -1,6 +1,7 @@
 # A Student's Journey Into CS and Life
+I'm a third year software engineering student in Tunisia, I'm writing this because a stranger on the internet shared their learning journey in a README file, and it gave me so much hope and excitement that I kept going. We need more of this.
 
-work in progress...
+(work in progress...)
 
 # Reviews
 
@@ -9,6 +10,7 @@ work in progress...
 1. [Computer Networking: A Top Down Approach](#computer-networking-a-top-down-approach)
 2. [Uncommon Sense Teaching](#uncommon-sense-teaching)
 3. [UML Distilled](#uml-distilled)
+4. [Machine Learning Specialization](#machine-learning-specialization)
 
 ## Computer Networking: A Top Down Approach
 
@@ -36,9 +38,8 @@ After study operating systems, databases and computer networing, I finally under
 
 - Wireless Networks chapter: wireless networks are everywhere, and I found having a some understanding of them to be helpful. I've always been puzzeled by how WiFi networks in large places like at university works, this chapter answered all of my questions and more!
 - I found the cellular networks (e.g. 4G) a bit dry -- and full of new crazy terms, some of them were really wild, like "eNode-B"!
-  I was so glad the writers were down to earth and used simpler terms
 
-> In the official 4G LTE terminology, the base station is referred to as an “eNode-B,” which is rather opaque and non-descriptive. In this textbook, we will instead use the reader-friendlier term “base station” throughout. As an aside, if you find LTE terminology a bit opaque, you aren’t alone!
+> if you find LTE terminology a bit opaque, you aren’t alone!
 
 Some advice:
 
@@ -149,4 +150,33 @@ I have asked two people at uni, two brilliant students who got great graduation 
 so basically a form of documentation?
 In some of my projects at uni we were asked to create analysis phase class and sequence diagrams that are "language independent". As Fowler said, it's probably just a waste of time.
 
-# Reflection
+# Machine Learning
+This was a very enjoyable course, one of the most gentle courses I've taken.
+I created small web projects to try things out, I built simple API points for a simple hand digit recognition website with a friend; and a movie recommended.
+You can apply what you learn instantly.
+The course also cleared some misconseptions from my mind, I used to think machine learning is a very mathematical field, but it turned out it's very expiermental nowadays, you change params, reevaluate, etc.
+also I used to think that neural networks are heavily inspired by how the brain works, but Andrew explained how it's actually very different, and we still don't really know how the brain works yet.
+I really like how Andrew is down to earth, one time he explained how he deep learning is just... neural networks, and he was so surprised back in the day on the impact of the "re-branding" of neural networks as deep learning. 
+and on other occasion he explained why training robots is hard, and we stil fail to create robots that generalize well -- the path to AGI is very difficult. and hence if you see a cool robotics videos, it doesn't mean they're actually useful.
+Or how reinforcement learning is great when it comes to simluations, but isn't quite practical in real life and way too hard to get it right.
+This kind of knowledge is important, it's important to understand the limits of the current tools.
+I think we can't aspire for a better future if our understanding of present time is distorted. the journey is long we still have a long way to go. 
+
+But machine learning is SO COOL in itself, we don't need hype!
+
+My only complain with the course is how gentle it is. The programming assignments are extremely easy -- and hence a bit unsatisfying.
+
+You don't need much math for the couse, high school math is more than enough, the toughest math is doing a partial derivate -- in an optional section of the course.
+
+Andrew is a great teacher, he explains concepts intuitively.
+my only complaint is that i didn't feel there was enough practice and challenge.
+
+
+
+# Tips and Reflections
+#### On the command line
+After learning Git in the summer, I went to my some of my friends and classmates who study CS and told them: "I'm going to force you to learn Git". I don't want to work alone!
+One thing kept happening over and over: whenever I explained how branches work and how we switch branches, and I showed them how files do change in the working directory (using ls command -- in either WSL or git bash), they nodded and thought it made sense. Then I open the file explorer (finder) and show them that the files DO change; they go quiet for a second, "wow" they say. It's as if the command line isn't something concrete.
+I think it has something to do with Windows and growing up around GUIs, for instance, when I was starting out I used to think it's impossible to name a python file "script.mp4", how could that be! even VS code won't color it for you! -- I think it has something to do with what happens when you change the file extension in the file explorer and the warning one sees.
+I recommend getting comfortable with command line as early as possible, it doesn't just improve your productivity, but it also offers you more opportunities for learning.
+If you're a windows user and don't want to switch, try having a dual boot, and make sure to install WSL. I use a custom shortcut Ctrl + Shift + V to start WSL using autohotkey.
