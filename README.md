@@ -189,3 +189,15 @@ I created a /projects folder, and told them they can simply use z proj to go to 
 And Windows users like me have an itch for opening the explorer (finder) for some reason, so I created an alias called opend which opens the current directory in the explorer.
 That alone made them enjoy using the command line and motivated them to learn it more.
 So I realized that many people detest the command line because they never saw a workflow, something concrete that makes them feel it's worth learning.
+
+#### Wrong Advice Could Work Sometimes
+The idea of left-brain people who are analytical and right-brain people who are creative is heavily debunked and considered a pop science myth.
+The thing is, I noticed in many contexts how an advice that's based on myths could actually be beneficial -- for the wrong reasons!
+
+For example, one of the best drawing books is Drawing on The Right Side of The Brain, it's completely based on the idea of left-brain vs right-brain, it's pretty much complete nonesense, yet the exercices in the book are extremely helpful and actually can make you draw better!
+
+Another example I saw was in Head First Java, taking breaks is proven to be helpful in improving learning, but it's not because of left vs right brain activities!
+> Don't work one part of the brain for too long a stretch at one time. Working just the left side of the brain for more than 30 minutes is like working just your left arm for 30 minutes. Give each side of your brain a break by switching sides at regular intervals.
+
+What I gather from this that:
+If you apply an advice and you feel benefits from it, it doesn't necessarily mean the explanation is correct.
