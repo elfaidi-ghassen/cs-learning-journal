@@ -34,13 +34,19 @@ I didn't buy it, but it set my heart at ease at least, it least it's on the hard
 
 After study operating systems, databases and computer networing, I finally understood where is the database. it's just bunch of files and some TCP socket on the top. he was correct.
 
+- Wireless Networks chapter: wireless networks are everywhere, and I found having a some understanding of them to be helpful. I've always been puzzeled by how WiFi networks in large places like at university works, this chapter answered all of my questions and more!
+- I found the cellular networks (e.g. 4G) a bit dry -- and full of new crazy terms, some of them were really wild, like "eNode-B"!
+  I was so glad the writers were down to earth and used simpler terms
+
+> In the official 4G LTE terminology, the base station is referred to as an “eNode-B,” which is rather opaque and non-descriptive. In this textbook, we will instead use the reader-friendlier term “base station” throughout. As an aside, if you find LTE terminology a bit opaque, you aren’t alone!
+
 Some advice:
 
 - when you read the DNS section in chapter 2, buy a domain name
   - it's around $10 per year, but what you learn with stick with you forever.
   - if you're a student try getting a domain in Githuab Education Pack for free.
-  - you can for instance host a static website on github pages, and create a CNAME record to point your domain to it.
-  - remember, if you buy a domain like yourname.com, you can add as many prefixes as you want, you can create sub domains like blog.yourname.com or ANYTHING.yourname.com, and even an email address like pm@yourname.com
+  - you can for instance host a static website on github pages, it will give you something like yourname.github.io. You can then create a CNAME record to point your domain to it.
+  - remember, if you buy a domain like yourname.com, you can add as many prefixes as you want, you can create sub domains like blog.yourname.com or basically ANYTHING.yourname.com, and even an email address like pm@yourname.com
   - Also, at some point later it might be also worth getting a VPS for a month where you can practice even more.
 
 ## Uncommon Sense Teaching
