@@ -1,4 +1,5 @@
 # A Student's Journey Into CS and Life
+
 I'm a third year software engineering student in Tunisia, I'm writing this because a stranger on the internet shared their learning journey in a README file, and it gave me so much hope and excitement that I kept going. We need more of this.
 
 (work in progress...)
@@ -7,10 +8,18 @@ I'm a third year software engineering student in Tunisia, I'm writing this becau
 
 ## Table of Contents
 
+## Reviews
+
 1. [Computer Networking: A Top Down Approach](#computer-networking-a-top-down-approach)
 2. [Uncommon Sense Teaching](#uncommon-sense-teaching)
 3. [UML Distilled](#uml-distilled)
 4. [Machine Learning Specialization](#machine-learning-specialization)
+
+## Tips and Reflections
+
+- [On the Command Line](#on-the-command-line)
+- [Why Some Learners Really Don't Like the Command Line](#why-some-learners-really-dont-like-the-command-line)
+- [Wrong Advice Could Work Sometimes](#wrong-advice-could-work-sometimes)
 
 ## Computer Networking: A Top Down Approach
 
@@ -151,16 +160,17 @@ so basically a form of documentation?
 In some of my projects at uni we were asked to create analysis phase class and sequence diagrams that are "language independent". As Fowler said, it's probably just a waste of time.
 
 # Machine Learning
+
 This was a very enjoyable course, one of the most gentle courses I've taken.
 I created small web projects to try things out, I built simple API points for a simple hand digit recognition website with a friend; and a movie recommended.
 You can apply what you learn instantly.
 The course also cleared some misconseptions from my mind, I used to think machine learning is a very mathematical field, but it turned out it's very expiermental nowadays, you change params, reevaluate, etc.
 also I used to think that neural networks are heavily inspired by how the brain works, but Andrew explained how it's actually very different, and we still don't really know how the brain works yet.
-I really like how Andrew is down to earth, one time he explained how he deep learning is just... neural networks, and he was so surprised back in the day on the impact of the "re-branding" of neural networks as deep learning. 
+I really like how Andrew is down to earth, one time he explained how he deep learning is just... neural networks, and he was so surprised back in the day on the impact of the "re-branding" of neural networks as deep learning.
 and on other occasion he explained why training robots is hard, and we stil fail to create robots that generalize well -- the path to AGI is very difficult. and hence if you see a cool robotics videos, it doesn't mean they're actually useful.
 Or how reinforcement learning is great when it comes to simluations, but isn't quite practical in real life and way too hard to get it right.
 This kind of knowledge is important, it's important to understand the limits of the current tools.
-I think we can't aspire for a better future if our understanding of present time is distorted. the journey is long we still have a long way to go. 
+I think we can't aspire for a better future if our understanding of present time is distorted. the journey is long we still have a long way to go.
 
 But machine learning is SO COOL in itself, we don't need hype!
 
@@ -171,10 +181,10 @@ You don't need much math for the couse, high school math is more than enough, th
 Andrew is a great teacher, he explains concepts intuitively.
 my only complaint is that i didn't feel there was enough practice and challenge.
 
-
-
 # Tips and Reflections
+
 #### On the command line
+
 After learning Git in the summer, I went to my some of my friends and classmates who study CS and told them: "I'm going to force you to learn Git". I don't want to work alone!
 One thing kept happening over and over: whenever I explained how branches work and how we switch branches, and I showed them how files do change in the working directory (using ls command -- in either WSL or git bash), they nodded and thought it made sense. Then I open the file explorer (finder) and show them that the files DO change; they go quiet for a second, "wow" they say. It's as if the command line isn't something concrete.
 The way I see it is that Windows does things for convenience that kind of distorts one's understanding, like, before I used to believe file extensions were something special
@@ -184,19 +194,22 @@ I recommend getting comfortable with command line as early as possible, it doesn
 If you're a windows user and don't want to switch, try having a dual boot, and make sure to install WSL. I use a custom shortcut Ctrl + Shift + V to start WSL using autohotkey.
 
 #### Why some learners REALLY don't like the command line
+
 When I realized the power of command line, I went to pretty much anyone I knew and installed zoxide and fzf for them.
 I created a /projects folder, and told them they can simply use z proj to go to it, and create a folder for each project, and simply open it in VS code (code .)
 And Windows users like me have an itch for opening the explorer (finder) for some reason, so I created an alias called opend which opens the current directory in the explorer.
 That alone made them enjoy using the command line and motivated them to learn it more.
-So I realized that many people detest the command line because they never saw a workflow, something concrete that makes them feel it's worth learning.
+So based on my observation, I believe that many people detest the command line simply because they never saw a real workflow, something concrete that makes them feel it's worth learning.
 
 #### Wrong Advice Could Work Sometimes
+
 The idea of left-brain people who are analytical and right-brain people who are creative is heavily debunked and considered a pop science myth.
 The thing is, I noticed in many contexts how an advice that's based on myths could actually be beneficial -- for the wrong reasons!
 
 For example, one of the best drawing books is Drawing on The Right Side of The Brain, it's completely based on the idea of left-brain vs right-brain, it's pretty much complete nonesense, yet the exercices in the book are extremely helpful and actually can make you draw better!
 
 Another example I saw was in Head First Java, taking breaks is proven to be helpful in improving learning, but it's not because of left vs right brain activities!
+
 > Don't work one part of the brain for too long a stretch at one time. Working just the left side of the brain for more than 30 minutes is like working just your left arm for 30 minutes. Give each side of your brain a break by switching sides at regular intervals.
 
 What I gather from this that:
