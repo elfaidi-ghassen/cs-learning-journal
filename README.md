@@ -32,19 +32,7 @@ So I picked up Computer Networking: A Top Down Approach, and boy I'm glad I did,
 The book is accompnied by A LOT of extra content, the Wireshark labs in particular were amazing, I highly recommend that you print the labs and annotate them, it's much more fun.
 
 I highly recommend the book, the first two chapters alone are enough for most programmers, in fact by chapter 2, if you do the projects, you'd have built a HTTP server, SMTP server, UDP ping, and a proxy server from scratch using socket programming.
-
-I still remember the thrill I had, disabling the firewall (in the settings) on my laptop (later I realized the client doesn't need to disable the firewall :D)
-, creating a python script that sends "hello" via TCP, and running the "server" (which is just a python program) on my friend's laptop, the server makes turns it into "HELLO" and sends it back.
-a week later I've finished building my multithreaded http server.
-I configured my router (which is... just changing its setting) to do port forwrding to my laptop, so that I can use anyone can use my (insecure) HTTP server anywhere, succesfully putting all the files on my laptop in risk :D, Apache HTTP server is a couple million lines of code for a reason!
-
-At that moment everything started to click, everything is bunch of files and programs, and I thought, "I love computer science".
-
-In highschool, in Tunisia can study some computer science classes, in of them we were taught some very basic PHP and MySQL, we installed MySQL just by pressing "next" in the setup, and suddenly, our PHP code is storing data in the "database". I was puzzeled... like "sir, where is the database", "I mean where is this stuff stored?"
-It was a tough question, but he answer me "it's just some files".
-I didn't buy it, but it set my heart at ease at least, it least it's on the hard disk and not in some other dimension!
-
-After study operating systems, databases and computer networing, I finally understood where is the database. it's just bunch of files and some TCP socket on the top. he was correct.
+This book has a special place in my heart, when I was reading it I realized [I've finally become passionate about CS](#the-day-i-fell-in-love-with-computer-science).
 
 Some advice:
 
@@ -59,8 +47,6 @@ Chapters:
 
 Chapter 7: Wireless Networks
 wireless networks are everywhere, and having a some understanding of them to very helpful. I've always been puzzeled by how WiFi networks in large places like universities works, this chapter answered all of my questions and more! The chapter will answer two important questions, How does WiFi and 4G networks work? you in the back seat if a car or bus, watching a youtube video using a cellular network, each of those network towers (base stations) have limited range, so you certainly pass through multiple of them in your journey, yet the video experience is seemless, you don't see any interruption, how does that work?
-
-
 
 ## Uncommon Sense Teaching
 
@@ -126,15 +112,17 @@ Andrew is a great teacher, he explains concepts intuitively.
 my only complaint is that I didn't feel there was enough practice and challenge.
 
 ## Meta Version Control
+
 This course is targeted for absolute beginners who want to know about it.
 Avoid such courses, they leave you with shallow knowledge that you can't apply, this course is the opposite of down-to-earth teaching.
 It's shot in a cool looking studio where every piece of furnature and decor is placed with utmost care -- yet it's hollow.
 I don't recommend it. It is similar to the Object-Oriented Design course, that say so much yet nothing, at same time
 
 ## Head First Git
+
 I love the Head First series, even though it's full of silly drawings that I don't really care for. The content itself is often superb and very down to earth -- and not shallow at all. This book contains some of the best explanations and analogies for Git, I left the book with clear mental model of how Git really works and how to use Git and Github in practice.
 
-I tried two learn Git around three times before, In High school I watched some youtube videos, and later I even did the Meta Version Control course -- which wasn't helpful. Each time, I'd learn the commands, have some commits and push something to github, then I forget about it -- until it's the next summer. 
+I tried two learn Git around three times before, In High school I watched some youtube videos, and later I even did the Meta Version Control course -- which wasn't helpful. Each time, I'd learn the commands, have some commits and push something to github, then I forget about it -- until it's the next summer.
 
 I thought it was enough, I was determined to learn Git in depth, I spend a month to read the entire book and practice the concepts, for the first time I felt I'm getting the hand of it.
 But I felt... none of my friends use Git! if I don't use it slowly I'm going to forget how to use it.
@@ -143,22 +131,21 @@ And I did so, it was a very fun experience and I learned so much about git in th
 
 The book focuses on Git, branching, conflicts and fixing mistakes, the best practices and also have a good coverage of Github -- although it's not the main focus.
 
-The "there are no DUMB QUESTIONS" sections were my favorite, they always answer all the dumb questions that cross my mind! 
+The "there are no DUMB QUESTIONS" sections were my favorite, they always answer all the dumb questions that cross my mind!
 
-It also did something really smart which is not using code, but just plain text for all examples, which instills the idea that you can basically use Git for *anything*.
+It also did something really smart which is not using code, but just plain text for all examples, which instills the idea that you can basically use Git for _anything_.
 
 If you want to learn how git works and immediately start contributing to open source and working with others, this is the book.
 Git really makes programming much more fun.
 
-# Object-Oriented Design
+## Object-Oriented Design
+
 I had multiple UML classes in college, they were full of... words.
 It is where I coined the term audiobook lecture. at some point it feels like ASMR, reminds me of how I felt like a kid, sleeping in my mother's arms, listening to her talking on the phone or with someone...
 This one is not different.
 Don't take this course.
 
 > ...of defeats in which nobody loses anything of value, of victories without hope and, worst of all, without pity or compassion. His griefs grieve on no universal bones, leaving no scars. He writes not of the heart but of the glands. -- William Faulkner, Nobel Prize acceptance speech, 1950
-
-
 
 ## UML Distilled
 
@@ -219,8 +206,6 @@ I have asked two people at uni, two brilliant students who got great graduation 
 so basically a form of documentation?
 In some of my projects at uni we were asked to create analysis phase class and sequence diagrams that are "language independent". As Fowler said, it's probably just a waste of time.
 
-
-
 # Tips and Reflections
 
 #### On the command line
@@ -256,6 +241,7 @@ What I gather from this that:
 If you apply an advice and you feel benefits from it, it doesn't necessarily mean the explanation is correct.
 
 #### Some ways to have fun
+
 There are many ways to have fun!
 Documentaries could be a great way to both enjoy your time and get out of them with a new perpective. This is a list of documentaries I really like
 
@@ -269,13 +255,34 @@ In Japan they had a famous animated series called World Masterpiece Theater, whi
 I recommend reading A Little Princess -- Hodgson Burnett
 
 An arguably more useful reading is biographies and auto-biographies, I have two in mind that I really love.
+
 - Malcolm X
 - The Road to Mecca -- Mohammed Asad (Leopold Weiss)
 
 I rarely watch movies, because whenver I do it often turns out to be a waste of time, but some movies were worth it
+
 - The Flavor of Green Tea Over Rice -- Ozu
 - 12 Angry Men
 - Ikiru
 - My Neighbors the Yamadas
 
 Another really fun activity I've came across is identifying plants! iNaturalist is a great app to help you identify plants you see in your daily life, knowing the names of the plants and flowers you see everyday makes each walk a more rich experience, you'd start to notice how plants change from season to season.
+
+## The day I fell in love with Computer Science
+
+Around two years into my CS studies, I was reading Computer Networking: A Top Down Approach, at the end of chapter 2 it contained a list of project ideas to do. I was hooked.
+
+I still remember the thrill I had, disabling the firewall (in the settings) on my laptop (later I realized the client doesn't need to disable the firewall :D) Creating a python script that sends "hello" via TCP, and running the "server" (which is just a python program) on my friend's laptop, the server makes it uppercase, and sends "HELLO" back. a week later I had built a simple multithreaded http server. I changed the router setting to do port forwarding to my laptop, so that anyone can use my (insecure) HTTP server anywhere, successfully putting all the files on my laptop in risk :D
+
+At that moment everything started to click, everything is bunch of files and programs. I thought... "I love computer science", and I literally had tears in my eyes.
+
+In high school I studied some introductory computer science classes, in one of them we were taught some very basic PHP and MySQL, we installed MySQL just by pressing "next" in the setup, and suddenly, our PHP code is storing data in the "database". I was puzzled... like "professor, where is the database", he didn't understand my question, "I mean where is this stuff stored?" It was kind of tough question indeed, but he answered me "don't worry it's just some files". I didn't buy it, but it set my heart at ease at least... at least it's on the hard disk!
+
+After studying operating systems, databases and computer networking, I finally understood where the database is. in some sense, it's just bunch of files and some TCP socket on the top. In fact, pretty much everything is just a bunch of files and running programs. he was correct.
+AtmoTea — 2:29 PM
+This all also reminds me a quote I read in one of Barbara Oakley's articles
+
+we rapidly remember what interests us, but what interests us takes time to develop
+
+Passion is never a pre-requisite for learning programming, in fact passion is the fruit of your efforts.
+Good teachers, good books, and small projects slowly built that passion over time.
