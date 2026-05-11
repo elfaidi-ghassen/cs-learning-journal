@@ -14,6 +14,7 @@ I'm a third year software engineering student in Tunisia, I'm writing this becau
 2. [Uncommon Sense Teaching](#uncommon-sense-teaching)
 3. [UML Distilled](#uml-distilled)
 4. [Machine Learning Specialization](#machine-learning-specialization)
+5. [Head First Git](#head-first-git)
 
 ## Tips and Reflections
 
@@ -102,6 +103,63 @@ If you only need to take one course on teaching, this is probably it.
 
 Note: you should also join Barara's mailing list, it's very nice.
 
+## Machine Learning
+
+This was a very enjoyable course, one of the most gentle courses I've taken.
+I created small web projects to try things out, I built simple API points for a simple hand digit recognition website with a friend; and a movie recommended.
+You can apply what you learn instantly.
+The course also cleared some misconseptions from my mind, I used to think machine learning is a very mathematical field, but it turned out it's very expiermental nowadays, you change params, reevaluate, etc.
+also I used to think that neural networks are heavily inspired by how the brain works, but Andrew explained how it's actually very different, and we still don't really know how the brain works yet.
+I really like how Andrew is down to earth, one time he explained how he deep learning is just... neural networks, and he was so surprised back in the day on the impact of the "re-branding" of neural networks as deep learning.
+and on other occasion he explained why training robots is hard, and we stil fail to create robots that generalize well -- the path to AGI is very difficult. and hence if you see a cool robotics videos, it doesn't mean they're actually useful.
+Or how reinforcement learning is great when it comes to simluations, but isn't quite practical in real life and way too hard to get it right.
+This kind of knowledge is important, it's important to understand the limits of the current tools.
+I think we can't aspire for a better future if our understanding of present time is distorted. the journey is long we still have a long way to go.
+
+But machine learning is SO COOL in itself, we don't need hype!
+
+My only complain with the course is how gentle it is. The programming assignments are extremely easy -- and hence a bit unsatisfying.
+
+You don't need much math for the couse, high school math is more than enough, the toughest math is doing a partial derivate -- in an optional section of the course.
+
+Andrew is a great teacher, he explains concepts intuitively.
+my only complaint is that I didn't feel there was enough practice and challenge.
+
+## Meta Version Control
+This course is targeted for absolute beginners who want to know about it.
+Avoid such courses, they leave you with shallow knowledge that you can't apply, this course is the opposite of down-to-earth teaching.
+It's shot in a cool looking studio where every piece of furnature and decor is placed with utmost care -- yet it's hollow.
+I don't recommend it. It is similar to the Object-Oriented Design course, that say so much yet nothing, at same time
+
+## Head First Git
+I love the Head First series, even though it's full of silly drawings that I don't really care for. The content itself is often superb and very down to earth -- and not shallow at all. This book contains some of the best explanations and analogies for Git, I left the book with clear mental model of how Git really works and how to use Git and Github in practice.
+
+I tried two learn Git around three times before, In High school I watched some youtube videos, and later I even did the Meta Version Control course -- which wasn't helpful. Each time, I'd learn the commands, have some commits and push something to github, then I forget about it -- until it's the next summer. 
+
+I thought it was enough, I was determined to learn Git in depth, I spend a month to read the entire book and practice the concepts, for the first time I felt I'm getting the hand of it.
+But I felt... none of my friends use Git! if I don't use it slowly I'm going to forget how to use it.
+So I send a message to my roommates -- "I'm going to force you to learn Git, whether you want it or not!"
+And I did so, it was a very fun experience and I learned so much about git in the process.
+
+The book focuses on Git, branching, conflicts and fixing mistakes, the best practices and also have a good coverage of Github -- although it's not the main focus.
+
+The "there are no DUMB QUESTIONS" sections were my favorite, they always answer all the dumb questions that cross my mind! 
+
+It also did something really smart which is not using code, but just plain text for all examples, which instills the idea that you can basically use Git for *anything*.
+
+If you want to learn how git works and immediately start contributing to open source and working with others, this is the book.
+Git really makes programming much more fun.
+
+# Object-Oriented Design
+I had multiple UML classes in college, they were full of... words.
+It is where I coined the term audiobook lecture. at some point it feels like ASMR, reminds me of how I felt like a kid, sleeping in my mother's arms, listening to her talking on the phone or with someone...
+This one is not different.
+Don't take this course.
+
+> ...of defeats in which nobody loses anything of value, of victories without hope and, worst of all, without pity or compassion. His griefs grieve on no universal bones, leaving no scars. He writes not of the heart but of the glands. -- William Faulkner, Nobel Prize acceptance speech, 1950
+
+
+
 ## UML Distilled
 
 When you start learning something like UML, you'd be surprised by the amount of boring nonesense -- words words words -- it's kind of ridiculous at times.
@@ -161,27 +219,7 @@ I have asked two people at uni, two brilliant students who got great graduation 
 so basically a form of documentation?
 In some of my projects at uni we were asked to create analysis phase class and sequence diagrams that are "language independent". As Fowler said, it's probably just a waste of time.
 
-# Machine Learning
 
-This was a very enjoyable course, one of the most gentle courses I've taken.
-I created small web projects to try things out, I built simple API points for a simple hand digit recognition website with a friend; and a movie recommended.
-You can apply what you learn instantly.
-The course also cleared some misconseptions from my mind, I used to think machine learning is a very mathematical field, but it turned out it's very expiermental nowadays, you change params, reevaluate, etc.
-also I used to think that neural networks are heavily inspired by how the brain works, but Andrew explained how it's actually very different, and we still don't really know how the brain works yet.
-I really like how Andrew is down to earth, one time he explained how he deep learning is just... neural networks, and he was so surprised back in the day on the impact of the "re-branding" of neural networks as deep learning.
-and on other occasion he explained why training robots is hard, and we stil fail to create robots that generalize well -- the path to AGI is very difficult. and hence if you see a cool robotics videos, it doesn't mean they're actually useful.
-Or how reinforcement learning is great when it comes to simluations, but isn't quite practical in real life and way too hard to get it right.
-This kind of knowledge is important, it's important to understand the limits of the current tools.
-I think we can't aspire for a better future if our understanding of present time is distorted. the journey is long we still have a long way to go.
-
-But machine learning is SO COOL in itself, we don't need hype!
-
-My only complain with the course is how gentle it is. The programming assignments are extremely easy -- and hence a bit unsatisfying.
-
-You don't need much math for the couse, high school math is more than enough, the toughest math is doing a partial derivate -- in an optional section of the course.
-
-Andrew is a great teacher, he explains concepts intuitively.
-my only complaint is that i didn't feel there was enough practice and challenge.
 
 # Tips and Reflections
 
@@ -195,7 +233,7 @@ when I was starting out I used to think it's impossible to name a python file "s
 I recommend getting comfortable with command line as early as possible, it doesn't just improve your productivity, but it also offers you more opportunities for learning.
 If you're a windows user and don't want to switch, try having a dual boot, and make sure to install WSL. I use a custom shortcut Ctrl + Shift + V to start WSL using autohotkey.
 
-#### Why some learners REALLY don't like the command line
+#### Why some learners really don't like the command line
 
 When I realized the power of command line, I went to pretty much anyone I knew and installed zoxide and fzf for them.
 I created a /projects folder, and told them they can simply use z proj to go to it, and create a folder for each project, and simply open it in VS code (code .)
@@ -237,7 +275,7 @@ An arguably more useful reading is biographies and auto-biographies, I have two 
 I rarely watch movies, because whenver I do it often turns out to be a waste of time, but some movies were worth it
 - The Flavor of Green Tea Over Rice -- Ozu
 - 12 Angry Men
-- Ilkuru
+- Ikiru
 - My Neighbors the Yamadas
 
 Another really fun activity I've came across is identifying plants! iNaturalist is a great app to help you identify plants you see in your daily life, knowing the names of the plants and flowers you see everyday makes each walk a more rich experience, you'd start to notice how plants change from season to season.
