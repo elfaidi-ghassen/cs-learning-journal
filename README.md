@@ -22,6 +22,79 @@ I'm a third year software engineering student in Tunisia, I'm writing this becau
 - [Why Some Learners Really Don't Like the Command Line](#why-some-learners-really-dont-like-the-command-line)
 - [Wrong Advice Could Work Sometimes](#wrong-advice-could-work-sometimes)
 
+
+## Systematic Program Design
+Also known as How to Code: Simple/Complex data.
+
+This course is weird, it's really good, but you won't realize how important it is immediately.
+I often heard this, you should learn functional programming because it will change the way you think about programming and so on, but I never found someone explains why explicitely.
+
+I think this course taught me how to think, and one cannot think well without good words, the course teaches the difference between values and expression -- which is an expression that evaluates to itself -- and what evaluation even means.
+
+Really fundamental concepts, but everything is built on top of them.
+Later you will understand that functions are expressions that evaluate to a value, and then closures will start to make sense.
+
+When I see a new piece of code, my brain now immediately asks: Wait a minute, how does that evaluate, what does it evaluate to?
+
+```python
+results = df
+            .filter(col("city") == "New York")
+            .select("name", "age")
+```
+my mind errors out. what does `col("city") == "New York"` evaluate to?!
+it can't be a boolean, it's a useless information to the filter method.
+it must be evaluate to some sort of an object or function, so it uses operator overloading.
+
+Functional programming also taught me that we can think of everything as a function. Combined with the previous point about evaluation, it completely changed my perspective.
+
+Here's an example: I was recently learning about promises in JavaScript -- a quite challenging concept --. I would see some code like
+
+```javascript
+let p = fetch(URL).then(f1).then(f2)
+```
+
+It didn't click; most tutorials didn't explain what was going on. and I didn't even blame myself for not understanding, I felt, man those tutorials are doing something wrong! they didn't explain how things evaluate.
+what I was seeing is the following
+```
+let p = dot(dot(fetch(URL), then(f1)), then(f2))
+```
+
+I kept asking myself: what does fetch(URL) evaluate to? And what happens when I call then(f1) on whatever that evaluates to, and so on? After some time and thanks to some good resources, I clicked.
+
+So SPD taught me to *ask the right questions* and to feel deeply unsatisfied when I don't fully understand how expressions are evaluated.
+
+A year later, I noticed that this course even changed the way I see math.
+For example in my Optimization class at university, we studied tons of Linear Programming problems, when I'm faced with a homework problem or in exam, I spend like 10 minutes trying to *understand the data*. 
+here a simple example, let's say we have a graph G=(V, E)
+I start to think, what does V and E evaluate to?
+I see it as:
+G=({1, 2, 3, 4}, {{1, 2}, {2, 3}})
+and then writing the following seems obvious:
+for all e in V, for all i, j in E
+I found understand the shape of data actually helps in problem solving.
+Which is a fundamental concept in SPD.
+
+I actually believe my math skills in genral improved because of that course.
+I remember I was stuck in a problem in some probability exam, it was hard, then I started making examples, imagining the "data", the shape of input, and suddenly it clicked -- at that moment SPD immediately crossed my mind and I smiled.
+
+You should trust the course, take it slow and enjoy it, the professor, Gregor Kiczales isn't that kind of professor who says "this course will change how you think forever", he is way too nice!
+
+Finally, I think studying that course will help you get the most out of the *Dan Grossman's Programming Languages* course (next), which is by far the *best and most useful course I have ever taken*.
+
+So trust the teacher! learning is a relationship, it's not self learning, if you can't trust the teacher and material, it's harder to learn well.
+I still remember when I was taking SPD in the summer of first year at university, I would see some of my friends and classmates studying React and talking about fancy new technology. honestly it was painful and sometimes I'd feel I'm wasting my time. I think I could have learned more, or at the very least, had more fun while learning.
+
+
+
+
+
+
+## Programming Languages: Parts A, B and c
+
+"But if you have big ideas, you have to use big words to express them, haven't you?"
+
+
+
 ## Computer Networking: A Top Down Approach
 
 Computer networking is one of the most rewarding subjects in computer science, you suddenly start to understand those terms you hear everywhere.
@@ -141,7 +214,7 @@ Git really makes programming much more fun.
 ## Object-Oriented Design
 
 I had multiple UML classes in college, they were full of... words.
-It is where I coined the term audiobook lecture. at some point it feels like ASMR, reminds me of how I felt like a kid, sleeping in my mother's arms, listening to her talking on the phone or with someone...
+It is where I coined the term "audiobook lecture". at some point it feels like ASMR, reminds me of how I felt like a kid, sleeping in my mother's arms, listening to her talking on the phone or with someone...
 This one is not different.
 Don't take this course.
 
