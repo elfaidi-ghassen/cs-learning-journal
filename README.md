@@ -29,7 +29,7 @@ Also known as How to Code: Simple/Complex data.
 This course is weird, it's really good, but you won't realize how important it is immediately.
 I often heard this, you should learn functional programming because it will change the way you think about programming and so on, but I never found someone explains why explicitely.
 
-I think this course taught me how to think, and one cannot think well without good words, the course teaches the difference between values and expression -- which is an expression that evaluates to itself -- and what evaluation even means.
+I think this course taught me how to think, and one cannot think well without good words, the course teaches the difference between values and expression -- and what evaluation even means.
 
 Really fundamental concepts, but everything is built on top of them.
 Later you will understand that functions are expressions that evaluate to a value, and then closures will start to make sense.
@@ -61,7 +61,7 @@ let p = dot(dot(fetch(URL), then(f1)), then(f2))
 
 I kept asking myself: what does fetch(URL) evaluate to? And what happens when I call then(f1) on whatever that evaluates to, and so on? After some time and thanks to some good resources, I clicked.
 
-So SPD taught me to *ask the right questions* and to feel deeply unsatisfied when I don't fully understand how expressions are evaluated.
+Systematic Program Design (and Programming Languages course -- see next) taught me to *ask the right questions* and to feel deeply unsatisfied when I don't fully understand how expressions are evaluated.
 
 A year later, I noticed that this course even changed the way I see math.
 For example in my Optimization class at university, we studied tons of Linear Programming problems, when I'm faced with a homework problem or in exam, I spend like 10 minutes trying to *understand the data*. 
@@ -86,14 +86,38 @@ I still remember when I was taking SPD in the summer of first year at university
 
 
 
-
-
-
 ## Programming Languages: Parts A, B and c
+"But if you have big ideas, you have to use big words to express them, haven't you?" -- Anne of Green Gabes 
 
-"But if you have big ideas, you have to use big words to express them, haven't you?"
+This one of my favorite online course.
+Dan Grossman is such a great teacher
+
+ML, Racket and Ruby
 
 
+This course will take what you learned in Systematic Program Design, 
+
+and since then I've read it twice.
+
+> A value is an expression that evaluates to itself
+
+That is my favorite definition in CS. it's so elagant.
+
+The course is super enjoyable and covers a lot of ground
+static vs dynamic typing
+
+ After completing it, I printed all the lecture notes and went to a library to bind them into a book.
+
+concepts like lazy evaluations and streams are essential and keep showing up in other languages.
+
+I mistake I made is not studying some OOP before, I highly recommend that you learn the basics of OOP in some statically typed language before you embark into the third course.
+
+
+the course uses Emacs
+
+I wrote this question
+C put my understanding of programming to the limit :D
+https://stackoverflow.com/questions/79537353/how-does-the-left-hand-side-lhs-of-an-assignment-evaluate-in-c
 
 ## Computer Networking: A Top Down Approach
 
@@ -120,6 +144,30 @@ Chapters:
 
 Chapter 7: Wireless Networks
 wireless networks are everywhere, and having a some understanding of them to very helpful. I've always been puzzeled by how WiFi networks in large places like universities works, this chapter answered all of my questions and more! The chapter will answer two important questions, How does WiFi and 4G networks work? you in the back seat if a car or bus, watching a youtube video using a cellular network, each of those network towers (base stations) have limited range, so you certainly pass through multiple of them in your journey, yet the video experience is seemless, you don't see any interruption, how does that work?
+
+## Operating Systems: Three Easy Pieces
+Studying Operating Systems is extremely important because it gives you a concrete example of all the concepts you see in CS.
+for example at some point you learn that a compiler is a program that translates the given code to another representation.
+That's absolutely correct and a beautiful defintion.
+If you think about it, you could build a machine that you give it a piece of paper of instructions, and it prints another piece of paper.
+that's a compiler. 
+But studying OS will give you more concepts that your mind can use to reason about new thigns.
+For example, you'll start to think that a compiler is just a program (i.e. a file in the filesystem that contains instuctions) that you can run using the OS sys calls, so it becomes a process, the absraction of a running program, that process will simply read() the source code file and do some transformations to it, then write them back to another file.
+
+The book is divided into three parts.
+1) Virtualization
+You will learn about two really important cocnepts, the process and memory abstractions. really important stuff.
+also explains system calls and kernel mode.
+Limited Direct Execution...
+I didn't find the CPU schudeling interesting, I just skimmed them, we studied them a lot in college.
+After completing this part, I HIGHLY recommend building a shell, the course has a github repo with projcets, building a shell is EXTREMELY rewarding, you'll see processes differently.
+The project was in C, and my C skills were rusty, so I chose python.
+
+2) Concurrency
+
+3) Persistance
+
+
 
 ## Uncommon Sense Teaching
 
@@ -327,11 +375,6 @@ Reading novels could be a really fun.
 In Japan they had a famous animated series called World Masterpiece Theater, which is animated works that are based on the classics of literature -- like Anne of Green Gables and Heidi, both directed by the famous Ghibli director. The animated works themselves are great, but I've been reading the originals works and it's so fun!
 I recommend reading A Little Princess -- Hodgson Burnett
 
-An arguably more useful reading is biographies and auto-biographies, I have two in mind that I really love.
-
-- Malcolm X
-- The Road to Mecca -- Mohammed Asad (Leopold Weiss)
-
 I rarely watch movies, because whenver I do it often turns out to be a waste of time, but some movies were worth it
 
 - The Flavor of Green Tea Over Rice -- Ozu
@@ -352,7 +395,7 @@ At that moment everything started to click, everything is bunch of files and pro
 In high school I studied some introductory computer science classes, in one of them we were taught some very basic PHP and MySQL, we installed MySQL just by pressing "next" in the setup, and suddenly, our PHP code is storing data in the "database". I was puzzled... like "professor, where is the database", he didn't understand my question, "I mean where is this stuff stored?" It was kind of tough question indeed, but he answered me "don't worry it's just some files". I didn't buy it, but it set my heart at ease at least... at least it's on the hard disk!
 
 After studying operating systems, databases and computer networking, I finally understood where the database is. in some sense, it's just bunch of files and some TCP socket on the top. In fact, pretty much everything is just a bunch of files and running programs. he was correct.
-AtmoTea — 2:29 PM
+
 This all also reminds me a quote I read in one of Barbara Oakley's articles
 
 we rapidly remember what interests us, but what interests us takes time to develop
