@@ -416,3 +416,18 @@ we rapidly remember what interests us, but what interests us takes time to devel
 
 Passion is never a pre-requisite for learning programming, in fact passion is the fruit of your efforts.
 Good teachers, good books, and small projects slowly built that passion over time.
+
+## The forgotten side of learning from teachers
+I have seen this in college, for instance, I had a Linear Algebra professor who as *extremely* organized, from lecture notes to the way he teaches. it was inspiring.
+I also had a Control Theory professor who would apologize when he interrupts a student while discussing, "sorry to interrupt you", or "I aplogize for interuppting you earlier, you may speak"
+I didn't use to apologize when interrputing people, I said, ha, that's a nice thing to do.
+
+I learned a lot online too.
+I have taken many courses from the same person, he reapeats some stories a lot across courses, but he does something clever that somehow makes repetition doesn't feel bad, he says "I know I repeat this story a lot" or "I really like re-telling this story again and a gain", it makes a difference. it's a good storytelling technique.
+
+Also, from PLABC, when Dan Grossman said "people often confuse higher order functions and first class function, so we won't care either", that had a lasting impact on how I deal with terminology.
+
+
+
+There is a lot to learn from good (and even bad) teachers, the way they handle tough questions, how they handle problems, how they inspire, intellectual humility.
+This is another reason for I don't like some courses like OOD or Meta's Version Control course, it's stripped from the human exeprience.
