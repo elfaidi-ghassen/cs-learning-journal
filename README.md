@@ -361,6 +361,20 @@ Another example I saw was in Head First Java, taking breaks is proven to be help
 What I gather from this that:
 If you apply an advice and you feel benefits from it, it doesn't necessarily mean the explanation is correct.
 
+#### How to take notes on computer
+I really like Obsidian, by anything will do.
+Try not to get into the loop of trying out different tools. Lots of videos on youtube that almost feel like those "self-help" books.
+I remember starting this journey in high school, starting with Notion, it was great. But then... the heck, why not use open source tools like Logseq! and so, Logseq it was, I really like it, then I tried OneNote for some reason, and finally landed on Obsidian.
+The thing is, all of them will do, spending time comparing them is kind of a waste of time, unless it's a hobby for you.
+I use google keep on mobile, sometimes I need a write a quick note and and it's conventient easily on my laptop.
+
+
+Also, I have noticed that note taking could turn into an illusion of learning (todo: add link here).
+
+The Pragmatic Programmer recommends having an Engineering Daybook, an actual notebook, it's where I draw and take notes about things I'm learning and quotes I love, sometimes observations and insights from real life, it's not for productivity, it's also that I want to enjoy the journey of learning and life.
+
+
+
 #### Some ways to have fun
 
 There are many ways to have fun!
