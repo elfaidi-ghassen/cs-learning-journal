@@ -167,6 +167,40 @@ The project was in C, and my C skills were rusty, so I chose python.
 
 3) Persistance
 
+## Nand2Tetris: part 1
+
+the projects and part 1 of the book are freely available at /Projects section of the website.
+I finished it in less than around 2 weeks, at that point I had already taken courses at univeristy that teaches bolean algebra and computer architecture concepts, the concepts are actually advanced from N2T, I've studied transistors in depth an electronics class, how we build logic gates from them, for instance we studied K-Maps and sequential logic in depth... yet I didn't understand how a computer works!
+That's perhaps one of the problems of education, at least at my university, courses are disconnected, a sea of islands.
+Nand
+I documented the journey of building the CPU, and I even computer the number of transistors, ended up with 15K transistor CPU, and the 16K registers memory... contained a couple of MILLION CPUs.
+As the course notes hints, building memory using demultiplexors isn't probably a good idea.
+
+
+This is where I first understood the concept of "abstraction" and API.
+It's a very powerfl and central topic in computer science yet it not always explicitely explained.
+Abstraction is complex topic in other fields like philosophy, but in programming it's fairely straightforward.
+
+> Abstraction is thinking about WHAT and not HOW.
+
+why it's hard to accept the definition of API.
+same reason why it's hard to accept the definition of what server is.
+
+I tried this.
+go to a first year CS student, tell them what an API is they would feel it's vague.
+what's worse is the online explanations like "it's like conctract between two systems". The use of analogies sometimes doesn't help.
+the concept of abstraction only makes sense after seeing a lot of examples of concreteness.
+
+I had a class in college about basic information theory and image processing. one of key concepts is the idea of an alphabet.
+an alphabet is a finite set of symbols.
+it took me quite a while to accept that it's just an abstraction?
+a symbol can by ANYTHING.
+this mathematical abstraction is very powerful. it makes math useful in different contexts, you'd just to need to prove it's a language or it's a linear map (in linear algebra), then you could use all the theorems and cool stuff built on top of it.
+I think that's part of the so called "mathematical maturity"
+it's like implementing an interface in OOP. once you implement the interface, your class can be used in methods that deal with that interface.
+
+The most extreme level of abstraction I've seen what in a Analysis 3 which was all topology concepts. math feels like it's strating to break down and everything concept is falling apart, even the concept of distance is abstract.
+
 
 
 ## Uncommon Sense Teaching
@@ -260,13 +294,13 @@ If you want to learn how git works and immediately start contributing to open so
 Git really makes programming much more fun.
 
 ## Object-Oriented Design
+> longer than a winter's night -- Tunisian proverb
 
 I had multiple UML classes in college, they were full of... words.
 It is where I coined the term "audiobook lecture". at some point it feels like ASMR, reminds me of how I felt like a kid, sleeping in my mother's arms, listening to her talking on the phone or with someone...
 This one is not different.
 Don't take this course.
 
-> ...of defeats in which nobody loses anything of value, of victories without hope and, worst of all, without pity or compassion. His griefs grieve on no universal bones, leaving no scars. He writes not of the heart but of the glands. -- William Faulkner, Nobel Prize acceptance speech, 1950
 
 ## UML Distilled
 
@@ -426,8 +460,6 @@ I learned a lot online too.
 I have taken many courses from the same person, he reapeats some stories a lot across courses, but he does something clever that somehow makes repetition doesn't feel bad, he says "I know I repeat this story a lot" or "I really like re-telling this story again and a gain", it makes a difference. it's a good storytelling technique.
 
 Also, from PLABC, when Dan Grossman said "people often confuse higher order functions and first class function, so we won't care either", that had a lasting impact on how I deal with terminology.
-
-
 
 There is a lot to learn from good (and even bad) teachers, the way they handle tough questions, how they handle problems, how they inspire, intellectual humility.
 This is another reason for I don't like some courses like OOD or Meta's Version Control course, it's stripped from the human exeprience.
