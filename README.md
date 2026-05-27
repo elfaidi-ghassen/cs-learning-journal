@@ -16,7 +16,7 @@ I'm a third year software engineering student in Tunisia, I'm writing this becau
 4. [Machine Learning Specialization](#machine-learning-specialization)
 5. [Head First Git](#head-first-git)
 
-## Tips and Reflections
+## Learning Tips and Reflections
 
 - [On the Command Line](#on-the-command-line)
 - [Why Some Learners Really Don't Like the Command Line](#why-some-learners-really-dont-like-the-command-line)
@@ -395,6 +395,14 @@ Another example I saw was in Head First Java, taking breaks is proven to be help
 What I gather from this that:
 If you apply an advice and you feel benefits from it, it doesn't necessarily mean the explanation is correct.
 
+#### What works for you might (not) work for others
+Let's say someone struggled studying something, or perhaps someone struggled emotionally for years because of something, perhaps they didn't accept themselves or had low self esteem, at some point, they might have rich life experiences, read good books or listen to people of knowledge, and it helpes them tremendously in their growth.
+but one problem one may fall into is starting to think every single problem others habe must be fixed that way, "if only people accepted themselves!" or "if only people did this or that".
+The thing is, people's problems are complicated, people's struggle for so many reasons and often we assume we get other's problems, but we might not see the full picture.
+It is a trap I fell into, and I don't want you to fall into.
+Especially when it's not one's area of expertise, one has to be humble and accept it's just the start of the journey.
+It does not mean not sharing one's opinions and reflections -- but it changes how we approach sharing them.
+
 #### How to take notes on computer
 I really like Obsidian, by anything will do.
 Try not to get into the loop of trying out different tools. Lots of videos on youtube that almost feel like those "self-help" books.
@@ -463,3 +471,4 @@ Also, from PLABC, when Dan Grossman said "people often confuse higher order func
 
 There is a lot to learn from good (and even bad) teachers, the way they handle tough questions, how they handle problems, how they inspire, intellectual humility.
 This is another reason for I don't like some courses like OOD or Meta's Version Control course, it's stripped from the human exeprience.
+
