@@ -459,6 +459,85 @@ we rapidly remember what interests us, but what interests us takes time to devel
 Passion is never a pre-requisite for learning programming, in fact passion is the fruit of your efforts.
 Good teachers, good books, and small projects slowly built that passion over time.
 
+## Most useful things I've learned so far
+- Learning theory, taking Learning How to Learn and Uncommon Sense Teaching has had a compounding effect.
+- English as a second language, I spend two years studying english extensively in highschool from good online resources, it helped me tremendously throughout my journey, being able to easily understand english technical content is invaluable in this field.
+
+If I had a child, for the academic side, I'd focus on learning theory, solid mathematical foundation, and languages. langauges are awesome.
+
+It's fascinating how a bad education system raises someone who doesn't know how to learn independently, hate math and can't speak french well -- even though having studying it since second grade.
+I had to learn all that *on my own* in college.
+
+## The myth of *self*-taught
+I heard this insight in a group on telegram, and I find it fascinating and worth sharing. There is a subtle problem a term like "self-taught" or saying I've learned something "on my own", it's forgetting that actually there someone who taught you, the book or course you took, there are people behind it, years of work, years of experience.
+Perhaps we need to re-think the concept of learning and teaching... 
+
+
+## Important Meta-skill: chunking
+It's a very important try to identify the important *chunks* of knowledge in the subject you're learning. I have learned about this concept of chunks from Learning How to Learn and I think it's worth discussing here.
+For example, let's say you are studying CSS. There are some chucks of knowedge that should become automatic. (and when I say "knowledge" it's pretty much same as "skill", for they are two faces of the same coint)
+
+For example, one of key CSS skills is that when you see any website or design, **you start to see everything as boxes**, you can imagine how you wrap the sidebar and main section into a parent element and setting the parent to display flex *without* thinking about it, it becomes automatic.
+For example when you deeply understand positioning in CSS, you'd write something like this without thinking about it:
+
+```css
+.notification-dot::after {
+	content: "";
+	display: block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: red;
+	position: absolute;
+}
+```
+Then quicly go .notification-dot and set its position to relative.
+That's a chunk, I don't even need to think about it anymore.
+Those skills some of the skills that make me write CSS *really fast*, it's not the memorization of css properties, it's actually drill that produces understanding and understanding that amplifies the drill.
+
+This cannot be reached (efficiently) without two main components
+- good "declarative" explanations from a good teacher who deeply understands the subject and explaisn it well.
+- a lot of practice, "drill to skill"
+
+
+I also remember studying a network class, we were studying IPv6.
+I noticed the professor was discussing the parts of the 128 bit address so smoothly, "let's take 48 bits of the address" then immediately highlight three segments of the address.
+But my brain didn't create that chunk yet, that a part of the ip is 4 characters i.e. 16 bits.
+It slows you down if you don't internalize it. It's a small example but I think it's the same pattern, missing some chunks could be why someone is struggling at something at the start.
+
+Since I've been obsessed by noticing the things that take me a moment to figure out, while not necessary, but I love thinking about this, children often a great source to understand what chunks you have that you might not even be aware of.
+If you'd ask me before how many months between March and October, or what's the month after 3 months from April.
+
+It takes me a couple a while to answer it, the answer isn't clean in my mind.
+That's a missing chunk
+the months were never drilled to the point where each one has a direct number → name and name → number bindings.
+I tried fixing this as a learning expirement, I literally made flashcards name → number and number → name and didn't take much to remember them. 
+And speaking of flashcards:
+
+## The magic of flashcards
+I LOVE flashcards, like, they are my favorite learning tool.
+I've been consistently using Anki since 2023.
+
+![Anki Heatmap](/media/anki-heatmap.jpg)
+
+Flashcards aren't perfect and it's better to think of them as one tool in your aresenal as a learner. I find flashcards to be the best and most efficient way to memorize something and be able to *respond to a cue*.
+I also find flashcards useful to review concepts and not just memroization, for example I have computer networking questions like "Explain how DNS work, let's say you write google.com and press enter, what happens", the idea here is not to memorize the answer but to do retrieval practice and explain a concept, I usually explain the concept outloud and have a pen and paper where I sketch the concept.
+
+Many people find using flashcards to be useful for computer science and I think you might find them helpful.
+You can use flashcards for anything, from memorizing the names of flowers, preparing to a driving test, to computer networking classes at university (I kept getting straight As in those clases using just flashcards, I literally take notes in class, go back home, turn the notes into flashcards, and throw the notes in trash -- which might be an act of disrespect to knowledge, but I'm not sure and... I find it satisfying!)
+
+I want to mention some mistakes I made along my journey of creating flashcards.
+- Don't mix flashcards that are very unrelated, like flashcards about computer networking and security in the same deck.
+  - If you mix unrelated flashcards you'd miss the benefits of *interleaving*.
+- Do not keep taking notes forever then start to create flashcards: it's much better to make flashcards along the way, and review them constantly. 
+- You're not expected to review ALL flashcards that are due, consistency is what matters, and this is why the previous point is important, just the act of creating flashcards and reviewing them isntantly can boost you learning A LOT.
+- It might be better to avoid using AI tools to make flashcards, there is a lot to learn just by trying to formulate a good question.
+- If you're on windows, you might find the ShareX, an open source tool to take screen shots, quite helpful, I use it to remove parts of an image or annotate them then immediately take screen shots, it's like a tool to edit the screenshots on the fly.
+
+
+
+
+
 ## The forgotten side of learning from teachers
 I have seen this in college, for instance, I had a Linear Algebra professor who as *extremely* organized, from lecture notes to the way he teaches. it was inspiring.
 I also had a Control Theory professor who would apologize when he interrupts a student while discussing, "sorry to interrupt you", or "I aplogize for interuppting you earlier, you may speak"
