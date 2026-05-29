@@ -63,11 +63,11 @@ let p = dot(dot(fetch(URL), then(f1)), then(f2))
 
 I kept asking myself: what does fetch(URL) evaluate to? And what happens when I call then(f1) on whatever that evaluates to, and so on? After some time and thanks to some good resources, I clicked.
 
-Systematic Program Design (and Programming Languages course -- see next) taught me to _ask the right questions_ and to feel deeply unsatisfied when I don't fully understand how expressions are evaluated.
+Systematic Program Design (AND Programming Languages course -- see next) taught me to _ask the right questions_ and to feel deeply unsatisfied when I don't fully understand how expressions are evaluated.
 
 A year later, I noticed that this course even changed the way I see math.
 For example in my Optimization class at university, we studied tons of Linear Programming problems, when I'm faced with a homework problem or in exam, I spend like 10 minutes trying to _understand the data_.
-here a simple example, let's say we have a graph G=(V, E)
+here a *simple* example, let's say we have a graph G=(V, E)
 I start to think, what does V and E evaluate to?
 I see it as:
 G=({1, 2, 3, 4}, {{1, 2}, {2, 3}})
@@ -90,33 +90,42 @@ I still remember when I was taking SPD in the summer of first year at university
 
 "But if you have big ideas, you have to use big words to express them, haven't you?" -- Anne of Green Gabes
 
-This one of my favorite online course.
-Dan Grossman is such a great teacher
 
-ML, Racket and Ruby
+This course will take the foundation and intuitions you built in Systematic Program Design and offer you a mesmerizing experience through the realm of programming languages.
+This is probably the most *useful* online course I have taken yet, Dan Grossman is such a great teacher, his love for programming and programming languages is contagious.
+The course uses three languages ML, Racket and Ruby to teach so many programming concepts.
 
-This course will take what you learned in Systematic Program Design,
-
-and since then I've read it twice.
+The course starts off with some *really* important definition like what's an expression, a value.
 
 > A value is an expression that evaluates to itself
 
-That is my favorite definition in CS. it's so elagant.
+That is one of my favorite defitions in computer science, it's so beautiful and elegant.
 
-The course is super enjoyable and covers a lot of ground
-static vs dynamic typing
+Make sure to focus on those new terms and understand their defintion well.
+Everything is built on that foundation.
+Also, the first time I hear the term "binding" was in this course.
+For example an statement like `x = 10`
+I'm used to hear terms like "assignment" or "we assign x the value 10", but professor Dan used the term "binding" or "to bind x to the value 10" or "x is bound to 10".
+Basically a binding is a mapping, i.e. "to map x the value 10", this is important because we can bind *names* to *value*, it's a more general concept than assignement.
+For example, when you define a function, you are creating a binding. Same when you import a function in python for instance:
+`from math import sqrt`
+that statement creates a binding, i.e. it maps the name sqrt to the function (and functions are values themselves)
+If this seems confusing it will be crystal clear once you understand the concept of enviroment (often called "Context" in the JavaScript world)
 
-After completing it, I printed all the lecture notes and went to a library to bind them into a book.
+I didn't study OOP in depth well before PLABC, so it was my first serious contact with OOP, it was quite challenging, some specific concepts didn't click much, I had to redo the part and read the lecture notes again while studying Java, and it made much more sense.
+I recommend learning OOP in a statically typed language liek Java or C# first.
 
-concepts like lazy evaluations and streams are essential and keep showing up in other languages.
+One of my favorite thing about the course is how precise it is when it comes to explaining *evaluation rules*, the method lookup is a great example of that. 
 
-I mistake I made is not studying some OOP before, I highly recommend that you learn the basics of OOP in some statically typed language before you embark into the third course.
+I printed all the lecture notes of the course and went to some library to bind them, I've read it twice since then and each time I blows my mind, it convers a lot of ground from static vs dynamic typing, to streams and lazy evaluation
 
-the course uses Emacs
 
-I wrote this question
-C put my understanding of programming to the limit :D
-https://stackoverflow.com/questions/79537353/how-does-the-left-hand-side-lhs-of-an-assignment-evaluate-in-c
+#todo: add picture here#
+
+One of the other benefits of the course is that it helps you build a powerful vocabulary of terms and concepts to discuss programming languages and programming problems with high precision.
+For instance I wrote this [question](https://stackoverflow.com/questions/79537353/how-does-the-left-hand-side-lhs-of-an-assignment-evaluate-in-c) on StackOverflow a while ago trying to discuss a problem I found when trying to understand how pointers evaluate in C (I use to think C is a normal language :D)
+
+TLDR: Just take this course, it's such a unique learning experience.
 
 ## Computer Networking: A Top Down Approach
 
@@ -510,13 +519,17 @@ But my brain didn't create that chunk yet, that a part of the ip is 4 characters
 It slows you down if you don't internalize it. It's a small example but I think it's the same pattern, missing some chunks could be why someone is struggling at something at the start.
 
 Since I've been obsessed by noticing the things that take me a moment to figure out, while not necessary, but I love thinking about this, children often a great source to understand what chunks you have that you might not even be aware of.
-If you'd ask me before how many months between March and October, or what's the month after 3 months from April.
+If you'd ask me before how many months between March and October, or what's the month 3 months before July.
 
-It takes me a couple a while to answer it, the answer isn't clean in my mind.
-That's a missing chunk
+It takes me a bit of time to answer it, the answer isn't immediate in my mind.
+That's a missing chunk (though arguably not an important one)
 the months were never drilled to the point where each one has a direct number → name and name → number bindings.
-I tried fixing this as a learning expirement, I literally made flashcards name → number and number → name and didn't take much to remember them.
-And speaking of flashcards:
+I tried fixing this as a learning expirement, I literally made flashcards name → number and number → name and didn't take much to memorize them.
+
+Importantly though, chunking is *not* just about memroization. (I need to say this because "memrorization" is a dreaded term these days, it always amuses me when I hear someone saying "You should commit to memory" or "You should internalize it" trying hard to avoid "memorize", but it's understandable.)
+
+> Mathematics is amazingly compressible. You may struggle a long time, step by step, to work through the same process or idea from several different approaches. But once you really understand it and have the mental perspective to see it as a whole, there is often a tremendous mental compression. You can file it away, recall it quickly and completely when you need it, and use it as just one step in some other mental process. -- William Thurston
+
 
 #### The magic of flashcards
 
