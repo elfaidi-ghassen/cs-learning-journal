@@ -22,8 +22,8 @@ I'm a third year software engineering student in Tunisia, I'm writing this becau
 - [Why Some Learners Really Don't Like the Command Line](#why-some-learners-really-dont-like-the-command-line)
 - [Wrong Advice Could Work Sometimes](#wrong-advice-could-work-sometimes)
 
-
 ## Systematic Program Design
+
 Also known as How to Code: Simple/Complex data.
 
 This course is weird, it's really good, but you won't realize how important it is immediately.
@@ -41,6 +41,7 @@ results = df
             .filter(col("city") == "New York")
             .select("name", "age")
 ```
+
 my mind errors out. what does `col("city") == "New York"` evaluate to?!
 it can't be a boolean, it's a useless information to the filter method.
 it must be evaluate to some sort of an object or function, so it uses operator overloading.
@@ -50,21 +51,22 @@ Functional programming also taught me that we can think of everything as a funct
 Here's an example: I was recently learning about promises in JavaScript -- a quite challenging concept --. I would see some code like
 
 ```javascript
-let p = fetch(URL).then(f1).then(f2)
+let p = fetch(URL).then(f1).then(f2);
 ```
 
 It didn't click; most tutorials didn't explain what was going on. and I didn't even blame myself for not understanding, I felt, man those tutorials are doing something wrong! they didn't explain how things evaluate.
 what I was seeing is the following
+
 ```
 let p = dot(dot(fetch(URL), then(f1)), then(f2))
 ```
 
 I kept asking myself: what does fetch(URL) evaluate to? And what happens when I call then(f1) on whatever that evaluates to, and so on? After some time and thanks to some good resources, I clicked.
 
-Systematic Program Design (and Programming Languages course -- see next) taught me to *ask the right questions* and to feel deeply unsatisfied when I don't fully understand how expressions are evaluated.
+Systematic Program Design (and Programming Languages course -- see next) taught me to _ask the right questions_ and to feel deeply unsatisfied when I don't fully understand how expressions are evaluated.
 
 A year later, I noticed that this course even changed the way I see math.
-For example in my Optimization class at university, we studied tons of Linear Programming problems, when I'm faced with a homework problem or in exam, I spend like 10 minutes trying to *understand the data*. 
+For example in my Optimization class at university, we studied tons of Linear Programming problems, when I'm faced with a homework problem or in exam, I spend like 10 minutes trying to _understand the data_.
 here a simple example, let's say we have a graph G=(V, E)
 I start to think, what does V and E evaluate to?
 I see it as:
@@ -79,23 +81,21 @@ I remember I was stuck in a problem in some probability exam, it was hard, then 
 
 You should trust the course, take it slow and enjoy it, the professor, Gregor Kiczales isn't that kind of professor who says "this course will change how you think forever", he is way too nice!
 
-Finally, I think studying that course will help you get the most out of the *Dan Grossman's Programming Languages* course (next), which is by far the *best and most useful course I have ever taken*.
+Finally, I think studying that course will help you get the most out of the _Dan Grossman's Programming Languages_ course (next), which is by far the _best and most useful course I have ever taken_.
 
 So trust the teacher! learning is a relationship, it's not self learning, if you can't trust the teacher and material, it's harder to learn well.
 I still remember when I was taking SPD in the summer of first year at university, I would see some of my friends and classmates studying React and talking about fancy new technology. honestly it was painful and sometimes I'd feel I'm wasting my time. I think I could have learned more, or at the very least, had more fun while learning.
 
-
-
 ## Programming Languages: Parts A, B and c
-"But if you have big ideas, you have to use big words to express them, haven't you?" -- Anne of Green Gabes 
+
+"But if you have big ideas, you have to use big words to express them, haven't you?" -- Anne of Green Gabes
 
 This one of my favorite online course.
 Dan Grossman is such a great teacher
 
 ML, Racket and Ruby
 
-
-This course will take what you learned in Systematic Program Design, 
+This course will take what you learned in Systematic Program Design,
 
 and since then I've read it twice.
 
@@ -106,12 +106,11 @@ That is my favorite definition in CS. it's so elagant.
 The course is super enjoyable and covers a lot of ground
 static vs dynamic typing
 
- After completing it, I printed all the lecture notes and went to a library to bind them into a book.
+After completing it, I printed all the lecture notes and went to a library to bind them into a book.
 
 concepts like lazy evaluations and streams are essential and keep showing up in other languages.
 
 I mistake I made is not studying some OOP before, I highly recommend that you learn the basics of OOP in some statically typed language before you embark into the third course.
-
 
 the course uses Emacs
 
@@ -146,26 +145,28 @@ Chapter 7: Wireless Networks
 wireless networks are everywhere, and having a some understanding of them to very helpful. I've always been puzzeled by how WiFi networks in large places like universities works, this chapter answered all of my questions and more! The chapter will answer two important questions, How does WiFi and 4G networks work? you in the back seat if a car or bus, watching a youtube video using a cellular network, each of those network towers (base stations) have limited range, so you certainly pass through multiple of them in your journey, yet the video experience is seemless, you don't see any interruption, how does that work?
 
 ## Operating Systems: Three Easy Pieces
+
 Studying Operating Systems is extremely important because it gives you a concrete example of all the concepts you see in CS.
 for example at some point you learn that a compiler is a program that translates the given code to another representation.
 That's absolutely correct and a beautiful defintion.
 If you think about it, you could build a machine that you give it a piece of paper of instructions, and it prints another piece of paper.
-that's a compiler. 
+that's a compiler.
 But studying OS will give you more concepts that your mind can use to reason about new thigns.
 For example, you'll start to think that a compiler is just a program (i.e. a file in the filesystem that contains instuctions) that you can run using the OS sys calls, so it becomes a process, the absraction of a running program, that process will simply read() the source code file and do some transformations to it, then write them back to another file.
 
 The book is divided into three parts.
-1) Virtualization
-You will learn about two really important cocnepts, the process and memory abstractions. really important stuff.
-also explains system calls and kernel mode.
-Limited Direct Execution...
-I didn't find the CPU schudeling interesting, I just skimmed them, we studied them a lot in college.
-After completing this part, I HIGHLY recommend building a shell, the course has a github repo with projcets, building a shell is EXTREMELY rewarding, you'll see processes differently.
-The project was in C, and my C skills were rusty, so I chose python.
 
-2) Concurrency
+1. Virtualization
+   You will learn about two really important cocnepts, the process and memory abstractions. really important stuff.
+   also explains system calls and kernel mode.
+   Limited Direct Execution...
+   I didn't find the CPU schudeling interesting, I just skimmed them, we studied them a lot in college.
+   After completing this part, I HIGHLY recommend building a shell, the course has a github repo with projcets, building a shell is EXTREMELY rewarding, you'll see processes differently.
+   The project was in C, and my C skills were rusty, so I chose python.
 
-3) Persistance
+2. Concurrency
+
+3. Persistance
 
 ## Nand2Tetris: part 1
 
@@ -175,7 +176,6 @@ That's perhaps one of the problems of education, at least at my university, cour
 Nand
 I documented the journey of building the CPU, and I even computer the number of transistors, ended up with 15K transistor CPU, and the 16K registers memory... contained a couple of MILLION CPUs.
 As the course notes hints, building memory using demultiplexors isn't probably a good idea.
-
 
 This is where I first understood the concept of "abstraction" and API.
 It's a very powerfl and central topic in computer science yet it not always explicitely explained.
@@ -200,6 +200,8 @@ I think that's part of the so called "mathematical maturity"
 it's like implementing an interface in OOP. once you implement the interface, your class can be used in methods that deal with that interface.
 
 The most extreme level of abstraction I've seen what in a Analysis 3 which was all topology concepts. math feels like it's strating to break down and everything concept is falling apart, even the concept of distance is abstract.
+
+At some point I suddently felt comfortable dealing with abstractions and understanding the point of using terms like "name" instead of "variable", like when we say a name is bound to a value, it's like forgetting all the implementation details and thinking soley about the higher order concept of naming things, something humans like to do.
 
 
 
@@ -294,13 +296,13 @@ If you want to learn how git works and immediately start contributing to open so
 Git really makes programming much more fun.
 
 ## Object-Oriented Design
+
 > longer than a winter's night -- Tunisian proverb
 
 I had multiple UML classes in college, they were full of... words.
 It is where I coined the term "audiobook lecture". at some point it feels like ASMR, reminds me of how I felt like a kid, sleeping in my mother's arms, listening to her talking on the phone or with someone...
 This one is not different.
 Don't take this course.
-
 
 ## UML Distilled
 
@@ -396,6 +398,7 @@ What I gather from this that:
 If you apply an advice and you feel benefits from it, it doesn't necessarily mean the explanation is correct.
 
 #### What works for you might (not) work for others
+
 Let's say someone struggled studying something, or perhaps someone struggled emotionally for years because of something, perhaps they didn't accept themselves or had low self esteem, at some point, they might have rich life experiences, read good books or listen to people of knowledge, and it helpes them tremendously in their growth.
 but one problem one may fall into is starting to think every single problem others habe must be fixed that way, "if only people accepted themselves!" or "if only people did this or that".
 The thing is, people's problems are complicated, people's struggle for so many reasons and often we assume we get other's problems, but we might not see the full picture.
@@ -404,18 +407,16 @@ Especially when it's not one's area of expertise, one has to be humble and accep
 It does not mean not sharing one's opinions and reflections -- but it changes how we approach sharing them.
 
 #### How to take notes on computer
+
 I really like Obsidian, by anything will do.
 Try not to get into the loop of trying out different tools. Lots of videos on youtube that almost feel like those "self-help" books.
 I remember starting this journey in high school, starting with Notion, it was great. But then... the heck, why not use open source tools like Logseq! and so, Logseq it was, I really like it, then I tried OneNote for some reason, and finally landed on Obsidian.
 The thing is, all of them will do, spending time comparing them is kind of a waste of time, unless it's a hobby for you.
 I use google keep on mobile, sometimes I need a write a quick note and and it's conventient easily on my laptop.
 
-
 Also, I have noticed that note taking could turn into an illusion of learning (todo: add link here).
 
 The Pragmatic Programmer recommends having an Engineering Daybook, an actual notebook, it's where I draw and take notes about things I'm learning and quotes I love, sometimes observations and insights from real life, it's not for productivity, it's also that I want to enjoy the journey of learning and life.
-
-
 
 #### Some ways to have fun
 
@@ -459,46 +460,49 @@ we rapidly remember what interests us, but what interests us takes time to devel
 Passion is never a pre-requisite for learning programming, in fact passion is the fruit of your efforts.
 Good teachers, good books, and small projects slowly built that passion over time.
 
-## Most useful things I've learned so far
+#### Most useful things I've learned so far
+
 - Learning theory, taking Learning How to Learn and Uncommon Sense Teaching has had a compounding effect.
 - English as a second language, I spend two years studying english extensively in highschool from good online resources, it helped me tremendously throughout my journey, being able to easily understand english technical content is invaluable in this field.
 
 If I had a child, for the academic side, I'd focus on learning theory, solid mathematical foundation, and languages. langauges are awesome.
 
 It's fascinating how a bad education system raises someone who doesn't know how to learn independently, hate math and can't speak french well -- even though having studying it since second grade.
-I had to learn all that *on my own* in college.
+I had to learn all that _on my own_ in college.
 
-## The myth of *self*-taught
+#### The myth of _self_-taught
+
 I heard this insight in a group on telegram, and I find it fascinating and worth sharing. There is a subtle problem a term like "self-taught" or saying I've learned something "on my own", it's forgetting that actually there someone who taught you, the book or course you took, there are people behind it, years of work, years of experience.
-Perhaps we need to re-think the concept of learning and teaching... 
+Perhaps we need to re-think the concept of learning and teaching...
 
+#### Important Meta-skill: chunking
 
-## Important Meta-skill: chunking
-It's a very important try to identify the important *chunks* of knowledge in the subject you're learning. I have learned about this concept of chunks from Learning How to Learn and I think it's worth discussing here.
+It's a very important try to identify the important _chunks_ of knowledge in the subject you're learning. I have learned about this concept of chunks from Learning How to Learn and I think it's worth discussing here.
 For example, let's say you are studying CSS. There are some chucks of knowedge that should become automatic. (and when I say "knowledge" it's pretty much same as "skill", for they are two faces of the same coint)
 
-For example, one of key CSS skills is that when you see any website or design, **you start to see everything as boxes**, you can imagine how you wrap the sidebar and main section into a parent element and setting the parent to display flex *without* thinking about it, it becomes automatic.
+For example, one of key CSS skills is that when you see any website or design, **you start to see everything as boxes**, you can imagine how you wrap the sidebar and main section into a parent element and setting the parent to display flex _without_ thinking about it, it becomes automatic.
 For example when you deeply understand positioning in CSS, you'd write something like this without thinking about it:
 
 ```css
 .notification-dot::after {
-	content: "";
-	display: block;
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
-	background-color: red;
-	position: absolute;
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
 }
 ```
+
 Then quicly go .notification-dot and set its position to relative.
 That's a chunk, I don't even need to think about it anymore.
-Those skills some of the skills that make me write CSS *really fast*, it's not the memorization of css properties, it's actually drill that produces understanding and understanding that amplifies the drill.
+Those skills some of the skills that make me write CSS _really fast_, it's not the memorization of css properties, it's actually drill that produces understanding and understanding that amplifies the drill.
 
 This cannot be reached (efficiently) without two main components
+
 - good "declarative" explanations from a good teacher who deeply understands the subject and explaisn it well.
 - a lot of practice, "drill to skill"
-
 
 I also remember studying a network class, we were studying IPv6.
 I noticed the professor was discussing the parts of the 128 bit address so smoothly, "let's take 48 bits of the address" then immediately highlight three segments of the address.
@@ -511,35 +515,34 @@ If you'd ask me before how many months between March and October, or what's the 
 It takes me a couple a while to answer it, the answer isn't clean in my mind.
 That's a missing chunk
 the months were never drilled to the point where each one has a direct number → name and name → number bindings.
-I tried fixing this as a learning expirement, I literally made flashcards name → number and number → name and didn't take much to remember them. 
+I tried fixing this as a learning expirement, I literally made flashcards name → number and number → name and didn't take much to remember them.
 And speaking of flashcards:
 
-## The magic of flashcards
+#### The magic of flashcards
+
 I LOVE flashcards, like, they are my favorite learning tool.
 I've been consistently using Anki since 2023.
 
 ![Anki Heatmap](/media/anki-heatmap.jpg)
 
-Flashcards aren't perfect and it's better to think of them as one tool in your aresenal as a learner. I find flashcards to be the best and most efficient way to memorize something and be able to *respond to a cue*.
+Flashcards aren't perfect and it's better to think of them as one tool in your aresenal as a learner. I find flashcards to be the best and most efficient way to memorize something and be able to _respond to a cue_.
 I also find flashcards useful to review concepts and not just memroization, for example I have computer networking questions like "Explain how DNS work, let's say you write google.com and press enter, what happens", the idea here is not to memorize the answer but to do retrieval practice and explain a concept, I usually explain the concept outloud and have a pen and paper where I sketch the concept.
 
 Many people find using flashcards to be useful for computer science and I think you might find them helpful.
 You can use flashcards for anything, from memorizing the names of flowers, preparing to a driving test, to computer networking classes at university (I kept getting straight As in those clases using just flashcards, I literally take notes in class, go back home, turn the notes into flashcards, and throw the notes in trash -- which might be an act of disrespect to knowledge, but I'm not sure and... I find it satisfying!)
 
 I want to mention some mistakes I made along my journey of creating flashcards.
+
 - Don't mix flashcards that are very unrelated, like flashcards about computer networking and security in the same deck.
-  - If you mix unrelated flashcards you'd miss the benefits of *interleaving*.
-- Do not keep taking notes forever then start to create flashcards: it's much better to make flashcards along the way, and review them constantly. 
+  - If you mix unrelated flashcards you'd miss the benefits of _interleaving_.
+- Do not keep taking notes forever then start to create flashcards: it's much better to make flashcards along the way, and review them constantly.
 - You're not expected to review ALL flashcards that are due, consistency is what matters, and this is why the previous point is important, just the act of creating flashcards and reviewing them isntantly can boost you learning A LOT.
 - It might be better to avoid using AI tools to make flashcards, there is a lot to learn just by trying to formulate a good question.
 - If you're on windows, you might find the ShareX, an open source tool to take screen shots, quite helpful, I use it to remove parts of an image or annotate them then immediately take screen shots, it's like a tool to edit the screenshots on the fly.
 
+#### The forgotten side of learning from teachers
 
-
-
-
-## The forgotten side of learning from teachers
-I have seen this in college, for instance, I had a Linear Algebra professor who as *extremely* organized, from lecture notes to the way he teaches. it was inspiring.
+I have seen this in college, for instance, I had a Linear Algebra professor who as _extremely_ organized, from lecture notes to the way he teaches. it was inspiring.
 I also had a Control Theory professor who would apologize when he interrupts a student while discussing, "sorry to interrupt you", or "I aplogize for interuppting you earlier, you may speak"
 I didn't use to apologize when interrputing people, I said, ha, that's a nice thing to do.
 
@@ -551,3 +554,13 @@ Also, from PLABC, when Dan Grossman said "people often confuse higher order func
 There is a lot to learn from good (and even bad) teachers, the way they handle tough questions, how they handle problems, how they inspire, intellectual humility.
 This is another reason for I don't like some courses like OOD or Meta's Version Control course, it's stripped from the human exeprience.
 
+
+#### Cultural Insight about *work*
+One of the most beautiful terms in our Tunisian dialect is the term "خدمة" (/Khid.ma/), which literally means "service", as in serving someone.
+So to say you are working today, one literally say they're serving today.
+
+I feel that it is always a reminder of the value of real work, that it is something that contributes to society and moves life, Whatever our job and field (engineer, carpenter, doctor...) in the end we are providing a "service" to the community.
+
+It just makes me smile when I hear someone complaining "There are no jobs nowadays" in Tunisian dialect.
+
+But also it's kind of sad that the origin of expressions we use lose their meaning over time.
