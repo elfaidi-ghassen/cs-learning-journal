@@ -6,21 +6,38 @@ I'm a third year software engineering student in Tunisia, I'm writing this becau
 
 # Reviews
 
-## Table of Contents
+Looking at your document's actual sections, here's a table of contents you can drop in:
+markdown## Table of Contents
 
-## Reviews
+### Course & Book Reviews
 
-1. [Computer Networking: A Top Down Approach](#computer-networking-a-top-down-approach)
-2. [Uncommon Sense Teaching](#uncommon-sense-teaching)
-3. [UML Distilled](#uml-distilled)
-4. [Machine Learning Specialization](#machine-learning-specialization)
-5. [Head First Git](#head-first-git)
+1. [Systematic Program Design](#systematic-program-design)
+2. [Programming Languages: Parts A, B and C](#programming-languages-parts-a-b-and-c)
+3. [Computer Networking: A Top Down Approach](#computer-networking-a-top-down-approach)
+4. [Operating Systems: Three Easy Pieces](#operating-systems-three-easy-pieces)
+5. [Nand2Tetris: Part 1](#nand2tetris-part-1)
+6. [Uncommon Sense Teaching](#uncommon-sense-teaching)
+7. [Machine Learning Specialization](#machine-learning-specialization)
+8. [Meta Version Control](#meta-version-control)
+9. [Head First Git](#head-first-git)
+10. [Object-Oriented Design](#object-oriented-design)
+11. [UML Distilled](#uml-distilled)
 
-## Learning Tips and Reflections
+### Tips and Reflections
 
+- [The Day I Fell in Love with Computer Science](#the-day-i-fell-in-love-with-computer-science)
+- [The Myth of _Self_-Taught](#the-myth-of-self-taught)
 - [On the Command Line](#on-the-command-line)
 - [Why Some Learners Really Don't Like the Command Line](#why-some-learners-really-dont-like-the-command-line)
 - [Wrong Advice Could Work Sometimes](#wrong-advice-could-work-sometimes)
+- [What Works for You Might (Not) Work for Others](#what-works-for-you-might-not-work-for-others)
+- [How to Take Notes on Computer](#how-to-take-notes-on-computer)
+- [Important Meta-skill: Chunking](#important-meta-skill-chunking)
+- [The Magic of Flashcards](#the-magic-of-flashcards)
+- [The Forgotten Side of Learning from Teachers](#the-forgotten-side-of-learning-from-teachers)
+- [Most Useful Things I've Learned So Far](#most-useful-things-ive-learned-so-far)
+- [Some Ways to Have Fun](#some-ways-to-have-fun)
+- [Cultural Insight about _Work_](#cultural-insight-about-work)
 
 ## Systematic Program Design
 
@@ -67,7 +84,7 @@ Systematic Program Design (AND Programming Languages course -- see next) taught 
 
 A year later, I noticed that this course even changed the way I see math.
 For example in my Optimization class at university, we studied tons of Linear Programming problems, when I'm faced with a homework problem or in exam, I spend like 10 minutes trying to _understand the data_.
-here a *simple* example, let's say we have a graph G=(V, E)
+here a _simple_ example, let's say we have a graph G=(V, E)
 I start to think, what does V and E evaluate to?
 I see it as:
 G=({1, 2, 3, 4}, {{1, 2}, {2, 3}})
@@ -90,12 +107,11 @@ I still remember when I was taking SPD in the summer of first year at university
 
 "But if you have big ideas, you have to use big words to express them, haven't you?" -- Anne of Green Gabes
 
-
 This course will take the foundation and intuitions you built in Systematic Program Design and offer you a mesmerizing experience through the realm of programming languages.
-This is probably the most *useful* online course I have taken yet, Dan Grossman is such a great teacher, his love for programming and programming languages is contagious.
+This is probably the most _useful_ online course I have taken yet, Dan Grossman is such a great teacher, his love for programming and programming languages is contagious.
 The course uses three languages ML, Racket and Ruby to teach so many programming concepts.
 
-The course starts off with some *really* important definition like what's an expression, a value.
+The course starts off with some _really_ important definition like what's an expression, a value.
 
 > A value is an expression that evaluates to itself
 
@@ -106,7 +122,7 @@ Everything is built on that foundation.
 Also, the first time I hear the term "binding" was in this course.
 For example an statement like `x = 10`
 I'm used to hear terms like "assignment" or "we assign x the value 10", but professor Dan used the term "binding" or "to bind x to the value 10" or "x is bound to 10".
-Basically a binding is a mapping, i.e. "to map x the value 10", this is important because we can bind *names* to *value*, it's a more general concept than assignement.
+Basically a binding is a mapping, i.e. "to map x the value 10", this is important because we can bind _names_ to _value_, it's a more general concept than assignement.
 For example, when you define a function, you are creating a binding. Same when you import a function in python for instance:
 `from math import sqrt`
 that statement creates a binding, i.e. it maps the name sqrt to the function (and functions are values themselves)
@@ -115,10 +131,9 @@ If this seems confusing it will be crystal clear once you understand the concept
 I didn't study OOP in depth well before PLABC, so it was my first serious contact with OOP, it was quite challenging, some specific concepts didn't click much, I had to redo the part and read the lecture notes again while studying Java, and it made much more sense.
 I recommend learning OOP in a statically typed language liek Java or C# first.
 
-One of my favorite thing about the course is how precise it is when it comes to explaining *evaluation rules*, the method lookup is a great example of that. 
+One of my favorite thing about the course is how precise it is when it comes to explaining _evaluation rules_, the method lookup is a great example of that.
 
 I printed all the lecture notes of the course and went to some library to bind them, I've read it twice since then and each time I blows my mind, it convers a lot of ground from static vs dynamic typing, to streams and lazy evaluation
-
 
 #todo: add picture here#
 
@@ -211,8 +226,6 @@ it's like implementing an interface in OOP. once you implement the interface, yo
 The most extreme level of abstraction I've seen what in a Analysis 3 which was all topology concepts. math feels like it's strating to break down and everything concept is falling apart, even the concept of distance is abstract.
 
 At some point I suddently felt comfortable dealing with abstractions and understanding the point of using terms like "name" instead of "variable", like when we say a name is bound to a value, it's like forgetting all the implementation details and thinking soley about the higher order concept of naming things, something humans like to do.
-
-
 
 ## Uncommon Sense Teaching
 
@@ -374,6 +387,11 @@ In some of my projects at uni we were asked to create analysis phase class and s
 
 # Tips and Reflections
 
+#### The myth of _self_-taught
+
+I heard this insight in a group on telegram, and I find it fascinating and worth sharing. There is a subtle problem a term like "self-taught" or saying I've learned something "on my own", it's forgetting that actually there someone who taught you, the book or course you took, there are people behind it, years of work, years of experience.
+Perhaps we need to re-think the concept of learning and teaching...
+
 #### On the command line
 
 After learning Git in the summer, I went to my some of my friends and classmates who study CS and told them: "I'm going to force you to learn Git". I don't want to work alone!
@@ -479,11 +497,6 @@ If I had a child, for the academic side, I'd focus on learning theory, solid mat
 It's fascinating how a bad education system raises someone who doesn't know how to learn independently, hate math and can't speak french well -- even though having studying it since second grade.
 I had to learn all that _on my own_ in college.
 
-#### The myth of _self_-taught
-
-I heard this insight in a group on telegram, and I find it fascinating and worth sharing. There is a subtle problem a term like "self-taught" or saying I've learned something "on my own", it's forgetting that actually there someone who taught you, the book or course you took, there are people behind it, years of work, years of experience.
-Perhaps we need to re-think the concept of learning and teaching...
-
 #### Important Meta-skill: chunking
 
 It's a very important try to identify the important _chunks_ of knowledge in the subject you're learning. I have learned about this concept of chunks from Learning How to Learn and I think it's worth discussing here.
@@ -526,10 +539,9 @@ That's a missing chunk (though arguably not an important one)
 the months were never drilled to the point where each one has a direct number → name and name → number bindings.
 I tried fixing this as a learning expirement, I literally made flashcards name → number and number → name and didn't take much to memorize them.
 
-Importantly though, chunking is *not* just about memroization. (I need to say this because "memrorization" is a dreaded term these days, it always amuses me when I hear someone saying "You should commit to memory" or "You should internalize it" trying hard to avoid "memorize", but it's understandable.)
+Importantly though, chunking is _not_ just about memroization. (I need to say this because "memrorization" is a dreaded term these days, it always amuses me when I hear someone saying "You should commit to memory" or "You should internalize it" trying hard to avoid "memorize", but it's understandable.)
 
 > Mathematics is amazingly compressible. You may struggle a long time, step by step, to work through the same process or idea from several different approaches. But once you really understand it and have the mental perspective to see it as a whole, there is often a tremendous mental compression. You can file it away, recall it quickly and completely when you need it, and use it as just one step in some other mental process. -- William Thurston
-
 
 #### The magic of flashcards
 
@@ -567,8 +579,8 @@ Also, from PLABC, when Dan Grossman said "people often confuse higher order func
 There is a lot to learn from good (and even bad) teachers, the way they handle tough questions, how they handle problems, how they inspire, intellectual humility.
 This is another reason for I don't like some courses like OOD or Meta's Version Control course, it's stripped from the human exeprience.
 
+#### Cultural Insight about _work_
 
-#### Cultural Insight about *work*
 One of the most beautiful terms in our Tunisian dialect is the term "خدمة" (/Khid.ma/), which literally means "service", as in serving someone.
 So to say you are working today, one literally say they're serving today.
 
