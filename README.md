@@ -22,6 +22,7 @@ I'm a third year software engineering student in Tunisia, I'm writing this becau
 - [Some Ways to Have Fun](#some-ways-to-have-fun)
 - [Cultural Insight about _Work_](#cultural-insight-about-work)
 - [Use a REPL!](#use-a-repl)
+- [Don't neglect code style](#dont-neglect-code-style)
 
 ### Course & Book Reviews
 
@@ -38,11 +39,6 @@ I'm a third year software engineering student in Tunisia, I'm writing this becau
 11. [UML Distilled](#uml-distilled)
 
 # Tips and Reflections
-
-#### The myth of _self_-taught
-
-I heard this insight in a group on telegram, and I find it fascinating and worth sharing. There is a subtle problem a term like "self-taught" or saying I've learned something "on my own", it's forgetting that actually there someone who taught you, the book or course you took, there are people behind it, years of work, years of experience.
-Perhaps we need to re-think the concept of learning and teaching...
 
 #### On the command line
 
@@ -85,6 +81,16 @@ It is a trap I fell into, and I don't want you to fall into.
 Especially when it's not one's area of expertise, one has to be humble and accept it's just the start of the journey.
 It does not mean not sharing one's opinions and reflections -- but it changes how we approach sharing them.
 
+#### Learning is (Not) your Responsibility
+I think I'm someone who is "self-directed" when it comes to learning, I have long lists of courses I want to take, books to read and all that.
+But sometimes I just don't like it when someone says "Learning is your responsibility"
+For one important reason, it lacks mercy.
+Yes saying it might help. I think sometimes it's good to realize you need to get a grip and start improving yourself. But what's crazy is that I often hear it from educators blaming it on students and forgetting the systemic problems.
+The educational systems around the world are full of problems and just blaming people for hating school and saying they are expected to be self dirceted even when the system is broken is just unrealistic and doesn't solve the actual problems.
+That's why I try to avoid saying such things without context.
+
+
+
 #### How to take notes on computer
 
 I really like Obsidian, by anything will do.
@@ -121,7 +127,7 @@ I rarely watch movies anymore, because whenver I do it often turns out to be a w
 - 12 Angry Men (1957)
 - My Neighbors the Yamadas (1999)
 
-Another really fun activity I've come across is identifying plants! iNaturalist is a great app to help you identify plants you see in your daily life, knowing the names of the plants and flowers you see everyday makes each walk a more rich experience, you'd start to notice how plants change from season to season.
+Another really fun activity I've come across is identifying plants! iNaturalist is a great app to help you identify plants you see in your daily life, knowing the names of the plants and flowers you see everyday makes each walk a more rich experience, you'd start to notice how plants change from season to season. All of this even reminded me of how when you learn CS terms like "Abstraction" and "Evaluation" you start to see things differently...
 
 #### The day I fell in love with Computer Science
 
@@ -144,13 +150,19 @@ Good teachers, good books, and small projects slowly built that passion over tim
 
 #### Most useful things I've learned so far
 
-- Learning theory, taking Learning How to Learn and Uncommon Sense Teaching has had a compounding effect.
+- Learning theory, taking Learning How to Learn and Uncommon Sense Teaching has had a compounding effect. There are many benefits and I've described those courses in more details in the review section, but I'd add here, Learning gives *EMPATHY* for yourself and learning problems. That's one of the best things I've learned from those courses. Being able to see my struggles from a above, to start asking good questions on why I struggle at something and how to solve it, all while having *mercy* on myself and struggles.
 - English as a second language, I spend two years studying english extensively in highschool from good online resources, it helped me tremendously throughout my journey, being able to easily understand english technical content is invaluable in this field.
+- Learning Git early has helped me tremendously in so many different and unexpected ways.
 
 If I had a child, for the academic side, I'd focus on learning theory, solid mathematical foundation, and languages. langauges are awesome.
 
 It's fascinating how a bad education system raises someone who doesn't know how to learn independently, hate math and can't speak french well -- even though having studying it since second grade.
 I had to learn all that _on my own_ in college.
+
+#### The myth of _self_-taught
+
+I heard this insight in a group on telegram, and I find it fascinating and worth sharing. There is a subtle problem a term like "self-taught" or saying I've learned something "on my own", it's forgetting that actually there someone who taught you, the book or course you took, there are people behind it, years of work, years of experience.
+Perhaps we need to re-think the concept of learning and teaching...
 
 #### Important Meta-skill: chunking
 
@@ -229,6 +241,8 @@ I have taken many courses from the same person, he reapeats some stories a lot a
 
 Also, from PLABC, when Dan Grossman said "people often confuse higher order functions and first class function, so we won't care either", that had a lasting impact on how I deal with terminology.
 
+Or when I saw someone teacher accepting disrepectful critique and explaining why it has some part of truth in it and what to learn from it.
+
 There is a lot to learn from good (and even bad) teachers, the way they handle tough questions, how they handle problems, how they inspire, intellectual humility.
 This is another reason for I don't like some courses like OOD or Meta's Version Control course, it's stripped from the human exeprience.
 
@@ -269,6 +283,19 @@ I remember now how in High School, when writing french essays where we must star
 It's basically like the JS console on the browser dev tools or when you write "python" in the terminal and press enter. That interactice shell is called a REPL.
 You should use REPLs! most languages have ones! even statically typed langauges like C# and Java! They are great to test small pieces of code, regex, date functions, etc.
 They are extremply helpful to quickly verify what an expression _evaluate_ to.
+
+#### Don't neglect code style
+I still remember watching the first couple of lectures of CS50 (though I didn't complete it) at summer after high school, the instrctor David Malan just pointed out briefly that he puts the colon right after the end of the if statement, with no spaces
+i.e. `if some_condition` and not `if some_condition:`
+It was the first time I think about it and I just started to notice how people write code and how it differs from one language to another (and even between people using the same language).
+There are indeed tools like linters that automatically format your code but I think it's worth getting in the habit of writing organized code. I had a friend who might write like this:
+```py
+if x==10 and y< 15  :
+  print("hello" )
+```
+I convinced him it's kind of a problem by saying "imagine writing such code in a coding interview". He told me it was a bit challenging at first to change the writing habits.
+That's why I think the earlier you realize that there are some "good" code writing habits, the better.
+
 
 # Course & Book Reviews
 
