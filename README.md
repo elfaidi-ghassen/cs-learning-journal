@@ -1,27 +1,13 @@
 # A Student's Journey Into CS and Life
+
 (work in progress...)
 
 I'm a third year software engineering student in Tunisia, I'm writing this because a stranger on the internet shared their learning journey in a README file, and it gave me so much hope and excitement that I kept going. We need more of this.
-
 
 # Reviews
 
 Looking at your document's actual sections, here's a table of contents you can drop in:
 markdown## Table of Contents
-
-### Course & Book Reviews
-
-1. [Systematic Program Design](#systematic-program-design)
-2. [Programming Languages: Parts A, B and C](#programming-languages-parts-a-b-and-c)
-3. [Computer Networking: A Top Down Approach](#computer-networking-a-top-down-approach)
-4. [Operating Systems: Three Easy Pieces](#operating-systems-three-easy-pieces)
-5. [Nand2Tetris: Part 1](#nand2tetris-part-1)
-6. [Uncommon Sense Teaching](#uncommon-sense-teaching)
-7. [Machine Learning Specialization](#machine-learning-specialization)
-8. [Meta Version Control](#meta-version-control)
-9. [Head First Git](#head-first-git)
-10. [Object-Oriented Design](#object-oriented-design)
-11. [UML Distilled](#uml-distilled)
 
 ### Tips and Reflections
 
@@ -38,6 +24,256 @@ markdown## Table of Contents
 - [Most Useful Things I've Learned So Far](#most-useful-things-ive-learned-so-far)
 - [Some Ways to Have Fun](#some-ways-to-have-fun)
 - [Cultural Insight about _Work_](#cultural-insight-about-work)
+- [Use a REPL!](#use-a-repl)
+
+### Course & Book Reviews
+
+1. [Systematic Program Design](#systematic-program-design)
+2. [Programming Languages: Parts A, B and C](#programming-languages-parts-a-b-and-c)
+3. [Computer Networking: A Top Down Approach](#computer-networking-a-top-down-approach)
+4. [Operating Systems: Three Easy Pieces](#operating-systems-three-easy-pieces)
+5. [Nand2Tetris: Part 1](#nand2tetris-part-1)
+6. [Uncommon Sense Teaching](#uncommon-sense-teaching)
+7. [Machine Learning Specialization](#machine-learning-specialization)
+8. [Meta Version Control](#meta-version-control)
+9. [Head First Git](#head-first-git)
+10. [Object-Oriented Design](#object-oriented-design)
+11. [UML Distilled](#uml-distilled)
+
+# Tips and Reflections
+
+#### The myth of _self_-taught
+
+I heard this insight in a group on telegram, and I find it fascinating and worth sharing. There is a subtle problem a term like "self-taught" or saying I've learned something "on my own", it's forgetting that actually there someone who taught you, the book or course you took, there are people behind it, years of work, years of experience.
+Perhaps we need to re-think the concept of learning and teaching...
+
+#### On the command line
+
+After learning Git in the summer, I went to my some of my friends and classmates who study CS and told them: "I'm going to force you to learn Git". I don't want to work alone!
+One thing kept happening over and over: whenever I explained how branches work and how we switch branches, and I showed them how files do change in the working directory (using ls command -- in either WSL or git bash), they nodded and thought it made sense. Then I open the file explorer (finder) and show them that the files DO change; they go quiet for a second, "wow" they say. It's as if the command line isn't something concrete.
+The way I see it is that Windows does things for convenience that kind of distorts one's understanding, like, before I used to believe file extensions were something special
+when I was starting out I used to think it's impossible to name a python file "script.mp4", how could that be! even VS code won't color it for you! -- I think it has something to do with what happens when you change the file extension in the file explorer you get a popup saying your change would make the file unusable.
+
+I recommend getting comfortable with command line as early as possible, it doesn't just improve your productivity, but it also offers you more opportunities for learning.
+If you're a windows user and don't want to switch, try having a dual boot, and make sure to install WSL. I use a custom shortcut Ctrl + Shift + V to start WSL using autohotkey.
+
+#### Why some learners really don't like the command line
+
+When I realized the power of command line, I went to pretty much anyone I knew and installed zoxide and fzf for them.
+I created a /projects folder, and told them they can simply use z proj to go to it, and create a folder for each project, and simply open it in VS code (code .)
+And Windows users like me have an itch for opening the explorer (finder) for some reason, so I created an alias called opend which opens the current directory in the explorer.
+That alone made them enjoy using the command line and motivated them to learn it more.
+So based on my observation, I believe that many people detest the command line simply because they never saw a real workflow, something concrete that makes them feel it's worth learning.
+
+#### Wrong Advice Could Work Sometimes
+
+The idea of left-brain people who are analytical and right-brain people who are creative is heavily debunked and considered a pop science myth.
+The thing is, I noticed in many contexts how an advice that's based on myths could actually be beneficial -- for the wrong reasons!
+
+For example, one of the best drawing books is Drawing on The Right Side of The Brain, it's completely based on the idea of left-brain vs right-brain, it's pretty much complete nonesense, yet the exercices in the book are extremely helpful and actually can make you draw better!
+
+Another example I saw was in Head First Java, taking breaks is proven to be helpful in improving learning, but it's not because of left vs right brain activities!
+
+> Don't work one part of the brain for too long a stretch at one time. Working just the left side of the brain for more than 30 minutes is like working just your left arm for 30 minutes. Give each side of your brain a break by switching sides at regular intervals.
+
+What I gather from this that:
+If you apply an advice and you feel benefits from it, it doesn't necessarily mean the explanation is correct.
+
+#### What works for you might (not) work for others
+
+Let's say someone struggled studying something, or perhaps someone struggled emotionally for years because of something, perhaps they didn't accept themselves or had low self esteem, at some point, they might have rich life experiences, read good books or listen to people of knowledge, and it helpes them tremendously in their growth.
+but one problem one may fall into is starting to think every single problem others habe must be fixed that way, "if only people accepted themselves!" or "if only people did this or that".
+The thing is, people's problems are complicated, people's struggle for so many reasons and often we assume we get other's problems, but we might not see the full picture.
+It is a trap I fell into, and I don't want you to fall into.
+Especially when it's not one's area of expertise, one has to be humble and accept it's just the start of the journey.
+It does not mean not sharing one's opinions and reflections -- but it changes how we approach sharing them.
+
+
+#### How to take notes on computer
+
+I really like Obsidian, by anything will do.
+Try not to get into the loop of trying out different tools. Lots of videos on youtube that almost feel like those "self-help" books.
+I remember starting this journey in high school, starting with Notion, it was great. But then... the heck, why not use open source tools like Logseq! and so, Logseq it was, I really like it, then I tried OneNote for some reason, and finally landed on Obsidian.
+The thing is, all of them will do, spending time comparing them is kind of a waste of time, unless it's a hobby for you.
+I use google keep on mobile, sometimes I need a write a quick note and and it's conventient easily on my laptop.
+
+Also, I have noticed that note taking could turn into an illusion of learning (todo: add link here).
+
+The Pragmatic Programmer recommends having an Engineering Daybook, an actual notebook, it's where I draw and take notes about things I'm learning and quotes I love, sometimes observations and insights from real life, it's not for productivity, it's also that I want to enjoy the journey of learning and life.
+
+#### Some ways to have fun
+
+I think having fun is an important part of learning, one shouldn't spend all of their time studying or they'll burn out, which isn't good -- _not_ because it reduces because it reduces performance in long term -- because it's not good for a human being to feel burned out.
+
+There are many ways to have fun (and maybe learn something in the process)!
+I'm sharing this so perhaps someone may find something useful here...
+
+Documentaries could be a great way to both enjoy your time and get out of them with a new perspective. This is a list of documentaries I really like
+
+- [Schooling the World](#link)
+- [The True Cost](#link)
+- [Revolution OS](#link)
+- [A Trip to Infinity](#link)
+
+Reading novels could be really fun.
+In Japan they had a famous animated series called World Masterpiece Theater, which is animated works that are based on the classics of literature -- like Anne of Green Gables and Heidi, both directed by the famous Ghibli director. The animated works themselves are great, but I've been reading the originals works and it's so fun!
+I recommend reading A Little Princess -- Hodgson Burnett
+
+I rarely watch movies anymore, because whenver I do it often turns out to be a waste of time, but here are some movies were may be worth it.
+
+- The Flavor of Green Tea Over Rice (1952) -- Ozu
+- 12 Angry Men (1957)
+- My Neighbors the Yamadas (1999)
+
+Another really fun activity I've come across is identifying plants! iNaturalist is a great app to help you identify plants you see in your daily life, knowing the names of the plants and flowers you see everyday makes each walk a more rich experience, you'd start to notice how plants change from season to season.
+
+#### The day I fell in love with Computer Science
+
+Around two years into my CS studies, I was reading Computer Networking: A Top Down Approach, at the end of chapter 2 it contained a list of project ideas to do. I was hooked.
+
+I still remember the thrill I had, disabling the firewall (in the settings) on my laptop (later I realized the client doesn't need to disable the firewall :D) Creating a python script that sends "hello" via TCP, and running the "server" (which is just a python program) on my friend's laptop, the server makes it uppercase, and sends "HELLO" back. a week later I had built a simple multithreaded http server. I changed the router setting to do port forwarding to my laptop, so that anyone can use my (insecure) HTTP server anywhere, successfully putting all the files on my laptop in risk :D
+
+At that moment everything started to click, everything is bunch of files and programs. I thought... "I love computer science", and I literally had tears in my eyes.
+
+In high school I studied some introductory computer science classes, in one of them we were taught some very basic PHP and MySQL, we installed MySQL just by pressing "next" in the setup, and suddenly, our PHP code is storing data in the "database". I was puzzled... like "professor, where is the database", he didn't understand my question, "I mean where is this stuff stored?" It was kind of tough question indeed, but he answered me "don't worry it's just some files". I didn't buy it, but it set my heart at ease at least... at least it's on the hard disk!
+
+After studying operating systems, databases and computer networking, I finally understood where the database is. in some sense, it's just bunch of files and some TCP socket on the top. In fact, pretty much everything is just a bunch of files and running programs. he was correct.
+
+This all also reminds me a quote I read in one of Barbara Oakley's articles
+
+we rapidly remember what interests us, but what interests us takes time to develop
+
+Passion is never a pre-requisite for learning programming, in fact passion is the fruit of your efforts.
+Good teachers, good books, and small projects slowly built that passion over time.
+
+#### Most useful things I've learned so far
+
+- Learning theory, taking Learning How to Learn and Uncommon Sense Teaching has had a compounding effect.
+- English as a second language, I spend two years studying english extensively in highschool from good online resources, it helped me tremendously throughout my journey, being able to easily understand english technical content is invaluable in this field.
+
+If I had a child, for the academic side, I'd focus on learning theory, solid mathematical foundation, and languages. langauges are awesome.
+
+It's fascinating how a bad education system raises someone who doesn't know how to learn independently, hate math and can't speak french well -- even though having studying it since second grade.
+I had to learn all that _on my own_ in college.
+
+#### Important Meta-skill: chunking
+
+It's a very important try to identify the important _chunks_ of knowledge in the subject you're learning. I have learned about this concept of chunks from Learning How to Learn and I think it's worth discussing here.
+For example, let's say you are studying CSS. There are some chucks of knowedge that should become automatic. (and when I say "knowledge" it's pretty much same as "skill", for they are two faces of the same coint)
+
+For example, one of key CSS skills is that when you see any website or design, **you start to see everything as boxes**, you can imagine how you wrap the sidebar and main section into a parent element and setting the parent to display flex _without_ thinking about it, it becomes automatic.
+For example when you deeply understand positioning in CSS, you'd write something like this without thinking about it:
+
+```css
+.notification-dot::after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+}
+```
+
+Then quicly go .notification-dot and set its position to relative.
+That's a chunk, I don't even need to think about it anymore.
+Those skills some of the skills that make me write CSS _really fast_, it's not the memorization of css properties, it's actually drill that produces understanding and understanding that amplifies the drill.
+
+This cannot be reached (efficiently) without two main components
+
+- good "declarative" explanations from a good teacher who deeply understands the subject and explaisn it well.
+- a lot of practice, "drill to skill"
+
+I also remember studying a network class, we were studying IPv6.
+I noticed the professor was discussing the parts of the 128 bit address so smoothly, "let's take 48 bits of the address" then immediately highlight three segments of the address.
+But my brain didn't create that chunk yet, that a part of the ip is 4 characters i.e. 16 bits.
+It slows you down if you don't internalize it. It's a small example but I think it's the same pattern, missing some chunks could be why someone is struggling at something at the start.
+
+Since I've been obsessed by noticing the things that take me a moment to figure out, while not necessary, but I love thinking about this, children often a great source to understand what chunks you have that you might not even be aware of.
+
+Arabic speakers use two calendar systems, The Gregorian Solar calendar and Lunar Hijri, each have different month names, many great books in our literature would use Lunar Hijri months and I never learned them since we don't use them in our country, I never created that chunk of knowledge.
+The thing is, without that, when I read a book, let's say a history book, I have a vague understanding of months and I couldn't quickly map ideas to months, or intuitively understand how much time has passed, I need do more cognitive efforts to do so.
+I tried fixing this by making flashcards.
+
+Importantly though, chunking is _not_ just about memroization. (I need to say this because "memrorization" is a dreaded term these days, it always amuses me when I hear someone saying "You should commit to memory" or "You should internalize it" trying hard to avoid "memorize", but it's understandable.)
+
+> Mathematics is amazingly compressible. You may struggle a long time, step by step, to work through the same process or idea from several different approaches. But once you really understand it and have the mental perspective to see it as a whole, there is often a tremendous mental compression. You can file it away, recall it quickly and completely when you need it, and use it as just one step in some other mental process. -- William Thurston
+
+#### The magic of flashcards
+
+I LOVE flashcards, like, they are my favorite learning tool.
+I've been consistently using Anki since 2023.
+
+![Anki Heatmap](/media/anki-heatmap.jpg)
+
+Flashcards aren't perfect and it's better to think of them as one tool in your aresenal as a learner. I find flashcards to be the best and most efficient way to memorize something and be able to _respond to a cue_.
+I also find flashcards useful to review concepts and not just memroization, for example I have computer networking questions like "Explain how DNS work, let's say you write google.com and press enter, what happens", the idea here is not to memorize the answer but to do retrieval practice and explain a concept, I usually explain the concept outloud and have a pen and paper where I sketch the concept.
+
+Many people find using flashcards to be useful for computer science and I think you might find them helpful.
+You can use flashcards for anything, from memorizing the names of flowers, preparing to a driving test, to computer networking classes at university (I kept getting straight As in those clases using just flashcards, I literally take notes in class, go back home, turn the notes into flashcards, and throw the notes in trash -- which might be an act of disrespect to knowledge, but I'm not sure and... I find it satisfying!)
+
+I want to mention some mistakes I made along my journey of creating flashcards.
+
+- Don't mix flashcards that are very unrelated, like flashcards about computer networking and security in the same deck.
+  - If you mix unrelated flashcards you'd miss the benefits of _interleaving_.
+- Do not keep taking notes forever then start to create flashcards: it's much better to make flashcards along the way, and review them constantly.
+- You're not expected to review ALL flashcards that are due, consistency is what matters, and this is why the previous point is important, just the act of creating flashcards and reviewing them isntantly can boost you learning A LOT.
+- It might be better to avoid using AI tools to make flashcards, there is a lot to learn just by trying to formulate a good question.
+- If you're on windows, you might find the ShareX, an open source tool to take screen shots, quite helpful, I use it to remove parts of an image or annotate them then immediately take screen shots, it's like a tool to edit the screenshots on the fly.
+
+#### The forgotten side of learning from teachers
+
+I have seen this in college, for instance, I had a Linear Algebra professor who as _extremely_ organized, from lecture notes to the way he teaches. it was inspiring.
+I also had a Control Theory professor who would apologize when he interrupts a student while discussing, "sorry to interrupt you", or "I aplogize for interuppting you earlier, you may speak"
+I didn't use to apologize when interrputing people, I said, ha, that's a nice thing to do.
+
+I learned a lot online too.
+I have taken many courses from the same person, he reapeats some stories a lot across courses, but he does something clever that somehow makes repetition doesn't feel bad, he says "I know I repeat this story a lot" or "I really like re-telling this story again and a gain", it makes a difference. it's a good storytelling technique.
+
+Also, from PLABC, when Dan Grossman said "people often confuse higher order functions and first class function, so we won't care either", that had a lasting impact on how I deal with terminology.
+
+There is a lot to learn from good (and even bad) teachers, the way they handle tough questions, how they handle problems, how they inspire, intellectual humility.
+This is another reason for I don't like some courses like OOD or Meta's Version Control course, it's stripped from the human exeprience.
+
+#### Cultural Insight about _work_
+
+One of the most beautiful terms in our Tunisian dialect is the term "خدمة" (/Khid.ma/), which literally means "service", as in serving someone.
+So to say you are working today, one literally say they're serving today.
+
+I feel that it is always a reminder of the value of real work, that it is something that contributes to society and moves life, Whatever our job and field (engineer, carpenter, doctor...) in the end we are providing a "service" to the community.
+
+It just makes me smile when I hear someone complaining "There are no jobs nowadays" in Tunisian dialect.
+
+But also it's kind of sad that the origin of expressions we use lose their meaning over time.
+
+#### THINK
+
+(orignally posted on Linkedin)
+perhaps why TDD works? because it forces programmers to think.
+why does rubber duck debugging work? because it forces us to think.
+I have seen this in many different contexts.
+here some quotes about this
+
+I've seen that even experienced developers do this.
+for example I've used to watch a Ali Fadel, software engineer at Amazon who made videos on competitive programming in Arabic.
+One thing I kept noticing, he would explain a solution, and then pause and say "now, why is that correct" or "why is that _not_ correct". that made me reflect, I don't remember asking myself why a solusion is _not_ correct!
+
+> I have only one method that I recommend extensively—it’s called think before you write.
+> -- Richard Hamming
+
+> "Think first, experiment later." -- CS2510
+
+I remember now how in High School, when writing french essays where we must start with explicitely writing the "problématique", i.e. the problem we are discussing, the tention. I wonder if it had similar pedagogical reasons.
+
+"Forcing" oneslef to thinking is a known approach in problem solving, It seems it removes the illusion of understanding, for example in Systematic Program Design, it uses a design recipe for functions, a prblem solving approach that starts with writing Signature and Purpose of a function, forcing yourself to think it through.
+
+#### Use a REPL!
+It's basically like the JS console on the browser dev tools or when you write "python" in the terminal and press enter. That interactice shell is called a REPL.
+You should use REPLs! most languages have ones! even statically typed langauges like C# and Java! They are great to test small pieces of code, regex, date functions, etc.
+They are extremply helpful to quickly verify what an expression *evaluate* to.
+
+# Course & Book Reviews
 
 ## Systematic Program Design
 
@@ -237,8 +473,11 @@ This is also one of the unexpected benefits of "self help" books for some people
 
 At some point I decided to Learning How to Learn and boy it was different from everything else. It wasn't just about teaching some tips, it's an entire mental framework on how the human brains learn that helps you diagnose your own learning problems.
 Learning How to Learn has a deep impact on my entire journey -- and even this README.
+I started to find myself always writing notes and reflections about my learning and try to understand why people struggle at some specific concepts.
 
 The course contains some interview with many interesting people including Scott Young -- known for his books and [MIT challege](https://www.scotthyoung.com/blog/myprojects/mit-challenge-2/), I really enjoyed these.
+
+You should take it!
 
 ## Mindshift
 
@@ -259,7 +498,6 @@ It also mentions some interesting problems in western education that I found fas
 > As an overreaction to the extreme "learning equals memorization" idea that has endured for thousands of years, western education has become wedded to the idea that conceptual understanding is the golden key to learning. -- Barbara Oakley
 
 This is discussed in more depth in a 40 page article called [The Memory Paradox](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5250447) that I highly recommend.
-
 
 ## Uncommon Sense Teaching
 
@@ -323,7 +561,6 @@ You don't need much math for the couse, high school math is more than enough, th
 
 Andrew is a great teacher, he explains concepts intuitively.
 Again, my only complaint is that I didn't feel there was enough practice and challenge.
-
 
 ## Meta Version Control
 
@@ -419,230 +656,3 @@ I have asked two people at uni, two brilliant students who got great graduation 
 
 so basically a form of documentation?
 In some of my projects at uni we were asked to create analysis phase class and sequence diagrams that are "language independent". As Fowler said, it's probably just a waste of time.
-
-# Tips and Reflections
-
-#### The myth of _self_-taught
-
-I heard this insight in a group on telegram, and I find it fascinating and worth sharing. There is a subtle problem a term like "self-taught" or saying I've learned something "on my own", it's forgetting that actually there someone who taught you, the book or course you took, there are people behind it, years of work, years of experience.
-Perhaps we need to re-think the concept of learning and teaching...
-
-#### On the command line
-
-After learning Git in the summer, I went to my some of my friends and classmates who study CS and told them: "I'm going to force you to learn Git". I don't want to work alone!
-One thing kept happening over and over: whenever I explained how branches work and how we switch branches, and I showed them how files do change in the working directory (using ls command -- in either WSL or git bash), they nodded and thought it made sense. Then I open the file explorer (finder) and show them that the files DO change; they go quiet for a second, "wow" they say. It's as if the command line isn't something concrete.
-The way I see it is that Windows does things for convenience that kind of distorts one's understanding, like, before I used to believe file extensions were something special
-when I was starting out I used to think it's impossible to name a python file "script.mp4", how could that be! even VS code won't color it for you! -- I think it has something to do with what happens when you change the file extension in the file explorer you get a popup saying your change would make the file unusable.
-
-I recommend getting comfortable with command line as early as possible, it doesn't just improve your productivity, but it also offers you more opportunities for learning.
-If you're a windows user and don't want to switch, try having a dual boot, and make sure to install WSL. I use a custom shortcut Ctrl + Shift + V to start WSL using autohotkey.
-
-#### Why some learners really don't like the command line
-
-When I realized the power of command line, I went to pretty much anyone I knew and installed zoxide and fzf for them.
-I created a /projects folder, and told them they can simply use z proj to go to it, and create a folder for each project, and simply open it in VS code (code .)
-And Windows users like me have an itch for opening the explorer (finder) for some reason, so I created an alias called opend which opens the current directory in the explorer.
-That alone made them enjoy using the command line and motivated them to learn it more.
-So based on my observation, I believe that many people detest the command line simply because they never saw a real workflow, something concrete that makes them feel it's worth learning.
-
-#### Wrong Advice Could Work Sometimes
-
-The idea of left-brain people who are analytical and right-brain people who are creative is heavily debunked and considered a pop science myth.
-The thing is, I noticed in many contexts how an advice that's based on myths could actually be beneficial -- for the wrong reasons!
-
-For example, one of the best drawing books is Drawing on The Right Side of The Brain, it's completely based on the idea of left-brain vs right-brain, it's pretty much complete nonesense, yet the exercices in the book are extremely helpful and actually can make you draw better!
-
-Another example I saw was in Head First Java, taking breaks is proven to be helpful in improving learning, but it's not because of left vs right brain activities!
-
-> Don't work one part of the brain for too long a stretch at one time. Working just the left side of the brain for more than 30 minutes is like working just your left arm for 30 minutes. Give each side of your brain a break by switching sides at regular intervals.
-
-What I gather from this that:
-If you apply an advice and you feel benefits from it, it doesn't necessarily mean the explanation is correct.
-
-#### What works for you might (not) work for others
-
-Let's say someone struggled studying something, or perhaps someone struggled emotionally for years because of something, perhaps they didn't accept themselves or had low self esteem, at some point, they might have rich life experiences, read good books or listen to people of knowledge, and it helpes them tremendously in their growth.
-but one problem one may fall into is starting to think every single problem others habe must be fixed that way, "if only people accepted themselves!" or "if only people did this or that".
-The thing is, people's problems are complicated, people's struggle for so many reasons and often we assume we get other's problems, but we might not see the full picture.
-It is a trap I fell into, and I don't want you to fall into.
-Especially when it's not one's area of expertise, one has to be humble and accept it's just the start of the journey.
-It does not mean not sharing one's opinions and reflections -- but it changes how we approach sharing them.
-
-#### How to take notes on computer
-
-I really like Obsidian, by anything will do.
-Try not to get into the loop of trying out different tools. Lots of videos on youtube that almost feel like those "self-help" books.
-I remember starting this journey in high school, starting with Notion, it was great. But then... the heck, why not use open source tools like Logseq! and so, Logseq it was, I really like it, then I tried OneNote for some reason, and finally landed on Obsidian.
-The thing is, all of them will do, spending time comparing them is kind of a waste of time, unless it's a hobby for you.
-I use google keep on mobile, sometimes I need a write a quick note and and it's conventient easily on my laptop.
-
-Also, I have noticed that note taking could turn into an illusion of learning (todo: add link here).
-
-The Pragmatic Programmer recommends having an Engineering Daybook, an actual notebook, it's where I draw and take notes about things I'm learning and quotes I love, sometimes observations and insights from real life, it's not for productivity, it's also that I want to enjoy the journey of learning and life.
-
-#### Some ways to have fun
-
-There are many ways to have fun!
-Documentaries could be a great way to both enjoy your time and get out of them with a new perpective. This is a list of documentaries I really like
-
-- [Schooling the World](#link)
-- [The True Cost](#link)
-- [Revolution OS](#link)
-- [A Trip to Infinity](#link)
-
-Reading novels could be a really fun.
-In Japan they had a famous animated series called World Masterpiece Theater, which is animated works that are based on the classics of literature -- like Anne of Green Gables and Heidi, both directed by the famous Ghibli director. The animated works themselves are great, but I've been reading the originals works and it's so fun!
-I recommend reading A Little Princess -- Hodgson Burnett
-
-I rarely watch movies, because whenver I do it often turns out to be a waste of time, but some movies were worth it
-
-- The Flavor of Green Tea Over Rice -- Ozu
-- 12 Angry Men
-- Ikiru
-- My Neighbors the Yamadas
-
-Another really fun activity I've came across is identifying plants! iNaturalist is a great app to help you identify plants you see in your daily life, knowing the names of the plants and flowers you see everyday makes each walk a more rich experience, you'd start to notice how plants change from season to season.
-
-## The day I fell in love with Computer Science
-
-Around two years into my CS studies, I was reading Computer Networking: A Top Down Approach, at the end of chapter 2 it contained a list of project ideas to do. I was hooked.
-
-I still remember the thrill I had, disabling the firewall (in the settings) on my laptop (later I realized the client doesn't need to disable the firewall :D) Creating a python script that sends "hello" via TCP, and running the "server" (which is just a python program) on my friend's laptop, the server makes it uppercase, and sends "HELLO" back. a week later I had built a simple multithreaded http server. I changed the router setting to do port forwarding to my laptop, so that anyone can use my (insecure) HTTP server anywhere, successfully putting all the files on my laptop in risk :D
-
-At that moment everything started to click, everything is bunch of files and programs. I thought... "I love computer science", and I literally had tears in my eyes.
-
-In high school I studied some introductory computer science classes, in one of them we were taught some very basic PHP and MySQL, we installed MySQL just by pressing "next" in the setup, and suddenly, our PHP code is storing data in the "database". I was puzzled... like "professor, where is the database", he didn't understand my question, "I mean where is this stuff stored?" It was kind of tough question indeed, but he answered me "don't worry it's just some files". I didn't buy it, but it set my heart at ease at least... at least it's on the hard disk!
-
-After studying operating systems, databases and computer networking, I finally understood where the database is. in some sense, it's just bunch of files and some TCP socket on the top. In fact, pretty much everything is just a bunch of files and running programs. he was correct.
-
-This all also reminds me a quote I read in one of Barbara Oakley's articles
-
-we rapidly remember what interests us, but what interests us takes time to develop
-
-Passion is never a pre-requisite for learning programming, in fact passion is the fruit of your efforts.
-Good teachers, good books, and small projects slowly built that passion over time.
-
-#### Most useful things I've learned so far
-
-- Learning theory, taking Learning How to Learn and Uncommon Sense Teaching has had a compounding effect.
-- English as a second language, I spend two years studying english extensively in highschool from good online resources, it helped me tremendously throughout my journey, being able to easily understand english technical content is invaluable in this field.
-
-If I had a child, for the academic side, I'd focus on learning theory, solid mathematical foundation, and languages. langauges are awesome.
-
-It's fascinating how a bad education system raises someone who doesn't know how to learn independently, hate math and can't speak french well -- even though having studying it since second grade.
-I had to learn all that _on my own_ in college.
-
-#### Important Meta-skill: chunking
-
-It's a very important try to identify the important _chunks_ of knowledge in the subject you're learning. I have learned about this concept of chunks from Learning How to Learn and I think it's worth discussing here.
-For example, let's say you are studying CSS. There are some chucks of knowedge that should become automatic. (and when I say "knowledge" it's pretty much same as "skill", for they are two faces of the same coint)
-
-For example, one of key CSS skills is that when you see any website or design, **you start to see everything as boxes**, you can imagine how you wrap the sidebar and main section into a parent element and setting the parent to display flex _without_ thinking about it, it becomes automatic.
-For example when you deeply understand positioning in CSS, you'd write something like this without thinking about it:
-
-```css
-.notification-dot::after {
-  content: "";
-  display: block;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: red;
-  position: absolute;
-}
-```
-
-Then quicly go .notification-dot and set its position to relative.
-That's a chunk, I don't even need to think about it anymore.
-Those skills some of the skills that make me write CSS _really fast_, it's not the memorization of css properties, it's actually drill that produces understanding and understanding that amplifies the drill.
-
-This cannot be reached (efficiently) without two main components
-
-- good "declarative" explanations from a good teacher who deeply understands the subject and explaisn it well.
-- a lot of practice, "drill to skill"
-
-I also remember studying a network class, we were studying IPv6.
-I noticed the professor was discussing the parts of the 128 bit address so smoothly, "let's take 48 bits of the address" then immediately highlight three segments of the address.
-But my brain didn't create that chunk yet, that a part of the ip is 4 characters i.e. 16 bits.
-It slows you down if you don't internalize it. It's a small example but I think it's the same pattern, missing some chunks could be why someone is struggling at something at the start.
-
-Since I've been obsessed by noticing the things that take me a moment to figure out, while not necessary, but I love thinking about this, children often a great source to understand what chunks you have that you might not even be aware of.
-If you'd ask me before how many months between March and October, or what's the month 3 months before July.
-
-It takes me a bit of time to answer it, the answer isn't immediate in my mind.
-That's a missing chunk (though arguably not an important one)
-the months were never drilled to the point where each one has a direct number → name and name → number bindings.
-I tried fixing this as a learning expirement, I literally made flashcards name → number and number → name and didn't take much to memorize them.
-
-Importantly though, chunking is _not_ just about memroization. (I need to say this because "memrorization" is a dreaded term these days, it always amuses me when I hear someone saying "You should commit to memory" or "You should internalize it" trying hard to avoid "memorize", but it's understandable.)
-
-> Mathematics is amazingly compressible. You may struggle a long time, step by step, to work through the same process or idea from several different approaches. But once you really understand it and have the mental perspective to see it as a whole, there is often a tremendous mental compression. You can file it away, recall it quickly and completely when you need it, and use it as just one step in some other mental process. -- William Thurston
-
-#### The magic of flashcards
-
-I LOVE flashcards, like, they are my favorite learning tool.
-I've been consistently using Anki since 2023.
-
-![Anki Heatmap](/media/anki-heatmap.jpg)
-
-Flashcards aren't perfect and it's better to think of them as one tool in your aresenal as a learner. I find flashcards to be the best and most efficient way to memorize something and be able to _respond to a cue_.
-I also find flashcards useful to review concepts and not just memroization, for example I have computer networking questions like "Explain how DNS work, let's say you write google.com and press enter, what happens", the idea here is not to memorize the answer but to do retrieval practice and explain a concept, I usually explain the concept outloud and have a pen and paper where I sketch the concept.
-
-Many people find using flashcards to be useful for computer science and I think you might find them helpful.
-You can use flashcards for anything, from memorizing the names of flowers, preparing to a driving test, to computer networking classes at university (I kept getting straight As in those clases using just flashcards, I literally take notes in class, go back home, turn the notes into flashcards, and throw the notes in trash -- which might be an act of disrespect to knowledge, but I'm not sure and... I find it satisfying!)
-
-I want to mention some mistakes I made along my journey of creating flashcards.
-
-- Don't mix flashcards that are very unrelated, like flashcards about computer networking and security in the same deck.
-  - If you mix unrelated flashcards you'd miss the benefits of _interleaving_.
-- Do not keep taking notes forever then start to create flashcards: it's much better to make flashcards along the way, and review them constantly.
-- You're not expected to review ALL flashcards that are due, consistency is what matters, and this is why the previous point is important, just the act of creating flashcards and reviewing them isntantly can boost you learning A LOT.
-- It might be better to avoid using AI tools to make flashcards, there is a lot to learn just by trying to formulate a good question.
-- If you're on windows, you might find the ShareX, an open source tool to take screen shots, quite helpful, I use it to remove parts of an image or annotate them then immediately take screen shots, it's like a tool to edit the screenshots on the fly.
-
-#### The forgotten side of learning from teachers
-
-I have seen this in college, for instance, I had a Linear Algebra professor who as _extremely_ organized, from lecture notes to the way he teaches. it was inspiring.
-I also had a Control Theory professor who would apologize when he interrupts a student while discussing, "sorry to interrupt you", or "I aplogize for interuppting you earlier, you may speak"
-I didn't use to apologize when interrputing people, I said, ha, that's a nice thing to do.
-
-I learned a lot online too.
-I have taken many courses from the same person, he reapeats some stories a lot across courses, but he does something clever that somehow makes repetition doesn't feel bad, he says "I know I repeat this story a lot" or "I really like re-telling this story again and a gain", it makes a difference. it's a good storytelling technique.
-
-Also, from PLABC, when Dan Grossman said "people often confuse higher order functions and first class function, so we won't care either", that had a lasting impact on how I deal with terminology.
-
-There is a lot to learn from good (and even bad) teachers, the way they handle tough questions, how they handle problems, how they inspire, intellectual humility.
-This is another reason for I don't like some courses like OOD or Meta's Version Control course, it's stripped from the human exeprience.
-
-#### Cultural Insight about _work_
-
-One of the most beautiful terms in our Tunisian dialect is the term "خدمة" (/Khid.ma/), which literally means "service", as in serving someone.
-So to say you are working today, one literally say they're serving today.
-
-I feel that it is always a reminder of the value of real work, that it is something that contributes to society and moves life, Whatever our job and field (engineer, carpenter, doctor...) in the end we are providing a "service" to the community.
-
-It just makes me smile when I hear someone complaining "There are no jobs nowadays" in Tunisian dialect.
-
-But also it's kind of sad that the origin of expressions we use lose their meaning over time.
-
-### THINK
-perhaps why TDD works? because it forces programmers to think.
-why does rubber duck debugging work? because it forces us to think.
-I have seen this in many different contexts.
-here some quotes about this
-
-I've seen that even experienced developers do this.
-for example I've used to watch a Ali Fadel, software engineer at Amazon who made videos on competitive programming in Arabic.
-One thing I kept noticing, he would explain a solution, and then pause and say "now, why is that correct" or "why is that *not* correct". that made me reflect, I don't remember asking myself why a solusion is _not_ correct!
-
-> I have only one method that I recommend extensively—it’s called think before you write.
--- Richard Hamming
-
-> "Think first, experiment later." -- CS2510
-
-
-I remember now how in High School, when writing french essays where we must start with explicitely writing the "problématique", i.e. the problem we are discussing, the tention. I wonder if it had similar pedagogical reasons.
-
-
-"Forcing" oneslef to thinking is a known approach in problem solving, It seems it removes the illusion of understanding, for example in Systematic Program Design, it uses a design recipe for functions, a prblem solving approach that starts with writing Signature and Purpose of a function, forcing yourself to think it through.
-
