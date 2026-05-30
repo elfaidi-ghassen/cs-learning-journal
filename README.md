@@ -83,11 +83,15 @@ It does not mean not sharing one's opinions and reflections -- but it changes ho
 
 #### Learning is (Not) your Responsibility
 I think I'm someone who is "self-directed" when it comes to learning, I have long lists of courses I want to take, books to read and all that.
-But sometimes I just don't like it when someone says "Learning is your responsibility"
+But sometimes I just don't like it when someone says "Learning is your responsibility" or even "university only gives you the starting point, you shoud learn on your own and be self directed"
 For one important reason, it lacks mercy.
 Yes saying it might help. I think sometimes it's good to realize you need to get a grip and start improving yourself. But what's crazy is that I often hear it from educators blaming it on students and forgetting the systemic problems.
 The educational systems around the world are full of problems and just blaming people for hating school and saying they are expected to be self dirceted even when the system is broken is just unrealistic and doesn't solve the actual problems.
-That's why I try to avoid saying such things without context.
+
+And I insist that giving an advice is context dependent, telling someone "Learning is your responsibility" might be helpful for some.
+
+But the larger point is that we education is all about relationships -- between teachers and students.
+I think a student's responsibility lies in choosing those realationships when possible and in doing your part.
 
 
 
@@ -613,7 +617,8 @@ It also did something really smart which is not using code, but just plain text 
 If you want to learn how git works and immediately start contributing to open source and working with others, this is the book.
 Git really makes programming much more fun.
 
-## Object-Oriented Design
+## Object-Oriented Design -- Alberta
+NOTE: I did not complete the course
 
 > longer than a winter's night -- Tunisian proverb
 
