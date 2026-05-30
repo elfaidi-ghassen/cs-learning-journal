@@ -227,6 +227,43 @@ The most extreme level of abstraction I've seen what in a Analysis 3 which was a
 
 At some point I suddently felt comfortable dealing with abstractions and understanding the point of using terms like "name" instead of "variable", like when we say a name is bound to a value, it's like forgetting all the implementation details and thinking soley about the higher order concept of naming things, something humans like to do.
 
+## Learning How to Learn
+Many resources online contain learning tips, how to use the pomodoro technique and why it matters, the learning mindset and how to approach learning as an adventure, and all that.
+I remember spending some time reading [How to Be a Great Student](todo) back in highschool and watching some videos on learning tips, on how to take good notes, etc.
+
+I think while it wasn't life changing, it exposed me a new world I didn't know about, that it's a good idea to think about how you learn and try to improve the process.
+This is also one of the unexpected benefits of "self help" books for some people, some spend their lives never thinking about how they live, and a self help book, even when it's not based on science and full of horrible advice, it can expose someone to a new world; that it's important to think about yourself and how to improve it.
+
+At some point I decided to Learning How to Learn and boy it was different from everything else. It wasn't just about teaching some tips, it's an entire mental framework on how the human brains learn that helps you diagnose your own learning problems.
+Learning How to Learn has a deep impact on my entire journey -- and even this README. 
+
+The course contains some interview with many interesting people including Scott Young -- known for his books and [MIT challege](https://www.scotthyoung.com/blog/myprojects/mit-challenge-2/), I really enjoyed these.
+
+## Mindshift
+This course is not about learning techniques, but on how to think about having a learning life style. I discusses topics like passion and why it's important to understand the real world constraints around you and not blindly "follow your passion".
+
+The point about passion and how passion is a reflection of what you're good at right now stayed with me.
+
+> What you feel you are best at isn't necessarily **all** that you can be best at
+
+The course also discusses the value of your past knwoledge and experiences, it made me realize that even if the jobs "AI replaces programming jobs", I've learned -- and still learning -- a LOT from this field of study. 
+
+> Seemingly unconnected knowledge from your past can bring unexpected assets to your work in the present
+
+It also convers why it's important to have second skills
+
+It also mentions some interesting problems in western education that I found fascinating.
+
+> As an overreaction to the extreme "learning equals memorization" idea that has endured for thousands of years, western education has become wedded to the idea that conceptual understanding is the golden key to learning. -- Barbara Oakley
+
+This is discussed in more depth in a 40 page article called [The Memory Paradox](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5250447) that I highly recommend.
+
+I still remember in a teacher in high schoo
+
+I'm taking off a tangent but I think it's worth knowing that there is a LOT of philosophies when it comes to anything and it's worth paying attention to it.
+for instance when you hear Free Software in open source projcets, it's "Free as in Freedom", that's [an entire philosophy](https://youtu.be/k0RYQVkQmWU?si=k4n8Ldzdl8KkOaIi)!
+
+
 ## Uncommon Sense Teaching
 
 > "Learning isn't always fun"
@@ -542,6 +579,7 @@ I tried fixing this as a learning expirement, I literally made flashcards name â
 Importantly though, chunking is _not_ just about memroization. (I need to say this because "memrorization" is a dreaded term these days, it always amuses me when I hear someone saying "You should commit to memory" or "You should internalize it" trying hard to avoid "memorize", but it's understandable.)
 
 > Mathematics is amazingly compressible. You may struggle a long time, step by step, to work through the same process or idea from several different approaches. But once you really understand it and have the mental perspective to see it as a whole, there is often a tremendous mental compression. You can file it away, recall it quickly and completely when you need it, and use it as just one step in some other mental process. -- William Thurston
+
 
 #### The magic of flashcards
 
