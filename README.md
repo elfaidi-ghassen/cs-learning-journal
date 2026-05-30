@@ -1,8 +1,8 @@
 # A Student's Journey Into CS and Life
+(work in progress...)
 
 I'm a third year software engineering student in Tunisia, I'm writing this because a stranger on the internet shared their learning journey in a README file, and it gave me so much hope and excitement that I kept going. We need more of this.
 
-(work in progress...)
 
 # Reviews
 
@@ -322,7 +322,8 @@ My only complain with the course is how gentle it is. The programming assignment
 You don't need much math for the couse, high school math is more than enough, the toughest math is doing a partial derivate -- in an optional section of the course.
 
 Andrew is a great teacher, he explains concepts intuitively.
-my only complaint is that I didn't feel there was enough practice and challenge.
+Again, my only complaint is that I didn't feel there was enough practice and challenge.
+
 
 ## Meta Version Control
 
@@ -623,3 +624,25 @@ I feel that it is always a reminder of the value of real work, that it is someth
 It just makes me smile when I hear someone complaining "There are no jobs nowadays" in Tunisian dialect.
 
 But also it's kind of sad that the origin of expressions we use lose their meaning over time.
+
+### THINK
+perhaps why TDD works? because it forces programmers to think.
+why does rubber duck debugging work? because it forces us to think.
+I have seen this in many different contexts.
+here some quotes about this
+
+I've seen that even experienced developers do this.
+for example I've used to watch a Ali Fadel, software engineer at Amazon who made videos on competitive programming in Arabic.
+One thing I kept noticing, he would explain a solution, and then pause and say "now, why is that correct" or "why is that *not* correct". that made me reflect, I don't remember asking myself why a solusion is _not_ correct!
+
+> I have only one method that I recommend extensively—it’s called think before you write.
+-- Richard Hamming
+
+> "Think first, experiment later." -- CS2510
+
+
+I remember now how in High School, when writing french essays where we must start with explicitely writing the "problématique", i.e. the problem we are discussing, the tention. I wonder if it had similar pedagogical reasons.
+
+
+"Forcing" oneslef to thinking is a known approach in problem solving, It seems it removes the illusion of understanding, for example in Systematic Program Design, it uses a design recipe for functions, a prblem solving approach that starts with writing Signature and Purpose of a function, forcing yourself to think it through.
+
