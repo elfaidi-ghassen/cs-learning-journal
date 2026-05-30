@@ -6,9 +6,6 @@ I'm a third year software engineering student in Tunisia, I'm writing this becau
 
 # Reviews
 
-Looking at your document's actual sections, here's a table of contents you can drop in:
-markdown## Table of Contents
-
 ### Tips and Reflections
 
 - [The Day I Fell in Love with Computer Science](#the-day-i-fell-in-love-with-computer-science)
@@ -87,7 +84,6 @@ The thing is, people's problems are complicated, people's struggle for so many r
 It is a trap I fell into, and I don't want you to fall into.
 Especially when it's not one's area of expertise, one has to be humble and accept it's just the start of the journey.
 It does not mean not sharing one's opinions and reflections -- but it changes how we approach sharing them.
-
 
 #### How to take notes on computer
 
@@ -269,9 +265,10 @@ I remember now how in High School, when writing french essays where we must star
 "Forcing" oneslef to thinking is a known approach in problem solving, It seems it removes the illusion of understanding, for example in Systematic Program Design, it uses a design recipe for functions, a prblem solving approach that starts with writing Signature and Purpose of a function, forcing yourself to think it through.
 
 #### Use a REPL!
+
 It's basically like the JS console on the browser dev tools or when you write "python" in the terminal and press enter. That interactice shell is called a REPL.
 You should use REPLs! most languages have ones! even statically typed langauges like C# and Java! They are great to test small pieces of code, regex, date functions, etc.
-They are extremply helpful to quickly verify what an expression *evaluate* to.
+They are extremply helpful to quickly verify what an expression _evaluate_ to.
 
 # Course & Book Reviews
 
