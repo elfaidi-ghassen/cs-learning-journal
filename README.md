@@ -197,7 +197,7 @@ The book is divided into three parts.
 the projects and part 1 of the book are freely available at /Projects section of the website.
 I finished it in less than around 2 weeks, at that point I had already taken courses at univeristy that teaches bolean algebra and computer architecture concepts, the concepts are actually advanced from N2T, I've studied transistors in depth an electronics class, how we build logic gates from them, for instance we studied K-Maps and sequential logic in depth... yet I didn't understand how a computer works!
 That's perhaps one of the problems of education, at least at my university, courses are disconnected, a sea of islands.
-Nand
+
 I documented the journey of building the CPU, and I even computer the number of transistors, ended up with 15K transistor CPU, and the 16K registers memory... contained a couple of MILLION CPUs.
 As the course notes hints, building memory using demultiplexors isn't probably a good idea.
 
@@ -228,6 +228,7 @@ The most extreme level of abstraction I've seen what in a Analysis 3 which was a
 At some point I suddently felt comfortable dealing with abstractions and understanding the point of using terms like "name" instead of "variable", like when we say a name is bound to a value, it's like forgetting all the implementation details and thinking soley about the higher order concept of naming things, something humans like to do.
 
 ## Learning How to Learn
+
 Many resources online contain learning tips, how to use the pomodoro technique and why it matters, the learning mindset and how to approach learning as an adventure, and all that.
 I remember spending some time reading [How to Be a Great Student](todo) back in highschool and watching some videos on learning tips, on how to take good notes, etc.
 
@@ -235,18 +236,19 @@ I think while it wasn't life changing, it exposed me a new world I didn't know a
 This is also one of the unexpected benefits of "self help" books for some people, some spend their lives never thinking about how they live, and a self help book, even when it's not based on science and full of horrible advice, it can expose someone to a new world; that it's important to think about yourself and how to improve it.
 
 At some point I decided to Learning How to Learn and boy it was different from everything else. It wasn't just about teaching some tips, it's an entire mental framework on how the human brains learn that helps you diagnose your own learning problems.
-Learning How to Learn has a deep impact on my entire journey -- and even this README. 
+Learning How to Learn has a deep impact on my entire journey -- and even this README.
 
 The course contains some interview with many interesting people including Scott Young -- known for his books and [MIT challege](https://www.scotthyoung.com/blog/myprojects/mit-challenge-2/), I really enjoyed these.
 
 ## Mindshift
+
 This course is not about learning techniques, but on how to think about having a learning life style. I discusses topics like passion and why it's important to understand the real world constraints around you and not blindly "follow your passion".
 
-The point about passion and how passion is a reflection of what you're good at right now stayed with me.
+The point about passion and [how passion is a reflection of what you're good](#the-day-i-fell-in-love-with-computer-science) at right now stayed with me.
 
 > What you feel you are best at isn't necessarily **all** that you can be best at
 
-The course also discusses the value of your past knwoledge and experiences, it made me realize that even if the jobs "AI replaces programming jobs", I've learned -- and still learning -- a LOT from this field of study. 
+The course also discusses the value of your past knwoledge and experiences, it made me realize that even if the jobs "AI replaces programming jobs", I've learned -- and still learning -- a LOT from this field of study.
 
 > Seemingly unconnected knowledge from your past can bring unexpected assets to your work in the present
 
@@ -257,11 +259,6 @@ It also mentions some interesting problems in western education that I found fas
 > As an overreaction to the extreme "learning equals memorization" idea that has endured for thousands of years, western education has become wedded to the idea that conceptual understanding is the golden key to learning. -- Barbara Oakley
 
 This is discussed in more depth in a 40 page article called [The Memory Paradox](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5250447) that I highly recommend.
-
-I still remember in a teacher in high schoo
-
-I'm taking off a tangent but I think it's worth knowing that there is a LOT of philosophies when it comes to anything and it's worth paying attention to it.
-for instance when you hear Free Software in open source projcets, it's "Free as in Freedom", that's [an entire philosophy](https://youtu.be/k0RYQVkQmWU?si=k4n8Ldzdl8KkOaIi)!
 
 
 ## Uncommon Sense Teaching
@@ -393,8 +390,8 @@ Take aways from the book:
 - iterative vs waterfall
   - Iterative development has many other names, incremental, spiral, etc. some authors make distinctions between them, but... it doesn't matter. [see the section about terminology]
     - boy do they love terminology and words in this field!
-  - waterfall =
-  - iterative =
+  - waterfall = you break down development into a sequence of activities, e.g. requirements analysis, design, coding, and testing, you can for instance allocate a couple of months for each activity.
+  - iterative = the development is divided into "iterations", each iteration you pick some feature and finish it, you test it and make sure it's slmost production-ready.
   - many projects claim to do iterative development but are really doing waterfall.
     - example: "This iteration's code is very buggy, but we'll clean it up at the end."
     - iterative: each iteration produces a almost-production level code, that is well tested
@@ -579,7 +576,6 @@ I tried fixing this as a learning expirement, I literally made flashcards name â
 Importantly though, chunking is _not_ just about memroization. (I need to say this because "memrorization" is a dreaded term these days, it always amuses me when I hear someone saying "You should commit to memory" or "You should internalize it" trying hard to avoid "memorize", but it's understandable.)
 
 > Mathematics is amazingly compressible. You may struggle a long time, step by step, to work through the same process or idea from several different approaches. But once you really understand it and have the mental perspective to see it as a whole, there is often a tremendous mental compression. You can file it away, recall it quickly and completely when you need it, and use it as just one step in some other mental process. -- William Thurston
-
 
 #### The magic of flashcards
 
