@@ -82,6 +82,7 @@ Especially when it's not one's area of expertise, one has to be humble and accep
 It does not mean not sharing one's opinions and reflections -- but it changes how we approach sharing them.
 
 #### Learning is (Not) your Responsibility
+
 I think I'm someone who is "self-directed" when it comes to learning, I have long lists of courses I want to take, books to read and all that.
 But sometimes I just don't like it when someone says "Learning is your responsibility" or even "university only gives you the starting point, you shoud learn on your own and be self directed"
 For one important reason, it lacks mercy.
@@ -92,8 +93,6 @@ And I insist that giving an advice is context dependent, telling someone "Learni
 
 But the larger point is that we education is all about relationships -- between teachers and students.
 I think a student's responsibility lies in choosing those realationships when possible and in doing your part.
-
-
 
 #### How to take notes on computer
 
@@ -154,7 +153,7 @@ Good teachers, good books, and small projects slowly built that passion over tim
 
 #### Most useful things I've learned so far
 
-- Learning theory, taking Learning How to Learn and Uncommon Sense Teaching has had a compounding effect. There are many benefits and I've described those courses in more details in the review section, but I'd add here, Learning gives *EMPATHY* for yourself and learning problems. That's one of the best things I've learned from those courses. Being able to see my struggles from a above, to start asking good questions on why I struggle at something and how to solve it, all while having *mercy* on myself and struggles.
+- Learning theory, taking Learning How to Learn and Uncommon Sense Teaching has had a compounding effect. There are many benefits and I've described those courses in more details in the review section, but I'd add here, Learning gives _EMPATHY_ for yourself and learning problems. That's one of the best things I've learned from those courses. Being able to see my struggles from a above, to start asking good questions on why I struggle at something and how to solve it, all while having _mercy_ on myself and struggles.
 - English as a second language, I spend two years studying english extensively in highschool from good online resources, it helped me tremendously throughout my journey, being able to easily understand english technical content is invaluable in this field.
 - Learning Git early has helped me tremendously in so many different and unexpected ways.
 
@@ -289,17 +288,19 @@ You should use REPLs! most languages have ones! even statically typed langauges 
 They are extremply helpful to quickly verify what an expression _evaluate_ to.
 
 #### Don't neglect code style
+
 I still remember watching the first couple of lectures of CS50 (though I didn't complete it) at summer after high school, the instrctor David Malan just pointed out briefly that he puts the colon right after the end of the if statement, with no spaces
 i.e. `if some_condition` and not `if some_condition:`
 It was the first time I think about it and I just started to notice how people write code and how it differs from one language to another (and even between people using the same language).
 There are indeed tools like linters that automatically format your code but I think it's worth getting in the habit of writing organized code. I had a friend who might write like this:
+
 ```py
 if x==10 and y< 15  :
   print("hello" )
 ```
+
 I convinced him it's kind of a problem by saying "imagine writing such code in a coding interview". He told me it was a bit challenging at first to change the writing habits.
 That's why I think the earlier you realize that there are some "good" code writing habits, the better.
-
 
 # Course & Book Reviews
 
@@ -618,13 +619,17 @@ If you want to learn how git works and immediately start contributing to open so
 Git really makes programming much more fun.
 
 ## Object-Oriented Design -- Alberta
+
 NOTE: I did not complete the course
 
 > longer than a winter's night -- Tunisian proverb
 
 I had multiple UML classes in college, they were full of... words.
-It is where I coined the term "audiobook lecture". at some point it feels like ASMR, reminds me of how I felt like a kid, sleeping in my mother's arms, listening to her talking on the phone or with someone...
+
+It is where I coined the term "audiobook lecture". At some point it feels like ASMR, reminds me of how I felt like a kid, sleeping in my mother's arms, listening to her talking on the phone or with someone...
+
 This one is not different.
+
 Don't take this course.
 
 ## UML Distilled
