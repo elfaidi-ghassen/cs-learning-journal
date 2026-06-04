@@ -46,7 +46,7 @@ In high school I studied some introductory computer science classes, in one of t
 
 After studying operating systems, databases and computer networking, I finally understood where the database is. in some sense, it's just bunch of files and some TCP socket on the top. In fact, pretty much everything is just a bunch of files and running programs. he was correct.
 
-This all also reminds me a quote I read in one of Barbara Oakley's articles
+This all also reminds me of a quote I read in one of Barbara Oakley's articles
 
 > we rapidly remember what interests us, but what interests us takes time to develop
 
@@ -137,8 +137,7 @@ I've been consistently using Anki since 2023.
 
 [Flashcards aren't perfect](https://youtu.be/ZIGrHI353no?si=E2RK8erEaAiKGr82) and it's better to think of them as one tool in your arsenal as a learner. I find flashcards to be the best and most efficient way to memorize something and be able to _respond to a cue_.
 
-But I also find flashcards useful to review concepts and not just memorization, for example I have computer networking questions like "Explain how DNS works, let's say you write google.com and press enter, what happens", the idea here is not to memorize the answer but to do retrieval practice and explain a concept, I usually explain the concept out loud and have a pen and paper where I sketch the concept.
-There are also many other people who share the experience, [Anki seems to be very useful to prepare for interviews](https://github.com/jwasham/coding-interview-university#2-use-flashcards).
+But I also find flashcards useful to review concepts and not just memorization, for example I have computer networking questions like "Explain how DNS works, let's say you write google.com and press enter, what happens", the idea here is not to memorize the answer but to do retrieval practice and explain a concept, I usually explain the concept out loud and have a pen and paper where I sketch the concept. Flashcards are also often [recommended for interview prep](https://github.com/jwasham/coding-interview-university#2-use-flashcard).
 
 Many people find using flashcards to be useful for computer science and I think you might find them helpful.
 You can use flashcards for anything, from memorizing the names of flowers, preparing to a driving test, to computer networking classes at university (I kept getting perfect grades in those classes using just flashcards, and for _some_ classes I literally take notes in class, go back home, turn the notes into flashcards, and throw the notes in trash -- which might be an act of disrespect to knowledge, but I'm not sure and... I find it satisfying!)
@@ -153,6 +152,25 @@ I want to mention some mistakes I made along my journey of creating flashcards.
 - It might be better to avoid using AI tools to make flashcards, there is a lot to learn just by trying to formulate a good question.
 
 One tool I find very helpful for making flashcards is [ShareX](https://github.com/sharex/sharex), a free and open source screenshot tool. It has a "Smart Eraser" feature that lets you annotate or remove parts of an image on the fly, which makes creating image-based flashcards a lot faster.
+
+#### Ways to have fun
+
+I think having fun is an important part of learning, one shouldn't spend all of their time studying or they'll burn out, which isn't good -- _not_ because it reduces performance in long term -- but simply because it's not good for a human being to feel burned out.
+
+There are many ways to have fun, I won't share the usual stuff, but small things I found enjoyable:
+
+- **Documentaries** could be a great way to both enjoy and learn new things about the world we live in. Here are some documentaries you might like:
+  - [Schooling the World](https://youtu.be/oDxYWspiN-8?si=-yFHsgKSNJOepC4c)
+  - [The True Cost](https://youtu.be/rwp0Bx0awoE?si=aoELpl9FEzc9Y5l6)
+  - [Revolution OS](https://youtu.be/k0RYQVkQmWU?si=Yk1SoEyUWCdlCXcU)
+  - [A Trip to Infinity](https://youtu.be/CNFm_DzHDaE?si=NNK-PDkLVEYLCgGJ)
+- I rarely watch movies anymore, I can't remember the last time I watched one actually, but these movies have a special place in my heart.
+  - The Flavor of Green Tea Over Rice (1952) -- Ozu
+  - 12 Angry Men (1957)
+  - My Neighbors the Yamadas (1999)
+- Plant Identification:
+  - Another really fun activity I've come across is identifying plants! iNaturalist is a great app to help you identify plants you see in your daily life (Be aware that other people may be able see the location of the pictures you take)
+  - knowing the names of the plants and flowers you see everyday makes each walk a more rich experience, you'd start to notice how plants change from season to season. All of this even reminded me of how when you learn CS concepts and terms (e.g. abstraction or evaluation) you start to see things differently!
 
 ### Insights about learning and education
 
