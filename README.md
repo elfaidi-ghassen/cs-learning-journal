@@ -10,6 +10,7 @@ I'm a third year software engineering student in Tunisia. I'm writing this becau
   - [Short Story: The Day I Fell in Love with CS](#short-story-the-day-i-fell-in-love-with-cs)
   - [Learning Tips](#learning-tips)
     - [Most useful things I've learned so far](#most-useful-things-ive-learned-so-far)
+    - [Chunking in Computer Science](#chunking-in-computer-science)
   - [Practical Tips](#practical-tips)
     - [Don't Neglect Code Style](#dont-neglect-code-style)
     - [Use a REPL](#use-a-repl)
@@ -34,9 +35,9 @@ I'm a third year software engineering student in Tunisia. I'm writing this becau
 
 ### Short story: The day I fell in love with CS
 
-Around two years into my CS studies, I was reading Computer Networking: A Top Down Approach, at the end of chapter 2 it contained a list of project ideas to do. I was hooked.
+Around two years into my CS studies, I was reading [Computer Networking: A Top Down Approach](#computer-networking-a-top-down-approach), at the end of chapter 2 it contained a list of project ideas to do. I was hooked.
 
-I still remember the thrill I had, disabling the firewall (in the settings) on my laptop (later I realized the client doesn't need to disable the firewall :D) Creating a python script that sends "hello" via TCP, and running the "server" (which is just a python program) on my friend's laptop, the server makes it uppercase, and sends "HELLO" back. a week later I had built a simple multithreaded http server. I changed the router setting to do port forwarding to my laptop, so that anyone can use my (insecure) HTTP server anywhere, successfully putting all the files on my laptop in risk :D
+I still remember the thrill I had, disabling the firewall (in the settings) on my laptop (later I realized the client doesn't need to disable the firewall :D) Creating a python script that sends "hello" via TCP, and running the "server" (which is just a python program) on my friend's laptop, the server makes it uppercase, and sends "HELLO" back. A week later I had built a simple multithreaded http server. I changed the router setting to do port forwarding to my laptop, so that anyone can use my (insecure) HTTP server anywhere, successfully putting all the files on my laptop in risk :D
 
 At that moment everything started to click, everything is bunch of files and programs. I thought... "I love computer science", and I literally had tears in my eyes.
 
@@ -53,9 +54,52 @@ Good teachers, good books, and small projects slowly built that passion over tim
 
 ### Learning Tips
 
+#### Chunking in Computer Science
+
+> Mathematics is amazingly compressible. You may struggle a long time, step by step, to work through the same process or idea from several different approaches. But once you really understand it and have the mental perspective to see it as a whole, there is often a tremendous mental compression. You can file it away, recall it quickly and completely when you need it, and use it as just one step in some other mental process. -- William Thurston
+
+It's a very good skill to be able identify the important _chunks_ of knowledge in the subject you're learning. I have learned about this concept of chunks from Learning How to Learn and I think it's worth discussing here. (I must say that a complete beginner in a subject might not be able to identify the missing chunks, that's the role of a good teacher -- to create scaffolding i.e. divide the subject into small chunks and have students master them one by one)
+
+For example, let's say you are studying CSS. There are some chunks that should become automatic. (and when I say "knowledge" it's pretty much same as "skill", for they are two faces of the same coin)
+
+For example, one of key CSS skills is that when you see any website or design, **you start to see everything as boxes**, you can imagine how you wrap the sidebar and main section into a parent element and setting the parent to display flex _without_ thinking about it, it becomes automatic.
+For example when you deeply understand positioning in CSS, you'd write something like this without thinking about it:
+
+```css
+.notification-dot::after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+}
+```
+
+Then quickly go .notification-dot and set its position to relative.
+That's a chunk, I don't even need to think about it anymore.
+Those are some of the skills that make me write CSS _really fast_, it's not the memorization of css properties, it's actually drill that produces understanding and understanding that amplifies the drill.
+
+This cannot be reached (efficiently) without two main components
+
+- good "declarative" explanations from a good teacher who deeply understands the subject and explains it well.
+- a lot of practice, "drill to skill"
+
+Another example is one of the networking class I took, we were studying IPv6.
+I noticed the professor was discussing the parts of the 128 bit address so smoothly, "let's take 48 bits of the address" then immediately highlight three segments of the address.
+But my brain didn't create that chunk yet, that a part of the ip is 4 characters i.e. 16 bits.
+It slows you down if you don't internalize it. It's a small example but I think it's the same pattern, missing some chunks could be why someone is struggling at something at the start.
+
+It has become almost a habit (or a hobby!) to notice the things that take me time to figure out -- "Oh, I must be missing a chunk!". And it's not just about computer science, this concept of chunking is very general.
+
+Here is an example, Arabic speakers use two calendar systems, The Gregorian Solar calendar and [Lunar Hijri](https://en.wikipedia.org/wiki/Islamic_calendar?useskin=vector), each have different month names. Many great books in our literature would use Lunar Hijri months, and I never learned them since we don't use them in my country, I never created that "chunk of knowledge".
+The thing is, without that, when I read a book, let's say a history book, I have a vague understanding of months and I couldn't quickly map ideas to months, or intuitively understand how much time has passed, I need make more cognitive efforts to do so.
+This may seem like a trivial thing but I think it actually matters.
+
 #### Most useful things I've learned so far
 
-- **Learning theory**, taking Learning [How to Learn](#learning-how-to-learn) had such a compounding effect. I've described it in more details in the reviews section, but I'd add here: understanding how we learn gives you _EMPATHY_ for yourself and your learning challenges. Being able to see my struggles from above, to ask good questions on why I struggle at something and how to solve it, all while having _mercy_ on myself and struggles.
+- **Meta-cognition**, taking Learning [How to Learn](#learning-how-to-learn) had such a compounding effect. I've described it in more details in the reviews section, but I'd add here: understanding how we learn gives you _EMPATHY_ for yourself and your learning challenges. Being able to see my struggles from above, to ask good questions on why I struggle at something and how to solve it, all while having _mercy_ on myself and struggles.
 - English as a second language, I spent two years studying english extensively in highschool from good online resources, it helped me _tremendously_ throughout my journey, to easily read books, watch lectures, and understand nerdy jokes! I keep telling my roommate who's working on his English "it's the programming language of the future!" -- and we would laugh every time. Seriously, it's very important in this field.
 - Learning Git early has helped me tremendously in so many different and unexpected ways.
 
