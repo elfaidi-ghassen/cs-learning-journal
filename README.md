@@ -9,6 +9,7 @@ I'm a third year software engineering student in Tunisia. I'm writing this becau
 - Tips and Reflections
   - [Short Story: The Day I Fell in Love with CS](#short-story-the-day-i-fell-in-love-with-cs)
   - [Learning Tips](#learning-tips)
+    - [Most useful things I've learned so far](#most-useful-things-ive-learned-so-far)
   - [Practical Tips](#practical-tips)
     - [Don't Neglect Code Style](#dont-neglect-code-style)
     - [Use a REPL](#use-a-repl)
@@ -51,6 +52,12 @@ Passion is never a pre-requisite for learning programming, in fact passion is th
 Good teachers, good books, and small projects slowly built that passion over time.
 
 ### Learning Tips
+
+#### Most useful things I've learned so far
+
+- **Learning theory**, taking Learning [How to Learn](#learning-how-to-learn) had such a compounding effect. I've described it in more details in the reviews section, but I'd add here: understanding how we learn gives you _EMPATHY_ for yourself and your learning challenges. Being able to see my struggles from above, to ask good questions on why I struggle at something and how to solve it, all while having _mercy_ on myself and struggles.
+- English as a second language, I spent two years studying english extensively in highschool from good online resources, it helped me _tremendously_ throughout my journey, to easily read books, watch lectures, and understand nerdy jokes! I keep telling my roommate who's working on his English "it's the programming language of the future!" -- and we would laugh every time. Seriously, it's very important in this field.
+- Learning Git early has helped me tremendously in so many different and unexpected ways.
 
 ### Practical Tips
 
@@ -103,7 +110,7 @@ There is a lot to learn from good (and even bad) teachers, and it's hard (if not
 Also known as How to Code: Simple/Complex data.
 
 This course is weird, it's really good, but you won't realize how important it is immediately.
-I often heard this, you should learn functional programming because it will change the way you think about programming and so on, but I never found someone explains why explicitely.
+I often heard this, you should learn functional programming because it will change the way you think about programming and so on, but I never found someone explains why explicitly.
 
 I think this course taught me how to think, and one cannot think well without good words, the course teaches the difference between values and expression -- and what evaluation even means.
 
