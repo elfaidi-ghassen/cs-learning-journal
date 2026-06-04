@@ -14,6 +14,7 @@ I'm a third year software engineering student in Tunisia. I'm writing this becau
   - [Practical Tips](#practical-tips)
     - [Don't Neglect Code Style](#dont-neglect-code-style)
     - [Use a REPL](#use-a-repl)
+    - [Using Flashcards](#using-flashcards-anki)
   - [Insights about Learning and Education](#insights-about-learning-and-education)
     - [Rethinking _self_-taught](#rethinking-self-taught)
 - Courses and Books
@@ -54,11 +55,17 @@ Good teachers, good books, and small projects slowly built that passion over tim
 
 ### Learning Tips
 
+#### Most useful things I've learned so far
+
+- **Meta-cognition**, taking Learning [How to Learn](#learning-how-to-learn) had such a compounding effect. I've described it in more details in the reviews section, but I'd add here: understanding how we learn gives you _EMPATHY_ for yourself and your learning challenges. Being able to see my struggles from above, to ask good questions on why I struggle at something and how to solve it, all while having _mercy_ on myself and struggles.
+- English as a second language, I spent two years studying english extensively in highschool from good online resources, it helped me _tremendously_ throughout my journey, to easily read books, watch lectures, and understand nerdy jokes! I keep telling my roommate who's working on his English "it's the programming language of the future!" -- and we would laugh every time. Seriously, it's very important in this field.
+- Learning Git early has helped me tremendously in so many different and unexpected ways.
+
 #### Chunking in Computer Science
 
 > Mathematics is amazingly compressible. You may struggle a long time, step by step, to work through the same process or idea from several different approaches. But once you really understand it and have the mental perspective to see it as a whole, there is often a tremendous mental compression. You can file it away, recall it quickly and completely when you need it, and use it as just one step in some other mental process. -- William Thurston
 
-It's a very good skill to be able identify the important _chunks_ of knowledge in the subject you're learning. I have learned about this concept of chunks from Learning How to Learn and I think it's worth discussing here. (I must say that a complete beginner in a subject might not be able to identify the missing chunks, that's the role of a good teacher -- to create scaffolding i.e. divide the subject into small chunks and have students master them one by one)
+It's a very good skill to be able to identify the important _chunks_ of knowledge in the subject you're learning. I have learned about this concept of chunks from Learning How to Learn and I think it's worth discussing here. (I must say that a complete beginner in a subject might not be able to identify the missing chunks, that's the role of a good teacher -- to create scaffolding i.e. divide the subject into small chunks and have students master them one by one)
 
 For example, let's say you are studying CSS. There are some chunks that should become automatic. (and when I say "knowledge" it's pretty much same as "skill", for they are two faces of the same coin)
 
@@ -94,14 +101,8 @@ It slows you down if you don't internalize it. It's a small example but I think 
 It has become almost a habit (or a hobby!) to notice the things that take me time to figure out -- "Oh, I must be missing a chunk!". And it's not just about computer science, this concept of chunking is very general.
 
 Here is an example, Arabic speakers use two calendar systems, The Gregorian Solar calendar and [Lunar Hijri](https://en.wikipedia.org/wiki/Islamic_calendar?useskin=vector), each have different month names. Many great books in our literature would use Lunar Hijri months, and I never learned them since we don't use them in my country, I never created that "chunk of knowledge".
-The thing is, without that, when I read a book, let's say a history book, I have a vague understanding of months and I couldn't quickly map ideas to months, or intuitively understand how much time has passed, I need make more cognitive efforts to do so.
+The thing is, without that, when I read a book, let's say a history book, I have a vague understanding of months and I couldn't quickly map ideas to months, or intuitively understand how much time has passed, I need to make more cognitive efforts to do so.
 This may seem like a trivial thing but I think it actually matters.
-
-#### Most useful things I've learned so far
-
-- **Meta-cognition**, taking Learning [How to Learn](#learning-how-to-learn) had such a compounding effect. I've described it in more details in the reviews section, but I'd add here: understanding how we learn gives you _EMPATHY_ for yourself and your learning challenges. Being able to see my struggles from above, to ask good questions on why I struggle at something and how to solve it, all while having _mercy_ on myself and struggles.
-- English as a second language, I spent two years studying english extensively in highschool from good online resources, it helped me _tremendously_ throughout my journey, to easily read books, watch lectures, and understand nerdy jokes! I keep telling my roommate who's working on his English "it's the programming language of the future!" -- and we would laugh every time. Seriously, it's very important in this field.
-- Learning Git early has helped me tremendously in so many different and unexpected ways.
 
 ### Practical Tips
 
@@ -125,6 +126,33 @@ That's why I think the earlier you realize that there are some "good" code writi
 It's basically like the JS console on the browser dev tools or when you write "python" in the terminal and press enter. That interactive shell is called a REPL (Read Eval Print Loop).
 You should use a REPL, most languages have ones! even statically typed languages like C# and Java! They are great to test small pieces of code, Regular Expressions, date functions, ASCII codes, etc.
 They are extremely helpful to quickly verify what an expression _evaluate_ to.
+
+#### Using Flashcards (Anki)
+
+I LOVE flashcards, like, they are my favorite learning tool.
+I've been consistently using Anki since 2023.
+
+![Anki Heatmap](/media/anki-heatmap.jpg)
+(you can install the HeatMap extension to see a graph like this in Anki)
+
+[Flashcards aren't perfect](https://youtu.be/ZIGrHI353no?si=E2RK8erEaAiKGr82) and it's better to think of them as one tool in your arsenal as a learner. I find flashcards to be the best and most efficient way to memorize something and be able to _respond to a cue_.
+
+But I also find flashcards useful to review concepts and not just memorization, for example I have computer networking questions like "Explain how DNS works, let's say you write google.com and press enter, what happens", the idea here is not to memorize the answer but to do retrieval practice and explain a concept, I usually explain the concept out loud and have a pen and paper where I sketch the concept.
+There are also many other people who share the experience, [Anki seems to be very useful to prepare for interviews](https://github.com/jwasham/coding-interview-university#2-use-flashcards).
+
+Many people find using flashcards to be useful for computer science and I think you might find them helpful.
+You can use flashcards for anything, from memorizing the names of flowers, preparing to a driving test, to computer networking classes at university (I kept getting perfect grades in those classes using just flashcards, and for _some_ classes I literally take notes in class, go back home, turn the notes into flashcards, and throw the notes in trash -- which might be an act of disrespect to knowledge, but I'm not sure and... I find it satisfying!)
+
+I want to mention some mistakes I made along my journey of creating flashcards.
+
+- Don't mix flashcards that are very unrelated, like flashcards about computer networking and security in the same deck.
+  - If you mix unrelated flashcards you'd miss the benefits of _interleaving_.
+- Do not keep taking notes forever then start to create flashcards: it's much better to make flashcards along the way, and review them constantly.
+  - DO NOT let flashcards become an illusion of learning, oh I made flashcards, I'll review them later! Do retrieval practice _as you're studying_, stop the video you're watching or the chapter you're reading and try to recall the key ideas from memory.
+- You're not expected to review ALL flashcards that are due, consistency is what matters, and this is why the previous point is important, just the act of creating good flashcards and reviewing them instantly can boost your learning a lot.
+- It might be better to avoid using AI tools to make flashcards, there is a lot to learn just by trying to formulate a good question.
+
+One tool I find very helpful for making flashcards is [ShareX](https://github.com/sharex/sharex), a free and open source screenshot tool. It has a "Smart Eraser" feature that lets you annotate or remove parts of an image on the fly, which makes creating image-based flashcards a lot faster.
 
 ### Insights about learning and education
 
