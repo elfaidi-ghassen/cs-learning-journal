@@ -371,7 +371,7 @@ So I picked up Computer Networking: A Top Down Approach, and boy I'm glad I did,
 
 The book is accompanied by A LOT of extra content, the [wireshark labs](https://gaia.cs.umass.edu/kurose_ross/wireshark.php) in particular are a must, I highly recommend that you print the labs and annotate them, it's much more fun! (I actually think a printer is a great investment for learners!)
 
-I highly recommend the book (**or the [videos](https://gaia.cs.umass.edu/kurose_ross/lectures.php)**), I think the first two chapters alone are more than enough to have a very good understanding of networks, in fact by chapter 2, if you do the [projects](https://gaia.cs.umass.edu/kurose_ross/programming.php), you'd have built a HTTP server, SMTP server, UDP ping, and a proxy server from scratch using socket programming.
+I highly recommend the book (or the [videos](https://gaia.cs.umass.edu/kurose_ross/lectures.php)), I think the first two chapters alone are more than enough to have a very good understanding of networks, in fact by chapter 2, if you do the [projects](https://gaia.cs.umass.edu/kurose_ross/programming.php), you'd have built a HTTP server, SMTP server, UDP ping, and a proxy server from scratch using socket programming.
 This book has a special place in my heart, when I was reading it I realized [I love computer science.](#short-story-the-day-i-fell-in-love-with-cs).
 
 Some Tips:
@@ -386,38 +386,38 @@ Some Tips:
 
 ## Nand2Tetris: part 1
 
-the projects and part 1 of the book are freely available at /Projects section of the website.
-I finished it in less than around 2 weeks, at that point I had already taken courses at univeristy that teaches bolean algebra and computer architecture concepts, the concepts are actually advanced from N2T, I've studied transistors in depth an electronics class, how we build logic gates from them, for instance we studied K-Maps and sequential logic in depth... yet I didn't understand how a computer works!
-That's perhaps one of the problems of education, at least at my university, courses are disconnected, a sea of islands.
+The part 1 projects and learning material are freely available on the [course website](https://www.nand2tetris.org/course).
+I finished it in less than around 2 weeks for a simple reason: at that point I had already taken many courses at university that teach boolean algebra and computer architecture concepts that are more advanced than N2T, I've studied transistors in depth in electronics classes, how we build logic gates using CMOS technology, using K-Maps, and sequential logic in more depth. _Yet... I didn't understand how a computer works_!
 
-I documented the journey of building the CPU, and I even computer the number of transistors, ended up with 15K transistor CPU, and the 16K registers memory... contained a couple of MILLION CPUs.
-As the course notes hints, building memory using demultiplexors isn't probably a good idea.
+(That's perhaps one of the problems of CS education: how courses are often disconnected and leave students confused; This course made me feel _deeply sad_ about the state of education in my country)
 
-This is where I first understood the concept of "abstraction" and API.
-It's a very powerfl and central topic in computer science yet it not always explicitely explained.
-Abstraction is complex topic in other fields like philosophy, but in programming it's fairely straightforward.
+So, in a spring break I thought it's time to understand what's going on here.
+The course starts by explaining a _very_ important concept in computer science -- abstraction, and basically gives you a taste of every layer of abstraction starting from basic logic gates.
 
-> Abstraction is thinking about WHAT and not HOW.
+I documented the journey of building the CPU in my notebook, and I even counted the number of transistors (A NAND gate can be built from 4 CMOS transistors, and from there you can count the transistors bottom-up)
+I ended up with 15912 transistors for the CPU and 24 MILLION transistors for the 16K memory!
 
-why it's hard to accept the definition of API.
-same reason why it's hard to accept the definition of what server is.
+This is where I first understood the concept of _abstraction_ and APIs.
+It's a very powerful and central topic in computer science yet it's rarely explicitly explained.
+Abstraction is a complex topic in other fields like philosophy, but in programming it's fairly straightforward, but it's not simple from the perspective of a beginner!
 
-I tried this.
-go to a first year CS student, tell them what an API is they would feel it's vague.
-what's worse is the online explanations like "it's like conctract between two systems". The use of analogies sometimes doesn't help.
-the concept of abstraction only makes sense after seeing a lot of examples of concreteness.
+I think I understand why it's hard to accept the definition of an API.
+I tried this before: go to a first year CS student, tell them a common definition of an API or abstraction, they probably would feel it's vague and unclear.
+And I think it's also in part a problem in how it's often explained, some explanations would say "it's like a contract between two systems", some use analogies, but I don't think really helps.
+It seems to me that the concept of abstraction doesn't really click only after seeing a lot of examples of abstractions in Computer Science (with an initial good explanation of what abstraction in CS is all about)
 
-I had a class in college about basic information theory and image processing. one of key concepts is the idea of an alphabet.
-an alphabet is a finite set of symbols.
-it took me quite a while to accept that it's just an abstraction?
-a symbol can by ANYTHING.
-this mathematical abstraction is very powerful. it makes math useful in different contexts, you'd just to need to prove it's a language or it's a linear map (in linear algebra), then you could use all the theorems and cool stuff built on top of it.
-I think that's part of the so called "mathematical maturity"
-it's like implementing an interface in OOP. once you implement the interface, your class can be used in methods that deal with that interface.
+I had this class in college about basic information theory (and some image processing). One of key concepts was the idea of an alphabet.
 
-The most extreme level of abstraction I've seen what in a Analysis 3 which was all topology concepts. math feels like it's strating to break down and everything concept is falling apart, even the concept of distance is abstract.
+> an alphabet is a finite set of symbols.
 
-At some point I suddently felt comfortable dealing with abstractions and understanding the point of using terms like "name" instead of "variable", like when we say a name is bound to a value, it's like forgetting all the implementation details and thinking soley about the higher order concept of naming things, something humans like to do.
+It took me _quite a while_ to fully get it, there was some dissatisfaction in my mind for some reason, then I realized, it's all about abstraction!
+a symbol can be ANYTHING. And that abstraction is very powerful because once you prove something is an alphabet (it's straightforward here), you can use everything all the properties of an alphabet and the nice ideas built on top of it, for instance you get the idea of strings for free.
+This is analogous to _implementing_ an interface in a OOP, once you do that you can pass an instance of that class to any method that expects that interface type, for free!
+
+This idea of mathematical abstraction is very powerful. It makes the math useful in so many different contexts, you'd just need to _prove_ it's a language or it's a linear map (in linear algebra), then you could use all the theorems and cool stuff built on top of it. 3Blue1Brown explains it beautifully in [this video](https://youtu.be/TgKwz5Ikpc8?si=-K7ctr-oQN93NbMI).
+
+At some point, after seeing so many abstractions, I suddenly felt comfortable dealing with it and started to appreciate it instead of finding it threatening.
+For instance, using term _name_ instead of _variable_ (like when we say a _name_ is bound to a value), it's like forgetting all the implementation details and only thinking about the higher order concept of naming things, something humans like to do.
 
 ## Learning How to Learn
 
@@ -620,7 +620,3 @@ I have asked two students at my university who got some of the best graduation p
 
 so it's basically a form of documentation?
 In some of my projects at university we were _asked_ to create analysis phase class and sequence diagrams that are "language independent". As Fowler said, it's probably just a waste of time.
-
-```
-
-```
