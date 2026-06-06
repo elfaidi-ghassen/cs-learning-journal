@@ -15,10 +15,12 @@ I'm a third year software engineering student in Tunisia. I'm writing this becau
     - [Don't Neglect Code Style](#dont-neglect-code-style)
     - [Use a REPL](#use-a-repl)
     - [Using Flashcards](#using-flashcards-anki)
+    - [Using the command line](#using-the-command-line)
+    - [Some ways to have fun](#some-ways-to-have-fun)
   - [Insights about Learning and Education](#insights-about-learning-and-education)
     - [Rethinking _self_-taught](#rethinking-self-taught)
 - Courses and Books
-  - [Systematic Program Design](#systematic-program-design)
+  - [Systematic Program Design](#systematic-program-design-gregor-kiczales)
   - [Programming Languages: Parts A, B and C](#programming-languages-parts-a-b-and-c)
   - [Computer Networking: A Top Down Approach](#computer-networking-a-top-down-approach)
   - [Operating Systems: Three Easy Pieces](#operating-systems-three-easy-pieces)
@@ -109,7 +111,7 @@ This may seem like a trivial thing but I think it actually matters.
 #### Don't Neglect Code Style
 
 I remember watching the first couple of lectures of CS50 (though I didn't complete it) at summer after high school, the instructor David Malan just pointed out briefly that he puts the colon right after the end of the if statement, with no spaces
-i.e. `if some_condition` and not `if some_condition:`
+i.e. `if some_condition:` and not `if some_condition :`
 It was the first time I think about it and I just started to notice how people write code and how it differs from one language to another (and even between people using the same language).
 There are indeed tools like linters that automatically format your code but I think it's worth getting in the habit of writing organized code. In first years of college, a friend of mine sometimes would write code like this:
 
@@ -153,7 +155,23 @@ I want to mention some mistakes I made along my journey of creating flashcards.
 
 One tool I find very helpful for making flashcards is [ShareX](https://github.com/sharex/sharex), a free and open source screenshot tool. It has a "Smart Eraser" feature that lets you annotate or remove parts of an image on the fly, which makes creating image-based flashcards a lot faster.
 
-#### Ways to have fun
+#### Using the command line
+
+After learning Git in the summer, I went to some of my friends and classmates who study CS and told them: "I'm going to force you to learn Git". I don't want to work alone!
+One thing kept happening over and over: whenever I explain how branches work and how we switch branches, and I show them how files do change in the working directory (using ls command -- in either WSL or git bash), they would nod and think it makes sense. Then I open the file explorer (finder) and show them that the files DO change; they go quiet for a second, "wow" they say. It's as if the command line isn't something concrete.
+The way I see it is that Windows does things for convenience that kind of distorts one's understanding, like, before I used to believe file extensions were something special
+when I was starting out I used to think it's impossible to name a python file "script.mp4", how could that be! even VS code won't color it for you! -- I think it has something to do with what happens when you change the file extension in the file explorer you get a popup saying your change would make the file unusable.
+
+I recommend getting comfortable with command line as early as possible, it doesn't just improve your productivity, but it also offers you more opportunities for learning.
+If you're a Windows user and don't want to switch, try having a dual boot (i.e. installing both Windows and Linux on the same machine, you get to choose which one to start), and make sure to install [WSL](https://learn.microsoft.com/en-us/windows/wsl/install). I use a custom shortcut Ctrl + Shift + V to start WSL using [AutoHotkey](https://www.autohotkey.com/).
+
+When I realized the power of command line, I went to pretty much anyone I knew and installed zoxide and fzf for them.
+I created a /projects folder, and told them they can simply type `z proj` to go to it and create a folder for each project, and simply open it in VS code (code .)
+And Windows users like me have an itch for opening the explorer (finder) for some reason, so I created an alias called `opend` which opens the current directory in the explorer.
+That alone made them enjoy using the command line and motivated them to learn it more.
+So based on my observation, I believe that many people detest the command line simply because they never saw a real workflow, even a simple one, anything concrete that makes them feel it's worth learning.
+
+#### Some ways to have fun
 
 I think having fun is an important part of learning, one shouldn't spend all of their time studying or they'll burn out, which isn't good -- _not_ because it reduces performance in long term -- but simply because it's not good for a human being to feel burned out.
 
@@ -169,8 +187,8 @@ There are many ways to have fun, I won't share the usual stuff, but small things
   - 12 Angry Men (1957)
   - My Neighbors the Yamadas (1999)
 - Plant Identification:
-  - Another really fun activity I've come across is identifying plants! iNaturalist is a great app to help you identify plants you see in your daily life (Be aware that other people may be able see the location of the pictures you take)
-  - knowing the names of the plants and flowers you see everyday makes each walk a more rich experience, you'd start to notice how plants change from season to season. All of this even reminded me of how when you learn CS concepts and terms (e.g. abstraction or evaluation) you start to see things differently!
+  - Another really fun activity I've come across is identifying plants! iNaturalist is a great app to help you identify plants you see in your daily life (Be aware that other people may be able to see the location of the pictures you take)
+  - Knowing the names of the plants and flowers you see everyday makes each walk a more rich experience, you'd start to notice how plants change from season to season. All of this even reminded me of how when you learn CS concepts and terms (e.g. abstraction or evaluation) you start to see things differently!
 
 ### Insights about learning and education
 
@@ -191,73 +209,74 @@ One could learn much more than the course content. When you see a teacher accept
 
 There is a lot to learn from good (and even bad) teachers, and it's hard (if not impossible) to learn such things from a book.
 
----
-
 ## Course & Book Reviews
 
-## Systematic Program Design
+### Systematic Program Design (Gregor Kiczales)
 
-Also known as How to Code: Simple/Complex data.
+Also known as [How to Code: Simple Data](https://www.edx.org/learn/coding/university-of-british-columbia-how-to-code-simple-data) and [Complex data](https://www.edx.org/learn/coding/university-of-british-columbia-how-to-code-complex-data).
 
-This course is weird, it's really good, but you won't realize how important it is immediately.
-I often heard this, you should learn functional programming because it will change the way you think about programming and so on, but I never found someone explains why explicitly.
+I'll start with a vent, when you tell a beginner "you should think like a programmer" or "focus on problem solving and not syntax", you're not helping them, it sounds like a good advice but it's useless!
 
-I think this course taught me how to think, and one cannot think well without good words, the course teaches the difference between values and expression -- and what evaluation even means.
+Ok, This course is really amazing, I didn't realize how important it was immediately.
+I used to hear that "you should learn functional programming because it will change the way you think about programming" and so on, but I never found someone explains why explicitly. After taking this course and observing what changed after completing the course, I think I have a pretty good idea about what's going on. Yeah, functional programming -- and this course -- might rewire your brain!
 
-Really fundamental concepts, but everything is built on top of them.
-Later you will understand that functions are expressions that evaluate to a value, and then closures will start to make sense.
+This course taught me how to _think_ as a programmer, and one important ingredient for good thinking is a set of good words.
+The course teaches very fundamental concepts, the difference between _values_ and _expression_, and what _evaluation_ means. It's really fascinating how pretty much everything else is built on top of those simple concepts!
 
-When I see a new piece of code, my brain now immediately asks: Wait a minute, how does that evaluate, what does it evaluate to?
+I noticed that now when I see a new piece of code, my brain now immediately asks: wait a minute! how does that evaluate, what does it evaluate to?
 
 ```python
 results = df
-            .filter(col("city") == "New York")
-            .select("name", "age")
+    .filter(col("city") == "Tunis")
+    .select("name", "age")
 ```
 
-my mind errors out. what does `col("city") == "New York"` evaluate to?!
-it can't be a boolean, it's a useless information to the filter method.
-it must be evaluate to some sort of an object or function, so it uses operator overloading.
+Recently I was learning the basics of SparkSQL in Python, when I first saw that expression, my mind errored out!. What does `col("city") == "New York"` evaluate to?!
+It _can't_ be a boolean, it would be useless information to the filter method.
+It must evaluate to some sort of an object or function! Suddenly it doesn't seem like magic.
 
-Functional programming also taught me that we can think of everything as a function. Combined with the previous point about evaluation, it completely changed my perspective.
+Functional programming also taught me that we can think of everything as a function. Combined with the previous point about evaluation, it completely changed my perspective about many things.
 
-Here's an example: I was recently learning about promises in JavaScript -- a quite challenging concept --. I would see some code like
+Here's an example: In my second year into CS, I was learning about promises in JavaScript -- a quite challenging concept --. I would see some code like
 
 ```javascript
 let p = fetch(URL).then(f1).then(f2);
 ```
 
-It didn't click; most tutorials didn't explain what was going on. and I didn't even blame myself for not understanding, I felt, man those tutorials are doing something wrong! they didn't explain how things evaluate.
-what I was seeing is the following
+It didn't click; most tutorials didn't explain what was going on. and I didn't even blame myself for not understanding, I felt, man those tutorials are doing something wrong! _they don't explain how things evaluate!_
+
+what I was seeing is the following:
 
 ```
 let p = dot(dot(fetch(URL), then(f1)), then(f2))
 ```
 
-I kept asking myself: what does fetch(URL) evaluate to? And what happens when I call then(f1) on whatever that evaluates to, and so on? After some time and thanks to some good resources, I clicked.
+I kept asking myself: what does `fetch(URL)` evaluate to? And what happens when I call `then(f1)` on whatever that evaluates to, and so on? After some time and thanks to some good resources, it clicked.
 
-Systematic Program Design (AND Programming Languages course -- see next) taught me to _ask the right questions_ and to feel deeply unsatisfied when I don't fully understand how expressions are evaluated.
+Systematic Program Design (_AND_ the [Programming Languages](#programming-languages-parts-a-b-and-c) course -- see next) taught me to _ask the right questions_ and to feel deeply unsatisfied when I don't fully understand how expressions are evaluated.
 
-A year later, I noticed that this course even changed the way I see math.
-For example in my Optimization class at university, we studied tons of Linear Programming problems, when I'm faced with a homework problem or in exam, I spend like 10 minutes trying to _understand the data_.
-here a _simple_ example, let's say we have a graph G=(V, E)
+A year after taking SPD, I noticed that it even changed the way I see math.
+For example in my Optimization class at university, we studied tons of Linear Programming problems, when I'm faced with a homework problem or in exam, I found myself spending like 10 minutes trying to _understand the data_ (a key idea in SPD)
+
+Here a very simple example, let's say we have a graph `G=(V, E)`
 I start to think, what does V and E evaluate to?
-I see it as:
-G=({1, 2, 3, 4}, {{1, 2}, {2, 3}})
-and then writing the following seems obvious:
-for all e in V, for all i, j in E
-I found understand the shape of data actually helps in problem solving.
-Which is a fundamental concept in SPD.
+I see it as `G=({1, 2, 3, 4}, {{1, 2}, {2, 3}})`
 
-I actually believe my math skills in genral improved because of that course.
-I remember I was stuck in a problem in some probability exam, it was hard, then I started making examples, imagining the "data", the shape of input, and suddenly it clicked -- at that moment SPD immediately crossed my mind and I smiled.
+And then writing the following seems obvious:
 
-You should trust the course, take it slow and enjoy it, the professor, Gregor Kiczales isn't that kind of professor who says "this course will change how you think forever", he is way too nice!
+> for all e in V, for all i, j in E, ...
 
-Finally, I think studying that course will help you get the most out of the _Dan Grossman's Programming Languages_ course (next), which is by far the _best and most useful course I have ever taken_.
+Understand the shape of data actually helps in problem solving.
 
-So trust the teacher! learning is a relationship, it's not self learning, if you can't trust the teacher and material, it's harder to learn well.
-I still remember when I was taking SPD in the summer of first year at university, I would see some of my friends and classmates studying React and talking about fancy new technology. honestly it was painful and sometimes I'd feel I'm wasting my time. I think I could have learned more, or at the very least, had more fun while learning.
+I also believe my math skills in general improved a bit thanks to that course.
+I remember I was stuck in a problem in a probability exam, it was hard, then I started _making examples_ (another key concept in SPD), imagining the "data", the shape of input, and suddenly it clicked -- at that moment SPD immediately crossed my mind and I felt so happy.
+
+Finally, at the very least, I think studying that course will help you get the most out of the Dan Grossman's Programming Languages course, which is by far the one of the best and most useful course I have ever taken.
+
+Gregor Kiczales isn't that kind of professor who says "this course will change how you think forever", it seems he is way too nice! he's not a marketing guy.
+But you should trust the teacher! learning is a relationship, you're not "self-taught", if you can't trust the teacher and material, it's harder to learn well.
+
+I still remember when I was taking this course in the summer of first year at university, I would see some of my friends and classmates studying React and talking about fancy new technologies. Honestly it was painful and sometimes I'd feel I'm wasting my time. I think I could have learned even more, or at the very least, had more fun while learning, if I trusted the material more.
 
 ## Programming Languages: Parts A, B and c
 
@@ -401,6 +420,9 @@ You should take it!
 
 ## Mindshift
 
+Full title: "Mindshift: Break Through Obstacles to Learning and Discover Your Hidden Potential"
+And, my God, that's a horrible subtitle, it hurts my heart, but the course itself is good, it seems it's just a marketing thing.
+
 This course is not about learning techniques, but on how to think about having a learning life style. I discusses topics like passion and why it's important to understand the real world constraints around you and not blindly "follow your passion".
 
 The point about passion and [how passion is a reflection of what you're good](#the-day-i-fell-in-love-with-computer-science) at right now stayed with me.
@@ -497,7 +519,7 @@ I tried two learn Git around three times before, In High school I watched some y
 
 I thought it was enough, I was determined to learn Git in depth, I spend a month to read the entire book and practice the concepts, for the first time I felt I'm getting the hand of it.
 But I felt... none of my friends use Git! if I don't use it slowly I'm going to forget how to use it.
-So I send a message to my roommates -- "I'm going to force you to learn Git, whether you want it or not!"
+So, as I said in the command line section, I send a message to my roommates -- "I'm going to force you to learn Git, whether you want it or not!"
 And I did so, it was a very fun experience and I learned so much about git in the process.
 
 The book focuses on Git, branching, conflicts and fixing mistakes, the best practices and also have a good coverage of Github -- although it's not the main focus.
