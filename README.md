@@ -22,8 +22,8 @@ I'm a third year software engineering student in Tunisia. I'm writing this becau
 - Courses and Books
   - [Systematic Program Design](#systematic-program-design-gregor-kiczales)
   - [Programming Languages: Parts A, B and C](#programming-languages-parts-a-b-and-c-dan-grossman)
-  - [Computer Networking: A Top Down Approach](#computer-networking-a-top-down-approach)
   - [Operating Systems: Three Easy Pieces](#operating-systems-three-easy-pieces)
+  - [Computer Networking: A Top Down Approach](#computer-networking-a-top-down-approach)
   - [Nand2Tetris: Part 1](#nand2tetris-part-1)
   - [Learning How to Learn](#learning-how-to-learn)
   - [Mindshift](#mindshift)
@@ -40,13 +40,13 @@ I'm a third year software engineering student in Tunisia. I'm writing this becau
 
 Around two years into my CS studies, I was reading [Computer Networking: A Top Down Approach](#computer-networking-a-top-down-approach), at the end of chapter 2 it contained a list of project ideas to do. I was hooked.
 
-I still remember the thrill I had, disabling the firewall (in the settings) on my laptop (later I realized the client doesn't need to disable the firewall :D) Creating a python script that sends "hello" via TCP, and running the "server" (which is just a python program) on my friend's laptop, the server makes it uppercase, and sends "HELLO" back. A week later I had built a simple multithreaded http server. I changed the router setting to do port forwarding to my laptop, so that anyone can use my (insecure) HTTP server anywhere, successfully putting all the files on my laptop in risk :D
+I still remember the thrill I had, disabling the firewall (in the settings) on my laptop (later I realized the client doesn't need to disable the firewall :D) Creating a python script that sends "hello" via TCP, and running the "server" (which is just a python program) on my friend's laptop, the server makes it uppercase, and sends "HELLO" back. A week later I had built a simple multithreaded http server. I changed the router setting to do port forwarding to my laptop, so that anyone can use my (insecure) HTTP server anywhere, successfully putting all the files on my laptop at risk :D
 
 At that moment everything started to click, everything is bunch of files and programs. I thought... "I love computer science", and I literally had tears in my eyes.
 
 In high school I studied some introductory computer science classes, in one of them we were taught some very basic PHP and MySQL, we installed MySQL just by pressing "next" in the setup, and suddenly, our PHP code is storing data in the "database". I was puzzled... like "professor, where is the database", he didn't understand my question, "I mean where is this stuff stored?" It was kind of tough question indeed, but he answered me "don't worry it's just some files". I didn't buy it, but it set my heart at ease at least... at least it's on the hard disk!
 
-After studying operating systems, databases and computer networking, I finally understood where the database is. in some sense, it's just bunch of files and some TCP socket on the top. In fact, pretty much everything is just a bunch of files and running programs. he was correct.
+After studying operating systems, databases and computer networking, I finally understood where the database is. in some sense, it's just a bunch of files and some TCP socket on the top. In fact, pretty much everything is just a bunch of files and running programs. he was correct.
 
 This all also reminds me of a quote I read in one of Barbara Oakley's articles
 
@@ -59,7 +59,7 @@ Good teachers, good books, and small projects slowly built that passion over tim
 
 #### Most useful things I've learned so far
 
-- **Meta-cognition**, taking Learning [How to Learn](#learning-how-to-learn) had such a compounding effect. I've described it in more details in the reviews section, but I'd add here: understanding how we learn gives you _EMPATHY_ for yourself and your learning challenges. Being able to see my struggles from above, to ask good questions on why I struggle at something and how to solve it, all while having _mercy_ on myself and struggles.
+- **Meta-cognition**, taking Learning [How to Learn](#learning-how-to-learn) had such a compounding effect. I've described it in more details in the reviews section, but I'd add here: understanding how we learn gives you _EMPATHY_ for yourself and your learning challenges. Being able to see my struggles from above, to ask good questions about why I struggle at something and how to solve it, all while having _mercy_ on myself and struggles.
 - English as a second language, I spent two years studying english extensively in highschool from good online resources, it helped me _tremendously_ throughout my journey, to easily read books, watch lectures, and understand nerdy jokes! I keep telling my roommate who's working on his English "it's the programming language of the future!" -- and we would laugh every time. Seriously, it's very important in this field.
 - Learning Git early has helped me tremendously in so many different and unexpected ways.
 
@@ -147,7 +147,7 @@ You can use flashcards for anything, from memorizing the names of flowers, prepa
 I want to mention some mistakes I made along my journey of creating flashcards.
 
 - Don't mix flashcards that are very unrelated, like flashcards about computer networking and security in the same deck.
-  - If you mix unrelated flashcards you'd miss the benefits of _interleaving_.
+  - If you mix too unrelated flashcards you'd miss the benefits of _interleaving_.
 - Do not keep taking notes forever then start to create flashcards: it's much better to make flashcards along the way, and review them constantly.
   - DO NOT let flashcards become an illusion of learning, oh I made flashcards, I'll review them later! Do retrieval practice _as you're studying_, stop the video you're watching or the chapter you're reading and try to recall the key ideas from memory.
 - You're not expected to review ALL flashcards that are due, consistency is what matters, and this is why the previous point is important, just the act of creating good flashcards and reviewing them instantly can boost your learning a lot.
@@ -165,7 +165,7 @@ when I was starting out I used to think it's impossible to name a python file "s
 I recommend getting comfortable with command line as early as possible, it doesn't just improve your productivity, but it also offers you more opportunities for learning.
 If you're a Windows user and don't want to switch, try having a dual boot (i.e. installing both Windows and Linux on the same machine, you get to choose which one to start), and make sure to install [WSL](https://learn.microsoft.com/en-us/windows/wsl/install). I use a custom shortcut Ctrl + Shift + V to start WSL using [AutoHotkey](https://www.autohotkey.com/).
 
-When I realized the power of command line, I went to pretty much anyone I knew and installed zoxide and fzf for them.
+When I realized the power of command line, I went to pretty much anyone I knew and installed zoxide and fzf for them. (seriously, you SHOULD get zoxide installed)
 I created a /projects folder, and told them they can simply type `z proj` to go to it and create a folder for each project, and simply open it in VS code (code .)
 And Windows users like me have an itch for opening the explorer (finder) for some reason, so I created an alias called `opend` which opens the current directory in the explorer.
 That alone made them enjoy using the command line and motivated them to learn it more.
@@ -211,7 +211,7 @@ There is a lot to learn from good (and even bad) teachers, and it's hard (if not
 
 ## Course & Book Reviews
 
-### Systematic Program Design (Gregor Kiczales)
+### Systematic Program Design
 
 Also known as [How to Code: Simple Data](https://www.edx.org/learn/coding/university-of-british-columbia-how-to-code-simple-data) and [Complex data](https://www.edx.org/learn/coding/university-of-british-columbia-how-to-code-complex-data).
 
@@ -278,9 +278,9 @@ But you should trust the teacher! learning is a relationship, you're not "self-t
 
 I still remember when I was taking this course in the summer of first year at university, I would see some of my friends and classmates studying React and talking about fancy new technologies. Honestly it was painful and sometimes I'd feel I'm wasting my time. I think I could have learned even more, or at the very least, had more fun while learning, if I trusted the material more.
 
-## Programming Languages: Parts A, B and C (Dan Grossman)
+## Programming Languages: Parts A, B and C
 
-> But if you have big ideas, you have to use big words to express them, haven't you? -- Anne of Green Gables
+> but if you have big ideas, you have to use big words to express them, haven't you? -- Anne of Green Gables
 
 This course will take the foundation and intuitions you built in Systematic Program Design and offer you a mesmerizing experience through the realm of programming languages.
 This is probably the most _useful_ online course I have taken yet. Dan Grossman is such a great teacher, his love for programming and programming languages is contagious!
@@ -312,11 +312,54 @@ For instance I wrote this [question](https://stackoverflow.com/questions/7953735
 
 Warning: I didn't study OOP in depth well before PLABC, so it was my first serious contact with OOP and I must say it was quite challenging, some particular concepts didn't click much, I had to redo some parts of the third course while studying Java later, and it made much more sense. So unlike what the course suggest, I actually recommend learning OOP in some statically typed language like Java or C# first, I think it would improve you learning experience.
 
-I really love this course, and perhaps this review won't do it justice, I loved it so much that I printed all the lecture notes of the course and went to some library to bind them so that I can keep it with me. I've read it twice since then and each time I blows my mind.
+I really love this course, and perhaps this review won't do it justice, I loved it so much that I printed all the lecture notes (around 200 pages) and went to some library to bind them so that I can keep it with me. I've read it twice since then and each time I blows my mind.
 
-#todo: add picture here#
+![alt text](/media/plabc.jpg)
 
-Just take this course, it's such a unique learning experience.
+Just take this course! it's such a unique learning experience.
+
+## Operating Systems: Three Easy Pieces
+
+Book by Remzi Arpaci-Dusseau and Andrea Arpaci-Dusseau.
+
+- [Book website](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- [Lecture videos](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/Discussion/videos.html)
+
+The OS is such fascinating piece of software, it's very complex and full of engineering wisdom. That's why studying Operating Systems is an extremely important part of CS education.
+
+I'll give you an example why studying OS is helpful, at some point in other courses you might learn what the definition of a compiler is:
+
+> a compiler is a software that _translates_ the source code into a different representation (target code).
+
+That's an absolutely correct and beautiful definition in my opinion, but it's very abstract (in a meaningful way)
+
+But I found that studying OS gave a new lense to look though when it comes to thinking about other concepts.
+For example, you'll start to see clearly that a compiler is just a _program_ (i.e. a file in the filesystem that contains instructions), that you can _run_ it using the APIs provided by the OS. So the program becomes a process (a running program), and that running program will simply `read` the source code file and do some transformations to it, then `write` it back to another file.
+It takes time to build this understanding but at some point it becomes automatic. Whenever you see a new piece of software or idea, you start using the concepts you learned in Operating Systems to reason about it.
+
+OSTEP is a very great book, it's very lighthearted and made me laugh out loud so many times, it has succeeded in turning a topic that's often considered boring into a very fun experience.
+
+The book is divided into three parts.
+
+1. Virtualization
+
+- You will learn about two really important concepts, the process and memory abstractions. really important stuff.
+- I didn't find the CPU scheduling part that interesting, I just skimmed them (I've already studied those algorithms a lot in a OS class I took in college, it was so boring!)
+- After completing this part, I _HIGHLY_ recommend building a _shell_ (e.g. in Python). Building a shell is a very rewarding experience, you'll start to see processes differently!
+
+2. Concurrency
+
+> It is a wonderful and hard problem, and should make your mind hurt (a bit). If it doesn’t, then you don’t understand! Keep working until your head hurts; you then know you’re headed in the right direction. At that point, take a break; we don’t want your head hurting too much. -- OSTEP
+
+- I took a more advanced OS class in college and it focused a lot on concurrency and sadly I didn't understand much from it. I really needed to pass that class, so I decided to focus read the concurrency chapter, it was challenging but really fun to read. I remember spending an entire week reading it like crazy, each time someone knocks the door and asks me what I'm doing "I'm study OS!" -- I remember even skipping the class a couple of times, I'd tell my roommate "You go an understand what's going on there, I'll keep reading OSTEP", then we would meet, and try to understand this puzzle. It was really fun, and OSTEP is actually very accessible and down to earth.
+- I absolutely think you should read this chapter, it contains some very important concepts and terms (e.g. thread-safe, atomic operations, etc) that you should know. The book starts with a great example (incrementing a global counter that has a special place in my heart, that example made everything fit together and made me realize what a wicked problem we're dealing with)
+
+3. Persistance
+
+It's all about I/O, how we store data persistently, e.g. in HDD, and the software part in OS that handles all that. It also explains the file system API, I found it pretty neat.
+I especially loved the first sections on how I/O devices actually work, I really liked the mental model, that is, seeing how devices like hard disks or a mouse actually contains registers, and how the CPU will read and write to those registers to issue operations, etc. (Similar to how keyboard and screen work in Nand2Tetris)
+
+Overall, OSTEP does an amazing job at building intuitions and making intimidating concepts to feel.. less threatening, you see it everywhere in the book, and I think that's what good teaching is about.
 
 ## Computer Networking: A Top Down Approach
 
@@ -343,30 +386,6 @@ Chapters:
 
 Chapter 7: Wireless Networks
 wireless networks are everywhere, and having a some understanding of them to very helpful. I've always been puzzeled by how WiFi networks in large places like universities works, this chapter answered all of my questions and more! The chapter will answer two important questions, How does WiFi and 4G networks work? you in the back seat if a car or bus, watching a youtube video using a cellular network, each of those network towers (base stations) have limited range, so you certainly pass through multiple of them in your journey, yet the video experience is seemless, you don't see any interruption, how does that work?
-
-## Operating Systems: Three Easy Pieces
-
-Studying Operating Systems is extremely important because it gives you a concrete example of all the concepts you see in CS.
-for example at some point you learn that a compiler is a program that translates the given code to another representation.
-That's absolutely correct and a beautiful defintion.
-If you think about it, you could build a machine that you give it a piece of paper of instructions, and it prints another piece of paper.
-that's a compiler.
-But studying OS will give you more concepts that your mind can use to reason about new thigns.
-For example, you'll start to think that a compiler is just a program (i.e. a file in the filesystem that contains instuctions) that you can run using the OS sys calls, so it becomes a process, the absraction of a running program, that process will simply read() the source code file and do some transformations to it, then write them back to another file.
-
-The book is divided into three parts.
-
-1. Virtualization
-   You will learn about two really important cocnepts, the process and memory abstractions. really important stuff.
-   also explains system calls and kernel mode.
-   Limited Direct Execution...
-   I didn't find the CPU schudeling interesting, I just skimmed them, we studied them a lot in college.
-   After completing this part, I HIGHLY recommend building a shell, the course has a github repo with projcets, building a shell is EXTREMELY rewarding, you'll see processes differently.
-   The project was in C, and my C skills were rusty, so I chose python.
-
-2. Concurrency
-
-3. Persistance
 
 ## Nand2Tetris: part 1
 
@@ -604,3 +623,7 @@ I have asked two students at my university who got some of the best graduation p
 
 so it's basically a form of documentation?
 In some of my projects at university we were _asked_ to create analysis phase class and sequence diagrams that are "language independent". As Fowler said, it's probably just a waste of time.
+
+```
+
+```
