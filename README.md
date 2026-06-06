@@ -142,7 +142,7 @@ I've been consistently using Anki since 2023.
 But I also find flashcards useful to review concepts and not just memorization, for example I have computer networking questions like "Explain how DNS works, let's say you write google.com and press enter, what happens", the idea here is not to memorize the answer but to do retrieval practice and explain a concept, I usually explain the concept out loud and have a pen and paper where I sketch the concept. Flashcards are also often [recommended for interview prep](https://github.com/jwasham/coding-interview-university#2-use-flashcard).
 
 Many people find using flashcards to be useful for computer science and I think you might find them helpful.
-You can use flashcards for anything, from memorizing the names of flowers, preparing to a driving test, to computer networking classes at university (I kept getting perfect grades in those classes using just flashcards, and for _some_ classes I literally take notes in class, go back home, turn the notes into flashcards, and throw the notes in trash -- which might be an act of disrespect to knowledge, but I'm not sure and... I find it satisfying!)
+You can use flashcards for anything, from memorizing the names of flowers, preparing for a driving test, to computer networking classes at university (I kept getting perfect grades in those classes using just flashcards, and for _some_ classes I literally take notes in class, go back home, turn the notes into flashcards, and throw the notes in trash -- which might be an act of disrespect to knowledge, but I'm not sure and... I find it satisfying!)
 
 I want to mention some mistakes I made along my journey of creating flashcards.
 
@@ -312,7 +312,7 @@ For instance I wrote this [question](https://stackoverflow.com/questions/7953735
 
 Warning: I didn't study OOP in depth well before PLABC, so it was my first serious contact with OOP and I must say it was quite challenging, some particular concepts didn't click much, I had to redo some parts of the third course while studying Java later, and it made much more sense. So unlike what the course suggest, I actually recommend learning OOP in some statically typed language like Java or C# first, I think it would improve you learning experience.
 
-I really love this course, and perhaps this review won't do it justice, I loved it so much that I printed all the lecture notes (around 200 pages) and went to some library to bind them so that I can keep it with me. I've read it twice since then and each time I blows my mind.
+I really love this course, and perhaps this review won't do it justice, I loved it so much that I printed all the lecture notes (around 200 pages) and went to some library to bind them so that I can keep it with me. I've read it twice since then and each time it blows my mind.
 
 ![alt text](/media/plabc.jpg)
 
@@ -351,41 +351,38 @@ The book is divided into three parts.
 
 > It is a wonderful and hard problem, and should make your mind hurt (a bit). If it doesn’t, then you don’t understand! Keep working until your head hurts; you then know you’re headed in the right direction. At that point, take a break; we don’t want your head hurting too much. -- OSTEP
 
-- I took a more advanced OS class in college and it focused a lot on concurrency and sadly I didn't understand much from it. I really needed to pass that class, so I decided to focus read the concurrency chapter, it was challenging but really fun to read. I remember spending an entire week reading it like crazy, each time someone knocks the door and asks me what I'm doing "I'm study OS!" -- I remember even skipping the class a couple of times, I'd tell my roommate "You go an understand what's going on there, I'll keep reading OSTEP", then we would meet, and try to understand this puzzle. It was really fun, and OSTEP is actually very accessible and down to earth.
+- I took a more advanced OS class in college and it focused a lot on concurrency and sadly I didn't understand much from it. I really needed to pass that class, so I decided to focus read the concurrency chapter, it was challenging but really fun to read. I remember spending an entire week reading it like crazy, each time someone knocks the door and asks me what I'm doing -- "I'm studying OSTEP!" -- I remember even skipping the class a couple of times, I'd tell my roommate "You go understand what's going on there, I'll keep reading OSTEP", then we would meet, and try to understand this puzzle. It was really fun, and OSTEP is actually very accessible and down to earth.
 - I absolutely think you should read this chapter, it contains some very important concepts and terms (e.g. thread-safe, atomic operations, etc) that you should know. The book starts with a great example (incrementing a global counter that has a special place in my heart, that example made everything fit together and made me realize what a wicked problem we're dealing with)
 
 3. Persistance
 
-It's all about I/O, how we store data persistently, e.g. in HDD, and the software part in OS that handles all that. It also explains the file system API, I found it pretty neat.
-I especially loved the first sections on how I/O devices actually work, I really liked the mental model, that is, seeing how devices like hard disks or a mouse actually contains registers, and how the CPU will read and write to those registers to issue operations, etc. (Similar to how keyboard and screen work in Nand2Tetris)
+- It's all about I/O, how we store data persistently, e.g. in HDD, and the software part in OS that handles all that. It also explains the file system API, I found it pretty neat.
+- I especially loved the first sections on how I/O devices actually work, I really liked the mental model, that is, seeing how devices like hard disks or a mouse actually contains registers, and how the CPU will read and write to those registers to issue operations, etc. (Similar to how keyboard and screen work in Nand2Tetris)
+- For this part I also watched some lecture videos instead of reading some sections, the lectures were a pleasure to watch, they cut to the chase and Remzi's teaching style (and humor) is top notch.
 
-Overall, OSTEP does an amazing job at building intuitions and making intimidating concepts to feel.. less threatening, you see it everywhere in the book, and I think that's what good teaching is about.
+Overall, OSTEP does an amazing job at building intuitions and making intimidating OS concepts to feel really straightforward, you see it everywhere in the book, and I think that's what good teaching is about.
 
 ## Computer Networking: A Top Down Approach
 
-Computer networking is one of the most rewarding subjects in computer science, you suddenly start to understand those terms you hear everywhere.
-Suddenly it's almost hard to remember life where you didn't know those terms and concepts!
-I wasn't very satisfied with my university's approach to computer networks, it was a buttom-approach and kind of boring.
-So I picked up Computer Networking: A Top Down Approach, and boy I'm glad I did, it's one of the most rich learning experiences I've had in computer science, in fact it's when I suddenly thought, "I love computer science".
+Computer networking is one of the most rewarding topics to study in computer science, you get the benefits _instantly_! you suddenly start to understand those networking terms you hear everywhere. It's almost hard for me now to remember life where I didn't know those terms and concepts!
 
-The book is accompnied by A LOT of extra content, the Wireshark labs in particular were amazing, I highly recommend that you print the labs and annotate them, it's much more fun.
+I wasn't very satisfied with my university's approach to computer networks, it was a bottom-approach and kind of boring.
+So I picked up Computer Networking: A Top Down Approach, and boy I'm glad I did, it's one of the most the best learning experiences I've had in computer science (I think I've said that too many times in my reviews! but hey! perhaps that's a good thing!)
 
-I highly recommend the book, the first two chapters alone are enough for most programmers, in fact by chapter 2, if you do the projects, you'd have built a HTTP server, SMTP server, UDP ping, and a proxy server from scratch using socket programming.
-This book has a special place in my heart, when I was reading it I realized [I've finally become passionate about CS](#the-day-i-fell-in-love-with-computer-science).
+The book is accompanied by A LOT of extra content, the [wireshark labs](https://gaia.cs.umass.edu/kurose_ross/wireshark.php) in particular are a must, I highly recommend that you print the labs and annotate them, it's much more fun! (I actually think a printer is a great investment for learners!)
 
-Some advice:
+I highly recommend the book (**or the [videos](https://gaia.cs.umass.edu/kurose_ross/lectures.php)**), I think the first two chapters alone are more than enough to have a very good understanding of networks, in fact by chapter 2, if you do the [projects](https://gaia.cs.umass.edu/kurose_ross/programming.php), you'd have built a HTTP server, SMTP server, UDP ping, and a proxy server from scratch using socket programming.
+This book has a special place in my heart, when I was reading it I realized [I love computer science.](#short-story-the-day-i-fell-in-love-with-cs).
 
-- when you read the DNS section in chapter 2, buy a domain name
-  - it's around $10 per year, but what you learn with stick with you forever.
-  - if you're a student try getting a domain in Githuab Education Pack for free.
-  - you can for instance host a static website on github pages, it will give you something like yourname.github.io. You can then create a CNAME record to point your domain to it.
-  - remember, if you buy a domain like yourname.com, you can add as many prefixes as you want, you can create sub domains like blog.yourname.com or basically ANYTHING.yourname.com, and even an email address like pm@yourname.com
-  - Also, at some point later it might be also worth getting a VPS for a month where you can practice even more.
+Some Tips:
 
-Chapters:
-
-Chapter 7: Wireless Networks
-wireless networks are everywhere, and having a some understanding of them to very helpful. I've always been puzzeled by how WiFi networks in large places like universities works, this chapter answered all of my questions and more! The chapter will answer two important questions, How does WiFi and 4G networks work? you in the back seat if a car or bus, watching a youtube video using a cellular network, each of those network towers (base stations) have limited range, so you certainly pass through multiple of them in your journey, yet the video experience is seemless, you don't see any interruption, how does that work?
+- When you read the DNS section in chapter 2, buy a domain name
+  - It's around $10 per year, but what you learn with stick with you forever!
+  - If you're a student at some university try getting a domain in [Github Education Pack](https://education.github.com/pack) for free.
+  - You can for instance host a static website on Github Pages, it will give you something like `website.yourname.github.io`. You can then create a CNAME record to point your domain to that URL Github gave you.
+  - remember, if you buy a domain like `yourname.com`, you can add as many prefixes as you want, you can create sub domains like `blog.yourname.com` or basically `ANYTHING.yourname.com`, and even an email address like `pm@yourname.com`
+  - Also, at some point later it might be also worth getting a VPS (basically a server you can SSH into) where you can practice even more.
+    - [landchad](https://landchad.net/) is a nice little resource that explains how to do it and the basics of managing a VPS and hosting whatever you want.
 
 ## Nand2Tetris: part 1
 
