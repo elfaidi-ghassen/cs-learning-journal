@@ -20,8 +20,8 @@ I'm a third year software engineering student in Tunisia. I'm writing this becau
   - [Insights about Learning and Education](#insights-about-learning-and-education)
     - [Rethinking _self_-taught](#rethinking-self-taught)
 - Courses and Books
-  - [Systematic Program Design](#systematic-program-design-gregor-kiczales)
-  - [Programming Languages: Parts A, B and C](#programming-languages-parts-a-b-and-c-dan-grossman)
+  - [Systematic Program Design](#systematic-program-design)
+  - [Programming Languages: Parts A, B and C](#programming-languages-parts-a-b-and-c)
   - [Operating Systems: Three Easy Pieces](#operating-systems-three-easy-pieces)
   - [Computer Networking: A Top Down Approach](#computer-networking-a-top-down-approach)
   - [Nand2Tetris: Part 1](#nand2tetris-part-1)
