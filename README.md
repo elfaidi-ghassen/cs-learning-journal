@@ -21,7 +21,7 @@ I'm a third year software engineering student in Tunisia. I'm writing this becau
     - [Rethinking _self_-taught](#rethinking-self-taught)
 - Courses and Books
   - [Systematic Program Design](#systematic-program-design-gregor-kiczales)
-  - [Programming Languages: Parts A, B and C](#programming-languages-parts-a-b-and-c)
+  - [Programming Languages: Parts A, B and C](#programming-languages-parts-a-b-and-c-dan-grossman)
   - [Computer Networking: A Top Down Approach](#computer-networking-a-top-down-approach)
   - [Operating Systems: Three Easy Pieces](#operating-systems-three-easy-pieces)
   - [Nand2Tetris: Part 1](#nand2tetris-part-1)
@@ -158,7 +158,7 @@ One tool I find very helpful for making flashcards is [ShareX](https://github.co
 #### Using the command line
 
 After learning Git in the summer, I went to some of my friends and classmates who study CS and told them: "I'm going to force you to learn Git". I don't want to work alone!
-One thing kept happening over and over: whenever I explain how branches work and how we switch branches, and I show them how files do change in the working directory (using ls command -- in either WSL or git bash), they would nod and think it makes sense. Then I open the file explorer (finder) and show them that the files DO change; they go quiet for a second, "wow" they say. It's as if the command line isn't something concrete.
+One thing kept happening over and over: whenever I explain how branches work and how we switch branches, and I show them how files do change in the working directory (using `ls` command -- in either WSL or git bash), they would nod and think it makes sense. Then I open the file explorer (finder) and show them that the files DO change; they go quiet for a second, _WOW!_ they says (in fact I had the exact same experience when I first started learning git). It's as if the command line isn't something concrete.
 The way I see it is that Windows does things for convenience that kind of distorts one's understanding, like, before I used to believe file extensions were something special
 when I was starting out I used to think it's impossible to name a python file "script.mp4", how could that be! even VS code won't color it for you! -- I think it has something to do with what happens when you change the file extension in the file explorer you get a popup saying your change would make the file unusable.
 
@@ -278,44 +278,45 @@ But you should trust the teacher! learning is a relationship, you're not "self-t
 
 I still remember when I was taking this course in the summer of first year at university, I would see some of my friends and classmates studying React and talking about fancy new technologies. Honestly it was painful and sometimes I'd feel I'm wasting my time. I think I could have learned even more, or at the very least, had more fun while learning, if I trusted the material more.
 
-## Programming Languages: Parts A, B and c
+## Programming Languages: Parts A, B and C (Dan Grossman)
 
-"But if you have big ideas, you have to use big words to express them, haven't you?" -- Anne of Green Gabes
+> But if you have big ideas, you have to use big words to express them, haven't you? -- Anne of Green Gables
 
 This course will take the foundation and intuitions you built in Systematic Program Design and offer you a mesmerizing experience through the realm of programming languages.
-This is probably the most _useful_ online course I have taken yet, Dan Grossman is such a great teacher, his love for programming and programming languages is contagious.
-The course uses three languages ML, Racket and Ruby to teach so many programming concepts.
+This is probably the most _useful_ online course I have taken yet. Dan Grossman is such a great teacher, his love for programming and programming languages is contagious!
+
+The course uses three languages ML, Racket and Ruby to teach so many important ideas and concepts in programming languages. By the end of the course you'd start to see programming languages very differently.
 
 The course starts off with some _really_ important definition like what's an expression, a value.
 
 > A value is an expression that evaluates to itself
 
-That is one of my favorite defitions in computer science, it's so beautiful and elegant.
+That is one of my favorite definitions in computer science, it's so beautiful and elegant.
 
-Make sure to focus on those new terms and understand their defintion well.
-Everything is built on that foundation.
-Also, the first time I hear the term "binding" was in this course.
-For example an statement like `x = 10`
-I'm used to hear terms like "assignment" or "we assign x the value 10", but professor Dan used the term "binding" or "to bind x to the value 10" or "x is bound to 10".
-Basically a binding is a mapping, i.e. "to map x the value 10", this is important because we can bind _names_ to _value_, it's a more general concept than assignement.
-For example, when you define a function, you are creating a binding. Same when you import a function in python for instance:
+**Tip**: Make sure you focus on those new terms and understand their definition well, everything is built on that foundation.
+
+Also, the first time I hear the term _binding_ was in this course, and I didn't get it at first.
+For example a statement like `x = 10`
+I'm used to hear terms like _assignment_ or _we assign x the value 10_, but professor Dan used the term _binding_ or _to bind x to the value 10_ or _x is bound to 10_.
+
+Basically a binding is a _mapping_ (which is also a very useful term in CS and Math, think of a hash map or dictionary, you _map_ keys to values), i.e. "to map x the value 10", this is important because we can bind _names_ to _value_, it's a _more general_ concept than assignment.
+
+For example, when you define a function, you're also creating a binding. Same when you import a function in python for instance:
 `from math import sqrt`
-that statement creates a binding, i.e. it maps the name sqrt to the function (and functions are values themselves)
-If this seems confusing it will be crystal clear once you understand the concept of enviroment (often called "Context" in the JavaScript world)
+That statement creates a binding, i.e. it maps the name sqrt to the function (object).
 
-I didn't study OOP in depth well before PLABC, so it was my first serious contact with OOP, it was quite challenging, some specific concepts didn't click much, I had to redo the part and read the lecture notes again while studying Java, and it made much more sense.
-I recommend learning OOP in a statically typed language liek Java or C# first.
+This will become even clearer when the concept of _environment_ is explained. (It's often called "context" instead in the JavaScript world)
 
-One of my favorite thing about the course is how precise it is when it comes to explaining _evaluation rules_, the method lookup is a great example of that.
+One of benefits of the course is that it helps you build a powerful vocabulary of terms and concepts to discuss programming languages and programming problems with high precision, I felt like I'm a more mature programmer after the course.
+For instance I wrote this [question](https://stackoverflow.com/questions/79537353/how-does-the-left-hand-side-lhs-of-an-assignment-evaluate-in-c) on StackOverflow trying to discuss a problem I found when trying to understand how pointers evaluate in C (I used to think C is a normal language :D), I didn't use to be able to articulate my thoughts about programs like that before, it's a learnable skill.
 
-I printed all the lecture notes of the course and went to some library to bind them, I've read it twice since then and each time I blows my mind, it convers a lot of ground from static vs dynamic typing, to streams and lazy evaluation
+Warning: I didn't study OOP in depth well before PLABC, so it was my first serious contact with OOP and I must say it was quite challenging, some particular concepts didn't click much, I had to redo some parts of the third course while studying Java later, and it made much more sense. So unlike what the course suggest, I actually recommend learning OOP in some statically typed language like Java or C# first, I think it would improve you learning experience.
+
+I really love this course, and perhaps this review won't do it justice, I loved it so much that I printed all the lecture notes of the course and went to some library to bind them so that I can keep it with me. I've read it twice since then and each time I blows my mind.
 
 #todo: add picture here#
 
-One of the other benefits of the course is that it helps you build a powerful vocabulary of terms and concepts to discuss programming languages and programming problems with high precision.
-For instance I wrote this [question](https://stackoverflow.com/questions/79537353/how-does-the-left-hand-side-lhs-of-an-assignment-evaluate-in-c) on StackOverflow a while ago trying to discuss a problem I found when trying to understand how pointers evaluate in C (I use to think C is a normal language :D)
-
-TLDR: Just take this course, it's such a unique learning experience.
+Just take this course, it's such a unique learning experience.
 
 ## Computer Networking: A Top Down Approach
 
