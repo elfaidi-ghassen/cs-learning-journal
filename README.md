@@ -4,6 +4,8 @@
 
 I'm a third year software engineering student in Tunisia. I'm writing this because a stranger on the internet shared their learning journey in a [README file](https://github.com/spamegg1/reviews), and it gave me so much excitement and hope that I kept going. We need more of this.
 
+Many of the courses I've taken are part of the [OSSU curriculum](https://github.com/ossu/computer-science), if you've never heard about it before, give it a look.
+
 ## Table of Contents
 
 - Tips and Reflections
@@ -67,7 +69,7 @@ Good teachers, good books, and small projects slowly built that passion over tim
 
 > Mathematics is amazingly compressible. You may struggle a long time, step by step, to work through the same process or idea from several different approaches. But once you really understand it and have the mental perspective to see it as a whole, there is often a tremendous mental compression. You can file it away, recall it quickly and completely when you need it, and use it as just one step in some other mental process. -- William Thurston
 
-It's a very good skill to be able to identify the important _chunks_ of knowledge in the subject you're learning. I have learned about this concept of chunks from Learning How to Learn and I think it's worth discussing here. (I must say that a complete beginner in a subject might not be able to identify the missing chunks, that's the role of a good teacher -- to create scaffolding i.e. divide the subject into small chunks and have students master them one by one)
+It's a very good skill to be able to identify the important _chunks_ of knowledge in the subject you're learning. I have learned about this concept of chunks from [Learning How to Learn](#learning-how-to-learn) and I think it's worth discussing here. (I must say that a complete beginner in a subject might not be able to identify the missing chunks, that's the role of a good teacher -- to create scaffolding i.e. divide the subject into small chunks and have students master them one by one)
 
 For example, let's say you are studying CSS. There are some chunks that should become automatic. (and when I say "knowledge" it's pretty much same as "skill", for they are two faces of the same coin)
 
@@ -215,7 +217,7 @@ There is a lot to learn from good (and even bad) teachers, and it's hard (if not
 
 Also known as [How to Code: Simple Data](https://www.edx.org/learn/coding/university-of-british-columbia-how-to-code-simple-data) and [Complex data](https://www.edx.org/learn/coding/university-of-british-columbia-how-to-code-complex-data).
 
-I'll start with a vent, when you tell a beginner "you should think like a programmer" or "focus on problem solving and not syntax", you're not helping them, it sounds like a good advice but it's useless!
+I'll start with a vent, when we tell a beginner "you should think like a programmer" or "focus on problem solving and not syntax", we're not helping them! It sounds like a good advice but it's useless!
 
 Ok, This course is really amazing, I didn't realize how important it was immediately.
 I used to hear that "you should learn functional programming because it will change the way you think about programming" and so on, but I never found someone explains why explicitly. After taking this course and observing what changed after completing the course, I think I have a pretty good idea about what's going on. Yeah, functional programming -- and this course -- might rewire your brain!
@@ -344,7 +346,7 @@ The book is divided into three parts.
 1. Virtualization
 
 - You will learn about two really important concepts, the process and memory abstractions. really important stuff.
-- I didn't find the CPU scheduling part that interesting, I just skimmed them (I've already studied those algorithms a lot in a OS class I took in college, it was so boring!)
+- I didn't find the CPU scheduling part that interesting, I just skimmed them (I've already studied those algorithms a lot in a OS class I took in college, it was SO boring!)
 - After completing this part, I _HIGHLY_ recommend building a _shell_ (e.g. in Python). Building a shell is a very rewarding experience, you'll start to see processes differently!
 
 2. Concurrency
@@ -392,7 +394,8 @@ I finished it in less than around 2 weeks for a simple reason: at that point I h
 (That's perhaps one of the problems of CS education: how courses are often disconnected and leave students confused; This course made me feel _deeply sad_ about the state of education in my country)
 
 So, in a spring break I thought it's time to understand what's going on here.
-The course starts by explaining a _very_ important concept in computer science -- abstraction, and basically gives you a taste of every layer of abstraction starting from basic logic gates.
+The course starts by explaining a _very_ important concept in computer science -- abstraction, and basically gives you a taste of every layer of abstraction starting from basic logic gates. The course connected the missing dots and suddenly computer science became really pretty.
+(NOTE: You _do not_ need previous knowledge on boolean algebra and logic gates to study this course)
 
 I documented the journey of building the CPU in my notebook, and I even counted the number of transistors (A NAND gate can be built from 4 CMOS transistors, and from there you can count the transistors bottom-up)
 I ended up with 15912 transistors for the CPU and 24 MILLION transistors for the 16K memory!
@@ -421,83 +424,79 @@ For instance, using term _name_ instead of _variable_ (like when we say a _name_
 
 ## Learning How to Learn
 
-Many resources online contain learning tips, how to use the pomodoro technique and why it matters, the learning mindset and how to approach learning as an adventure, and all that.
-I remember spending some time reading [How to Be a Great Student](todo) back in highschool and watching some videos on learning tips, on how to take good notes, etc.
+- [Coursera](https://www.coursera.org/learn/learning-how-to-learn)
+- Based on the book [A Mind for Numbers](https://www.amazon.com/Mind-Numbers-Science-Flunked-Algebra/dp/039916524X)
 
-I think while it wasn't life changing, it exposed me a new world I didn't know about, that it's a good idea to think about how you learn and try to improve the process.
-This is also one of the unexpected benefits of "self help" books for some people, some spend their lives never thinking about how they live, and a self help book, even when it's not based on science and full of horrible advice, it can expose someone to a new world; that it's important to think about yourself and how to improve it.
+Back in highschool, I remember spending some time watching Youtube videos on learning tips, on how to take good notes, the pomodoro technique, best note taking app, and even reading [some books](https://www.amazon.com/Great-Student-Kimberly-Hatch-Harrison/dp/B091PR82QF) on learning tips.
 
-At some point I decided to Learning How to Learn and boy it was different from everything else. It wasn't just about teaching some tips, it's an entire mental framework on how the human brains learn that helps you diagnose your own learning problems.
-Learning How to Learn has a deep impact on my entire journey -- and even this README.
-I started to find myself always writing notes and reflections about my learning and try to understand why people struggle at some specific concepts.
+It wasn't "life changing", but it exposed me a new world I didn't know about! before, I didn't even know it's a good idea to think about how you learn and try to improve the process.
 
-The course contains some interview with many interesting people including Scott Young -- known for his books and [MIT challege](https://www.scotthyoung.com/blog/myprojects/mit-challenge-2/), I really enjoyed these.
+In the summer after my first year at college I took Learning How to Learn, I was very surprised that it was different from everything else. It wasn't just some random tips, it's an entire mental framework on how the human brains learn that helps you diagnose your own learning problems.
+Learning How to Learn had a deep impact on my entire learning journey -- and even this README itself.
 
-You should take it!
+After taking it, I started to find myself always taking notes and reflections about my learning (a process often called Metacognition) and trying to understand why we struggle at some specific concepts.
+
+The course contains some interview with many interesting people including Scott Young -- known for his books and the awesome [MIT challege](https://www.scotthyoung.com/blog/myprojects/mit-challenge-2/), I really enjoyed these.
+
+_The Bottom Line_: A great course that helps you build a mental framework to understand how you learn and why you struggle at times. Highly recommended!
 
 ## Mindshift
 
-Full title: "Mindshift: Break Through Obstacles to Learning and Discover Your Hidden Potential"
-And, my God, that's a horrible subtitle, it hurts my heart, but the course itself is good, it seems it's just a marketing thing.
+- (Coursera)[https://www.coursera.org/learn/mindshift]
 
-This course is not about learning techniques, but on how to think about having a learning life style. I discusses topics like passion and why it's important to understand the real world constraints around you and not blindly "follow your passion".
+The full title is _Mindshift: Break Through Obstacles to Learning and Discover Your Hidden Potential_...
+My God! isn't that a cheesy subtitle, it hurts my heart!
+But rest assured that the course itself is actually excellent.
 
-The point about passion and [how passion is a reflection of what you're good](#the-day-i-fell-in-love-with-computer-science) at right now stayed with me.
+This course is not about learning techniques, but on having a learning life style. It discusses topics like passion and why it's important to understand the real world constraints around you (And not blindly "follow your passion")
 
 > What you feel you are best at isn't necessarily **all** that you can be best at
 
-The course also discusses the value of your past knwoledge and experiences, it made me realize that even if the jobs "AI replaces programming jobs", I've learned -- and still learning -- a LOT from this field of study.
+The course also discusses the value of your past knowledge and experiences, it made me realize that even if programming skills won't be needed in the future (perhaps because of AI), I already learned -- and still learning -- a lot of things from this field.
 
 > Seemingly unconnected knowledge from your past can bring unexpected assets to your work in the present
 
-It also convers why it's important to have second skills
+It also covers why it's important to have second skills, and normalize the idea that you might actually end up doing something else, and maybe have a Plan B.
+Knowing that you have a backup plan actually helps you focus more on what you're currently studying!
 
-It also mentions some interesting problems in western education that I found fascinating.
-
-> As an overreaction to the extreme "learning equals memorization" idea that has endured for thousands of years, western education has become wedded to the idea that conceptual understanding is the golden key to learning. -- Barbara Oakley
-
-This is discussed in more depth in a 40 page article called [The Memory Paradox](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5250447) that I highly recommend.
+_The Bottom Line_: Full of interesting insights I've never heard before, a very mature take on passion and learning in general, I recommend it!
 
 ## Uncommon Sense Teaching
 
+<https://www.coursera.org/specializations/uncommon-sense-teaching-certificate>
+
 > "Learning isn't always fun"
 
-When I was in high school, for some reason I wanted to become a history teacher, I hated my history class so much that I thought if I become a teacher teacher I'll make it so fun!
-So I've been kind of into teaching, I really enjoy it when I explain a concept to someone and see them getting it.
-I ended up in the software world, but one of the nice things about this field is that you can basically combine it with anything and end up with something interesting. That's why I wanted to get a more in depth look at teaching skills. It's a cool skill that seems very transferrable to any other field.
+When I was in high school, for some reason I wanted to become a history teacher -- I literally hated my history class so much that I thought if I become a teacher I want to make it more fun!
+But yeah, teaching history doesn't bring food on the table.
+But I've been into teaching, I really enjoy it when I explain a concept to someone and they understand.
 
-In Uncommon Sense Teaching, an engineer, a neuroscientist and a teacher teamed up to created one of the online learning experiences I've ever had the pleasure to see.
-I remember once taking a course about creativity (I had to take it), but the course was SO BORING AND UNCREATIVE.
-Uncommon Sense Teaching is so different, it actually applies the advice it gives in the course itself!
+I had many reasons to take this course, not only I wanted to have a better understanding of good teaching and education, I really believe improving one's teaching skill is a great idea because we're all teachers in a way or another, be it at work explaining something to a colleagues or at home understanding why your children are stuggling at something.
+
+In Uncommon Sense Teaching, an engineer, a neuroscientist and a teacher teamed up to create one of the coolest learning experiences I've ever had the pleasure to see.
+I remember once having to take a small course about creativity, but the course was SO BORING AND UNCREATIVE.
+Uncommon Sense Teaching is different! it actually applies the teaching advice it gives in the course itself!
 
 The course also taught me about the trends in education, and how it's really complicated issue.
-I still remember in primary school when one of my teachers said "The student is the center of the educational process", I didn't know it would be related to the Construtivism movmeent in the West!
-The course contains a lot more content that Learning How to Learn, more teaching concepts scaffolding and differentiation are well explained, some information about child's development, classroom management and many insights from Neuroscience, the difference between Declarative Learning (hippucampus and neocortex) and Procedural System (Basal Ganglia)...etc.
+I still remember in primary school when one of my teachers said "The student is the center of the educational process", I had no idea it would be related to the Constructivism movement in the West!
+It's fascinating how ideologies and philosophies affect our lives without even knowing about it.
 
-The course was also full of great tips and teaching techniques, I really liked "My Favorite No".
+The course contains a lot more content that Learning How to Learn, more teaching concepts scaffolding and differentiation are well explained, some information about child's development, classroom management and many insights from Neuroscience.
 
 > The art of teaching is making learning seem worth the effort, even when it's difficult.
 
-The course was full of "uncommon sense", advice that is based on research and not jargon and "self-help" books.
+The course was full of "uncommon sense", advice that is based on research.
 
 > Students give up in their studies not because they don't have 'growth mindset' or are 'distracted by technology'—they don't know how to learn
 
-The section about anti-bullying programs was so shocking to me. I almost couldn't believe it!
-To see that instutions would implement programs that are not tested, and sometimes proved to be not helpful or even do harm. I was thinking... why don't we care enough about what we claim we care about?!
-The course was so full of amazing insights that are rarely talked about.
+The section about anti-bullying programs was so shocking to me. To see that institutions implement untested programs that are unhelpful or even harmful made me wonder: why don't we care enough about what we claim we care about?
 
 > "Beware of training programs that don't work. Just because 'everyone' is doing the program or it's conducted by a professor from a prestigious university does not mean it is properly vetted or helpful."
 
 One thing I also really liked about the course is the sheer amount of recommended resources, tons of books, videos, research paper.
 Kinda a bummer I can't spend too much time on all of that!
 
-The connection with Machine Learning was nice, esp. The Procedural Learning system, where we might end up having deep inctricate connections --which leads to implicit knowledge that experts have and often don't know how to explaint to others -- is like how we don't know how exactly happen in the the hidden layers.
-
-I really like such courses that teach some fundamental skills that are extremely useful and transferrable, whether you need to explain something at work, helping a child study, diagonising your own learning problems, it's amazing!
-
-If you only need to take one course on teaching, this is probably it.
-
-Note: you should also join Barara's mailing list, it's very nice.
+_The Bottom Line_: If you only need to take one course on teaching, this probably is the one.
 
 ## Machine Learning
 
