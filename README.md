@@ -6,10 +6,14 @@ I'm a third year software engineering student in Tunisia. I'm writing this becau
 
 Many of the courses I've taken are part of the [OSSU curriculum](https://github.com/ossu/computer-science), if you've never heard about it before, give it a look.
 
+This is not a roadmap. It's just my personal experiences and the resources I went through.
+
 ## Table of Contents
 
 - Tips and Reflections
   - [Short Story: The Day I Fell in Love with CS](#short-story-the-day-i-fell-in-love-with-cs)
+  - [Insights about Learning and Education](#insights-about-learning-and-education)
+    - [Rethinking _self_-taught](#rethinking-self-taught)
   - [Learning Tips](#learning-tips)
     - [Most useful things I've learned so far](#most-useful-things-ive-learned-so-far)
     - [Chunking in Computer Science](#chunking-in-computer-science)
@@ -19,8 +23,6 @@ Many of the courses I've taken are part of the [OSSU curriculum](https://github.
     - [Using Flashcards](#using-flashcards-anki)
     - [Using the command line](#using-the-command-line)
     - [Some ways to have fun](#some-ways-to-have-fun)
-  - [Insights about Learning and Education](#insights-about-learning-and-education)
-    - [Rethinking _self_-taught](#rethinking-self-taught)
 - Courses and Books
   - [Systematic Program Design](#systematic-program-design)
   - [Programming Languages: Parts A, B and C](#programming-languages-parts-a-b-and-c)
@@ -56,6 +58,28 @@ This all also reminds me of a quote I read in one of Barbara Oakley's articles
 
 Passion is never a pre-requisite for learning programming, in fact passion is the fruit of your efforts.
 Good teachers, good books, and small projects slowly built that passion over time.
+
+### Insights about learning and education
+
+#### Rethinking _self_-taught
+
+(I first heard this in a telegram programming group)
+
+There is a subtle problem with expressions like "self-taught" or "I've learned something _on my own_". The book or the course you took, there are real people behind it! years of work, of honing their teaching skills... Saying you're self-taught is a bit unfair to them.
+
+#### It's all about good teachers
+
+I'm quite good at a couple of things, whenever someone asks me how did you get good at it, the answer is almost always the same: a good teacher or a good book.
+I have some strong opinions on this, I truly believe that the teacher is far more important than the course itself, if you don't like the teacher or if the teacher isn't good, it's much harder to get anything from the experience.
+And certainly, other things matter in any learning, but I've been through many good and terrible learning experiences, at university and online. The more I learn the more that I'm convinced that it's all about good teachers.
+
+#### Reflect on Your Journey
+
+I heard about this quote from Dijkstra in Remzi Arpaci-Dusseau amazing [last lecture](https://youtu.be/sKTyhqvTUBU?si=QXNsu16k9FsAomPU&t=1079)of OS class, when Dijkstra said that _experience is not the same as wisdom_, to have wisdom you need both experience and _reflection_.
+And it's easy to forget about reflecting on one's experiences (and life in general), sometimes it feels we've never been this distant from ourselves.
+One of the reasons I wrote this entire README file was to reflect, I've spent three years in college and I wanted to know, where am I in this my journey in life.
+
+I recommend reflecting a lot on your learning and the experiences you're having, it's not only makes learning itself more meaningful and fun, it also makes you appreciate the things you have, the teachers you learned from.
 
 ### Learning Tips
 
@@ -192,14 +216,6 @@ There are many ways to have fun, I won't share the usual stuff, but small things
   - Another really fun activity I've come across is identifying plants! iNaturalist is a great app to help you identify plants you see in your daily life (Be aware that other people may be able to see the location of the pictures you take)
   - Knowing the names of the plants and flowers you see everyday makes each walk a more rich experience, you'd start to notice how plants change from season to season. All of this even reminded me of how when you learn CS concepts and terms (e.g. abstraction or evaluation) you start to see things differently!
 
-### Insights about learning and education
-
-#### Rethinking _self_-taught
-
-(I first heard this in a telegram programming group)
-
-There is a subtle problem with expressions like "self-taught" or "I've learned something _on my own_". The book or the course you took, there are real people behind it! years of work, of honing their teaching skills... Saying you're self-taught is a bit unfair to them.
-
 #### The forgotten side of learning from teachers
 
 I had a Control Theory professor who would apologize when he interrupted a student in a discussion, "I'm so sorry for interrupting you", or "I apologize for interrupting you earlier, you may speak"
@@ -280,6 +296,8 @@ But you should trust the teacher! learning is a relationship, you're not "self-t
 
 I still remember when I was taking this course in the summer of first year at university, I would see some of my friends and classmates studying React and talking about fancy new technologies. Honestly it was painful and sometimes I'd feel I'm wasting my time. I think I could have learned even more, or at the very least, had more fun while learning, if I trusted the material more.
 
+_The Bottom Line_: I think this is one of the best introductions to programming one could have.
+
 ## Programming Languages: Parts A, B and C
 
 > but if you have big ideas, you have to use big words to express them, haven't you? -- Anne of Green Gables
@@ -318,7 +336,7 @@ I really love this course, and perhaps this review won't do it justice, I loved 
 
 ![alt text](/media/plabc.jpg)
 
-Just take this course! it's such a unique learning experience.
+_The Bottom Line_: Just take this course! it's such a unique learning experience.
 
 ## Operating Systems: Three Easy Pieces
 
@@ -364,6 +382,8 @@ The book is divided into three parts.
 
 Overall, OSTEP does an amazing job at building intuitions and making intimidating OS concepts to feel really straightforward, you see it everywhere in the book, and I think that's what good teaching is about.
 
+_The Bottom Line_: This book somehow managed to make a topic like Operating Systems... fun! and that's no small achievement!
+
 ## Computer Networking: A Top Down Approach
 
 Computer networking is one of the most rewarding topics to study in computer science, you get the benefits _instantly_! you suddenly start to understand those networking terms you hear everywhere. It's almost hard for me now to remember life where I didn't know those terms and concepts!
@@ -385,6 +405,8 @@ Some Tips:
   - remember, if you buy a domain like `yourname.com`, you can add as many prefixes as you want, you can create sub domains like `blog.yourname.com` or basically `ANYTHING.yourname.com`, and even an email address like `pm@yourname.com`
   - Also, at some point later it might be also worth getting a VPS (basically a server you can SSH into) where you can practice even more.
     - [landchad](https://landchad.net/) is a nice little resource that explains how to do it and the basics of managing a VPS and hosting whatever you want.
+
+_The Bottom Line_: What can I say? this book is so dear to me, and I can't recommend it enough!
 
 ## Nand2Tetris: part 1
 
@@ -421,6 +443,8 @@ This idea of mathematical abstraction is very powerful. It makes the math useful
 
 At some point, after seeing so many abstractions, I suddenly felt comfortable dealing with it and started to appreciate it instead of finding it threatening.
 For instance, using term _name_ instead of _variable_ (like when we say a _name_ is bound to a value), it's like forgetting all the implementation details and only thinking about the higher order concept of naming things, something humans like to do.
+
+_The Bottom Line_: Understanding how a computer works and going through the layers of abstraction is one of the best parts of CS education.
 
 ## Learning How to Learn
 
@@ -598,3 +622,5 @@ And I've asked two students from my university who got some of the best graduati
 > For challenging tasks, I made diagrams, for architecture and flow, just to understand what to do, but I only did serious UML [e.g. language independent diagrams] after finishing the project. -- A.
 
 > Nope, like most people I just kept working on the project and adding new features, then at the end I spent some time creating the diagrams. -- Z.
+
+_The Bottom Line_: A really good book about UML, distilled from all the nonsense.
