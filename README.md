@@ -551,7 +551,7 @@ _The Bottom Line_: If you want to learn how git really works and immediately sta
 
 ## Object-Oriented Design -- Alberta
 
-NOTE: I did not complete the course
+NOTE: _I did not complete the course_
 
 > longer than a winter's night -- Tunisian proverb
 
@@ -561,63 +561,40 @@ It is where I coined the term "audiobook lecture". At some point it feels like A
 
 This one is not different.
 
-Don't take this course.
+_The Bottom Line_: Don't take this course.
 
 ## UML Distilled
 
-When you start learning something like UML, you'd be surprised by the amount of boring nonesense -- words words words -- it's kind of ridiculous at times.
-But UML distilled is so different, it's quite practical.
+When you start learning something like UML, you'd be surprised by the amount of boring nonsense, it's kind of ridiculous at times.
 
-Take aways from the book:
+But Martin Fowler's [UML distilled](https://martinfowler.com/books/uml.html) (_third_ edition) is so different, it's very practical book, I've been using it as a reference and it's been great!
+What makes it special is that Martin speaks out of his experience, he simply says "I tried this approach but it didn't work well".
+
+If you keep wondering what's going on with UML, here are some takeaways from the book:
 
 - why do we need such diagrams? communication and understanding
-  - and they UML is kind of standardized, so you don't have to explain what the symbols mean, etc, that's whole point.
-- UML could be many things, but according to he author, think of it just a language of sketching ideas.
+  - UML is kind of standardized, so you don't have to explain what the symbols mean, everybody gets it, that's whole point.
+- UML could be many things, but according to the author, think of it just a language of sketching ideas.
 - the two most useful parts of the UML: class diagrams and sequence diagrams.
   - even if you don't want to draw them, it's good to be familiar with them.
 - there are multiple ways people use UML -- and they have strong opinions
-  - 1.  as a sketch, something you draw on paper or whiteboard to explain something to your team
-  - 2.  as blueprint: i.e. our goal is to be comprehensive, we care a lot about the deatils and correctness of the diagrams -- not recommended at all.
+  - 1. as a sketch, something you draw on paper or whiteboard to explain something to your team
+  - 2. as blueprint: i.e. our goal is to be comprehensive, we care a lot about the details and correctness of the diagrams -- not recommended.
 
-- some people say that we should create diagrams that are programming language independet
-  - a complete waste of time
+- some people say that we should create diagrams that are programming language independent => a complete waste of time
 
 > I need to make my biases clear. Almost all the time, my use of the UML is as sketches.
 
 > I'm not a fan of detailed forward-engineered blueprints; **I believe that it's too difficult to do well and slows down a development effort**.
 
-> Blueprinting to a level of subsystem interfaces is reasonable, but even then you should expect to change those interfaces as developers implement the interactions across the interface
+> Blueprinting to a level of subsystem interfaces is reasonable, but _even then_ you should expect to change those interfaces as developers implement the interactions across the interface
 
 > One of my concerns with blueprints is my own observation that it's very hard to get them right, even for a good designer. **I often find that my own designs do not survive contact with coding intact**.
 
-- iterative vs waterfall
-  - Iterative development has many other names, incremental, spiral, etc. some authors make distinctions between them, but... it doesn't matter. [see the section about terminology]
-    - boy do they love terminology and words in this field!
-  - waterfall = you break down development into a sequence of activities, e.g. requirements analysis, design, coding, and testing, you can for instance allocate a couple of months for each activity.
-  - iterative = the development is divided into "iterations", each iteration you pick some feature and finish it, you test it and make sure it's slmost production-ready.
-  - many projects claim to do iterative development but are really doing waterfall.
-    - example: "This iteration's code is very buggy, but we'll clean it up at the end."
-    - iterative: each iteration produces a almost-production level code, that is well tested
-
-- important note about making UML diagrams in analysis phase -- i.e. the phase of understanding the business domain and the problem you're trying to solve:
-  - you may end up making diagrams that domain experts don't fully understand
-  - "A diagram that isn't understood by the people who know the domain is worse than useless; all it does is breed a false sense of confidence for the development team."
-
-- if you have to draw UML digitally, I like draw.io, it's pretty simple and flexible.
-
-- use case diagrams aren't useful, but use cases themselves are useful
-
-One note about use cases and Use case diagrams:
-
-- "Many people find this kind of diagram useful. However, I must stress that you don't need to draw a diagram to use use cases. One of the most effective projects I know that used use cases involved keeping each one on an index card and sorting the cards into piles to show what needed building in each iteration."
-
-Notes about class Diagrams
-
-Notes about Sequence Diagrams
-
-I have asked two students at my university who got some of the best graduation projects, I got the same answer:
-
-> For challenging tasks, I made diagrams, for architecture and flow, just to understand what to do, but I did serious UML only after finishing the project. -- A.
-
-so it's basically a form of documentation?
 In some of my projects at university we were _asked_ to create analysis phase class and sequence diagrams that are "language independent". As Fowler said, it's probably just a waste of time.
+
+And I've asked two students from my university who got some of the best graduation projects, I got the same answer:
+
+> For challenging tasks, I made diagrams, for architecture and flow, just to understand what to do, but I only did serious UML [e.g. language independent diagrams] after finishing the project. -- A.
+
+> Nope, like most people I just kept working on the project and adding new features, then at the end I spent some time creating the diagrams. -- Z.
