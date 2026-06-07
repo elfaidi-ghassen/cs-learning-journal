@@ -524,30 +524,30 @@ _The Bottom Line_: An very gentle introduction to Machine Learning, it's very en
 
 ## Meta Version Control
 
-This course is targeted for absolute beginners who want to know about it.
-Avoid such courses, they leave you with shallow knowledge that you can't apply, this course is the opposite of down-to-earth teaching.
-It's shot in a cool looking studio where every piece of furniture and decor is placed with utmost care -- yet it's hollow.
-I don't recommend it. It is similar to the Object-Oriented Design course, that say so much yet nothing, at same time
+While this course is targeted for absolute beginners (I was the target audience!) yet it's too shallow and won't make you better at Git, there are many better [alternatives](#head-first-git) out there.
+
+I'd say this course is the opposite of "down-to-earth teaching" I keep praising in other reviews. It feels like it's shot in a cool looking studio where every piece of furniture and decor was placed with utmost care -- yet the content itself is hollow, and leaves you with this feeling of emptiness I can't describe.
+It reminds me a lot of the Alberta's Object-Oriented Design course: it says so much yet nothing, at same time.
+
+_The Bottom Line_: Avoid this one.
 
 ## Head First Git
 
-I love the Head First series, even though it's full of silly drawings that I don't really care for. The content itself is often superb and very down to earth -- and not shallow at all. This book contains some of the best explanations and analogies for Git, I left the book with clear mental model of how Git really works and how to use Git and Github in practice.
+I love the Head First series, even though it's full of silly drawings that I don't really care for. The content itself is often superb! Head First Git contains some of the best explanations and analogies for Git I've ever seen, I left the book with clear mental model of how Git really works and how to actually use Git and Github in practice. Since then, I've even started to collaborate on open source projects!
 
-I tried two learn Git around three times before, In High school I watched some youtube videos, and later I even did the Meta Version Control course -- which wasn't helpful. Each time, I'd learn the commands, have some commits and push something to github, then I forget about it -- until it's the next summer.
+I tried to learn Git around three times before, In High school I watched some youtube playlists, and later I did the Meta Version Control course (which wasn't that helpful). Each time, I'd learn the commands, have some commits and push something to github, then I forget about it -- until it's the next summer.
 
-I thought it was enough, I was determined to learn Git in depth, I spend a month to read the entire book and practice the concepts, for the first time I felt I'm getting the hand of it.
-But I felt... none of my friends use Git! if I don't use it slowly I'm going to forget how to use it.
-So, as I said in the command line section, I send a message to my roommates -- "I'm going to force you to learn Git, whether you want it or not!"
-And I did so, it was a very fun experience and I learned so much about git in the process.
+I thought enough is enough! I was determined to learn Git in depth, so I spent a month in summer to read the entire book and practice everything in it, and for the first time I felt I'm getting the hang of it.
+But I felt... most of my friends don't use Git! if I don't use it much I might get rusty!
+So, as I said in the command line section, I send a message to my roommates: "_I'm going to force you to learn Git, whether you want it or not!_. And I did just that. It was a very fun experience and I learned so much about git in the process.
 
-The book focuses on Git, branching, conflicts and fixing mistakes, the best practices and also have a good coverage of Github -- although it's not the main focus.
+The book focuses on Git, branching, conflicts and fixing mistakes, the best practices and also have a good coverage of using Github -- although it's not the main focus.
 
-The "there are no DUMB QUESTIONS" sections were my favorite, they always answer all the dumb questions that cross my mind!
+The "_there are no_ **DUMB QUESTIONS**" sections were my favorite, they always answer all the dumb questions that cross my mind!
 
-It also did something really smart which is not using code, but just plain text for all examples, which instills the idea that you can basically use Git for _anything_.
+The book also did something really smart which is not using code but just plain text for all examples, which instills the idea that you can basically use Git for ANYTHING.
 
-If you want to learn how git works and immediately start contributing to open source and working with others, this is the book.
-Git really makes programming much more fun.
+_The Bottom Line_: If you want to learn how git really works and immediately start to work with others and contribute to open source, this is a great option.
 
 ## Object-Oriented Design -- Alberta
 
