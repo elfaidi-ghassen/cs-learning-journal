@@ -500,25 +500,27 @@ _The Bottom Line_: If you only need to take one course on teaching, this probabl
 
 ## Machine Learning
 
-This was a very enjoyable course, one of the most gentle courses I've taken.
-I created small web projects to try things out, I built simple API points for a simple hand digit recognition website with a friend; and a movie recommended.
-You can apply what you learn instantly.
-The course also cleared some misconseptions from my mind, I used to think machine learning is a very mathematical field, but it turned out it's very expiermental nowadays, you change params, reevaluate, etc.
-also I used to think that neural networks are heavily inspired by how the brain works, but Andrew explained how it's actually very different, and we still don't really know how the brain works yet.
-I really like how Andrew is down to earth, one time he explained how he deep learning is just... neural networks, and he was so surprised back in the day on the impact of the "re-branding" of neural networks as deep learning.
-and on other occasion he explained why training robots is hard, and we stil fail to create robots that generalize well -- the path to AGI is very difficult. and hence if you see a cool robotics videos, it doesn't mean they're actually useful.
-Or how reinforcement learning is great when it comes to simluations, but isn't quite practical in real life and way too hard to get it right.
-This kind of knowledge is important, it's important to understand the limits of the current tools.
-I think we can't aspire for a better future if our understanding of present time is distorted. the journey is long we still have a long way to go.
+<https://www.coursera.org/specializations/machine-learning-introduction>
 
-But machine learning is SO COOL in itself, we don't need hype!
+This was a very enjoyable course, one of the most gentle courses I've taken. It gives you a taste of all the major ideas in machine learning, and what you learn is instantly applicable, while taking the course I was also starting to get into web development, so I actually built simple API endpoints for a handwritten digit recognition website with a friend, we even deployed it -- it was a fun little experience.
 
-My only complain with the course is how gentle it is. The programming assignments are extremely easy -- and hence a bit unsatisfying.
+The course cleared up some major misconceptions for me:
 
-You don't need much math for the couse, high school math is more than enough, the toughest math is doing a partial derivate -- in an optional section of the course.
+- I used to think Machine Learning is all about math, but it turns out it's very experimental nowadays, the libraries abstract away many details and you can simply think in terms of the API the library gives you and tweak the model parameters. (The course also teaches model evaluation and how to improve the performance in great details!)
+- I used to think that neural networks in machine learning were heavily inspired by how the brain works. Andrew explained how different they actually are, and how still to this day don't really know how the brain works.
 
-Andrew is a great teacher, he explains concepts intuitively.
-Again, my only complaint is that I didn't feel there was enough practice and challenge.
+I really appreciate how down-to-earth Andrew Ng is as an instructor. He openly shares the reality of Machine Learning in industry without the hype. One time he explained how he Deep Learning is just pretty much a re-branding of neural networks, and how surprised he was back in the day by the powerful impact of the re-branding.
+
+He also gave me a better understanding of current limits of AI. In one of the optional interviews in the course, it was explained why training robots is actually extremely hard, and we still fail to create robots that generalize well -- the path to AGI is very difficult. If you see a cool robotics video online, it doesn't mean they're actually practical yet. The same goes for reinforcement learning; it's amazing in simulations but incredibly hard to get right in real life.
+
+I think this kind of knowledge is crucial, it's important to understand the limits of the current tools. How can we aspire for a better future if our understanding of reality is distorted, we still have a long way to go. And honestly Machine Learning is so cool and useful on its own, we don't need the hype!
+
+You don't need much math for the course, high school math is more than enough, the toughest it gets is doing some partial derivate, and even that is in an optional section on the course.
+I also recommend keeping some notes on the notation, write down the formulas and explain what each symbol mean, it's easy to get lost reading formulas because of those superscripts and subscripts!
+
+Andrew explains the concepts really well, my only real complaint is how gentle the course is. Sometimes the programming assignments were extremely easy, which left me feeling a bit unsatisfied. But if you think of it as an serious introduction to machine learning, it's really good.
+
+_The Bottom Line_: An very gentle introduction to Machine Learning, it's very enjoyable, and Andrew is great at explaining concepts intuitively.
 
 ## Meta Version Control
 
