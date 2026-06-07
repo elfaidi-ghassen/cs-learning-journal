@@ -115,7 +115,7 @@ This may seem like a trivial thing but I think it actually matters.
 I remember watching the first couple of lectures of CS50 (though I didn't complete it) at summer after high school, the instructor David Malan just pointed out briefly that he puts the colon right after the end of the if statement, with no spaces
 i.e. `if some_condition:` and not `if some_condition :`
 It was the first time I think about it and I just started to notice how people write code and how it differs from one language to another (and even between people using the same language).
-There are indeed tools like linters that automatically format your code but I think it's worth getting in the habit of writing organized code. In first years of college, a friend of mine sometimes would write code like this:
+There are indeed tools like linters and code formatters that automatically format your code but I think it's worth getting in the habit of writing organized code. In first years of college, a friend of mine sometimes would write code like this:
 
 ```py
 if x==10 and y< 15  :
