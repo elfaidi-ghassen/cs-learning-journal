@@ -2,6 +2,8 @@
 
 (work in progress...)
 
+I was discussing with my family what to do after highschool, my sister told me "go for software engineering", that got me thinking.. what does and I told her "what does engineering even mean? like, what's the difference between and engineer and a carpenter?"
+
 I'm a third year software engineering student in Tunisia. I'm writing this because a stranger on the internet shared their learning journey in a [README file](https://github.com/spamegg1/reviews), and it gave me so much excitement and hope that I kept going. We need more of this.
 
 Many of the courses I've taken are part of the [OSSU curriculum](https://github.com/ossu/computer-science), if you've never heard about it before, give it a look.
@@ -14,6 +16,7 @@ This is not a roadmap. It's just my personal experiences and the resources I wen
   - [Short Story: The Day I Fell in Love with CS](#short-story-the-day-i-fell-in-love-with-cs)
   - [Insights about Learning and Education](#insights-about-learning-and-education)
     - [Rethinking _self_-taught](#rethinking-self-taught)
+    - [It's all about good teachers](#its-all-about-good-teachers)
   - [Learning Tips](#learning-tips)
     - [Most useful things I've learned so far](#most-useful-things-ive-learned-so-far)
     - [Chunking in Computer Science](#chunking-in-computer-science)
@@ -82,6 +85,16 @@ One of the reasons I wrote this entire README file was to reflect, I've spent th
 I recommend reflecting a lot on your learning and the experiences you're having, it's not only makes learning itself more meaningful and fun, it also makes you appreciate the things you have, the teachers you learned from.
 
 ### Learning Tips
+
+#### Enjoy small wins
+
+Don't forget to enjoy small wins, whether you understand some new algorithm or concept, completing an assignment, it's worth some celebrating. **Don't keep chasing completion and think you'll only feel happy when you finish the course.**
+I'm speaking from my experience. I often find myself thinking about what to do next and forget to appreciate the present moment. Sometimes it's excitement, sometimes it's fear that I'm not doing enough.
+
+We often tell each other "take care" but we rarely stop and think what it means.
+
+Don't be a person who never notices how good the food tastes because they're already thinking about what to do next.
+Take care of yourself.
 
 #### Most useful things I've learned so far
 
