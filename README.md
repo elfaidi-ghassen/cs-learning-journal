@@ -2,9 +2,9 @@
 
 (work in progress...)
 
-I was discussing with my family what to do after highschool, my sister told me "go for software engineering", that got me thinking.. what does and I told her "what does engineering even mean? like, what's the difference between and engineer and a carpenter?"
+I was discussing with my family what to do after highschool, my sister told me go for software engineering, that got me thinking.. what does and I told her "what does engineering even mean? like, what's the difference between and engineer and a carpenter?" -- It was as serious question :D, well, I'm still looking for answers, that's what learning is about, finding answers.
 
-I'm a third year software engineering student in Tunisia. I'm writing this because a stranger on the internet shared their learning journey in a [README file](https://github.com/spamegg1/reviews), and it gave me so much excitement and hope that I kept going. We need more of this.
+I'm currently a third year software engineering student in Tunisia. I have many reasons to write this, what got me thinking seriously into writing it is because a stranger on the internet once shared their learning journey in a [README file](https://github.com/spamegg1/reviews), and it gave me so much excitement and hope that I kept going. We need more of this.
 
 Many of the courses I've taken are part of the [OSSU curriculum](https://github.com/ossu/computer-science), if you've never heard about it before, give it a look.
 
@@ -18,6 +18,7 @@ This is not a roadmap. It's just my personal experiences and the resources I wen
     - [Rethinking _self_-taught](#rethinking-self-taught)
     - [It's all about good teachers](#its-all-about-good-teachers)
   - [Learning Tips](#learning-tips)
+    - [Enjoy small wins](#enjoy-small-wins)
     - [Most useful things I've learned so far](#most-useful-things-ive-learned-so-far)
     - [Chunking in Computer Science](#chunking-in-computer-science)
   - [Practical Tips](#practical-tips)
@@ -72,9 +73,21 @@ There is a subtle problem with expressions like "self-taught" or "I've learned s
 
 #### It's all about good teachers
 
-I'm quite good at a couple of things, whenever someone asks me how did you get good at it, the answer is almost always the same: a good teacher or a good book.
-I have some strong opinions on this, I truly believe that the teacher is far more important than the course itself, if you don't like the teacher or if the teacher isn't good, it's much harder to get anything from the experience.
-And certainly, other things matter in any learning, but I've been through many good and terrible learning experiences, at university and online. The more I learn the more that I'm convinced that it's all about good teachers.
+I'm quite good at a couple of things, and whenever someone asks me how I got good at them, my answer is almost always the same: a good teacher (or a good course, book, or mentor).
+If the teacher isn't good, or if their way of teaching doesn't work, it becomes much harder to get anything meaningful from the experience.
+Of course other factors matter in any learning, but I've developed some strong opinions about this over time: I"m truly convinced that the teacher is far more important than the course itself.
+
+Over time, I've realized many things about learning and teaching.
+Sometimes I find myself deeply moved by sincerity and subtle acts of kindness I see around me, those things really captivate me (and even bring me to tears)
+It moves me when I notice that someone has put genuine effort into teaching well and making a subject less intimidating.
+I often call it "Down to earth teaching". It's when someone isn't trying to impress you with jargon or show off how much they know. Instead, they're genuinely trying to help you understand. It always fills my heart with happiness when I see it.
+What moves me isn't the jokes that lighten the mood or a particular teaching style, it's the human effort behind it, the invisible work. The fact that this person has actually thought carefully about how to teach this and didn't want me to feel intimidated.
+And behind it all some sort of subtle respect to learners that's hard to describe in words.
+
+This realization led me to another thought: we often forget to thank good teachers.
+At some point I started sending emails to good teachers, at university or online, and even book authors. I was surprised by how many replied and how happy they were to hear that their work had helped someone.
+
+
 
 #### Reflect on Your Journey
 
@@ -550,7 +563,7 @@ I really appreciate how down-to-earth Andrew Ng is as an instructor. He openly s
 
 He also gave me a better understanding of current limits of AI. In one of the optional interviews in the course, it was explained why training robots is actually extremely hard, and we still fail to create robots that generalize well -- the path to AGI is very difficult. If you see a cool robotics video online, it doesn't mean they're actually practical yet. The same goes for reinforcement learning; it's amazing in simulations but incredibly hard to get right in real life.
 
-I think this kind of knowledge is crucial, it's important to understand the limits of the current tools. How can we aspire for a better future if our understanding of reality is distorted, we still have a long way to go. And honestly Machine Learning is so cool and useful on its own, we don't need the hype!
+I think this kind of knowledge is crucial, it's important to understand the limits of the current tools. How can we aspire for a "better future" if our understanding of reality is distorted, we still have a long way to go. And honestly Machine Learning is so cool and useful on its own, we don't need the hype!
 
 You don't need much math for the course, high school math is more than enough, the toughest it gets is doing some partial derivate, and even that is in an optional section on the course.
 I also recommend keeping some notes on the notation, write down the formulas and explain what each symbol mean, it's easy to get lost reading formulas because of those superscripts and subscripts!
