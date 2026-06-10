@@ -2,7 +2,7 @@
 
 (work in progress...)
 
-I was discussing with my family what to do after highschool, my sister told me go for software engineering, that got me thinking.. what does and I told her "what does engineering even mean? like, what's the difference between and engineer and a carpenter?" -- It was as serious question :D, well, I'm still looking for answers, that's what learning is about, finding answers.
+I was discussing with my family what to do after highschool, my sister told me go for software engineering, that got me thinking.. what does and I told her "what does engineering even mean? like, what's the difference between an engineer and a carpenter?" -- It was as serious question :D, well, I'm still looking for answers, that's what learning is about, finding answers.
 
 I'm currently a third year software engineering student in Tunisia. I have many reasons to write this, what got me thinking seriously into writing it is because a stranger on the internet once shared their learning journey in a [README file](https://github.com/spamegg1/reviews), and it gave me so much excitement and hope that I kept going. We need more of this.
 
@@ -86,8 +86,6 @@ And behind it all some sort of subtle respect to learners that's hard to describ
 
 This realization led me to another thought: we often forget to thank good teachers.
 At some point I started sending emails to good teachers, at university or online, and even book authors. I was surprised by how many replied and how happy they were to hear that their work had helped someone.
-
-
 
 #### Reflect on Your Journey
 
