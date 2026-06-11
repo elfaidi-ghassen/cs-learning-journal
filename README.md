@@ -91,7 +91,7 @@ At some point I started sending emails to good teachers, at university or online
 
 #### Learning Compounds
 
-We often hear the generic "focus on the fundamentals" advice because it's important. And for some reason I believed in it, even though it's not clear why it matters, nobody explained to me, but it sounds like common sense. Well, fortunately it turned out to be very true.
+We often hear the generic "focus on the fundamentals" advice because it's important. For some reason I believed that advice even before I understood why it matters, it just sounds like common sense, and fortunately it turned out to be true.
 
 Here is the _key idea_: Two different people can study the same material from the same teacher or book, and leave with completely different experience, because of what they existing knowledge they have.
 
@@ -102,12 +102,19 @@ A more common example is trying to study physics without having good math skills
 In CS this could trying to study Algorithms without having a good knowledge in discrete math, it's very painful.
 
 When I'm learning something in FSO, I start to connect it to my HTTP knowledge and the toy server I built, I start to ask better questions and often end up new learning things and make connections that aren't explicitly included in the course itself.
-And fundamental knowledge give you the power of surprise, and I'd like to quote my highschool math teacher who once told me "I respect you because you're bad at math, but you don't fake it"
-He once said:
+And fundamental knowledge give you the power of surprise, and I'd like to quote my highschool he once said:
 
 > The problem with not having good fundamentals is that you can't differentiate between easy and hard problems on exam, everything is equally impenetrable.
 
-And that's what I mean by "power of surprise", it's when you start to notice behavior that first seems doesn't align with the knowledge and mental model you have built.
+He wasn't a particularly good math teacher, but he was a wise man and I liked him. He would often ask me, "Do you understand?" and I'd reply: "No problem, man. Don't push yourself too hard. I'll be okay."
+At the end of the year, he also told me:
+
+> I really like you because you're bad at math, but you don't fake it.
+
+For some reason, that made me feel good about myself.
+
+Anyway, I have a habit of going off on tangents:
+So, that's what I mean by "power of surprise", it's when you start to notice behavior that first seems doesn't align with the knowledge and mental model you have built.
 
 Which connects with the last point, strong fundamentals makes every new learning reinforce what you know, remember Sara? if she masters the multiplication table, later when she learns division (or more advanced concepts) that becomes itself a reinforcement of the fundamentals, and her knowledge quickly gets richer an richer.
 Also, think about someone who studies grammar for instance, reading itself becomes a way to reinforce the grammar concepts!
