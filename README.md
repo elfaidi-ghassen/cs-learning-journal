@@ -17,7 +17,9 @@ This is not a roadmap. It's just my personal experiences and the resources I wen
   - [Insights about Learning and Education](#insights-about-learning-and-education)
     - [Rethinking _self_-taught](#rethinking-self-taught)
     - [It's all about good teachers](#its-all-about-good-teachers)
+    - [Learning compounds](#learning-compounds)
   - [Learning Tips](#learning-tips)
+    - [Reflect on Your Journey](#reflect-on-your-journey)
     - [Enjoy small wins](#enjoy-small-wins)
     - [Most useful things I've learned so far](#most-useful-things-ive-learned-so-far)
     - [Chunking in Computer Science](#chunking-in-computer-science)
@@ -87,6 +89,33 @@ And behind it all some sort of subtle respect to learners that's hard to describ
 This realization led me to another thought: we often forget to thank good teachers.
 At some point I started sending emails to good teachers, at university or online, and even book authors. I was surprised by how many replied and how happy they were to hear that their work had helped someone.
 
+#### Learning Compounds
+
+We often hear the generic "focus on the fundamentals" advice because it's important. And for some reason I believed in it, even though it's not clear why it matters, nobody explained to me, but it sounds like common sense. Well, fortunately it turned out to be very true.
+
+Here is the _key idea_: Two different people can study the same material from the same teacher or book, and leave with completely different experience, because of what they existing knowledge they have.
+
+"Previous knowledge" makes learning new things much more fun, because you're not starting from scratch every time! when you haven't internalized the key fundamental chunks of knowledge, every new problem you face, it's completely new to you, so it's much more painful. But what's worse, is that you learn less from the experience itself. Without a well-organized base of knowledge, new information has nowhere meaningful to attach, so much of it is quickly forgotten.
+
+Let's make this concrete, imagine a kid, let's call her Sara, she's learning the multiplication table, but he doesn't internalize it and think it's useless. Later when she studies division, she doesn't have any "baggage" with her, nothing in her brain, no structure that could help. when she sees 12/4 she does't "feel" it's 3, she never built that connection between 3, 4 and 12.
+A more common example is trying to study physics without having good math skills, each physics problem becomes a two layer of suffering, you have to struggle through the math to finally reach the physics part, which itself might be challenging.
+In CS this could trying to study Algorithms without having a good knowledge in discrete math, it's very painful.
+
+When I'm learning something in FSO, I start to connect it to my HTTP knowledge and the toy server I built, I start to ask better questions and often end up new learning things and make connections that aren't explicitly included in the course itself.
+And fundamental knowledge give you the power of surprise, and I'd like to quote my highschool math teacher who once told me "I respect you because you're bad at math, but you don't fake it"
+He once said:
+
+> The problem with not having good fundamentals is that you can't differentiate between easy and hard problems on exam, everything is equally impenetrable.
+
+And that's what I mean by "power of surprise", it's when you start to notice behavior that first seems doesn't align with the knowledge and mental model you have built.
+
+Which connects with the last point, strong fundamentals makes every new learning reinforce what you know, remember Sara? if she masters the multiplication table, later when she learns division (or more advanced concepts) that becomes itself a reinforcement of the fundamentals, and her knowledge quickly gets richer an richer.
+Also, think about someone who studies grammar for instance, reading itself becomes a way to reinforce the grammar concepts!
+
+So, TLDR: good learning might be slow, but it compounds really fast: the more you learn, the more you absorb from new experiences.
+
+### Learning Tips
+
 #### Reflect on Your Journey
 
 I heard about this quote from Dijkstra in Remzi Arpaci-Dusseau amazing [last lecture](https://youtu.be/sKTyhqvTUBU?si=QXNsu16k9FsAomPU&t=1079)of OS class, when Dijkstra said that _experience is not the same as wisdom_, to have wisdom you need both experience and _reflection_.
@@ -95,9 +124,9 @@ One of the reasons I wrote this entire README file was to reflect, I've spent th
 
 I recommend reflecting a lot on your learning and the experiences you're having, it's not only makes learning itself more meaningful and fun, it also makes you appreciate the things you have, the teachers you learned from.
 
-### Learning Tips
-
 #### Enjoy small wins
+
+> "Nothing more or less than the experience of experience itself" -- Eva Hoffman
 
 Don't forget to enjoy small wins, whether you understand some new algorithm or concept, completing an assignment, it's worth some celebrating. **Don't keep chasing completion and think you'll only feel happy when you finish the course.**
 I'm speaking from my experience. I often find myself thinking about what to do next and forget to appreciate the present moment. Sometimes it's excitement, sometimes it's fear that I'm not doing enough.
@@ -160,9 +189,9 @@ This may seem like a trivial thing but I think it actually matters.
 
 #### Don't Neglect Code Style
 
-I remember watching the first couple of lectures of CS50 (though I didn't complete it) at summer after high school, the instructor David Malan just pointed out briefly that he puts the colon right after the end of the if statement, with no spaces
+I remember watching the first couple of lectures of CS50 at summer after high school (though I didn't complete it), the instructor David Malan just pointed out briefly that he puts the colon right after the end of the if statement, with no spaces
 i.e. `if some_condition:` and not `if some_condition :`
-It was the first time I think about it and I just started to notice how people write code and how it differs from one language to another (and even between people using the same language).
+It was the first time I thought about it and I just started to notice how people write code and how it differs from one language to another (and even between people using the same language).
 There are indeed tools like linters and code formatters that automatically format your code but I think it's worth getting in the habit of writing organized code. In first years of college, a friend of mine sometimes would write code like this:
 
 ```py
@@ -173,10 +202,12 @@ if x==10 and y< 15  :
 I convinced him it's kind of a problem by saying "imagine writing such code in a coding interview". He told me it was a bit challenging at first to change the writing habits.
 That's why I think the earlier you realize that there are some "good" code writing habits, the better.
 
+Another is realizing that consistency is looks so pretty, that's why we have conventions, try to start noticing in people's code, files, etc. for instance I prefer filenames to be lowercase with dashes, e.g. `integration-test.js`, I've heard some consider a bit ugly, but that does't matter because when you have tens of files following the same convention, somehow it starts to look so pretty and organized. Same goes for git commits too.
+
 #### Use a REPL
 
 It's basically like the JS console on the browser dev tools or when you write "python" in the terminal and press enter. That interactive shell is called a REPL (Read Eval Print Loop).
-You should use a REPL, most languages have ones! even statically typed languages like C# and Java! They are great to test small pieces of code, Regular Expressions, date functions, ASCII codes, etc.
+You should use a REPL, most languages have ones! even statically typed languages like C# and Java! They are great for testing small pieces of code, Regular Expressions, date functions, ASCII codes, etc.
 They are extremely helpful to quickly verify what an expression _evaluate_ to.
 
 #### Using Flashcards (Anki)
@@ -589,11 +620,13 @@ I thought enough is enough! I was determined to learn Git in depth, so I spent a
 But I felt... most of my friends don't use Git! if I don't use it much I might get rusty!
 So, as I said in the command line section, I send a message to my roommates: "_I'm going to force you to learn Git, whether you want it or not!_. And I did just that. It was a very fun experience and I learned so much about git in the process.
 
-The book focuses on Git, branching, conflicts and fixing mistakes, the best practices and also have a good coverage of using Github -- although it's not the main focus.
+The book focuses on Git, branching, conflicts and fixing mistakes, collaborating with others using different branches, and even how to collaborate within the same branch, It also covers some of best practices and also has a pretty good coverage Github -- although it's not the main focus of the book.
 
-The "_there are no_ **DUMB QUESTIONS**" sections were my favorite, they always answer all the dumb questions that cross my mind!
+After reading the book I was able to carry out what I like call "git surgery", I once worked on a little game project in a team of 6 people. Even though we agreed on a workflow and all, there were some big problems (later it turned out it was _because_ of the [workflow](/extras/workflow.md)).The book gave me enough knowledge to start reasoning about problems we faced and ask the right questions (I noticed while writing these reviews that a sign of good learning resource is that it teaches you how to reason well about problems)
 
-The book also did something really smart which is not using code but just plain text for all examples, which instills the idea that you can basically use Git for ANYTHING.
+I especially loved the "_there are no_ **DUMB QUESTIONS**" sections were my favorite, they always answer all the dumb questions that cross my mind!
+
+The book also did something really smart which is not using programs but just plain text for all examples, which instills the idea that you can basically use Git for ANYTHING.
 
 _The Bottom Line_: If you want to learn how git really works and immediately start to work with others and contribute to open source, this is a great option.
 
