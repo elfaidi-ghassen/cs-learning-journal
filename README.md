@@ -2,7 +2,6 @@
 
 (work in progress...)
 
-I was discussing with my family what to do after highschool, my sister told me go for software engineering, that got me thinking.. what does and I told her "what does engineering even mean? like, what's the difference between an engineer and a carpenter?" -- It was as serious question :D, well, I'm still looking for answers, that's what learning is about, finding answers.
 
 I'm currently a third year software engineering student in Tunisia. I have many reasons to write this, what got me thinking seriously into writing it is because a stranger on the internet once shared their learning journey in a [README file](https://github.com/spamegg1/reviews), and it gave me so much excitement and hope that I kept going. We need more of this.
 
@@ -93,11 +92,11 @@ At some point I started sending emails to good teachers, at university or online
 
 We often hear the generic "focus on the fundamentals" advice because it's important. For some reason I believed that advice even before I understood why it matters, it just sounds like common sense, and fortunately it turned out to be true.
 
-Here is the _key idea_: Two different people can study the same material from the same teacher or book, and leave with completely different experience, because of what they existing knowledge they have.
+Here is the _key idea_: Two different people can study the same material from the same teacher or book, and leave with completely different experience, because of the existing knowledge they have.
 
 "Previous knowledge" makes learning new things much more fun, because you're not starting from scratch every time! when you haven't internalized the key fundamental chunks of knowledge, every new problem you face, it's completely new to you, so it's much more painful. But what's worse, is that you learn less from the experience itself. Without a well-organized base of knowledge, new information has nowhere meaningful to attach, so much of it is quickly forgotten.
 
-Let's make this concrete, imagine a kid, let's call her Sara, she's learning the multiplication table, but he doesn't internalize it and think it's useless. Later when she studies division, she doesn't have any "baggage" with her, nothing in her brain, no structure that could help. when she sees 12/4 she does't "feel" it's 3, she never built that connection between 3, 4 and 12.
+Let's make this concrete, imagine a kid, let's call her Sara, she's learning the multiplication table, but she doesn't internalize it and think it's useless. Later when she studies division, she doesn't have any "baggage" with her, nothing in her brain, no structure that could help. when she sees 12/4 she does't "feel" it's 3, she never built that connection between 3, 4 and 12.
 A more common example is trying to study physics without having good math skills, each physics problem becomes a two layer of suffering, you have to struggle through the math to finally reach the physics part, which itself might be challenging.
 In CS this could trying to study Algorithms without having a good knowledge in discrete math, it's very painful.
 
@@ -129,7 +128,7 @@ I heard about this quote from Dijkstra in Remzi Arpaci-Dusseau amazing [last lec
 And it's easy to forget about reflecting on one's experiences (and life in general), sometimes it feels we've never been this distant from ourselves.
 One of the reasons I wrote this entire README file was to reflect, I've spent three years in college and I wanted to know, where am I in this my journey in life.
 
-I recommend reflecting a lot on your learning and the experiences you're having, it's not only makes learning itself more meaningful and fun, it also makes you appreciate the things you have, the teachers you learned from.
+I recommend reflecting a lot on your learning and the experiences you're going through, not only it makes learning itself more meaningful and fun, it also makes you appreciate the things you have, the teachers you learned from.
 
 #### Enjoy small wins
 
@@ -564,7 +563,7 @@ I remember once having to take a small course about creativity, but the course w
 Uncommon Sense Teaching is different! it actually applies the teaching advice it gives in the course itself!
 
 The course also taught me about the trends in education, and how it's really complicated issue.
-I still remember in primary school when one of my teachers said "The student is the center of the educational process", I had no idea it would be related to the Constructivism movement in the West!
+I still remember in primary school when one of my teachers said "The student is at the center of the educational process", I had no idea it would be related to the Constructivism movement in the West!
 It's fascinating how ideologies and philosophies affect our lives without even knowing about it.
 
 The course contains a lot more content that Learning How to Learn, more teaching concepts scaffolding and differentiation are well explained, some information about child's development, classroom management and many insights from Neuroscience.
