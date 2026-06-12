@@ -2,7 +2,6 @@
 
 (work in progress...)
 
-
 I'm currently a third year software engineering student in Tunisia. I have many reasons to write this, what got me thinking seriously into writing it is because a stranger on the internet once shared their learning journey in a [README file](https://github.com/spamegg1/reviews), and it gave me so much excitement and hope that I kept going. We need more of this.
 
 Many of the courses I've taken are part of the [OSSU curriculum](https://github.com/ossu/computer-science), if you've never heard about it before, give it a look.
@@ -136,9 +135,9 @@ I recommend reflecting a lot on your learning and the experiences you're going t
 
 Don't forget to enjoy small wins, whether you understand some new algorithm or concept, completing an assignment, it's worth some celebrating. **Don't keep chasing completion and think you'll only feel happy when you finish the course.**
 I'm speaking from my experience. I often find myself thinking about what to do next and forget to appreciate the present moment. Sometimes it's excitement, sometimes it's fear that I'm not doing enough.
+We often give this advice in a context I'm not fond of: "enjoy small moments" because it improves _productivity_. It's similar to telling someone to sleep well so they can work better. But that's not really what we're talking about. We're talking about the experience of living itself.
 
 We often tell each other "take care" but we rarely stop and think what it means.
-
 Don't be a person who never notices how good the food tastes because they're already thinking about what to do next.
 Take care of yourself.
 
@@ -628,7 +627,7 @@ So, as I said in the command line section, I send a message to my roommates: "_I
 
 The book focuses on Git, branching, conflicts and fixing mistakes, collaborating with others using different branches, and even how to collaborate within the same branch, It also covers some of best practices and also has a pretty good coverage Github -- although it's not the main focus of the book.
 
-After reading the book I was able to carry out what I like call "git surgery", I once worked on a little game project in a team of 6 people. Even though we agreed on a workflow and all, there were some big problems (later it turned out it was _because_ of the [workflow](/extras/workflow.md)).The book gave me enough knowledge to start reasoning about problems we faced and ask the right questions (I noticed while writing these reviews that a sign of good learning resource is that it teaches you how to reason well about problems)
+After reading the book I was able to carry out what I like call "git surgery", I once worked on a little game project in a team of 6 people. Even though we agreed on a workflow and all, there were some big problems (later it turned out it was _because_ of the [workflow](/extras/workflow.md), which I later fixed).The book gave me enough knowledge to start reasoning about problems we faced and ask the right questions (I noticed while writing these reviews that a sign of good learning resource is that it teaches you how to reason well about problems)
 
 I especially loved the "_there are no_ **DUMB QUESTIONS**" sections were my favorite, they always answer all the dumb questions that cross my mind!
 

@@ -29,6 +29,7 @@ _So, you want to start working on a new feature or fix some problem:_
 16. delete the remote tracking branch (origin/branch-name): `git fetch -p`
 
 NOTE: why step 6?
+Well, I learned this the hard way :D
 we usually merge the feature 🍫 into main🎂 (remember the cake analogy)
 This time we did the opposite, we merge the main into feature because we want to verify if there are conflicts that PR won't catch, the fact that there are no conflicts in the merge doesn't mean it's working.
 The way git finds conflicts in merge is text based, but it doesn't account for semantic problems, for example perhaps someone in main branch removed a function you're using in your code, git won't catch that!
