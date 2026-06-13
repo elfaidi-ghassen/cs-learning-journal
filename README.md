@@ -21,6 +21,7 @@ This is not a roadmap. It's just my personal experiences and the resources I wen
     - [Enjoy small wins](#enjoy-small-wins)
     - [Most useful things I've learned so far](#most-useful-things-ive-learned-so-far)
     - [Chunking in Computer Science](#chunking-in-computer-science)
+    - [No perfect roadmap](#no-perfect-roadmap)
   - [Practical Tips](#practical-tips)
     - [Don't Neglect Code Style](#dont-neglect-code-style)
     - [Use a REPL](#use-a-repl)
@@ -42,6 +43,7 @@ This is not a roadmap. It's just my personal experiences and the resources I wen
   - [Head First Git](#head-first-git)
   - [Object-Oriented Design](#object-oriented-design----alberta)
   - [UML Distilled](#uml-distilled)
+  - [Writing in The Sciences](#writing-in-the-sciences)
 
 ## Tips and Reflections
 
@@ -191,6 +193,14 @@ Here is an example, Arabic speakers use two calendar systems, The Gregorian Sola
 The thing is, without that, when I read a book, let's say a history book, I have a vague understanding of months and I couldn't quickly map ideas to months, or intuitively understand how much time has passed, I need to make more cognitive efforts to do so.
 This may seem like a trivial thing but I think it actually matters.
 
+#### No perfect roadmap
+
+> Information hunger, when it consumes a person, drives them to read everything trying to know everything—and they end up knowing nothing -- Elmessiri
+
+I have long lists of courses about everything, sometimes my friends joke about how when I talk to someone about anything, I'm probably gonna suggest a course, "oh right, that day I saw this free typography course", "last night I've seen this awesome course about children learning problems", well, it's kind of a hobby -- almost.
+And especially when the first year in college, I felt really, really distracted, I felt had a million thing to learn, I keep planning and planning and imagining the "perfect roadmap" that I'll use this summer, I keep comparing courses endlessly.
+It took me a while to realize that I'll never find this perfect roadmap. what matters at the end of the day is that you pick some high quality course taught by a good instructor, and stick with it. that's it. there is no point in overthinking it. It's important to accept the fact that you won't learn everything, and there is no course that will teach you everything about something, there is no point in endless comparisons.
+
 ### Practical Tips
 
 #### Don't Neglect Code Style
@@ -246,10 +256,11 @@ One tool I find very helpful for making flashcards is [ShareX](https://github.co
 
 I recommend that you take notes on your computer sometimes, while research says taking notes on paper leads to better learning, but I think it's useful to take notes on computer occasionally. I really like Obsidian, markdown is awesome. I also take notes (README files) in VS code, if you do make sure you install the linter like `markdownlint` and maybe a spell checker, they help a lot.
 Don't worry too much about finding the perfect writing system, you can spend weeks trying different note taking tools and systems and comparing them, I spend some time in that rabbit hole, going from tool to tool, but it's not worth it.
+Also, a quick note: while taking a course, be careful not to just copy paste things from the course into your notes, that's an illusion of learning, equivalent to highlighting everything a book you're reading.
 
 I also found it to help you get used to writing on computers in general.
 I write quite well on computer (around 60 WPM) and I think it's partially because I spend a lot of time taking notes on my computer.
-I've noticed that many students looking at keyboard when they write, it's really worth trying to get used to blind typing.
+I've noticed that many students still look at the keyboard while typing, it's normal at first but it's really worth trying to get used to blind typing.
 A friend of mine told me he used a website (link) to improve his speed and in a couple of months he's as fast as me (but it took me years :D)
 So it's very learnable with some good instruction and practice.
 
@@ -265,7 +276,7 @@ when I was starting out I used to think it's impossible to name a python file "s
 I recommend getting comfortable with command line as early as possible, it doesn't just improve your productivity, but it also offers you more opportunities for learning.
 If you're a Windows user and don't want to switch, try having a dual boot (i.e. installing both Windows and Linux on the same machine, you get to choose which one to start), and make sure to install [WSL](https://learn.microsoft.com/en-us/windows/wsl/install). I use a custom shortcut Ctrl + Shift + V to start WSL using [AutoHotkey](https://www.autohotkey.com/).
 
-When I realized the power of command line, I went to pretty much anyone I knew and installed zoxide and fzf for them. (seriously, you SHOULD get zoxide installed)
+When I realized the power of command line, I went to pretty much anyone I knew and installed zoxide and fzf for them. (seriously, you should try them out)
 I created a /projects folder, and told them they can simply type `z proj` to go to it and create a folder for each project, and simply open it in VS code (code .)
 And Windows users like me have an itch for opening the explorer (finder) for some reason, so I created an alias called `opend` which opens the current directory in the explorer.
 That alone made them enjoy using the command line and motivated them to learn it more.
@@ -500,7 +511,7 @@ So, the course is great, but here are some practical tips that might help.
 - understand the difference between the Shell and Terminal
 - understanding how PATH works is **VERY** important, it's a key idea.
 - I highly recommend building a shell (at some point), it really helped me internalize the concept of a process (from OSTEP)
-- you probably should install _zoxide_ (I know many people who used to hate command line, but suddenly fell in love with it the moment they tried zoxide)
+- you probably should install _zoxide_ (I can't count the number of people I know who started to love command line just by trying zoxide)
 
 ![alt text](/media/zoxide.gif)
 
@@ -732,3 +743,16 @@ And I've asked two students from my university who got some of the best graduati
 > Nope, like most people I just kept working on the project and adding new features, then at the end I spent some time creating the diagrams. -- Z.
 
 _The Bottom Line_: A really good book about UML, distilled from all the nonsense.
+
+#### Writing in the Sciences
+
+I thought it would be a shame to spend years at college yet not understand much about scientific writing, so I took this course.
+It contained many nice writing tips, and some important ideas in academic writing.
+I learned a couple of nice ideas in it, for instance the importance of showing both relative and absolute percentages when talking to laypeople (i.e. me).
+Because if you tell people "We discovered that this drug has increased the rate of of some disease by 50%" you're gonna scare people
+But if you tell people it increases the changes of the disease from 0.001 to 0.002, it's not as scary.
+But at the same time it's misleading to include only include the absolute change because an increase from 0.001 to 0.002 is devastating when you have hundreds of thousands of people taking the drug.
+
+But overall, I still don't feel confident in my academic writing, and so I plan to take another course (todo: link here) which has a capstone project where you actually write a paper about a topic you like.
+
+_The Bottom Line_: it's fine, not sure it's worth your time
