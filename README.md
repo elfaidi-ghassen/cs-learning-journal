@@ -25,6 +25,7 @@ This is not a roadmap. It's just my personal experiences and the resources I wen
     - [Don't Neglect Code Style](#dont-neglect-code-style)
     - [Use a REPL](#use-a-repl)
     - [Using Flashcards](#using-flashcards-anki)
+    - [Taking notes](#taking-notes)
     - [Using the command line](#using-the-command-line)
     - [Some ways to have fun](#some-ways-to-have-fun)
 - Courses and Books
@@ -240,6 +241,19 @@ I want to mention some mistakes I made along my journey of creating flashcards.
 - It might be better to avoid using AI tools to make flashcards, there is a lot to learn just by trying to formulate a good question.
 
 One tool I find very helpful for making flashcards is [ShareX](https://github.com/sharex/sharex), a free and open source screenshot tool. It has a "Smart Eraser" feature that lets you annotate or remove parts of an image on the fly, which makes creating image-based flashcards a lot faster.
+
+#### Taking notes
+
+I recommend that you take notes on your computer sometimes, while research says taking notes on paper leads to better learning, but I think it's useful to take notes on computer occasionally. I really like Obsidian, markdown is awesome. I also take notes (README files) in VS code, if you do make sure you install the linter like `markdownlint` and maybe a spell checker, they help a lot.
+Don't worry too much about finding the perfect writing system, you can spend weeks trying different note taking tools and systems and comparing them, I spend some time in that rabbit hole, going from tool to tool, but it's not worth it.
+
+I also found it to help you get used to writing on computers in general.
+I write quite well on computer (around 60 WPM) and I think it's partially because I spend a lot of time taking notes on my computer.
+I've noticed that many students looking at keyboard when they write, it's really worth trying to get used to blind typing.
+A friend of mine told me he used a website (link) to improve his speed and in a couple of months he's as fast as me (but it took me years :D)
+So it's very learnable with some good instruction and practice.
+
+Finally, The Pragmatic Programmer recommends having an Engineering Daybook you always keep with you, basically a notebook where you write stuff you learn, problems you face and tips and tricks. I found it really useful and makes learning more fun.
 
 #### Using the command line
 
@@ -467,6 +481,38 @@ Some Tips:
     - [landchad](https://landchad.net/) is a nice little resource that explains how to do it and the basics of managing a VPS and hosting whatever you want.
 
 _The Bottom Line_: What can I say? this book is so dear to me, and I can't recommend it enough!
+
+## The Missing Semester
+
+So, the course is great, but here are some practical tips that might help.
+
+- If you are a Windows user, it's recommend that you install linux alongside Windows (it's called Dual boot), you'd be able to choose which OS to run when you start your computer.
+- Or at the very least, install WSL. (like seriously, you need to do that)
+- Make it the default shell in the terminal so that when you open the terminal app it's there
+- make the terminal maximized by default
+- install AutoHotKey and create a shortcut e.g. Control + Shift + Enter to open the terminal, it's very convenient.
+
+```
+^+Enter::
+    Run, wt.exe ; windows terminal
+```
+
+- understand the difference between the Shell and Terminal
+- understanding how PATH works is **VERY** important, it's a key idea.
+- I highly recommend building a shell (at some point), it really helped me internalize the concept of a process (from OSTEP)
+- you probably should install _zoxide_ (I know many people who used to hate command line, but suddenly fell in love with it the moment they tried zoxide)
+
+![alt text](/media/zoxide.gif)
+
+- you can open vscode in the current folder using `code .`
+- I really like `tldr` command, much simpler than the man command, it cuts to the chase and more than enough for most cases.
+- I mainly use bash on WSL, you can also try zsh + ohmyzsh, it's cool, but it's really slow on WSL.
+- The notes in the first lecture contains other cool commands you can install like `bat` and `eza`
+  - remember you can create aliases for instance to make `ls` execute `eza`
+- If you use Windows Terminal, it has lots of nice shortcuts for splitting the panes, it's very useful and much better than having multiple tabs, I found this useful especially in web development.
+- Don't forget to use `tab` for auto completion, you need to consciously use it at first until it becomes a habit.
+- I have an alias called `opend` which is same as `explorer.exe .`
+  - It's useful sometimes to open the current directory, e.g. you want to drag and drop a file to some site.
 
 ## Nand2Tetris: part 1
 
