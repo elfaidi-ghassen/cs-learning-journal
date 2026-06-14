@@ -16,7 +16,7 @@ This is not a roadmap. It's just my personal experiences and the resources I wen
     - [Rethinking _self_-taught](#rethinking-self-taught)
     - [It's all about good teachers](#its-all-about-good-teachers)
     - [Learning compounds](#learning-compounds)
-    - [Do certificates matter?](#Do certificates matter?)
+    - [Do certificates matter?](#do-certificates-matter)
   - [Learning Tips](#learning-tips)
     - [Reflect on Your Journey](#reflect-on-your-journey)
     - [Enjoy small wins](#enjoy-small-wins)
