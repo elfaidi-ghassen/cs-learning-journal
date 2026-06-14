@@ -34,6 +34,7 @@ This is not a roadmap. It's just my personal experiences and the resources I wen
   - [Programming Languages: Parts A, B and C](#programming-languages-parts-a-b-and-c)
   - [Operating Systems: Three Easy Pieces](#operating-systems-three-easy-pieces)
   - [Computer Networking: A Top Down Approach](#computer-networking-a-top-down-approach)
+  - [The Missing Semester](#the-missing-semester)
   - [Nand2Tetris: Part 1](#nand2tetris-part-1)
   - [Learning How to Learn](#learning-how-to-learn)
   - [Mindshift](#mindshift)
@@ -44,6 +45,7 @@ This is not a roadmap. It's just my personal experiences and the resources I wen
   - [Object-Oriented Design](#object-oriented-design----alberta)
   - [UML Distilled](#uml-distilled)
   - [Writing in The Sciences](#writing-in-the-sciences)
+- [Footnotes](#footnotes)
 
 ## Tips and Reflections
 
@@ -98,24 +100,16 @@ Here is the _key idea_: Two different people can study the same material from th
 
 "Previous knowledge" makes learning new things much more fun, because you're not starting from scratch every time! when you haven't internalized the key fundamental chunks of knowledge, every new problem you face, it's completely new to you, so it's much more painful. But what's worse, is that you learn less from the experience itself. Without a well-organized base of knowledge, new information has nowhere meaningful to attach, so much of it is quickly forgotten.
 
-Let's make this concrete, imagine a kid, let's call her Sara, she's learning the multiplication table, but she doesn't internalize it and think it's useless. Later when she studies division, she doesn't have any "baggage" with her, nothing in her brain, no structure that could help. when she sees 12/4 she does't "feel" it's 3, she never built that connection between 3, 4 and 12.
+Let's make this concrete, imagine a kid, let's call her Sara[^memory-paradox], she's learning the multiplication table, but she doesn't internalize it and think it's useless. Later when she studies division, she doesn't have any "baggage" with her, nothing in her brain, no structure that could help. when she sees 12/4 she does't "feel" it's 3, she never built that connection between 3, 4 and 12.
 A more common example is trying to study physics without having good math skills, each physics problem becomes a two layer of suffering, you have to struggle through the math to finally reach the physics part, which itself might be challenging.
 In CS this could trying to study Algorithms without having a good knowledge in discrete math, it's very painful.
 
 When I'm learning something in FSO, I start to connect it to my HTTP knowledge and the toy server I built, I start to ask better questions and often end up new learning things and make connections that aren't explicitly included in the course itself.
-And fundamental knowledge give you the power of surprise, and I'd like to quote my highschool he once said:
+And fundamental knowledge give you the power of surprise, and I'd like to quote my highschool math teacher[^math-teacher]:
 
 > The problem with not having good fundamentals is that you can't differentiate between easy and hard problems on exam, everything is equally impenetrable.
 
-He wasn't a particularly good math teacher, but he was a wise man and I liked him. He would often ask me, "Do you understand?" and I'd reply: "No problem, man. Don't push yourself too hard. I'll be okay."
-At the end of the year, he also told me:
-
-> I really like you because you're bad at math, but you don't fake it.
-
-For some reason, that made me feel good about myself.
-
-Anyway, I have a habit of going off on tangents:
-So, that's what I mean by "power of surprise", it's when you start to notice behavior that first seems doesn't align with the knowledge and mental model you have built.
+That's what I mean by "power of surprise", it's when you start to notice behavior that first seems doesn't align with the knowledge and mental model you have built.
 
 Which connects with the last point, strong fundamentals makes every new learning reinforce what you know, remember Sara? if she masters the multiplication table, later when she learns division (or more advanced concepts) that becomes itself a reinforcement of the fundamentals, and her knowledge quickly gets richer an richer.
 Also, think about someone who studies grammar for instance, reading itself becomes a way to reinforce the grammar concepts!
@@ -383,7 +377,7 @@ I still remember when I was taking this course in the summer of first year at un
 
 _The Bottom Line_: I think this is one of the best introductions to programming one could have.
 
-## Programming Languages: Parts A, B and C
+### Programming Languages: Parts A, B and C
 
 > but if you have big ideas, you have to use big words to express them, haven't you? -- Anne of Green Gables
 
@@ -423,7 +417,7 @@ I really love this course, and perhaps this review won't do it justice, I loved 
 
 _The Bottom Line_: Just take this course! it's such a unique learning experience.
 
-## Operating Systems: Three Easy Pieces
+### Operating Systems: Three Easy Pieces
 
 Book by Remzi Arpaci-Dusseau and Andrea Arpaci-Dusseau.
 
@@ -469,7 +463,7 @@ Overall, OSTEP does an amazing job at building intuitions and making intimidatin
 
 _The Bottom Line_: This book somehow managed to make a topic like Operating Systems... fun! and that's no small achievement!
 
-## Computer Networking: A Top Down Approach
+### Computer Networking: A Top Down Approach
 
 Computer networking is one of the most rewarding topics to study in computer science, you get the benefits _instantly_! you suddenly start to understand those networking terms you hear everywhere. It's almost hard for me now to remember life where I didn't know those terms and concepts!
 
@@ -493,7 +487,7 @@ Some Tips:
 
 _The Bottom Line_: What can I say? this book is so dear to me, and I can't recommend it enough!
 
-## The Missing Semester
+### The Missing Semester
 
 So, the course is great, but here are some practical tips that might help.
 
@@ -529,7 +523,7 @@ So, the course is great, but here are some practical tips that might help.
 - I have an alias called `opend` which is same as `explorer.exe .`
   - It's useful sometimes to open the current directory, e.g. you want to drag and drop a file to some site.
 
-## Nand2Tetris: part 1
+### Nand2Tetris: part 1
 
 The part 1 projects and learning material are freely available on the [course website](https://www.nand2tetris.org/course).
 I finished it in less than around 2 weeks for a simple reason: at that point I had already taken many courses at university that teach boolean algebra and computer architecture concepts that are more advanced than N2T, I've studied transistors in depth in electronics classes, how we build logic gates using CMOS technology, using K-Maps, and sequential logic in more depth. _Yet... I didn't understand how a computer works_!
@@ -567,7 +561,7 @@ For instance, using term _name_ instead of _variable_ (like when we say a _name_
 
 _The Bottom Line_: Understanding how a computer works and going through the layers of abstraction is one of the best parts of CS education.
 
-## Learning How to Learn
+### Learning How to Learn
 
 - [Coursera](https://www.coursera.org/learn/learning-how-to-learn)
 - Based on the book [A Mind for Numbers](https://www.amazon.com/Mind-Numbers-Science-Flunked-Algebra/dp/039916524X)
@@ -583,9 +577,11 @@ After taking it, I started to find myself always taking notes and reflections ab
 
 The course contains some interview with many interesting people including Scott Young -- known for his books and the awesome [MIT challege](https://www.scotthyoung.com/blog/myprojects/mit-challenge-2/), I really enjoyed these.
 
+And I know that correlation does not mean causation, just after completing this course in summer, my grades the next year really improved and I somehow managed to get the second in my class.
+
 _The Bottom Line_: A great course that helps you build a mental framework to understand how you learn and why you struggle at times. Highly recommended!
 
-## Mindshift
+### Mindshift
 
 - (Coursera)[https://www.coursera.org/learn/mindshift]
 
@@ -606,7 +602,7 @@ Knowing that you have a backup plan actually helps you focus more on what you're
 
 _The Bottom Line_: Full of interesting insights I've never heard before, a very mature take on passion and learning in general, I recommend it!
 
-## Uncommon Sense Teaching
+### Uncommon Sense Teaching
 
 <https://www.coursera.org/specializations/uncommon-sense-teaching-certificate>
 
@@ -643,7 +639,7 @@ Kinda a bummer I can't spend too much time on all of that!
 
 _The Bottom Line_: If you only need to take one course on teaching, this probably is the one.
 
-## Machine Learning
+### Machine Learning
 
 <https://www.coursera.org/specializations/machine-learning-introduction>
 
@@ -667,7 +663,7 @@ Andrew explains the concepts really well, my only real complaint is how gentle t
 
 _The Bottom Line_: An very gentle introduction to Machine Learning, it's very enjoyable, and Andrew is great at explaining concepts intuitively.
 
-## Meta Version Control
+### Meta Version Control
 
 While this course is targeted for absolute beginners (I was the target audience!) yet it's too shallow and won't make you better at Git, there are many better [alternatives](#head-first-git) out there.
 
@@ -676,7 +672,7 @@ It reminds me a lot of the Alberta's Object-Oriented Design course: it says so m
 
 _The Bottom Line_: Avoid this one.
 
-## Head First Git
+### Head First Git
 
 I love the Head First series, even though it's full of silly drawings that I don't really care for. The content itself is often superb! Head First Git contains some of the best explanations and analogies for Git I've ever seen, I left the book with clear mental model of how Git really works and how to actually use Git and Github in practice. Since then, I've even started to collaborate on open source projects!
 
@@ -696,7 +692,7 @@ The book also did something really smart which is not using programs but just pl
 
 _The Bottom Line_: If you want to learn how git really works and immediately start to work with others and contribute to open source, this is a great option.
 
-## Object-Oriented Design -- Alberta
+### Object-Oriented Design -- Alberta
 
 NOTE: _I did not complete the course_
 
@@ -710,7 +706,7 @@ This one is not different.
 
 _The Bottom Line_: Don't take this course.
 
-## UML Distilled
+### UML Distilled
 
 When you start learning something like UML, you'd be surprised by the amount of boring nonsense, it's kind of ridiculous at times.
 
@@ -760,3 +756,9 @@ But at the same time it's misleading to include only include the absolute change
 But overall, I still don't feel confident in my academic writing, and so I plan to take another course (todo: link here) which has a capstone project where you actually write a paper about a topic you like.
 
 _The Bottom Line_: it's fine, not sure it's worth your time
+
+## Footnotes
+
+[^math-teacher]: He wasn't a particularly good math teacher, but he was a wise man and I liked him. He would often ask me, "Do you understand?" and I'd reply: "No problem, man. Don't push yourself too hard. I'll be okay." But the end of the year, he also told me: "I really like you because you're bad at math, but you don't fake it." For some reason, that made me feel good about myself.
+
+[^memory-paradox]: I've got this example from [this paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5250447), it's worth reading!
