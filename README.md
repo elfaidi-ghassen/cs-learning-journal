@@ -16,6 +16,7 @@ This is not a roadmap. It's just my personal experiences and the resources I wen
     - [Rethinking _self_-taught](#rethinking-self-taught)
     - [It's all about good teachers](#its-all-about-good-teachers)
     - [Learning compounds](#learning-compounds)
+    - [Do certificates matter?](#Do certificates matter?)
   - [Learning Tips](#learning-tips)
     - [Reflect on Your Journey](#reflect-on-your-journey)
     - [Enjoy small wins](#enjoy-small-wins)
@@ -44,6 +45,7 @@ This is not a roadmap. It's just my personal experiences and the resources I wen
   - [Head First Git](#head-first-git)
   - [Object-Oriented Design](#object-oriented-design----alberta)
   - [UML Distilled](#uml-distilled)
+  - [Java MOOC](#java-mooc)
   - [Writing in The Sciences](#writing-in-the-sciences)
 - [Footnotes](#footnotes)
 
@@ -115,6 +117,24 @@ Which connects with the last point, strong fundamentals makes every new learning
 Also, think about someone who studies grammar for instance, reading itself becomes a way to reinforce the grammar concepts!
 
 So, TLDR: good learning might be slow, but it compounds really fast: the more you learn, the more you absorb from new experiences.
+
+#### Do certificates matter?
+
+You probably know that answer which is _no_, they don't matter much.
+
+But I think that's not the complete picture.
+
+Certificates could be a really good source of motivation. Human beings tend to love collecting stuff, that's why we love Pokémon for instance, and why kids love collecting badges in class, it's human nature.
+
+After a long course, it feels nice to receive a certificate with your name on it. At least, it does for me. Maybe it's a weakness or some guilty pleasure, but I'm okay with that.
+
+Some people don't care about that. They believe knowledge is worth pursuing in itself, and the real joy is in learning and seeing yourself getting better. Those are cool people, I'd love to be friends with them! but I'm not one of them.
+
+So if having a certificate at the end of a course helps motivate you to complete a _good_ course, then paying for that certificate might be worth it. The value is not in the certificate itself. The value is in the motivation it provides.
+
+I also found sharing certificates on Linkedin to be a little bit helpful. To some extent it says that you're at least putting some effort in your learning and maybe you take it seriously.
+
+Having said that, don't overdo it, I see no meaning in sharing too many certificates, and for some reason the more courses I take, the less urge I feel to share about it, it's funny now remembering that I felt so happy that I complete the Systematic Program Design that I printed the certificate. But I'm glad such silly things makes me happy[^heidi].
 
 ### Learning Tips
 
@@ -191,7 +211,7 @@ This may seem like a trivial thing but I think it actually matters.
 
 > Information hunger, when it consumes a person, drives them to read everything trying to know everything—and they end up knowing nothing -- Elmessiri
 
-I have long lists of courses about everything, sometimes my friends joke about how when I talk to someone about anything, I'm probably gonna suggest a course, "oh right, that day I saw this free typography course", "last night I've seen this awesome course about children learning problems", well, it's kind of a hobby -- almost.
+I have long lists of courses about everything, sometimes my friends joke about how when I talk to someone about anything, I'm probably gonna suggest a course, "oh right, that day I saw this free typography course", "last night I've seen this awesome course about children learning problems", "ooh! did you see this new free Helsinki course?" well, it's kind of a hobby -- almost.
 And especially when the first year in college, I felt really, really distracted, I felt had a million thing to learn, I keep planning and planning and imagining the "perfect roadmap" that I'll use this summer, I keep comparing courses endlessly.
 It took me a while to realize that I'll never find this perfect roadmap. what matters at the end of the day is that you pick some high quality course taught by a good instructor, and stick with it. that's it. there is no point in overthinking it. It's important to accept the fact that you won't learn everything, and there is no course that will teach you everything about something, there is no point in endless comparisons.
 
@@ -217,8 +237,8 @@ Another is realizing that consistency is looks so pretty, that's why we have con
 #### Use a REPL
 
 It's basically like the JS console on the browser dev tools or when you write "python" in the terminal and press enter. That interactive shell is called a REPL (Read Eval Print Loop).
-You should use a REPL, most languages have ones! even statically typed languages like C# and Java! They are great for testing small pieces of code, Regular Expressions, date functions, ASCII codes, etc.
-They are extremely helpful to quickly verify what an expression _evaluate_ to.
+You should use a REPL, most languages have ones! even statically typed languages! Java has JShell and C# has a REPL integrated in Visual Studio. They are great for testing small pieces of code, Regular Expressions, date functions, ASCII codes, etc.
+They are extremely helpful to quickly verify what an expression _evaluate_ to, which is very helpful especially when learning a new language.
 
 #### Using Flashcards (Anki)
 
@@ -492,7 +512,7 @@ _The Bottom Line_: What can I say? this book is so dear to me, and I can't recom
 So, the course is great, but here are some practical tips that might help.
 
 - If you are a Windows user, it's recommend that you install linux alongside Windows (it's called Dual boot), you'd be able to choose which OS to run when you start your computer.
-- Or at the very least, install WSL. (like seriously, you need to do that)
+- Or at the very least, install WSL. (like seriously, you must[^must] do that)
 - Make it the default shell in the terminal so that when you open the terminal app it's there
 - make the terminal maximized by default
 - install AutoHotKey and create a shortcut e.g. Control + Shift + Enter to open the terminal, it's very convenient.
@@ -744,7 +764,28 @@ And I've asked two students from my university who got some of the best graduati
 
 _The Bottom Line_: A really good book about UML, distilled from all the nonsense.
 
-#### Writing in the Sciences
+### Java MOOC
+
+The University of Helsinki has a great set free online courses, I highly recommend checking their platform, they have so many great free courses (they give free certificates -- sometimes even university credits!)
+So, I was taking a Java class at college, it was nice, I liked the professor, but I thought, well, why not take this course on the side, especially that it has lots of practice exercises and more advanced topics. I completed this course over the semester and solved most exercise (and received two certificates, one for each part)
+
+The course is divided into two parts, part 1 is very fundamentals of programming in Java, the second gets into more depth (Data structures, generics, etc)
+In this course it was the first time I ever implemented a HashMap, it was a really cool mini-project.
+
+There is one thing I really don't like about Java, is how they start with an IDE that makes you feel uncomfortable -- even something simple as "packages" don't make much sense at first, it's a weird way of doing things, at least that's how I see it.
+And many things in Java world won't make any sense if you approach them the wrong way, you have to accept the idea of "convention over configuration" and accept the behind the scene magic of Java. It's just like that, leave or take, and I don't like it honestly.
+
+There are many great resources for learning Java, I spent some time on Head First Java and I found it to be EXCELLENT, and it's great that it doesn't tell you to use an IDE, just a bunch of text files. While the book is full of pictures it's actually really nice, for instance it explains the difference between FP and OOP really well, and how it makes adding new kinds of data easy (although it doesn't explain when FP shines), it's better than this course.
+The Java MOOC also explains packages really well, something never didn't click for me, especially that weird naming convention (like that revered domain convention `com.company.project`).
+But if someday I wanted to be a serious Java Programmer, I'll probably quickly go through that book and learn more (btw the book also covers some socket programming and multithreading, which awesome, and no wonder why people love the book)
+
+Java MOOC also contains some wisdom about dealing with UML, it made me feel so happy when first read it! It's so satisfying.
+
+> Often a class diagram is drawn on a whiteboard or a large sheet of paper during the design phase. Class diagrams should be thought of as helpful tools to build a program, **which can be thrown away afterwards**. You should not use too much energy to think about the correctness and details of the modeling language
+
+_The Bottom Line_: A good course with a lot of practice, it covers all the main concepts you need to get started with Java. But for some reason I didn't find the course to be a memorable experience.
+
+### Writing in the Sciences
 
 I thought it would be a shame to spend years at college yet not understand much about scientific writing, so I took this course.
 It contained many nice writing tips, and some important ideas in academic writing.
@@ -762,3 +803,7 @@ _The Bottom Line_: it's fine, not sure it's worth your time
 [^math-teacher]: He wasn't a particularly good math teacher, but he was a wise man and I liked him. He would often ask me, "Do you understand?" and I'd reply: "No problem, man. Don't push yourself too hard. I'll be okay." But the end of the year, he also told me: "I really like you because you're bad at math, but you don't fake it." For some reason, that made me feel good about myself.
 
 [^memory-paradox]: I've got this example from [this paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5250447), it's worth reading!
+
+[^must]: Whenever you see me say "MUST" or "SHOULD" don't take it too seriously, it's just how I speak in real life when I'm excited.
+
+[^heidi]: [Heidi's chair](https://tenor.com/dBjyREJ4hrg.gif)
