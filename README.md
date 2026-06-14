@@ -521,7 +521,11 @@ So, the course is great, but here are some practical tips that might help.
 - The notes in the first lecture contains other cool commands you can install like `bat` and `eza`
   - remember you can create aliases for instance to make `ls` execute `eza`
 - If you use Windows Terminal, it has lots of nice shortcuts for splitting the panes, it's very useful and much better than having multiple tabs, I found this useful especially in web development.
+
+![terminal](/media/terminal.jpg)
+
 - Don't forget to use `tab` for auto completion, you need to consciously use it at first until it becomes a habit.
+- You need some way to open files from terminal, you can do it like this in WSL: `alias open='cmd.exe /c start README.md'`
 - I have an alias called `opend` which is same as `explorer.exe .`
   - It's useful sometimes to open the current directory, e.g. you want to drag and drop a file to some site.
 
