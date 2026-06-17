@@ -30,7 +30,7 @@ This is not a roadmap. It's just my personal experiences and the resources I wen
     - [Taking notes](#taking-notes)
     - [Using the command line](#using-the-command-line)
     - [Some ways to have fun](#some-ways-to-have-fun)
-- Courses and Books
+- [Courses and Books](#course--book-reviews)
   - [Systematic Program Design](#systematic-program-design)
   - [Programming Languages: Parts A, B and C](#programming-languages-parts-a-b-and-c)
   - [Operating Systems: Three Easy Pieces](#operating-systems-three-easy-pieces)
@@ -47,6 +47,7 @@ This is not a roadmap. It's just my personal experiences and the resources I wen
   - [UML Distilled](#uml-distilled)
   - [Java MOOC](#java-mooc)
   - [Writing in The Sciences](#writing-in-the-sciences)
+  - [Data and Reality](#data-and-reality)
 - [Footnotes](#footnotes)
 
 ## Tips and Reflections
@@ -313,7 +314,7 @@ There are many ways to have fun, I won't share the usual stuff, but small things
   - My Neighbors the Yamadas (1999)
 - Plant Identification:
   - Another really fun activity I've come across is identifying plants! iNaturalist is a great app to help you identify plants you see in your daily life (Be aware that other people may be able to see the location of the pictures you take)
-  - Knowing the names of the plants and flowers you see everyday makes each walk a more rich experience, you'd start to notice how plants change from season to season. All of this even reminded me of how when you learn CS concepts and terms (e.g. abstraction or evaluation) you start to see things differently!
+  - Knowing the names of the plants and flowers you see everyday makes each walk a more rich experience[^flowers], you'd start to notice how plants change from season to season. All of this even reminded me of how when you learn CS concepts and terms (e.g. abstraction or evaluation) you start to see things differently!
 
 #### The forgotten side of learning from teachers
 
@@ -354,7 +355,7 @@ It must evaluate to some sort of an object or function! Suddenly it doesn't seem
 
 Functional programming also taught me that we can think of everything as a function. Combined with the previous point about evaluation, it completely changed my perspective about many things.
 
-Here's an example: In my second year into CS, I was learning about promises in JavaScript -- a quite challenging concept --. I would see some code like
+Here's an example: In my second year into CS, I was learning about promises in JavaScript -- a quite challenging concept -- I would see some code like
 
 ```javascript
 let p = fetch(URL).then(f1).then(f2);
@@ -368,7 +369,7 @@ what I was seeing is the following:
 let p = dot(dot(fetch(URL), then(f1)), then(f2))
 ```
 
-I kept asking myself: what does `fetch(URL)` evaluate to? And what happens when I call `then(f1)` on whatever that evaluates to, and so on? After some time and thanks to some good resources, it clicked.
+I kept asking myself: what does `fetch(URL)` evaluate to? And what happens when I call `then(f1)` on whatever that evaluates to, and so on? After some time and thanks to some good resources, it clicked. And once I understood how things evaluate, everything made sense, it became really simple: I was even capable of writing my [own version of Promise.all function](https://gist.github.com/elfaidi-ghassen/afcbe60ca9039d74be93d568c01bc19e), which is considered a quite advanced.
 
 Systematic Program Design (_AND_ the [Programming Languages](#programming-languages-parts-a-b-and-c) course -- see next) taught me to _ask the right questions_ and to feel deeply unsatisfied when I don't fully understand how expressions are evaluated.
 
@@ -500,7 +501,7 @@ Some Tips:
 - When you read the DNS section in chapter 2, buy a domain name
   - It's around $10 per year, but what you learn with stick with you forever!
   - If you're a student at some university try getting a domain in [Github Education Pack](https://education.github.com/pack) for free.
-  - You can for instance host a static website on Github Pages, it will give you something like `website.yourname.github.io`. You can then create a CNAME record to point your domain to that URL Github gave you.
+  - You can for instance host a static website on Github Pages or Cloudflare Pages (for free!), they'll give you something like `website.yourname.github.io`. You can then create a CNAME record to point your domain to that URL Github gave you.
   - remember, if you buy a domain like `yourname.com`, you can add as many prefixes as you want, you can create sub domains like `blog.yourname.com` or basically `ANYTHING.yourname.com`, and even an email address like `pm@yourname.com`
   - Also, at some point later it might be also worth getting a VPS (basically a server you can SSH into) where you can practice even more.
     - [landchad](https://landchad.net/) is a nice little resource that explains how to do it and the basics of managing a VPS and hosting whatever you want.
@@ -539,7 +540,7 @@ So, the course is great, but here are some practical tips that might help.
 ![terminal](/media/terminal.jpg)
 
 - Don't forget to use `tab` for auto completion, you need to consciously use it at first until it becomes a habit.
-- You need some way to open files from terminal, you can do it like this in WSL: `alias open='cmd.exe /c start README.md'`
+- You need some way to open files from terminal, you can do it like this in WSL: `alias open='cmd.exe /c start'`
 - I have an alias called `opend` which is same as `explorer.exe .`
   - It's useful sometimes to open the current directory, e.g. you want to drag and drop a file to some site.
 
@@ -718,7 +719,7 @@ NOTE: _I did not complete the course_
 
 > longer than a winter's night -- Tunisian proverb
 
-I had multiple UML classes in college, they were full of... words.
+I had multiple UML classes in college, they were full of... words[^words].
 
 It is where I coined the term "audiobook lecture". At some point it feels like ASMR, reminds me of how I felt like a kid, sleeping in my mother's arms, listening to her talking on the phone or with someone...
 
@@ -766,7 +767,7 @@ _The Bottom Line_: A really good book about UML, distilled from all the nonsense
 
 ### Java MOOC
 
-The University of Helsinki has a great set free online courses, I highly recommend checking their platform, they have so many great free courses (they give free certificates -- sometimes even university credits!)
+The University of Helsinki has a great set free online courses, I highly recommend checking their platform, they have so many great [free courses](https://www.mooc.fi/en/) (they give free certificates -- sometimes even university credits!)
 So, I was taking a Java class at college, it was nice, I liked the professor, but I thought, well, why not take this course on the side, especially that it has lots of practice exercises and more advanced topics. I completed this course over the semester and solved most exercise (and received two certificates, one for each part)
 
 The course is divided into two parts, part 1 is very fundamentals of programming in Java, the second gets into more depth (Data structures, generics, etc)
@@ -783,20 +784,52 @@ Java MOOC also contains some wisdom about dealing with UML, it made me feel so h
 
 > Often a class diagram is drawn on a whiteboard or a large sheet of paper during the design phase. Class diagrams should be thought of as helpful tools to build a program, **which can be thrown away afterwards**. You should not use too much energy to think about the correctness and details of the modeling language
 
-_The Bottom Line_: A good course with a lot of practice, it covers all the main concepts you need to get started with Java. But for some reason I didn't find the course to be a memorable experience.
+_The Bottom Line_: A good course with a lot of practice, it covers all the main concepts you need to get started with Java. It has its nice moments, but for some reason I didn't find the course to be a memorable experience.
 
 ### Writing in the Sciences
 
 I thought it would be a shame to spend years at college yet not understand much about scientific writing, so I took this course.
 It contained many nice writing tips, and some important ideas in academic writing.
-I learned a couple of nice ideas in it, for instance the importance of showing both relative and absolute percentages when talking to laypeople (i.e. me).
-Because if you tell people "We discovered that this drug has increased the rate of of some disease by 50%" you're gonna scare people
-But if you tell people it increases the changes of the disease from 0.001 to 0.002, it's not as scary.
-But at the same time it's misleading to include only include the absolute change because an increase from 0.001 to 0.002 is devastating when you have hundreds of thousands of people taking the drug.
+I learned a couple of nice ideas in it, for instance the importance of showing both _relative risk_ and _absolute risk_ when talking to non experts.
+Because if you tell people "We discovered that this drug has will double your chance of some disease" you're gonna scare people! But if you tell people it increases the changes of the disease from 0.001 to 0.002, it's not as scary.
+But at the same time it's misleading to only include the absolute percentage because an increase from 0.001 to 0.002 is _devastating_ when you have hundreds of thousands of people taking the drug.
 
-But overall, I still don't feel confident in my academic writing, and so I plan to take another course (todo: link here) which has a capstone project where you actually write a paper about a topic you like.
+But overall, I still don't feel confident in my academic writing yet, and so I plan to take another course which has a capstone project where you actually write a paper about a topic you like, I need more practice.
 
 _The Bottom Line_: it's fine, not sure it's worth your time
+
+#### Data and Reality
+
+> If you're confused, it just proves you've been paying attention. -- Data and Reality
+
+I don't like this book, but it's thought provoking. It's pretty much a philosophy book with a lot of unanswered questions.
+I feel it's hard to explain my experience with the book without an example.
+Early on, the book explains some interesting concepts in data modeling like _categories_, _oneness_ and _sameness_.
+Think of categories as UML diagrams, we have some sort of problem and we're trying to represent things in the diagram.
+Getting oneness and sameness right is the hard part.
+Oneness is trying to find a clear and precise explanation of what we're talking about.
+Basically, answering the question: what's a "one thing"?  
+Here is an example:
+You want to store books on a database. An author wrote two books, so we have two records in the database, a record for each book. simple enough.
+
+_But wait a minute_, what is _a_ book? what's a _one_ book? is it something with a hard cover? but are manuals books? comics and manga? are they books?
+
+_But wait a minute_... forget about that! a "book" can be printed into many parts called "volumes", is each volume a book?
+
+_But wait!_ sometimes we see this idea of "collected works" when several books are made into "one" book, is it a _one_ book?
+
+Then we have the concept of _sameness_: sometimes we have conflicting views of the same thing. We need to deal with that.
+Let's say a person had two jobs at a company, on two different shifts. Is that one or two employees?
+The book also gives some really wild examples: Say you and I keep exchanging car parts, part by part. At some point we'll basically end up exchanging our cars (and perhaps we need to do some paper work because now we have different cars), but question is when? which part exactly? the engine? well, who knows!
+
+One of the key ideas of the book is that we don't see reality as it is, rather, we see it through a cognitive framework that makes us focus on things others do not see, while causing us to overlook things that others do see. (The book even mentions the Sapir-Whorf hypothesis!)
+
+The book has many interesting insights, but especially at the end I felt quite unsatisfied, I felt the writer is really struggling with the meaning of reality and life. Each problem described leads to another problem, and there is no answer, sometimes it's insightful or funny, sometimes it just leaves you feeling empty.
+
+The book of course doesn't say "there is not reality, everything is relative".[^relative] As the author quoted, simply: "the map is not the territory", but the territory itself exists.
+Yet it doesn't give you the feeling of a wise man telling you "Kid, the world is complicated, and we can do nothing about it. But I'll give you some knowledge and wisdom to handle it as best as you can", I wish it were like that.
+
+_The Bottom Line_: It's not an enjoyable read, but I'm glad I read it because it made me think about problems I didn't know existed.
 
 ## Footnotes
 
@@ -807,3 +840,9 @@ _The Bottom Line_: it's fine, not sure it's worth your time
 [^must]: Whenever you see me say "MUST" or "SHOULD" don't take it too seriously, it's just how I speak in real life when I'm excited.
 
 [^heidi]: [Heidi's chair](https://tenor.com/dBjyREJ4hrg.gif)
+
+[^flowers]: for instance I noticed some flowers close their petals at night and open up in daytime, it's cool!
+
+[^words]: some courses remind me of some bad movies! a rule of thumb in good writing is that dialogue should move the story forward. But as William Faulkner describes, a (bad) writer often write "of defeats in which nobody loses anything of value, of victories without hope and, worst of all, without pity or compassion. His griefs grieve on no universal bones, leaving no scars" -- that's how one feels after taking some courses, emptiness.
+
+[^relative]: which is a self contradictory: if everything is relative, then the claim that everything is relative is itself relative, and possibly false!
