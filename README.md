@@ -10,7 +10,7 @@ This is not a roadmap. It's just my personal experiences and the resources I wen
 
 ## Table of Contents
 
-- Tips and Reflections
+- [Tips and Reflections](#tips-and-reflections)
   - [Short Story: The Day I Fell in Love with CS](#short-story-the-day-i-fell-in-love-with-cs)
   - [Insights about Learning and Education](#insights-about-learning-and-education)
     - [Rethinking _self_-taught](#rethinking-self-taught)
@@ -48,6 +48,7 @@ This is not a roadmap. It's just my personal experiences and the resources I wen
   - [Java MOOC](#java-mooc)
   - [Writing in The Sciences](#writing-in-the-sciences)
   - [Data and Reality](#data-and-reality)
+  - [Introduction to Web Accessibility](#introduction-to-web-accessibility)
 - [Footnotes](#footnotes)
 
 ## Tips and Reflections
@@ -162,7 +163,7 @@ Take care of yourself.
 #### Most useful things I've learned so far
 
 - **Meta-cognition**, taking Learning [How to Learn](#learning-how-to-learn) had such a compounding effect. I've described it in more details in the reviews section, but I'd add here: understanding how we learn gives you _EMPATHY_ for yourself and your learning challenges. Being able to see my struggles from above, to ask good questions about why I struggle at something and how to solve it, all while having _mercy_ on myself and struggles.
-- English as a second language, I spent two years studying english extensively in highschool from good online resources, it helped me _tremendously_ throughout my journey, to easily read books, watch lectures, and understand nerdy jokes! I keep telling my roommate who's working on his English "it's the programming language of the future!" -- and we would laugh every time. Seriously, it's very important in this field.
+- English as a second language, I spent two years studying english extensively in highschool from good online resources, it helped me _tremendously_ throughout my journey, to easily read books, watch lectures, and understand nerdy jokes! I keep telling my roommate who's working on his English "it's the programming language of the future!" --[^dash] and we would laugh every time. Seriously, it's very important in this field.
 - Learning Git early has helped me tremendously in so many different and unexpected ways.
 
 #### Chunking in Computer Science
@@ -391,7 +392,7 @@ I remember I was stuck in a problem in a probability exam, it was hard, then I s
 
 Finally, at the very least, I think studying that course will help you get the most out of the Dan Grossman's Programming Languages course, which is by far the one of the best and most useful course I have ever taken.
 
-Gregor Kiczales isn't that kind of professor who says "this course will change how you think forever", it seems he is way too nice! he's not a marketing guy.
+Gregor Kiczales isn't that kind of professor who says "this course will change how you think forever", it seems he is way too nice![^nice-gregor] he's not a marketing guy.
 But you should trust the teacher! learning is a relationship, you're not "self-taught", if you can't trust the teacher and material, it's harder to learn well.
 
 I still remember when I was taking this course in the summer of first year at university, I would see some of my friends and classmates studying React and talking about fancy new technologies. Honestly it was painful and sometimes I'd feel I'm wasting my time. I think I could have learned even more, or at the very least, had more fun while learning, if I trusted the material more.
@@ -463,7 +464,7 @@ The book is divided into three parts.
 
 1. Virtualization
 
-- You will learn about two really important concepts, the process and memory abstractions. really important stuff.
+- You will learn about two really important concepts, the process and memory abstractions...
 - I didn't find the CPU scheduling part that interesting, I just skimmed them (I've already studied those algorithms a lot in a OS class I took in college, it was SO boring!)
 - After completing this part, I _HIGHLY_ recommend building a _shell_ (e.g. in Python). Building a shell is a very rewarding experience, you'll start to see processes differently!
 
@@ -831,6 +832,34 @@ Yet it doesn't give you the feeling of a wise man telling you "Kid, the world is
 
 _The Bottom Line_: It's not an enjoyable read, but I'm glad I read it because it made me think about problems I didn't know existed.
 
+#### Introduction to Web Accessibility[^a11y]
+
+This is an introductory course on web accessibility topics, it explores some important concepts in accessibility and dealing with disabilities.
+I kept wresting with some ideas in this course, especially as someone who had to learn that it's okay to ask for help, that it's not strength to think "I don't want to owe them anything", having been raised in a society that taught me that needing help is a weakness.
+
+The course also promotes this idea:
+
+> Disability is caused by a mismatch between the design and the person.
+
+I find it cold thing to say, it ignores the actual struggle, and it just turns everything it into an optimization problem. It seems to me that disability is much more than that, it an entire human experience. The model certainly has good intent and may have some truth to it, but it doesn't seem to me that the model captures the complexity of disability.
+
+This all reminds me of a discussion I had in a UX course, the professor gave us an accessibility problem: we want to design a tool to help a blind person to navigate a large place (like a Mall)
+Everyone went brainstorming and there were plenty of ideas, some good ones, but many of them impractical and limited.
+But at the end I kept thinking and then asked: "professor what about using human support instead? a human companion or caretaker? someone of their choice and they like and enjoy their presence?"
+He was surprised by my question for some reason, and explained it's a matter of independence and autonomy. I didn't push further but the question stayed with me.
+
+Why is independence always the goal? Why is needing someone almost depicted a something shameful. We all need each other's help, _interdependence_ it's part of being human.
+So why is needing help so bad.
+
+I really think it's important to develop tools that help people, it's the best part of software development after all. but I feel the framing is problematic. Why not use technology to improve the interdependence experience instead of replacing it?
+I'm still not sure how to think about this. Social problems are very complicated.
+
+It's also worth noting that the course isn't very practical, it doesn't teach the actual implementation of accessible systems which is understandable for an introduction course. But it taught me a lot about different kinds of disabilities and some good concepts and terms.
+
+Also when it comes to learning web accessibility, it seems the best way to learn it it through practical examples. I really like [Josh Comeau](https://www.joshwcomeau.com/)'s way of teaching it: not treating it as an afterthought, but embedding accessibility tips and common mistakes throughout the course.
+
+_The Bottom Line_: This one was okay, it's not a bad course by any means. The course isn't very practical nor intellectually deep, but it made me think about these issues -- at least for some time. I'm grateful for that. Sometimes we rarely find time for what we claim we care about.
+
 ## Footnotes
 
 [^math-teacher]: He wasn't a particularly good math teacher, but he was a wise man and I liked him. He would often ask me, "Do you understand?" and I'd reply: "No problem, man. Don't push yourself too hard. I'll be okay." But the end of the year, he also told me: "I really like you because you're bad at math, but you don't fake it." For some reason, that made me feel good about myself.
@@ -846,3 +875,9 @@ _The Bottom Line_: It's not an enjoyable read, but I'm glad I read it because it
 [^words]: some courses remind me of some bad movies! a rule of thumb in good writing is that dialogue should move the story forward. But as William Faulkner describes, a (bad) writer often write "of defeats in which nobody loses anything of value, of victories without hope and, worst of all, without pity or compassion. His griefs grieve on no universal bones, leaving no scars" -- that's how one feels after taking some courses, emptiness.
 
 [^relative]: which is a self contradictory: if everything is relative, then the claim that everything is relative is itself relative, and possibly false!
+
+[^nice-gregor]: "one of the worst things you can possibly say pedagogically is say, OK, if you don't know anything, don't pay attention to the next five minutes. That makes people go, well, is the course for me or not?" -- Gregor
+
+[^a11y]: It's often written "a11y" because "accessibility" is a such long word! same pattern seen in i18n -- for internationalization.
+
+[^dash]: I used to write em dashes, I learned about their importance in [this course](#writing-in-the-sciences), but alas I realized it has become a red flag for AI writing. In fact, some of my friends once mentioned they started to doubt words like "genuine" and "journey" because AI tools use them a lot! (I used the word "journey" eleven times in this document... awesome...)
