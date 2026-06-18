@@ -13,6 +13,7 @@ This is not a roadmap. It's just my personal experiences and the resources I wen
 - [Tips and Reflections](#tips-and-reflections)
   - [Short Story: The Day I Fell in Love with CS](#short-story-the-day-i-fell-in-love-with-cs)
   - [Insights about Learning and Education](#insights-about-learning-and-education)
+    - [Bias](#bias)
     - [Rethinking _self_-taught](#rethinking-self-taught)
     - [It's all about good teachers](#its-all-about-good-teachers)
     - [Learning compounds](#learning-compounds)
@@ -74,6 +75,13 @@ Good teachers, good books, and small projects slowly built that passion over tim
 
 ### Insights about learning and education
 
+#### Bias
+
+When someone struggled for years because of something, maybe they had a healing journey and experienced immense emotional or intellectual growth. It's a great experience, but there is some subtle bias, a trap one could easily fall into. It's when one thinks they figured it out and start to project their own experiences one other people's struggles. One would start to think _If only people did this or that_ (that is, reading a book, taking a course or changing their way of thinking), that must fix the problem!
+But it's oblivious of the fact that people's problems are so complex and different, whether in education, social problems or psychology. One has to be humble and accept the complexity of life's problems, even if what we think actually end up containing some truth in it, we shouldn't assume we figured it out and know the solution just because it worked for us.
+
+It's a complicated feeling because when something helps you immensely, often you feel "I want everyone to experience this". But one has to take it easy, leave things to experts when possible and when sharing advice, we need to be more thoughtful about it.
+
 #### Rethinking _self_-taught
 
 (I first heard this in a telegram programming group)
@@ -90,6 +98,7 @@ Over time, I've realized many things about learning and teaching.
 Sometimes I find myself deeply moved by sincerity and subtle acts of kindness I see around me, those things really captivate me (and even bring me to tears)
 It moves me when I notice that someone has put genuine effort into teaching well and making a subject less intimidating.
 I often call it "Down to earth teaching". It's when someone isn't trying to impress you with jargon or show off how much they know. Instead, they're genuinely trying to help you understand. It always fills my heart with happiness when I see it.
+
 What moves me isn't the jokes that lighten the mood or a particular teaching style, it's the human effort behind it, the invisible work. The fact that this person has actually thought carefully about how to teach this and didn't want me to feel intimidated.
 And behind it all some sort of subtle respect to learners that's hard to describe in words.
 
@@ -854,10 +863,13 @@ But at the end I kept thinking and then asked: "professor what about using human
 He was surprised by my question for some reason, and explained it's a matter of independence and autonomy. I didn't push further but the question stayed with me.
 
 Why is independence always the goal? Why is needing someone almost depicted a something shameful. We all need each other's help, _interdependence_ it's part of being human.
-So why is needing help so bad.
+So why is needing help so bad. Being interdependent is not something we can escape from. And more importantly it is _not_ something one would want to escape from in a healthy society. We all need each other, and it's totally fine.
 
 I really think it's important to develop tools that help people, it's the best part of software development after all. but I feel the framing is problematic. Why not use technology to improve the interdependence experience instead of replacing it?
+
 I'm still not sure how to think about this. Social problems are very complicated.
+
+**EDIT**: [I realized I'm being biased](#bias)
 
 It's also worth noting that the course isn't very practical, it doesn't teach the actual implementation of accessible systems which is understandable for an introduction course. But it taught me a lot about different kinds of disabilities and some good concepts and terms.
 
