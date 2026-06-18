@@ -104,7 +104,7 @@ Here is the _key idea_: Two different people can study the same material from th
 
 "Previous knowledge" makes learning new things much more fun, because you're not starting from scratch every time! when you haven't internalized the key fundamental chunks of knowledge, every new problem you face, it's completely new to you, so it's much more painful. But what's worse, is that you learn less from the experience itself. Without a well-organized base of knowledge, new information has nowhere meaningful to attach, so much of it is quickly forgotten.
 
-Let's make this concrete, imagine a kid, let's call her Sara[^memory-paradox], she's learning the multiplication table, but she doesn't internalize it and think it's useless. Later when she studies division, she doesn't have any "baggage" with her, nothing in her brain, no structure that could help. when she sees 12/4 she does't "feel" it's 3, she never built that connection between 3, 4 and 12.
+Let's make this concrete, imagine a kid, let's call her Sara, she's learning the multiplication table[^memory-paradox], but she doesn't internalize it and think it's useless. Later when she studies division, she doesn't have any "baggage" with her, nothing in her brain, no structure that could help. when she sees 12/4 she does't "feel" it's 3, she never built that connection between 3, 4 and 12.
 A more common example is trying to study physics without having good math skills, each physics problem becomes a two layer of suffering, you have to struggle through the math to finally reach the physics part, which itself might be challenging.
 In CS this could trying to study Algorithms without having a good knowledge in discrete math, it's very painful.
 
@@ -154,6 +154,9 @@ I recommend reflecting a lot on your learning and the experiences you're going t
 
 Don't forget to enjoy small wins, whether you understand some new algorithm or concept, completing an assignment, it's worth some celebrating. **Don't keep chasing completion and think you'll only feel happy when you finish the course.**
 I'm speaking from my experience. I often find myself thinking about what to do next and forget to appreciate the present moment. Sometimes it's excitement, sometimes it's fear that I'm not doing enough.
+
+> "People where you live," the little prince said, "grow five thousand roses in one garden... yet they don't find what they're looking for..." -- The Little Prince, Antoine de Saint-Exupéry
+
 We often give this advice in a context I'm not fond of: "enjoy small moments" because it improves _productivity_. It's similar to telling someone to sleep well so they can work better. But that's not really what we're talking about. We're talking about the experience of living itself.
 
 We often tell each other "take care" but we rarely stop and think what it means.
@@ -322,7 +325,7 @@ There are many ways to have fun, I won't share the usual stuff, but small things
 I had a Control Theory professor who would apologize when he interrupted a student in a discussion, "I'm so sorry for interrupting you", or "I apologize for interrupting you earlier, you may speak"
 I didn't use to apologize when interrupting people! I said, ha! that's a nice thing to do, I'll start doing it too!
 
-Even in online courses, one such moment was in PLABC, when Dan Grossman said "people often confuse higher-order functions and first class function, _so we won't care either_", that had a lasting impact on how I deal with terminology.
+Even in online courses, one such moment was in [Programming Languages](#programming-languages-parts-a-b-and-c), when Dan Grossman said "people often confuse higher-order functions and first class function, _so we won't care either_", that had a lasting impact on how I deal with terminology.
 
 One could learn much more than the course content. When you see a teacher accepting disrespectful critique and you see in their eyes that they are seriously thinking about it, whether there is some truth in it, or when they defend the partial truth in a claim they disagree with.
 
@@ -436,6 +439,8 @@ Warning: I didn't study OOP in depth well before PLABC, so it was my first serio
 I really love this course, and perhaps this review won't do it justice, I loved it so much that I printed all the lecture notes (around 200 pages) and went to some library to bind them so that I can keep it with me. I've read it twice since then and each time it blows my mind.
 
 ![alt text](/media/plabc.jpg)
+
+> The purpose of software is to take simple language constructs and combine them with human ingenuity to create complex systems. -- Dan Grossman
 
 _The Bottom Line_: Just take this course! it's such a unique learning experience.
 
@@ -605,7 +610,7 @@ _The Bottom Line_: A great course that helps you build a mental framework to und
 
 ### Mindshift
 
-- (Coursera)[https://www.coursera.org/learn/mindshift]
+- [Coursera](https://www.coursera.org/learn/mindshift)
 
 The full title is _Mindshift: Break Through Obstacles to Learning and Discover Your Hidden Potential_...
 My God! isn't that a cheesy subtitle, it hurts my heart!
@@ -841,10 +846,10 @@ The course also promotes this idea:
 
 > Disability is caused by a mismatch between the design and the person.
 
-I find it cold thing to say, it ignores the actual struggle, and it just turns everything it into an optimization problem. It seems to me that disability is much more than that, it an entire human experience. The model certainly has good intent and may have some truth to it, but it doesn't seem to me that the model captures the complexity of disability.
+When I heard such statement I felt unsure how to feel about it, in some way it ignores the actual struggle, and it feels like it reduces everything into a design optimization problem. It seems to me that disability is much more than that, it an entire human experience, with its unique challenges and pains, with hopes and joys. The model certainly has good intent and may have some truth to it, but it doesn't seem to me that the model captures the complexity of disability.
 
-This all reminds me of a discussion I had in a UX course, the professor gave us an accessibility problem: we want to design a tool to help a blind person to navigate a large place (like a Mall)
-Everyone went brainstorming and there were plenty of ideas, some good ones, but many of them impractical and limited.
+This all reminds me of a discussion I had in a UX course, the professor gave us an accessibility problem: we want to design a tool to help a blind person to navigate a large place (like a Mall) using technology.
+Everyone went brainstorming and there were plenty of ideas, some were ok, but many of them impractical and limited.
 But at the end I kept thinking and then asked: "professor what about using human support instead? a human companion or caretaker? someone of their choice and they like and enjoy their presence?"
 He was surprised by my question for some reason, and explained it's a matter of independence and autonomy. I didn't push further but the question stayed with me.
 
@@ -864,7 +869,7 @@ _The Bottom Line_: This one was okay, it's not a bad course by any means. The co
 
 [^math-teacher]: He wasn't a particularly good math teacher, but he was a wise man and I liked him. He would often ask me, "Do you understand?" and I'd reply: "No problem, man. Don't push yourself too hard. I'll be okay." But the end of the year, he also told me: "I really like you because you're bad at math, but you don't fake it." For some reason, that made me feel good about myself.
 
-[^memory-paradox]: I've got this example from [this paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5250447), it's worth reading!
+[^memory-paradox]: I've got this example from [this paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5250447), it's worth reading! it explains the concept of _schema_ formation and how mastering fundamental knowledge is necessary for deeper intuition.
 
 [^must]: Whenever you see me say "MUST" or "SHOULD" don't take it too seriously, it's just how I speak in real life when I'm excited.
 
