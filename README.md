@@ -42,6 +42,7 @@ This is not a roadmaps. It's just my personal experiences and the resources I we
   - [Learning How to Learn](#learning-how-to-learn)
   - [Mindshift](#mindshift)
   - [Uncommon Sense Teaching](#uncommon-sense-teaching)
+  - [Other Courses on Learning](#other-courses-on-learning)
   - [Machine Learning Specialization](#machine-learning)
   - [Meta Version Control](#meta-version-control)
   - [Head First Git](#head-first-git)
@@ -709,6 +710,14 @@ Kinda a bummer I can't spend too much time on all of that!
 
 _The Bottom Line_: If you only need to take one course on teaching, this probably is the one.
 
+### Making Math Click
+
+> My problem was not with math, my problem was that nobody told me how the brain works and that it's totally normal not to get something the first time you see it -- Barbara Oakley
+
+Another nice course from Barbara Oakley and John Mighton, the course touches on many of concepts taught in learning How to Learn and Uncommon Sense Teaching, there are very few new insights honestly, but seeing the ideas again but applied to math is really interesting. Though the examples are very basic -- how we should correctly teach basic elementary math and geometry, but I think the advice can be applied in more advanced topics.
+
+_The Bottom Line_: It's a very good short course, but if you've taken the other courses you might find the repetition a bit boring. It's seems to me it's mainly for teachers and parents who want to help their children with math.
+
 ### Machine Learning
 
 <https://www.coursera.org/specializations/machine-learning-introduction>
@@ -847,7 +856,7 @@ But overall, I still don't feel confident in my academic writing yet, and so I p
 
 _The Bottom Line_: it's fine, not sure it's worth your time
 
-#### Data and Reality
+### Data and Reality
 
 > If you're confused, it just proves you've been paying attention. -- Data and Reality
 
@@ -880,7 +889,7 @@ Yet it doesn't give you the feeling of a wise man telling you "Kid, the world is
 
 _The Bottom Line_: It's not an enjoyable read, but I'm glad I read it because it made me think about problems I didn't know existed.
 
-#### Introduction to Web Accessibility[^a11y]
+### Introduction to Web Accessibility[^a11y]
 
 This is an introductory course on web accessibility topics, it explores some important concepts in accessibility and dealing with disabilities.
 I kept wresting with some ideas in this course, especially as someone who had to learn that it's okay to ask for help, that it's not strength to think "I don't want to owe them anything", having been raised in a world that teaches us that needing help is a weakness.
