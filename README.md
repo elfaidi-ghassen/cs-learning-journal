@@ -2,11 +2,11 @@
 
 (work in progress...)
 
-I'm currently a third year software engineering student in Tunisia. I have many reasons to write this, what got me thinking seriously into writing it is because a stranger on the internet once shared their learning journey in a [README file](https://github.com/spamegg1/reviews), and it gave me so much excitement and hope that I kept going. We need more of this.
+I'm currently a third year software engineering student in Tunisia. I have many reasons to write this. But what got me thinking seriously into writing it is a stranger on the internet who once shared their learning journey in a [README file](https://github.com/spamegg1/reviews). Reading it gave me so much excitement and hope that I kept going. We need more of this.
 
 Many of the courses I've taken are part of the [OSSU curriculum](https://github.com/ossu/computer-science), if you've never heard about it before, give it a look.
 
-This is not a roadmap. It's just my personal experiences and the resources I went through.
+This is not a roadmaps. It's just my personal experiences and the resources I went through.
 
 ## Table of Contents
 
@@ -17,6 +17,7 @@ This is not a roadmap. It's just my personal experiences and the resources I wen
     - [Rethinking _self_-taught](#rethinking-self-taught)
     - [It's all about good teachers](#its-all-about-good-teachers)
     - [Learning compounds](#learning-compounds)
+    - [The forgotten side of learning from teachers](#the-forgotten-side-of-learning-from-teachers)
     - [Do certificates matter?](#do-certificates-matter)
   - [Learning Tips](#learning-tips)
     - [Reflect on Your Journey](#reflect-on-your-journey)
@@ -58,44 +59,26 @@ This is not a roadmap. It's just my personal experiences and the resources I wen
 
 Around two years into my CS studies, I was reading [Computer Networking: A Top Down Approach](#computer-networking-a-top-down-approach), at the end of chapter 2 it contained a list of project ideas to do. I was hooked.
 
-I still remember the thrill I had, disabling the firewall (in the settings) on my laptop (later I realized the client doesn't need to disable the firewall :D) Creating a python script that sends "hello" via TCP, and running the "server" (which is just a python program) on my friend's laptop, the server makes it uppercase, and sends "HELLO" back. A week later I had built a simple multithreaded http server. I changed the router setting to do port forwarding to my laptop, so that anyone can use my (insecure) HTTP server anywhere, successfully putting all the files on my laptop at risk :D
+I still remember the thrill I had that day. Disabling the firewall in the settings on my laptop (at some point later I realized the client doesn't need to disable the firewall :D) and creating a python script that sends "hello" via TCP. Then running the server -- which is just a python program -- on my friend's laptop that receives the string, makes it uppercase, and sends back "HELLO".
 
-At that moment everything started to click, everything is bunch of files and programs. I thought... "I love computer science", and I literally had tears in my eyes.
+A week later, I had built a simple multithreaded HTTP server. I changed the router setting to use port forwarding -- to my laptop, so that anyone in the world can use my (insecure) HTTP server anywhere -- successfully putting all the files on my device at risk :D
 
-In high school I studied some introductory computer science classes, in one of them we were taught some very basic PHP and MySQL, we installed MySQL just by pressing "next" in the setup, and suddenly, our PHP code is storing data in the "database". I was puzzled... like "professor, where is the database", he didn't understand my question, "I mean where is this stuff stored?" It was kind of tough question indeed, but he answered me "don't worry it's just some files". I didn't buy it, but it set my heart at ease at least... at least it's on the hard disk!
+At that moment, everything started to click, there were fireworks inside my brain, _wait... so everything is bunch of files and running programs_! At that moment I thought..."_I love computer science_", -- I literally had tears in my eyes.
 
-After studying operating systems, databases and computer networking, I finally understood where the database is. in some sense, it's just a bunch of files and some TCP socket on the top. In fact, pretty much everything is just a bunch of files and running programs. he was correct.
+In my high school days, I studied some introductory computer science classes, one of them taught us some very basic PHP and MySQL, we installed MySQL just by pressing "next" on the setup wizard; suddenly, our PHP code is storing data in the "database". I was puzzled! like, "professor, _where_ is the database" -- he didn't understand my question. I continued "I mean where is this stuff stored?". It was a tough question honestly, yet he answered me "don't worry it's just some files". I didn't buy it. But at least it set my heart at ease. At least it's on the hard disk!
+
+After studying operating systems, databases and computer networking: I finally understood where the database is. In some sense, it's just a bunch of files and some TCP socket on the top. In fact, pretty much everything is just a bunch of files and running programs. \*he was correct.
 
 This all also reminds me of a quote I read in one of Barbara Oakley's articles
 
 > we rapidly remember what interests us, but what interests us takes time to develop
 
-Passion is never a pre-requisite for learning programming, in fact passion is the fruit of your efforts.
-Good teachers, good books, and small projects slowly built that passion over time.
+Passion is never a pre-requisite for learning CS and programming. In fact, passion is the fruit of your efforts. It's the thrill you have when you see you're slowly improving over time, you're starting too the full picture.
+Good teachers, good books, and small projects slowly build that passion over time.
 
 ### Insights about learning and education
 
-#### The Trap of Projection
-
-When we struggle for years because of something, maybe we had a healing journey and experienced immense emotional or intellectual growth --it's a great experience, something to be grateful for. But there is a subtle "bias": a trap one could easily fall into. It's when one thinks they "figured it out" and start to project their own past experiences onto other people's struggles. One would start to think _If only people did this or that_ (that is, reading a book, taking a course or changing their way of thinking in some certain way), that certainly would fix the problem!
-
-I first heard this described by a psychologist I follow on YouTube, he was a bit harsh about it; he believes that such bad or incomplete advice could actually hurt others. It's oblivious of the fact that people's problems are so complex and different, whether in education, social problems or psychology. One has to be humble and accept the complexity of life's problems, _even if what we think actually has some truth in it_, we shouldn't assume we figured it out just because it worked for us.
-
-It's a complicated feeling because when something helps you immensely, often you feel "I want everyone to experience this". But one has to take it easy, leave things to experts when possible and when sharing advice, we need to be more thoughtful about it.
-
-Here are some examples I've seen: I recently read someone saying that "people are _depressed_ because of the toxic environments we live in, that's why people can't heal, that's why depression drugs won't work. If we want to be cured we need to change environment."
-
-Anyone with some knowledge on _depression_ -- the actual depression disorder that is diagnosed by a professional -- would know that things aren't that simple. It's much more complicated than that and it takes experts to hopefully figure it out, each case could be different. And there is a distinction between prevention and treatment.
-
-I caught myself doing this recently while writing a review for the [Web Accessibility](#introduction-to-web-accessibilitya11y) course. There is a clear projection of my own past struggles on other people's struggles.
-
-One nice lesson I learned is that knowing the bias exists doesn't mean you won't fall into the trap :D.
-
-This can also be seen in education, in course recommendations, for instance if you struggle with a topic you might think that's why other people struggle, but the reasons could be deeper.
-
-#### Rethinking _self_-taught
-
-(I first heard this in a telegram programming group)
+#### Rethinking _self_-taught[^self-taught]
 
 There is a subtle problem with expressions like "self-taught" or "I've learned something _on my own_". The book or the course you took, there are real people behind it! years of work, of honing their teaching skills... Saying you're self-taught is a bit unfair to them.
 
@@ -140,6 +123,17 @@ Also, think about someone who studies grammar for instance, reading itself becom
 
 So, TLDR: good learning might be slow, but it compounds really fast: the more you learn, the more you absorb from new experiences.
 
+#### The forgotten side of learning from teachers
+
+I had a Control Theory professor who would apologize when he interrupted a student in a discussion, "I'm so sorry for interrupting you", or "I apologize for interrupting you earlier, you may speak"
+I didn't use to apologize when interrupting people! I said, ha! that's a nice thing to do, I'll start doing it too!
+
+Even in online courses, one such moment was in [Programming Languages](#programming-languages-parts-a-b-and-c), when Dan Grossman said "people often confuse higher-order functions and first class function, _so we won't care either_", that had a lasting impact on how I deal with terminology.
+
+One could learn much more than the course content. When you see a teacher accepting disrespectful critique and you see in their eyes that they are seriously thinking about it, whether there is some truth in it, or when they defend the partial truth in a claim they disagree with.
+
+There is a lot to learn from good (and even bad) teachers, and it's hard (if not impossible) to learn such things from a book.
+
 #### Do certificates matter?
 
 You probably know that answer which is _no_, they don't matter much.
@@ -157,6 +151,32 @@ So if having a certificate at the end of a course helps motivate you to complete
 I also found sharing certificates on Linkedin to be a little bit helpful. To some extent it says that you're at least putting some effort in your learning and maybe you take it seriously.
 
 Having said that, don't overdo it, I see no meaning in sharing too many certificates, and for some reason the more courses I take, the less urge I feel to share about it, it's funny now remembering that I felt so happy that I complete the Systematic Program Design that I printed the certificate. But I'm glad such silly things makes me happy[^heidi].
+
+Edit: After learning more about teaching and how we learn, it turned out _extrinsic_ and _intrinsic_ motivation aren't opposites. Extrinsic means of motivation like badges, certificates or praise from a teacher does have an great impact on the learner's motivation and gives them a reason to continue. At some point the learner won't need the external motivation anymore because they started to enjoy the material itself.
+Barbara Oakley gives a sweet example which is how she motivated her young daughter Rachel to start reading books. She did something simple, whenever Rachel completes a book she would give her _money_.
+Sometimes simple solutions do magic.
+
+Because wasn't used to reading books, reading itself is painful, it's a fun activity -- but money makes it bearable. The key idea is that reading gets easier the more you read, and at some point it even becomes fun. And then, Barbara simply stopped rewarding her, there is no need for it anymore, she's already hooked into reading!
+
+It makes so much sense when you think about it. So try to find the external means that could motivate you and make use of it.
+
+#### The Trap of Projection
+
+When we struggle for years because of something, maybe we had a healing journey and experienced immense emotional or intellectual growth --it's a great experience, something to be grateful for. But there is a subtle "bias": a trap one could easily fall into. It's when one thinks they "figured it out" and start to project their own past experiences onto other people's struggles. One would start to think _If only people did this or that_ (that is, reading a book, taking a course or changing their way of thinking in some certain way), that certainly would fix the problem!
+
+I first heard this described by a psychologist I follow on YouTube, he was a bit harsh about it; he believes that such bad or incomplete advice could actually hurt others. It's oblivious of the fact that people's problems are so complex and different, whether in education, social problems or psychology. One has to be humble and accept the complexity of life's problems, _even if what we think actually has some truth in it_, we shouldn't assume we figured it out just because it worked for us.
+
+It's a complicated feeling because when something helps you immensely, often you feel "I want everyone to experience this". But one has to take it easy, leave things to experts when possible and when sharing advice, we need to be more thoughtful about it.
+
+Here are some examples I've seen: I recently read someone saying that "people are _depressed_ because of the toxic environments we live in, that's why people can't heal, that's why depression drugs won't work. If we want to be cured we need to change environment."
+
+Anyone with some knowledge on _depression_ -- the actual depression disorder that is diagnosed by a professional -- would know that things aren't that simple. It's much more complicated than that and it takes experts to hopefully figure it out, each case could be different. And there is a distinction between prevention and treatment.
+
+I caught myself doing this recently while writing a review for the [Web Accessibility](#introduction-to-web-accessibilitya11y) course. There is a clear projection of my own past struggles on other people's struggles.
+
+One nice lesson I learned is that knowing the bias exists doesn't mean you won't fall into the trap :D.
+
+This can also be seen in education, in course recommendations, for instance if you struggle with a topic you might think that's why other people struggle, but the reasons could be deeper.
 
 ### Learning Tips
 
@@ -291,6 +311,12 @@ I want to mention some mistakes I made along my journey of creating flashcards.
 
 One tool I find very helpful for making flashcards is [ShareX](https://github.com/sharex/sharex), a free and open source screenshot tool. It has a "Smart Eraser" feature that lets you annotate or remove parts of an image on the fly, which makes creating image-based flashcards a lot faster.
 
+IMPORTANT NOTE: You don't _need to_ use Anki
+I realized after someone sent me a message telling me she was struggling with Anki and needs advice, and the message felt heavy -- as if she felt bad for not liking Anki. And it's understandable because when you're starting out and you see someone saying "I LOVE Anki and it changed my life" it's natural to feel you're missing out something important.
+
+Please don't burden yourself, if you end up not liking Anki that's totally fine. It's just a tool and there are so many different techniques for learning.
+That said, if you haven't used flashcards before, I do recommend trying Anki.
+
 #### Taking notes
 
 I recommend that you take notes on your computer sometimes, while research says taking notes on paper leads to better learning, but I think it's useful to take notes on computer occasionally. I really like Obsidian, markdown is awesome. I also take notes (README files) in VS code, if you do make sure you install the linter like `markdownlint` and maybe a spell checker, they help a lot.
@@ -339,17 +365,6 @@ There are many ways to have fun, I won't share the usual stuff, but small things
 - Plant Identification:
   - Another really fun activity I've come across is identifying plants! iNaturalist is a great app to help you identify plants you see in your daily life (Be aware that other people may be able to see the location of the pictures you take)
   - Knowing the names of the plants and flowers you see everyday makes each walk a more rich experience[^flowers], you'd start to notice how plants change from season to season. All of this even reminded me of how when you learn CS concepts and terms (e.g. abstraction or evaluation) you start to see things differently!
-
-#### The forgotten side of learning from teachers
-
-I had a Control Theory professor who would apologize when he interrupted a student in a discussion, "I'm so sorry for interrupting you", or "I apologize for interrupting you earlier, you may speak"
-I didn't use to apologize when interrupting people! I said, ha! that's a nice thing to do, I'll start doing it too!
-
-Even in online courses, one such moment was in [Programming Languages](#programming-languages-parts-a-b-and-c), when Dan Grossman said "people often confuse higher-order functions and first class function, _so we won't care either_", that had a lasting impact on how I deal with terminology.
-
-One could learn much more than the course content. When you see a teacher accepting disrespectful critique and you see in their eyes that they are seriously thinking about it, whether there is some truth in it, or when they defend the partial truth in a claim they disagree with.
-
-There is a lot to learn from good (and even bad) teachers, and it's hard (if not impossible) to learn such things from a book.
 
 ## Course and Book Reviews
 
@@ -900,7 +915,7 @@ _The Bottom Line_: This one was okay, it's not a bad course by any means. The co
 
 [^math-teacher]: He wasn't a particularly good math teacher, but he was a wise man and I liked him. He would often ask me, "Do you understand?" and I'd reply: "No problem, man. Don't push yourself too hard. I'll be okay." But the end of the year, he also told me: "I really like you because you're bad at math, but you don't fake it." For some reason, that made me feel good about myself.
 
-[^memory-paradox]: I've got this example from [this paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5250447), it's worth reading! it explains the concept of _schema_ formation and how mastering fundamental knowledge is necessary for deeper intuition.
+[^memory-paradox]: I've got this example from [this paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5250447), it's worth reading! it explains the concept of _schema_ formation and how mastering fundamental knowledge is necessary for deeper intuition. I printed that paper and read it twice, and I even summarized it and translated parts of it into Arabic. It's that good.
 
 [^must]: Whenever you see me say "MUST" or "SHOULD" don't take it too seriously, it's just how I speak in real life when I'm excited.
 
@@ -923,3 +938,5 @@ _The Bottom Line_: This one was okay, it's not a bad course by any means. The co
 [^social-model]: It's called the social model of disability
 
 [^fast-css]: One of my colleagues at the university once needed some help with CSS, she has the dashboard design but struggled to implement it, she told me ChatGPT was generating a mess. I told her I could help, it took me around 3 hours to write the entire CSS by hand. She was surprised so I explained to her the importance of a good teacher who would explain how to actually write CSS and not just the syntax, and shared some good resources.
+
+[^self-taught]: I heard this insight from someone named Ammar Ahmed in a telegram programming group. His point deeper, as he connected it to the problem individualism in our societies.
