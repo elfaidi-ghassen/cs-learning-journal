@@ -13,7 +13,7 @@ This is not a roadmap. It's just my personal experiences and the resources I wen
 - [Tips and Reflections](#tips-and-reflections)
   - [Short Story: The Day I Fell in Love with CS](#short-story-the-day-i-fell-in-love-with-cs)
   - [Insights about Learning and Education](#insights-about-learning-and-education)
-    - [Bias](#bias)
+    - [The Trap of Projection](#the-trap-of-projection)
     - [Rethinking _self_-taught](#rethinking-self-taught)
     - [It's all about good teachers](#its-all-about-good-teachers)
     - [Learning compounds](#learning-compounds)
@@ -31,7 +31,7 @@ This is not a roadmap. It's just my personal experiences and the resources I wen
     - [Taking notes](#taking-notes)
     - [Using the command line](#using-the-command-line)
     - [Some ways to have fun](#some-ways-to-have-fun)
-- [Courses and Books](#course--book-reviews)
+- [Courses and Books](#course-and-book-reviews)
   - [Systematic Program Design](#systematic-program-design)
   - [Programming Languages: Parts A, B and C](#programming-languages-parts-a-b-and-c)
   - [Operating Systems: Three Easy Pieces](#operating-systems-three-easy-pieces)
@@ -49,7 +49,7 @@ This is not a roadmap. It's just my personal experiences and the resources I wen
   - [Java MOOC](#java-mooc)
   - [Writing in The Sciences](#writing-in-the-sciences)
   - [Data and Reality](#data-and-reality)
-  - [Introduction to Web Accessibility](#introduction-to-web-accessibility)
+  - [Introduction to Web Accessibility](#introduction-to-web-accessibilitya11y)
 - [Footnotes](#footnotes)
 
 ## Tips and Reflections
@@ -75,12 +75,23 @@ Good teachers, good books, and small projects slowly built that passion over tim
 
 ### Insights about learning and education
 
-#### Bias
+#### The Trap of Projection
 
-When someone struggled for years because of something, maybe they had a healing journey and experienced immense emotional or intellectual growth. It's a great experience, but there is some subtle bias, a trap one could easily fall into. It's when one thinks they figured it out and start to project their own experiences one other people's struggles. One would start to think _If only people did this or that_ (that is, reading a book, taking a course or changing their way of thinking), that must fix the problem!
-But it's oblivious of the fact that people's problems are so complex and different, whether in education, social problems or psychology. One has to be humble and accept the complexity of life's problems, even if what we think actually end up containing some truth in it, we shouldn't assume we figured it out and know the solution just because it worked for us.
+When we struggle for years because of something, maybe we had a healing journey and experienced immense emotional or intellectual growth --it's a great experience, something to be grateful for. But there is a subtle "bias": a trap one could easily fall into. It's when one thinks they "figured it out" and start to project their own past experiences onto other people's struggles. One would start to think _If only people did this or that_ (that is, reading a book, taking a course or changing their way of thinking in some certain way), that certainly would fix the problem!
+
+I first heard this described by a psychologist I follow on YouTube, he was a bit harsh about it; he believes that such bad or incomplete advice could actually hurt others. It's oblivious of the fact that people's problems are so complex and different, whether in education, social problems or psychology. One has to be humble and accept the complexity of life's problems, _even if what we think actually has some truth in it_, we shouldn't assume we figured it out just because it worked for us.
 
 It's a complicated feeling because when something helps you immensely, often you feel "I want everyone to experience this". But one has to take it easy, leave things to experts when possible and when sharing advice, we need to be more thoughtful about it.
+
+Here are some examples I've seen: I recently read someone saying that "people are _depressed_ because of the toxic environments we live in, that's why people can't heal, that's why depression drugs won't work. If we want to be cured we need to change environment."
+
+Anyone with some knowledge on _depression_ -- the actual depression disorder that is diagnosed by a professional -- would know that things aren't that simple. It's much more complicated than that and it takes experts to hopefully figure it out, each case could be different. And there is a distinction between prevention and treatment.
+
+I caught myself doing this recently while writing a review for the [Web Accessibility](#introduction-to-web-accessibilitya11y) course. There is a clear projection of my own past struggles on other people's struggles.
+
+One nice lesson I learned is that knowing the bias exists doesn't mean you won't fall into the trap :D.
+
+This can also be seen in education, in course recommendations, for instance if you struggle with a topic you might think that's why other people struggle, but the reasons could be deeper.
 
 #### Rethinking _self_-taught
 
@@ -92,7 +103,7 @@ There is a subtle problem with expressions like "self-taught" or "I've learned s
 
 I'm quite good at a couple of things, and whenever someone asks me how I got good at them, my answer is almost always the same: a good teacher (or a good course, book, or mentor).
 If the teacher isn't good, or if their way of teaching doesn't work, it becomes much harder to get anything meaningful from the experience.
-Of course other factors matter in any learning, but I've developed some strong opinions about this over time: I"m truly convinced that the teacher is far more important than the course itself.
+Of course other factors matter in any learning, but I've developed some strong opinions about this over time: I'm truly convinced that the teacher is far more important than the course itself.
 
 Over time, I've realized many things about learning and teaching.
 Sometimes I find myself deeply moved by sincerity and subtle acts of kindness I see around me, those things really captivate me (and even bring me to tears)
@@ -161,7 +172,7 @@ I recommend reflecting a lot on your learning and the experiences you're going t
 
 > "Nothing more or less than the experience of experience itself" -- Eva Hoffman
 
-Don't forget to enjoy small wins, whether you understand some new algorithm or concept, completing an assignment, it's worth some celebrating. **Don't keep chasing completion and think you'll only feel happy when you finish the course.**
+Don't forget to enjoy small wins, whether you understand some new algorithm or concept, completing an assignment, it's worth some celebration. **Don't keep chasing completion and think you'll only feel happy when you finish the course.**
 I'm speaking from my experience. I often find myself thinking about what to do next and forget to appreciate the present moment. Sometimes it's excitement, sometimes it's fear that I'm not doing enough.
 
 > "People where you live," the little prince said, "grow five thousand roses in one garden... yet they don't find what they're looking for..." -- The Little Prince, Antoine de Saint-Exupéry
@@ -201,9 +212,9 @@ For example when you deeply understand positioning in CSS, you'd write something
 }
 ```
 
-Then quickly go .notification-dot and set its position to relative.
+Then go quickly to .notification-dot and set its position to relative.
 That's a chunk, I don't even need to think about it anymore.
-Those are some of the skills that make me write CSS _really fast_, it's not the memorization of css properties, it's actually drill that produces understanding and understanding that amplifies the drill.
+Those are some of the skills that make me write CSS really fast[^fast-css], it's not the memorization of css properties, it's actually drill that produces understanding and understanding that amplifies the drill.
 
 This cannot be reached (efficiently) without two main components
 
@@ -223,7 +234,7 @@ This may seem like a trivial thing but I think it actually matters.
 
 #### No perfect roadmap
 
-> Information hunger, when it consumes a person, drives them to read everything trying to know everything—and they end up knowing nothing -- Elmessiri
+> Information hunger, when it consumes a person, drives them to read everything trying to know everything—and they end up knowing nothing — Elmessiri
 
 I have long lists of courses about everything, sometimes my friends joke about how when I talk to someone about anything, I'm probably gonna suggest a course, "oh right, that day I saw this free typography course", "last night I've seen this awesome course about children learning problems", "ooh! did you see this new free Helsinki course?" well, it's kind of a hobby -- almost.
 And especially when the first year in college, I felt really, really distracted, I felt had a million thing to learn, I keep planning and planning and imagining the "perfect roadmap" that I'll use this summer, I keep comparing courses endlessly.
@@ -340,7 +351,7 @@ One could learn much more than the course content. When you see a teacher accept
 
 There is a lot to learn from good (and even bad) teachers, and it's hard (if not impossible) to learn such things from a book.
 
-## Course & Book Reviews
+## Course and Book Reviews
 
 ### Systematic Program Design
 
@@ -511,12 +522,20 @@ The book is accompanied by A LOT of extra content, the [wireshark labs](https://
 I highly recommend the book (or the [videos](https://gaia.cs.umass.edu/kurose_ross/lectures.php)), I think the first two chapters alone are more than enough to have a very good understanding of networks, in fact by chapter 2, if you do the [projects](https://gaia.cs.umass.edu/kurose_ross/programming.php), you'd have built a HTTP server, SMTP server, UDP ping, and a proxy server from scratch using socket programming.
 This book has a special place in my heart, when I was reading it I realized [I love computer science.](#short-story-the-day-i-fell-in-love-with-cs).
 
+Here are some things you can learn from the course:
+
+- When you type `google.com` and press enter, you'll know exactly what happens behind the scenes.
+- You'll understand those terms you keep hearing everywhere, Router, MAC, IP, DNS, etc
+- You'll deeply understand what's is a server, you'll even implement your own servers, and understand what it means for an application to be on the internet?
+- You'll understand what the internet is and how it works
+- You'll learn about protocols and realize they're just a bunch of standardized text files, and that people implement them (e.g. browser implements the HTTP protocol)
+
 Some Tips:
 
-- When you read the DNS section in chapter 2, buy a domain name
+- When you read the DNS section in chapter 2, buy a domain name from a registrar (e.g. Namecheap)
   - It's around $10 per year, but what you learn with stick with you forever!
   - If you're a student at some university try getting a domain in [Github Education Pack](https://education.github.com/pack) for free.
-  - You can for instance host a static website on Github Pages or Cloudflare Pages (for free!), they'll give you something like `website.yourname.github.io`. You can then create a CNAME record to point your domain to that URL Github gave you.
+  - You can for instance host a static website on Github Pages or Cloudflare Pages (for free!), they'll give you something like `yourusername.github.io`. You can easily change it to the domain you bought, you can think of it as pointing your domain to that default domain github gave you.
   - remember, if you buy a domain like `yourname.com`, you can add as many prefixes as you want, you can create sub domains like `blog.yourname.com` or basically `ANYTHING.yourname.com`, and even an email address like `pm@yourname.com`
   - Also, at some point later it might be also worth getting a VPS (basically a server you can SSH into) where you can practice even more.
     - [landchad](https://landchad.net/) is a nice little resource that explains how to do it and the basics of managing a VPS and hosting whatever you want.
@@ -849,13 +868,13 @@ _The Bottom Line_: It's not an enjoyable read, but I'm glad I read it because it
 #### Introduction to Web Accessibility[^a11y]
 
 This is an introductory course on web accessibility topics, it explores some important concepts in accessibility and dealing with disabilities.
-I kept wresting with some ideas in this course, especially as someone who had to learn that it's okay to ask for help, that it's not strength to think "I don't want to owe them anything", having been raised in a society that taught me that needing help is a weakness.
+I kept wresting with some ideas in this course, especially as someone who had to learn that it's okay to ask for help, that it's not strength to think "I don't want to owe them anything", having been raised in a world that teaches us that needing help is a weakness.
 
 The course also promotes this idea:
 
 > Disability is caused by a mismatch between the design and the person.
 
-When I heard such statement I felt unsure how to feel about it, in some way it ignores the actual struggle, and it feels like it reduces everything into a design optimization problem. It seems to me that disability is much more than that, it an entire human experience, with its unique challenges and pains, with hopes and joys. The model certainly has good intent and may have some truth to it, but it doesn't seem to me that the model captures the complexity of disability.
+When I heard such statement I felt unsure how to feel about it, in some way it ignores the actual struggle, and it feels like it reduces everything into a design optimization problem. It seems to me that disability is much more than that, it an entire human experience, with its unique challenges and pains, with hopes and joys. The model certainly has good intent and may have some truth to it, but it doesn't seem to me that the model captures the complexity of disability[^social-model].
 
 This all reminds me of a discussion I had in a UX course, the professor gave us an accessibility problem: we want to design a tool to help a blind person to navigate a large place (like a Mall) using technology.
 Everyone went brainstorming and there were plenty of ideas, some were ok, but many of them impractical and limited.
@@ -869,7 +888,7 @@ I really think it's important to develop tools that help people, it's the best p
 
 I'm still not sure how to think about this. Social problems are very complicated.
 
-**EDIT**: [I realized I'm being biased](#bias)
+(**EDIT**: [I realized I'm being somewhat biased](#the-trap-of-projection))
 
 It's also worth noting that the course isn't very practical, it doesn't teach the actual implementation of accessible systems which is understandable for an introduction course. But it taught me a lot about different kinds of disabilities and some good concepts and terms.
 
@@ -897,4 +916,10 @@ _The Bottom Line_: This one was okay, it's not a bad course by any means. The co
 
 [^a11y]: It's often written "a11y" because "accessibility" is a such long word! same pattern seen in i18n -- for internationalization.
 
-[^dash]: I used to write em dashes, I learned about their importance in [this course](#writing-in-the-sciences), but alas I realized it has become a red flag for AI writing. In fact, some of my friends once mentioned they started to doubt words like "genuine" and "journey" because AI tools use them a lot! (I used the word "journey" eleven times in this document... awesome...)
+[^dash]: I used to write em dashes, I learned about their importance in
+
+[this course](#writing-in-the-sciences), but alas I realized it has become a red flag for AI writing. In fact, some of my friends once mentioned they started to doubt words like "genuine" and "journey" because AI tools use them a lot! (I used the word "journey" eleven times in this document... awesome...)
+
+[^social-model]: It's called the social model of disability
+
+[^fast-css]: One of my colleagues at the university once needed some help with CSS, she has the dashboard design but struggled to implement it, she told me ChatGPT was generating a mess. I told her I could help, it took me around 3 hours to write the entire CSS by hand. She was surprised so I explained to her the importance of a good teacher who would explain how to actually write CSS and not just the syntax, and shared some good resources.
