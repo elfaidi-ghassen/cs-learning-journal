@@ -1,4 +1,4 @@
-# A Student's Journey Into CS and Life
+# A Student's Journey Into Computer Science and Life
 
 (work in progress...)
 
@@ -52,6 +52,7 @@ This is not a roadmaps. It's just my personal experiences and the resources I we
   - [Writing in The Sciences](#writing-in-the-sciences)
   - [Data and Reality](#data-and-reality)
   - [Introduction to Web Accessibility](#introduction-to-web-accessibilitya11y)
+- [Where am I now?](#where-am-i-now)
 - [Footnotes](#footnotes)
 
 ## Tips and Reflections
@@ -74,7 +75,7 @@ This all also reminds me of a quote I read in one of Barbara Oakley's articles
 
 > we rapidly remember what interests us, but what interests us takes time to develop
 
-Passion is never a pre-requisite for learning CS and programming. In fact, passion is the fruit of your efforts. It's the thrill you have when you see you're slowly improving over time, you're starting too the full picture.
+Passion is never a pre-requisite for learning CS and programming. In fact, passion is the fruit of your efforts. It's the thrill you have when you see you're slowly improving over time, you're starting to see the full picture.
 Good teachers, good books, and small projects slowly build that passion over time.
 
 ### Insights about learning and education
@@ -110,9 +111,10 @@ Here is the _key idea_: Two different people can study the same material from th
 
 Let's make this concrete, imagine a kid, let's call her Sara, she's learning the multiplication table[^memory-paradox], but she doesn't internalize it and think it's useless. Later when she studies division, she doesn't have any "baggage" with her, nothing in her brain, no structure that could help. when she sees 12/4 she does't "feel" it's 3, she never built that connection between 3, 4 and 12.
 A more common example is trying to study physics without having good math skills, each physics problem becomes a two layer of suffering, you have to struggle through the math to finally reach the physics part, which itself might be challenging.
-In CS this could trying to study Algorithms without having a good knowledge in discrete math, it's very painful.
+And you'll more examples throughout the reviews.
 
-When I'm learning something in FSO, I start to connect it to my HTTP knowledge and the toy server I built, I start to ask better questions and often end up new learning things and make connections that aren't explicitly included in the course itself.
+For instance while I'm learning something in FSO, I found myself start to connect it to my HTTP knowledge and the toy server I built, I start to ask better questions and often end up new learning things and make connections that aren't explicitly included in the course itself.
+
 And fundamental knowledge give you the power of surprise, and I'd like to quote my highschool math teacher[^math-teacher]:
 
 > The problem with not having good fundamentals is that you can't differentiate between easy and hard problems on exam, everything is equally impenetrable.
@@ -560,13 +562,42 @@ _The Bottom Line_: What can I say? this book is so dear to me, and I can't recom
 
 ### The Missing Semester
 
-So, the course is great, but here are some practical tips that might help.
+So, the course is great.
+
+I don't think it's possible to understand the material well without understanding what a process is.
+for isntance environment variables were explained in the course it in terms of "processes" as how "subporcess" inherit exported variables.
+If you don't have a good understanding of processes it'd feel unclear.
+When I heard the explanation of environment variables I had to pause for a moment and draw a process, which is just an "object" containing fields. The shell itself is just some process that we represent as an "object" -- I literally think of processes as some dictionary or JavaScript object :D
+
+if I do `export MY_VAR="hello"` it will be added to the environment
+
+```js
+shell_process = {
+  PID: 1234,
+  ...
+  environment: {
+    PATH: "/usr/bin",
+    HOME: "/home/user",
+    USER: "ghassen",
+	MY_VAR: "hello",
+  }
+  ...
+}
+```
+
+and when the shell spawns a new process, the new sub process will "inherit" the same environment!
+
+I highly recommend OSTEP and doing the shell project, at least a part of it. At the very least you should understand the idea of process, here is a short video that might give you the needed intuition.
+
+Also it's good to know that you don't need to have a "conceptual understanding" then start learning, building understanding is more complicated and sometimes it's better to get you hands dirty and learn commands and use them while working on building deeper understanding
+it's not either/or
 
 - If you are a Windows user, it's recommend that you install linux alongside Windows (it's called Dual boot), you'd be able to choose which OS to run when you start your computer.
 - Or at the very least, install WSL. (like seriously, you must[^must] do that)
 - Make it the default shell in the terminal so that when you open the terminal app it's there
 - make the terminal maximized by default
 - install AutoHotKey and create a shortcut e.g. Control + Shift + Enter to open the terminal, it's very convenient.
+  - one of the best things I did is to bind the Caps Lock key to work as Ctrl. it's very convenient.
 
 ```
 ^+Enter::
@@ -585,9 +616,13 @@ So, the course is great, but here are some practical tips that might help.
 - I mainly use bash on WSL, you can also try zsh + ohmyzsh, it's cool, but it's really slow on WSL.
 - The notes in the first lecture contains other cool commands you can install like `bat` and `eza`
   - remember you can create aliases for instance to make `ls` execute `eza`
-- If you use Windows Terminal, it has lots of nice shortcuts for splitting the panes, it's very useful and much better than having multiple tabs, I found this useful especially in web development.
+- If you use Windows Terminal, it has some shortcuts for splitting the panes, it's very useful and much better than having multiple tabs, I found this useful especially in web development.
 
 ![terminal](/media/terminal.jpg)
+
+- A MUCH NICER approach is to use `tmux` which is shortly covered in the course. it does the same thing but it's much more powerful and something that you can use anywhere. you can search for a short tutorial or something, it would take an hour to get started with it and a couple of days for it to become second nature.
+
+  ![tmux](/media/tmux.jpg)
 
 - Don't forget to use `tab` for auto completion, you need to consciously use it at first until it becomes a habit.
 - You need some way to open files from terminal, you can do it like this in WSL: `alias open='cmd.exe /c start'`
@@ -716,7 +751,7 @@ _The Bottom Line_: If you only need to take one course on teaching, this probabl
 
 Another nice course from Barbara Oakley and John Mighton, the course touches on many of concepts taught in learning How to Learn and Uncommon Sense Teaching, there are very few new insights honestly, but seeing the ideas again but applied to math is really interesting. Though the examples are very basic -- how we should correctly teach basic elementary math and geometry, but I think the advice can be applied in more advanced topics.
 
-_The Bottom Line_: It's a very good short course, but if you've taken the other courses you might find the repetition a bit boring. It's seems to me it's mainly for teachers and parents who want to help their children with math.
+_The Bottom Line_: It's a very good short course, but if you've taken the other courses you might find the repetition a bit boring. It's seems to me it's mainly for teachers and parents who want to help their children with math. But I really enjoyed it.
 
 ### Machine Learning
 
@@ -919,6 +954,8 @@ It's also worth noting that the course isn't very practical, it doesn't teach th
 Also when it comes to learning web accessibility, it seems the best way to learn it it through practical examples. I really like [Josh Comeau](https://www.joshwcomeau.com/)'s way of teaching it: not treating it as an afterthought, but embedding accessibility tips and common mistakes throughout the course.
 
 _The Bottom Line_: This one was okay, it's not a bad course by any means. The course isn't very practical nor intellectually deep, but it made me think about these issues -- at least for some time. I'm grateful for that. Sometimes we rarely find time for what we claim we care about.
+
+## Where am I now?
 
 ## Footnotes
 
