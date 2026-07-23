@@ -1,8 +1,11 @@
-# A Student's Journey Into Computer Science and Life
+# A Student's Journey Into Computer Science (and Life)
 
-(work in progress...)
+NOTE: This page is work in progress
 
-I'm currently a third year software engineering student in Tunisia. I have many reasons to write this. But what got me thinking seriously into writing it is a stranger on the internet who once shared their learning journey in a [README file](https://github.com/spamegg1/reviews). Reading it gave me so much excitement and hope that I kept going. We need more of this.
+> Verily, knowledge is by learning, and forbearance is by exerting oneself to be forbearing
+
+I'm software engineering student in Tunisia. I have many reasons to write this. But what got me thinking seriously into writing it is a stranger on the internet who once shared their learning journey in some [README file](https://github.com/spamegg1/reviews). Reading it gave me so much excitement and hope that I kept going. Maybe we need more of this.
+One of the things I wanted in this document it to show how it might _feel_ to study CS.
 
 Many of the courses I've taken are part of the [OSSU curriculum](https://github.com/ossu/computer-science), if you've never heard about it before, give it a look.
 
@@ -14,7 +17,7 @@ This is not a roadmaps. It's just my personal experiences and the resources I we
   - [Short Story: The Day I Fell in Love with CS](#short-story-the-day-i-fell-in-love-with-cs)
   - [Insights about Learning and Education](#insights-about-learning-and-education)
     - [The Trap of Projection](#the-trap-of-projection)
-    - [Rethinking _self_-taught](#rethinking-self-taught)
+    - [Rethinking _self_-taught](#rethinking-self-taughtself-taught)
     - [It's all about good teachers](#its-all-about-good-teachers)
     - [Learning compounds](#learning-compounds)
     - [The forgotten side of learning from teachers](#the-forgotten-side-of-learning-from-teachers)
@@ -31,7 +34,7 @@ This is not a roadmaps. It's just my personal experiences and the resources I we
     - [Using Flashcards](#using-flashcards-anki)
     - [Taking notes](#taking-notes)
     - [Using the command line](#using-the-command-line)
-    - [Some ways to have fun](#some-ways-to-have-fun)
+    - [Some ways to have good fun](#some-ways-to-have-good-fun)
 - [Courses and Books](#course-and-book-reviews)
   - [Systematic Program Design](#systematic-program-design)
   - [Programming Languages: Parts A, B and C](#programming-languages-parts-a-b-and-c)
@@ -42,7 +45,6 @@ This is not a roadmaps. It's just my personal experiences and the resources I we
   - [Learning How to Learn](#learning-how-to-learn)
   - [Mindshift](#mindshift)
   - [Uncommon Sense Teaching](#uncommon-sense-teaching)
-  - [Other Courses on Learning](#other-courses-on-learning)
   - [Machine Learning Specialization](#machine-learning)
   - [Meta Version Control](#meta-version-control)
   - [Head First Git](#head-first-git)
@@ -52,7 +54,6 @@ This is not a roadmaps. It's just my personal experiences and the resources I we
   - [Writing in The Sciences](#writing-in-the-sciences)
   - [Data and Reality](#data-and-reality)
   - [Introduction to Web Accessibility](#introduction-to-web-accessibilitya11y)
-- [Where am I now?](#where-am-i-now)
 - [Footnotes](#footnotes)
 
 ## Tips and Reflections
@@ -129,7 +130,7 @@ So, TLDR: good learning might be slow, but it compounds really fast: the more yo
 #### The forgotten side of learning from teachers
 
 I had a Control Theory professor who would apologize when he interrupted a student in a discussion, "I'm so sorry for interrupting you", or "I apologize for interrupting you earlier, you may speak"
-I didn't use to apologize when interrupting people! I said, ha! that's a nice thing to do, I'll start doing it too!
+I didn't use to apologize when interrupting people! I said, ha! he's a nice person, that's a nice thing to do, I wanna be like that too!
 
 Even in online courses, one such moment was in [Programming Languages](#programming-languages-parts-a-b-and-c), when Dan Grossman said "people often confuse higher-order functions and first class function, _so we won't care either_", that had a lasting impact on how I deal with terminology.
 
@@ -350,24 +351,23 @@ And Windows users like me have an itch for opening the explorer (finder) for som
 That alone made them enjoy using the command line and motivated them to learn it more.
 So based on my observation, I believe that many people detest the command line simply because they never saw a real workflow, even a simple one, anything concrete that makes them feel it's worth learning.
 
-#### Some ways to have fun
+#### Some ways to have good fun
 
-I think having fun is an important part of learning, one shouldn't spend all of their time studying or they'll burn out, which isn't good -- _not_ because it reduces performance in long term -- but simply because it's not good for a human being to feel burned out.
+I think having fun is an important part of one's days, we shouldn't spend all of our time studying or we might burn out, which isn't good - _not_ because it reduces performance in long term, even though it does so - but simply because it's not good for a human being to feel burned out.
 
-There are many ways to have fun, I won't share the usual stuff, but small things I found enjoyable:
+Here some things I enjoy:
 
-- **Documentaries** could be a great way to both enjoy and learn new things about the world we live in. Here are some documentaries you might like:
+- **Documentaries** could be a great way to both have a good time and learn new things about the world we live in (if you have some reccs please make sure to share them with me!). Here are some documentaries you might like:
   - [Schooling the World](https://youtu.be/oDxYWspiN-8?si=-yFHsgKSNJOepC4c)
-  - [The True Cost](https://youtu.be/rwp0Bx0awoE?si=aoELpl9FEzc9Y5l6)
   - [Revolution OS](https://youtu.be/k0RYQVkQmWU?si=Yk1SoEyUWCdlCXcU)
   - [A Trip to Infinity](https://youtu.be/CNFm_DzHDaE?si=NNK-PDkLVEYLCgGJ)
-- I rarely watch movies anymore, I can't remember the last time I watched one actually, but these movies have a special place in my heart.
-  - The Flavor of Green Tea Over Rice (1952) -- Ozu
-  - 12 Angry Men (1957)
-  - My Neighbors the Yamadas (1999)
-- Plant Identification:
-  - Another really fun activity I've come across is identifying plants! iNaturalist is a great app to help you identify plants you see in your daily life (Be aware that other people may be able to see the location of the pictures you take)
+
+- I used to watch a lot of movies and animation in high school[^anime] but my interest kept dropping slowly and at some point I was just re-watching Akira Kurosawa's and Ozu's films, or maybe watching some Ghibli film on weekends, but once college started I stopped entirely. I didn't have time to waste, but my love for human stories remained[^human-stories]. So I simply turned to novels. I don't think I ever read a modern novel, but I really like classics. e.g. Les Miserables and Count of Monte Cristo, such stories are full of wisdom and human experience.
+
+- Plant Identification: Another really fun activity I've come across is identifying plants! iNaturalist is a great app to help you identify plants you see in your daily life (Be aware that other people may be able to see the location of the pictures you take, you need to remove it)
   - Knowing the names of the plants and flowers you see everyday makes each walk a more rich experience[^flowers], you'd start to notice how plants change from season to season. All of this even reminded me of how when you learn CS concepts and terms (e.g. abstraction or evaluation) you start to see things differently!
+
+- A friend of mine came up with a wild idea which is having a weekly meeting at a coffee shop where we teach each other some random stuff we learned that week, at one time he litarally kept explaining some interesting facts about geology to me.
 
 ## Course and Book Reviews
 
@@ -593,7 +593,7 @@ Also it's good to know that you don't need to have a "conceptual understanding" 
 it's not either/or
 
 - If you are a Windows user, it's recommend that you install linux alongside Windows (it's called Dual boot), you'd be able to choose which OS to run when you start your computer.
-- Or at the very least, install WSL. (like seriously, you must[^must] do that)
+- Or at the very least, install WSL. (like seriously, you must[^must] do that at the very least)
 - Make it the default shell in the terminal so that when you open the terminal app it's there
 - make the terminal maximized by default
 - install AutoHotKey and create a shortcut e.g. Control + Shift + Enter to open the terminal, it's very convenient.
@@ -955,11 +955,15 @@ Also when it comes to learning web accessibility, it seems the best way to learn
 
 _The Bottom Line_: This one was okay, it's not a bad course by any means. The course isn't very practical nor intellectually deep, but it made me think about these issues -- at least for some time. I'm grateful for that. Sometimes we rarely find time for what we claim we care about.
 
-## Where am I now?
+### Algorithms Specialization
+
+> I defintely owe you a proof
+
+### FullstackOpen
 
 ## Footnotes
 
-[^math-teacher]: He wasn't a particularly good math teacher, but he was a wise man and I liked him. He would often ask me, "Do you understand?" and I'd reply: "No problem, man. Don't push yourself too hard. I'll be okay." But the end of the year, he also told me: "I really like you because you're bad at math, but you don't fake it." For some reason, that made me feel good about myself.
+[^math-teacher]: He wasn't a particularly good math teacher -- He struggled a lot with handling ill-behaved students. I remember sitting in the second row with my wired headphones hidden under thick winter clothes: listening to intense classical music (used to like Baroque) watching the teacher yelling at students. It was serene (But as funny as it is, those were tough days). Even so, he was a wise man sometimes and I liked him. He would often ask me, "Do you understand?" and I'd reply: "No problem, man. Don't push yourself too hard. I'll be okay." But the end of the year, he also told me: "I really like you because you're bad at math, but you don't fake it."
 
 [^memory-paradox]: I've got this example from [this paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5250447), it's worth reading! it explains the concept of _schema_ formation and how mastering fundamental knowledge is necessary for deeper intuition. I printed that paper and read it twice, and I even summarized it and translated parts of it into Arabic. It's that good.
 
@@ -986,3 +990,7 @@ _The Bottom Line_: This one was okay, it's not a bad course by any means. The co
 [^fast-css]: One of my colleagues at the university once needed some help with CSS, she has the dashboard design but struggled to implement it, she told me ChatGPT was generating a mess. I told her I could help, it took me around 3 hours to write the entire CSS by hand. She was surprised so I explained to her the importance of a good teacher who would explain how to actually write CSS and not just the syntax, and shared some good resources.
 
 [^self-taught]: I heard this insight from someone named Ammar Ahmed in a telegram programming group. His point deeper, as he connected it to the problem individualism in our societies.
+
+[^anime]: I was really invested in that stuff, like, really _invested_. I even used to write long articles about art direction and storytelling, reading books on the topic, and even translate some documentaries about japanese directors and animators from English to Arabic.
+
+[^human-stories]: though it's rare to find a human story in today's works.
