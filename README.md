@@ -262,7 +262,7 @@ This may seem like a trivial thing but I think it actually matters.
 
 I have long lists of courses about everything, sometimes my friends joke about how when I talk to someone about anything, I'm probably gonna suggest a course, "oh right, that day I saw this free typography course", "last night I've seen this awesome course about children learning problems", "ooh! did you see this new free Helsinki course?" well, it's kind of a hobby -- almost.
 And especially when the first year in college, I felt really, really distracted, I felt had a million thing to learn, I keep planning and planning and imagining the "perfect roadmap" that I'll use this summer, I keep comparing courses endlessly.
-It took me a while to realize that I'll never find this perfect roadmap. what matters at the end of the day is that you pick some high quality course taught by a good instructor, and stick with it. that's it. there is no point in overthinking it. It's important to accept the fact that you won't learn everything, and there is no course that will teach you everything about something, there is no point in endless comparisons.
+It took me a while to realize that I'll never find this perfect roadmap. what matters at the end of the day is that you pick some high quality course taught by a good instructor, and stick with it. that's it. there is no point in overthinking it. It's important to accept the fact that you won't learn everything, and there is no course that will teach you everything about something, there is no point in endless comparisons and falling into "choice paralysis".
 
 ### Practical Tips
 
@@ -282,6 +282,13 @@ I convinced him it's kind of a problem by saying "imagine writing such code in a
 That's why I think the earlier you realize that there are some "good" code writing habits, the better.
 
 Another is realizing that consistency is looks so pretty, that's why we have conventions, try to start noticing in people's code, files, etc. for instance I prefer filenames to be lowercase with dashes, e.g. `integration-test.js`, I've heard some consider a bit ugly, but that does't matter because when you have tens of files following the same convention, somehow it starts to look so pretty and organized. Same goes for git commits too.
+
+#### Staying up to date with the news
+
+It's been a while since I mostly stopped using social media, I don't have any social media app installed on my phone and I only access them using my computer. But I quickly started to learn that even though most news are not important for me to know, sometimes it's better to have an idea of what's going on. And the nice thing is that you don't really need to use social media for that knowledge.
+I really like [Hacker News](https://news.ycombinator.com/), it has links to interesting news and articles.
+I also like the youtube channel [The PrimeTime](https://www.youtube.com/@ThePrimeTimeagen). The man makes really funny and short videos (10-20m) about some hot topics in the field every couple of days.
+So yeah, try not to live under a cave.
 
 #### Use a REPL
 
@@ -372,6 +379,8 @@ Here some things I enjoy:
 ## Course and Book Reviews
 
 ### Systematic Program Design
+
+![alt text](/media/course-banners/spd.png)
 
 Also known as [How to Code: Simple Data](https://www.edx.org/learn/coding/university-of-british-columbia-how-to-code-simple-data) and [Complex data](https://www.edx.org/learn/coding/university-of-british-columbia-how-to-code-complex-data).
 
@@ -658,9 +667,9 @@ I had this class in college about basic information theory (and some image proce
 
 It took me _quite a while_ to fully get it, there was some dissatisfaction in my mind for some reason, then I realized, it's all about abstraction!
 a symbol can be ANYTHING. And that abstraction is very powerful because once you prove something is an alphabet (it's straightforward here), you can use everything all the properties of an alphabet and the nice ideas built on top of it, for instance you get the idea of strings for free.
-This is analogous to _implementing_ an interface in a OOP, once you do that you can pass an instance of that class to any method that expects that interface type, for free!
+There is a really neat OOP analogy for this and it's very elegant, the first time I heard about it was in a DSP course on Coursera from EPFL when the instructor used it to explain how we can use Lienar Algebra for many different things.It is analogous to _implementing_ an interface in a OOP, once you do that you can pass an instance of that class to any method that expects that interface type, for free!
 
-This idea of mathematical abstraction is very powerful. It makes the math useful in so many different contexts, you'd just need to _prove_ it's a language or it's a linear map (in linear algebra), then you could use all the theorems and cool stuff built on top of it. 3Blue1Brown explains it beautifully in [this video](https://youtu.be/TgKwz5Ikpc8?si=-K7ctr-oQN93NbMI).
+This idea of mathematical abstraction is very powerful. It makes the math useful in so many different contexts, you'd just need to _prove_ it's a language or it's a linear map (in linear algebra), then you could use all the theorems and cool stuff built on top of it. 3Blue1Brown explains mathematical abstraction beautifully in [this video](https://youtu.be/TgKwz5Ikpc8?si=-K7ctr-oQN93NbMI).
 
 At some point, after seeing so many abstractions, I suddenly felt comfortable dealing with it and started to appreciate it instead of finding it threatening.
 For instance, using term _name_ instead of _variable_ (like when we say a _name_ is bound to a value), it's like forgetting all the implementation details and only thinking about the higher order concept of naming things, something humans like to do.
@@ -956,6 +965,8 @@ Also when it comes to learning web accessibility, it seems the best way to learn
 _The Bottom Line_: This one was okay, it's not a bad course by any means. The course isn't very practical nor intellectually deep, but it made me think about these issues -- at least for some time. I'm grateful for that. Sometimes we rarely find time for what we claim we care about.
 
 ### Algorithms Specialization
+
+![alt text](/media/course-banners/test3.png)
 
 > I defintely owe you a proof
 
