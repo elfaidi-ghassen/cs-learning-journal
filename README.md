@@ -374,7 +374,33 @@ Here some things I enjoy:
 - Plant Identification: Another really fun activity I've come across is identifying plants! iNaturalist is a great app to help you identify plants you see in your daily life (Be aware that other people may be able to see the location of the pictures you take, you need to remove it)
   - Knowing the names of the plants and flowers you see everyday makes each walk a more rich experience[^flowers], you'd start to notice how plants change from season to season. All of this even reminded me of how when you learn CS concepts and terms (e.g. abstraction or evaluation) you start to see things differently!
 
-- A friend of mine came up with a wild idea which is having a weekly meeting at a coffee shop where we teach each other some random stuff we learned that week, at one time he litarally kept explaining some interesting facts about geology to me.
+- A friend of mine came up with a wild idea which is having a weekly meeting at a coffee shop where we teach each other some random stuff we learned that week, at one time he litarally kept explaining some interesting facts about geology to me. I feel lucky knowing such people.
+
+#### How to Find Learning Resources
+
+When I talk about some courses sometimes people ask me _where did you learn about these courses or websites_. The answer is what I call "lists of lists", ot maybe "meta lists".
+That is a community driven and updated list of resources in some field.
+
+- OSSU in some sense is like that, it's a collection of good courses.
+- Reddit "mega threads" are also useful, for instance let's say you want to learn how to draw, you could visit `r/drawing` and see on the sidebar and you'll see they have a megathread which contains many great resources.
+- Another resource I like is [fmhy.net](https://fmhy.net/educational)[^fmhy], it has a great lists for learning almost anything you can imagine!
+
+Also, don't forget [there is no perfect roadmap](#no-perfect-roadmap)!
+
+#### Financial Aid on Learning Platforms
+
+Both Coursera and EdX offer finacial aid for learners who can't pay for courses, you can easily apply for financial aid on Coursera by going to a course page then search in the page for a small link "fincial aid", they ask you to fill some forms an explain how the course would benefit you, etc. Wait for two week and you'll receive an email with a discount.
+EdX is simpler, you can simply request for financial aid for a specific course and you automatically receive an 80% discount after a couple of days/
+
+Also some websites like Frontend Masters started to offer regional prices for their subscriptions, I think that's a great idea and would benefit many people (and companies).
+
+#### Misc.
+
+- Wayback machine is a very useful website, sometimes in courses and articles you might find dead links, the wayback machine takes snapshots of the many websites!
+
+- Typst: in noticed most students would use word or google docs for assignments, but I heard about LaTeX[^latex] before and so I wanted to learn it a bit and turned out to be so good, the documents it produces are fableous, yet sadly there is one downside: its syntax is atrocious. Typst is an open source language for doing pretty much the same, it produces great quality documents, but it has much better syntax and easier to learn. You can also use it for creating CVs and so on.
+
+- Use a password manager, it might take an hour or two but it very convenient as it will generate good passwords for you and automatically fill in the passwords on websites when you want to log in. It might take an hour or two to set up and get used to.
 
 ## Course and Book Reviews
 
@@ -1005,3 +1031,7 @@ _The Bottom Line_: This one was okay, it's not a bad course by any means. The co
 [^anime]: I was really invested in that stuff, like, really _invested_. I even used to write long articles about art direction and storytelling, reading books on the topic, and even translate some documentaries about japanese directors and animators from English to Arabic.
 
 [^human-stories]: though it's rare to find a human story in today's works.
+
+[^latex]: pronounced as /latek/
+
+[^fmhy]: Worth noting, the website contains sections that links to pirated content (movies, books, etc). But if you ignore that the website contains many well curated free stuff on the internet
