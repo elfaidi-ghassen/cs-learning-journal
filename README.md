@@ -99,6 +99,14 @@ I often call it "Down to earth teaching". It's when someone isn't trying to impr
 What moves me isn't the jokes that lighten the mood or a particular teaching style, it's the human effort behind it, the invisible work. The fact that this person has actually thought carefully about how to teach this and didn't want me to feel intimidated.
 And behind it all some sort of subtle respect to learners that's hard to describe in words.
 
+This idea is also supported by some interesting research ([If You Don't Care, Then Why Should I](https://journals.sagepub.com/doi/10.1177/1052562914555550)). The more the instructor is committed (what I call being passionate about teaching) the more students are committed and hence likely to learn something from the experience. I think this is a general thing in life, when you show that you care others often will also care. When I drew the banners for this README you preceive that I probably care about what I do, and in return you might read it.
+I also did my informal unscientific research on this mattera and asked some of my classmates (a dozen or so) to anonymously rate two things: 1) The instructor's passion about teaching, regardless of how much you like the subject. 2) How much did you enjoy studying the subject regardless of the instructor, was it a good learning experience?.
+The results were as expected, and while there were few occasions when an instructor is perceived as committed but students simply didn't like the subject or experience, almost in every case there was a clear corelation.
+[todo: add the diagram here]
+
+This also made me realize we often solve the wrong problems in education, I asked so many fellow students what do they like and dislike in their experiences, they always complain about _outdated curriculums_ and how the world is moving forward while we're stuck studying \[relatively\] old technologies. etc.
+I think while that holds some truth in it I think it's ignoring the core issue. Instructors who don't have enough passion for teaching, not because they are horrible people, but because of many reasons. I think if the question should be why are some teachers not that invested in teaching? Academia does not have incentives for good teaching as it does for good research.
+
 This realization led me to another thought: we often forget to thank good teachers.
 At some point I started sending emails to good teachers, at university or online, and even book authors. I was surprised by how many replied and how happy they were to hear that their work had helped someone.
 
@@ -296,6 +304,32 @@ It's basically like the JS console on the browser dev tools or when you write "p
 You should use a REPL, most languages have ones! even statically typed languages! Java has JShell and C# has a REPL integrated in Visual Studio. They are great for testing small pieces of code, Regular Expressions, date functions, ASCII codes, etc.
 They are extremely helpful to quickly verify what an expression _evaluate_ to, which is very helpful especially when learning a new language.
 
+#### Basic IT skills
+
+I believe it's worth having some basic IT skills:
+
+- How to install a new operating system. One way to do it is just by a flash disk stick, it's very easy to do.
+- How to upgrade your RAM, the types of RAM you can add, etc. it's so easy an you only need some Phillips screwdriver and ten minute of your time.
+- Making multiple partions for your storage, it saved my files from a BSOD at one time.
+- Knowing how to kill a process, open the task manager, monitor resources, etc.
+- Having some basic knowledge about computers in general, there are many nice Youtube channels that you might benefit from if you like, you don't need to spend too much time on it.
+
+This can be a fun hobby to try to improve your workflow and your tools.
+I recommend checking the fmhy's [System Tools](https://fmhy.net/system-tools) section as it contains many great open source tools you can try.
+
+- The basic rule of thumb: If something feels repeitive and annoying, there is probably someone who had the same experience and create a solution for the problem.
+  - You're renaming a lot of files? there are bulk rename tools
+  - You're editing many images at the same time? there are tools
+  - You're spending too much time searching for things in VS Code? `Ctrl` + `P`
+  - and so on.
+
+- Also, I noticed many people don't use it so please make sure you use a clipboard manager. Windows for instance has a default clipboard manager (Win + V), it's _extremely_ useful and I can't imagine using a computer without it.
+- Also, it's a good idea to use a _Password manager_, it may take an hour to setup but it serves you forever. Many password managers have browser extentions and would fill in the login forms automatically for you. It was so useful that I went over many of my friends and installed a password manager for them, some didn't think it's useful at first but it's understandble, I didn't think it was _that_ useful either when I first heard about it.
+
+> "Malik was asked, 'What do you say about seeking knowledge?' He said: 'It is good and beautiful — but look first to the knowledge you need from the moment you wake up until evening, and commit to that".
+
+That holds true for all kinds of knowledge. I want to insist on this because many people feel intimidated by the number of tips, tricks and tools available on the internet. One of the best places to start is to see your own workflow, what you frequently do in your daily life and try to improve it. one step at a time.
+
 #### Using Flashcards (Anki)
 
 I LOVE flashcards, like, they are my favorite learning tool.
@@ -376,6 +410,16 @@ Here some things I enjoy:
 
 - A friend of mine came up with a wild idea which is having a weekly meeting at a coffee shop where we teach each other some random stuff we learned that week, at one time he litarally kept explaining some interesting facts about geology to me. I feel lucky knowing such people.
 
+#### Words and Time
+
+- It's worth having a basic understanding of Unicode and how text is represented
+  - [Dive Into Python Chapter 4: Strings](http://getpython3.com/diveintopython3/strings.html)
+
+- It's also worth learning a bit about timezones and how to store dates correctly.
+  - Pre-requisites: Time basics; you know what _timezones_ are, you understand what `12:30 UTC+04` means, Daylight Saving Time (DST), timestamps, why storing in time in UTC is generally a good idea.
+  - [UTC is Enough for Everyone... Right?](https://zachholman.com/talk/utc-is-enough-for-everyone-right)
+  - [The Problem with Time & Timezones](https://youtu.be/-5wpm-gesOY?si=ExhcVQIafwx6f7A9)
+
 #### How to Find Learning Resources
 
 When I talk about some courses sometimes people ask me _where did you learn about these courses or websites_. The answer is what I call "lists of lists", ot maybe "meta lists".
@@ -384,6 +428,7 @@ That is a community driven and updated list of resources in some field.
 - OSSU in some sense is like that, it's a collection of good courses.
 - Reddit "mega threads" are also useful, for instance let's say you want to learn how to draw, you could visit `r/drawing` and see on the sidebar and you'll see they have a megathread which contains many great resources.
 - Another resource I like is [fmhy.net](https://fmhy.net/educational)[^fmhy], it has a great lists for learning almost anything you can imagine!
+- Github is also a great place for such lists! Sometimes they are called the [Awesome Lists](https://github.com/sindresorhus/awesome).
 
 Also, don't forget [there is no perfect roadmap](#no-perfect-roadmap)!
 
@@ -402,6 +447,9 @@ Also some websites like Frontend Masters started to offer regional prices for th
 
 - Use a password manager, it might take an hour or two but it very convenient as it will generate good passwords for you and automatically fill in the passwords on websites when you want to log in. It might take an hour or two to set up and get used to.
 
+- You can find a lot of great tools on Github! for instance let's say you're looking for an app to cut videos or zip files (or anything else), a quick good search: `open source cut video github` will do the job. (usually you can download it from the `Releases` section on the side bar)
+  - You can also see [fmhy](https://fmhy.net/developer-tools)'s section about developer tools.
+
 ## Course and Book Reviews
 
 ### Systematic Program Design
@@ -410,7 +458,7 @@ Also some websites like Frontend Masters started to offer regional prices for th
 
 Also known as [How to Code: Simple Data](https://www.edx.org/learn/coding/university-of-british-columbia-how-to-code-simple-data) and [Complex data](https://www.edx.org/learn/coding/university-of-british-columbia-how-to-code-complex-data).
 
-I'll start with a vent, when we tell a beginner "you should think like a programmer" or "focus on problem solving and not syntax", we're not helping them! It sounds like a good advice but it's useless!
+I'll start with a vent, when we tell a beginner "you should think like a programmer" or "focus on problem solving and critical thinking and not the syntax", we're not helping them! It sounds like a good advice but it's not useful! I still remember how it feels to hear such advice and it's very frsustrating.
 
 Ok, This course is really amazing, I didn't realize how important it was immediately.
 I used to hear that "you should learn functional programming because it will change the way you think about programming" and so on, but I never found someone explains why explicitly. After taking this course and observing what changed after completing the course, I think I have a pretty good idea about what's going on. Yeah, functional programming -- and this course -- might rewire your brain!
@@ -841,6 +889,8 @@ The book also did something really smart which is not using programs but just pl
 
 _The Bottom Line_: If you want to learn how git really works and immediately start to work with others and contribute to open source, this is a great option.
 
+### Databases
+
 ### Object-Oriented Design -- Alberta
 
 NOTE: _I did not complete the course_
@@ -920,7 +970,9 @@ I thought it would be a shame to spend years at college yet not understand much 
 It contained many nice writing tips, and some important ideas in academic writing.
 I learned a couple of nice ideas in it, for instance the importance of showing both _relative risk_ and _absolute risk_ when talking to non experts.
 Because if you tell people "We discovered that this drug has will double your chance of some disease" you're gonna scare people! But if you tell people it increases the changes of the disease from 0.001 to 0.002, it's not as scary.
-But at the same time it's misleading to only include the absolute percentage because an increase from 0.001 to 0.002 is _devastating_ when you have hundreds of thousands of people taking the drug.
+But at the same time it's misleading to only include the absolute percentage because an increase from 0.001 to 0.002 is _devastating_ when you have hundreds of thousands of people taking the drug. The best practice is to include both and be wise about it.
+
+The course also mentioned some things I never knew about academia, things like the "publish or perish" mantra. It honestly was a shock to me!
 
 But overall, I still don't feel confident in my academic writing yet, and so I plan to take another course which has a capstone project where you actually write a paper about a topic you like, I need more practice.
 
@@ -995,14 +1047,17 @@ _The Bottom Line_: This one was okay, it's not a bad course by any means. The co
 ![alt text](/media/course-banners/test3.png)
 
 > I defintely owe you a proof
+> #todo
 
 ### FullstackOpen
+
+#todo
 
 ## Footnotes
 
 [^math-teacher]: He wasn't a particularly good math teacher -- He struggled a lot with handling ill-behaved students. I remember sitting in the second row with my wired headphones hidden under thick winter clothes: listening to intense classical music (used to like Baroque) watching the teacher yelling at students. It was serene (But as funny as it is, those were tough days). Even so, he was a wise man sometimes and I liked him. He would often ask me, "Do you understand?" and I'd reply: "No problem, man. Don't push yourself too hard. I'll be okay." But the end of the year, he also told me: "I really like you because you're bad at math, but you don't fake it."
 
-[^memory-paradox]: I've got this example from [this paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5250447), it's worth reading! it explains the concept of _schema_ formation and how mastering fundamental knowledge is necessary for deeper intuition. I printed that paper and read it twice, and I even summarized it and translated parts of it into Arabic. It's that good.
+[^memory-paradox]: I've got this example from [this paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5250447), it's worth reading! it explains the concept of _schema_ formation and how mastering fundamental knowledge is necessary for deeper int uition. I printed that paper and read it twice, and I even summarized it and translated parts of it into Arabic. It's that good.
 
 [^must]: Whenever you see me say "MUST" or "SHOULD" don't take it too seriously, it's just how I speak in real life when I'm excited.
 
