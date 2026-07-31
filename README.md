@@ -172,6 +172,12 @@ Because wasn't used to reading books, reading itself is painful, it's a fun acti
 
 It makes so much sense when you think about it. So try to find the external means that could motivate you and make use of it.
 
+#### CS is Not Just Programming
+
+CS is not programming[^computers]; but programming _is_ certainly part of CS. Two things things not being equal does not mean they don't overlap or one is not part of the other. Programming is very important in this field, it's our daily bread, It's the tool of the trade and our lovely communication language. But CS is simply much more than that.
+But the neat thing that studying good CS education will certainly make you a better software developer. So it's worth it, but there may be faster ways if you only need to build software.
+Yet I find it annoying when someone uses "CS is Not Programming" to defend real problems in education. I think universities owe the student to prepare them for industry as much as possible; especially that you know for certain that the majority of your students are going work in industry afterwards. And many universities think about that. It's not a simple matter, and the issue could quickly turn into _philosophy of education_ problem and people could differ quit drastically on such issues. So instead of spending time arguing about what CS should be I think first we must decide as societies what do we want from education itself.
+
 #### The Trap of Projection
 
 When we struggle for years because of something, maybe we had a healing journey and experienced immense emotional or intellectual growth --it's a great experience, something to be grateful for. But there is a subtle "bias": a trap one could easily fall into. It's when one thinks they "figured it out" and start to project their own past experiences onto other people's struggles. One would start to think _If only people did this or that_ (that is, reading a book, taking a course or changing their way of thinking in some certain way), that certainly would fix the problem!
@@ -1090,3 +1096,6 @@ _The Bottom Line_: This one was okay, it's not a bad course by any means. The co
 [^latex]: pronounced as /latek/
 
 [^fmhy]: Worth noting, the website contains sections that links to pirated content (movies, books, etc). But if you ignore that the website contains many well curated free stuff on the internet
+
+[^computers] Computer Science, at least in theory, isn't really about computers either! (though computers are really cool) but as the famous quote goes "Computer science is no more about computers than astronomy is about telescopes". In many European countries they use the term _Informatics_, (e.g. _informatique_ in French and _informatica_ in Italian) becuase the field is all about _information_ and data and the transformation we apply on it (computation); different abstractions we create for doing so. Also, Some other countries use "datalogi" in Swedish emphasizing "Data".
+It's funny though that we brought the term in arabic -- in Tunisia, we took the french term (Informatique) and translated it, but the translation was really misleading and makes it sound like "media studies". And becuse of that we used the same trick again! It seems we just slapped "Science" at it! So basically we say "Informatics science". Translation is hard.
