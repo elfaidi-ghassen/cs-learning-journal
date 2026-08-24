@@ -13,48 +13,62 @@ This is not a roadmaps. It's just my personal experiences and the resources I we
 
 ## Table of Contents
 
-- [Tips and Reflections](#tips-and-reflections)
-  - [Short Story: The Day I Fell in Love with CS](#short-story-the-day-i-fell-in-love-with-cs)
-  - [Insights about Learning and Education](#insights-about-learning-and-education)
-    - [The Trap of Projection](#the-trap-of-projection)
-    - [Rethinking _self_-taught](#rethinking-self-taughtself-taught)
-    - [It's all about good teachers](#its-all-about-good-teachers)
-    - [Learning compounds](#learning-compounds)
-    - [The forgotten side of learning from teachers](#the-forgotten-side-of-learning-from-teachers)
-    - [Do certificates matter?](#do-certificates-matter)
-  - [Learning Tips](#learning-tips)
-    - [Reflect on Your Journey](#reflect-on-your-journey)
-    - [Enjoy small wins](#enjoy-small-wins)
-    - [Most useful things I've learned so far](#most-useful-things-ive-learned-so-far)
-    - [Chunking in Computer Science](#chunking-in-computer-science)
-    - [No perfect roadmap](#no-perfect-roadmap)
-  - [Practical Tips](#practical-tips)
-    - [Don't Neglect Code Style](#dont-neglect-code-style)
-    - [Use a REPL](#use-a-repl)
-    - [Using Flashcards](#using-flashcards-anki)
-    - [Taking notes](#taking-notes)
-    - [Using the command line](#using-the-command-line)
-    - [Some ways to have good fun](#some-ways-to-have-good-fun)
-- [Courses and Books](#course-and-book-reviews)
-  - [Systematic Program Design](#systematic-program-design)
-  - [Programming Languages: Parts A, B and C](#programming-languages-parts-a-b-and-c)
-  - [Operating Systems: Three Easy Pieces](#operating-systems-three-easy-pieces)
-  - [Computer Networking: A Top Down Approach](#computer-networking-a-top-down-approach)
-  - [The Missing Semester](#the-missing-semester)
-  - [Nand2Tetris: Part 1](#nand2tetris-part-1)
-  - [Learning How to Learn](#learning-how-to-learn)
-  - [Mindshift](#mindshift)
-  - [Uncommon Sense Teaching](#uncommon-sense-teaching)
-  - [Machine Learning Specialization](#machine-learning)
-  - [Meta Version Control](#meta-version-control)
-  - [Head First Git](#head-first-git)
-  - [Object-Oriented Design](#object-oriented-design----alberta)
-  - [UML Distilled](#uml-distilled)
-  - [Java MOOC](#java-mooc)
-  - [Writing in The Sciences](#writing-in-the-sciences)
-  - [Data and Reality](#data-and-reality)
-  - [Introduction to Web Accessibility](#introduction-to-web-accessibilitya11y)
-- [Footnotes](#footnotes)
+- [A Student's Journey Into Computer Science (and Life)](#a-students-journey-into-computer-science-and-life)
+  - [Table of Contents](#table-of-contents)
+  - [Tips and Reflections](#tips-and-reflections)
+    - [Short story: The day I fell in love with CS](#short-story-the-day-i-fell-in-love-with-cs)
+    - [Insights about learning and education](#insights-about-learning-and-education)
+      - [Rethinking _self_-taught\[^self-taught\]](#rethinking-self-taughtself-taught)
+      - [It's all about good teachers](#its-all-about-good-teachers)
+      - [Learning Compounds](#learning-compounds)
+      - [The forgotten side of learning from teachers](#the-forgotten-side-of-learning-from-teachers)
+      - [Do certificates matter?](#do-certificates-matter)
+      - [CS is Not (Just) Programming](#cs-is-not-just-programming)
+      - [The Trap of Projection](#the-trap-of-projection)
+    - [Learning Tips](#learning-tips)
+      - [Reflect on Your Journey](#reflect-on-your-journey)
+      - [Enjoy small wins](#enjoy-small-wins)
+      - [Most useful things I've learned so far](#most-useful-things-ive-learned-so-far)
+      - [Chunking in Computer Science](#chunking-in-computer-science)
+      - [No perfect roadmap](#no-perfect-roadmap)
+    - [Practical Tips](#practical-tips)
+      - [Don't Neglect Code Style](#dont-neglect-code-style)
+      - [Basic Online Communication Skills](#basic-online-communication-skills)
+      - [Staying up to date with the news](#staying-up-to-date-with-the-news)
+      - [Use a REPL](#use-a-repl)
+      - [Basic IT skills](#basic-it-skills)
+      - [Using Flashcards (Anki)](#using-flashcards-anki)
+      - [Taking notes](#taking-notes)
+      - [Using the command line](#using-the-command-line)
+      - [Some ways to have good fun](#some-ways-to-have-good-fun)
+      - [Some Useful Programming Concepts](#some-useful-programming-concepts)
+      - [How to Find Learning Resources](#how-to-find-learning-resources)
+      - [Financial Aid on Learning Platforms](#financial-aid-on-learning-platforms)
+      - [Misc.](#misc)
+  - [Course and Book Reviews](#course-and-book-reviews)
+    - [Systematic Program Design](#systematic-program-design)
+    - [Programming Languages: Parts A, B and C](#programming-languages-parts-a-b-and-c)
+    - [Operating Systems: Three Easy Pieces](#operating-systems-three-easy-pieces)
+    - [Computer Networking: A Top Down Approach](#computer-networking-a-top-down-approach)
+    - [The Missing Semester](#the-missing-semester)
+    - [Nand2Tetris: part 1](#nand2tetris-part-1)
+    - [Learning How to Learn](#learning-how-to-learn)
+    - [Mindshift](#mindshift)
+    - [Uncommon Sense Teaching](#uncommon-sense-teaching)
+    - [Making Math Click](#making-math-click)
+    - [Machine Learning](#machine-learning)
+    - [Meta Version Control](#meta-version-control)
+    - [Head First Git](#head-first-git)
+    - [Databases](#databases)
+    - [Object-Oriented Design -- Alberta](#object-oriented-design----alberta)
+    - [UML Distilled](#uml-distilled)
+    - [Java MOOC](#java-mooc)
+    - [Writing in the Sciences](#writing-in-the-sciences)
+    - [Data and Reality](#data-and-reality)
+    - [Introduction to Web Accessibility\[^a11y\]](#introduction-to-web-accessibilitya11y)
+    - [Algorithms Specialization](#algorithms-specialization)
+    - [FullstackOpen](#fullstackopen)
+  - [Footnotes](#footnotes)
 
 ## Tips and Reflections
 
@@ -133,7 +147,7 @@ That's what I mean by "power of surprise", it's when you start to notice behavio
 Which connects with the last point, strong fundamentals makes every new learning reinforce what you know, remember Sara? if she masters the multiplication table, later when she learns division (or more advanced concepts) that becomes itself a reinforcement of the fundamentals, and her knowledge quickly gets richer an richer.
 Also, think about someone who studies grammar for instance, reading itself becomes a way to reinforce the grammar concepts!
 
-So, TLDR: good learning might be slow, but it compounds really fast: the more you learn, the more you absorb from new experiences.
+So, TLDR: good learning might be slow, but it compounds really fast: the more you learn, the more you extract more value from new experiences.
 
 #### The forgotten side of learning from teachers
 
@@ -172,7 +186,7 @@ Because wasn't used to reading books, reading itself is painful, it's a fun acti
 
 It makes so much sense when you think about it. So try to find the external means that could motivate you and make use of it.
 
-#### CS is Not Just Programming
+#### CS is Not (Just) Programming
 
 CS is not programming[^computers]; but programming _is_ certainly part of CS. Two things things not being equal does not mean they don't overlap or one is not part of the other. Programming is very important in this field, it's our daily bread, It's the tool of the trade and our lovely communication language. But CS is simply much more than that.
 But the neat thing that studying good CS education will certainly make you a better software developer. So it's worth it, but there may be faster ways if you only need to build software.
@@ -295,14 +309,24 @@ if x==10 and y< 15  :
 I convinced him it's kind of a problem by saying "imagine writing such code in a coding interview". He told me it was a bit challenging at first to change the writing habits.
 That's why I think the earlier you realize that there are some "good" code writing habits, the better.
 
-Another is realizing that consistency is looks so pretty, that's why we have conventions, try to start noticing in people's code, files, etc. for instance I prefer filenames to be lowercase with dashes, e.g. `integration-test.js`, I've heard some consider a bit ugly, but that does't matter because when you have tens of files following the same convention, somehow it starts to look so pretty and organized. Same goes for git commits too.
+Another is realizing that consistency is looks so pretty, that's why we have conventions, try to start noticing in people's code, files, etc. for instance I prefer filenames to be lowercase with dashes, e.g. `integration-test.js`, I've heard some consider that a bit ugly, but that does't matter because when you have tens of files following the same convention, somehow it starts to look so pretty and organized. Same goes for git commits too. Consistency is what matters.
+
+#### Basic Online Communication Skills
+
+- if you're asking something, don't just say "hi" and wait for person to respond. [Just ask the question](https://nohello.net/en/). I've heard some people say they never respond to people who just say "hi" and stop. I think that's mean. but it's understandable.
+- [Don't ask to ask, just ask](https://dontasktoask.com/)
+- If you're sharing code, some sites - like Discord - allow you to use markdown code blocks. You can also share code snippets and examples in github gists, I found it very useful.
+- How to write an email (10m)
+- Get used to talking in front of people naturally, it takes practice. I don't think of it as some mean to achieve success in life, I think it's just a good human skill to have. Our fellow human beings are nice to talk to - don't glorify others in your way to better communication.
+- Being good at speaking publically is a good skill to seek but it's not everything, I quickly realized that some people speak smoothly and with confidence but will make you fall asleep. If you have useful knowledge many people will listen. And this doesn't mean not to invest on communication skills.
+- Invest in your well-being, communicating with yourself is far more important.
 
 #### Staying up to date with the news
 
 It's been a while since I mostly stopped using social media, I don't have any social media app installed on my phone and I only access them using my computer. But I quickly started to learn that even though most news are not important for me to know, sometimes it's better to have an idea of what's going on. And the nice thing is that you don't really need to use social media for that knowledge.
-I really like [Hacker News](https://news.ycombinator.com/), it has links to interesting news and articles.
+I really like [Hacker News](https://news.ycombinator.com/)[^hacker], it has links to interesting news and articles. (though sometimes it's full of debates that might not be a good use of your time).
 I also like the youtube channel [The PrimeTime](https://www.youtube.com/@ThePrimeTimeagen). The man makes really funny and short videos (10-20m) about some hot topics in the field every couple of days.
-So yeah, try not to live under a cave.
+So yeah, try not to live under a cave.[^cave]
 
 #### Use a REPL
 
@@ -312,29 +336,30 @@ They are extremely helpful to quickly verify what an expression _evaluate_ to, w
 
 #### Basic IT skills
 
-I believe it's worth having some basic IT skills:
+I believe as a programmer one should have some basic IT skills and general knowledge:
 
-- How to install a new operating system. One way to do it is just by a flash disk stick, it's very easy to do.
-- How to upgrade your RAM, the types of RAM you can add, etc. it's so easy an you only need some Phillips screwdriver and ten minute of your time.
-- Making multiple partions for your storage, it saved my files from a BSOD at one time.
+- How to install a new operating system. One way to do it is just by a USB flash stick, it's very easy to do. If you're a Windows user try installing linux on the side (Dual Boot)
+- How to upgrade your RAM - if your laptop allows it, the types of RAM you can add, etc. it's so easy an you only need some Phillips screwdriver and ten minute of your time. If this scares you, try it on some old laptop first.
 - Knowing how to kill a process, open the task manager, monitor resources, etc.
-- Having some basic knowledge about computers in general, there are many nice Youtube channels that you might benefit from if you like, you don't need to spend too much time on it.
+- Having some basic knowledge about computers in general, there are many nice Youtube channels that you might benefit from if you like, you don't need to spend too much time on it, just build some basic vocabuluary.
+  - SSD vs HDD, NVMe, DDR, VRAM, BIOS.. there are a lot of terms that you'll naturally pick up if you watch youtube videos.
+- NOTE: be skeptical when you follow youtube guides, many videos are made by people who don't know what they're doing and you could end up causing damage to your machine.
 
-This can be a fun hobby to try to improve your workflow and your tools.
-I recommend checking the fmhy's [System Tools](https://fmhy.net/system-tools) section as it contains many great open source tools you can try.
+- It can be a fun hobby to try to improve your workflow and your tools. some people spend long hours configuring their editors and shell.
+- I recommend checking the fmhy's [System Tools](https://fmhy.net/system-tools) section as it contains many great open source tools you can try.
 
 - The basic rule of thumb: If something feels repeitive and annoying, there is probably someone who had the same experience and create a solution for the problem.
   - You're renaming a lot of files? there are bulk rename tools
-  - You're editing many images at the same time? there are tools
+  - You're editing many images at the same time? there are tools for that.
   - You're spending too much time searching for things in VS Code? `Ctrl` + `P`
-  - and so on.
-
-- Also, I noticed many people don't use it so please make sure you use a clipboard manager. Windows for instance has a default clipboard manager (Win + V), it's _extremely_ useful and I can't imagine using a computer without it.
-- Also, it's a good idea to use a _Password manager_, it may take an hour to setup but it serves you forever. Many password managers have browser extentions and would fill in the login forms automatically for you. It was so useful that I went over many of my friends and installed a password manager for them, some didn't think it's useful at first but it's understandble, I didn't think it was _that_ useful either when I first heard about it.
+  - You find navigating to directories annoying in the shell? try zoxide
 
 > "Malik was asked, 'What do you say about seeking knowledge?' He said: 'It is good and beautiful — but look first to the knowledge you need from the moment you wake up until evening, and commit to that".
 
-That holds true for all kinds of knowledge. I want to insist on this because many people feel intimidated by the number of tips, tricks and tools available on the internet. One of the best places to start is to see your own workflow, what you frequently do in your daily life and try to improve it. one step at a time.
+- That holds true for all kinds of knowledge. I want to insist on this because many people feel intimidated by the number of tips, tricks and tools available on the internet. One of the best places to start is to see your own workflow, what you frequently do in your daily life and try to improve it. one step at a time.
+
+- Also, I noticed many people don't use it so please make sure you use a clipboard manager. Windows for instance has a default clipboard manager (Win + V), it's _extremely_ useful and I can't imagine using a computer without it.
+- Also, it's a good idea to use a _Password manager_, it may take an hour to setup but it serves you forever. Many password managers have browser extentions and would fill in the login forms automatically for you. It was so useful that I went over many of my friends and installed a password manager for them, some didn't think it's useful at first but it's understandble, I didn't think it was _that_ useful either when I first heard about it.
 
 #### Using Flashcards (Anki)
 
@@ -370,7 +395,7 @@ That said, if you haven't used flashcards before, I do recommend trying Anki.
 
 #### Taking notes
 
-I recommend that you take notes on your computer sometimes, while research says taking notes on paper leads to better learning, but I think it's useful to take notes on computer occasionally. I really like Obsidian, markdown is awesome. I also take notes (README files) in VS code, if you do make sure you install the linter like `markdownlint` and maybe a spell checker, they help a lot.
+I recommend that you take notes on your computer sometimes, while research says taking notes on paper leads to better learning, but I think it's useful to take notes on computer occasionally. I really like Obsidian, markdown is awesome. I also take notes in Markdown files and even preview them in VS code, if you do so, make sure you install the linter like `markdownlint`, it helps a lot. Also if you're make a [table to contents](#table-of-contents) (TOC); it's really hard to manage manually because you have to remember to re-order the TOC each time you update the headings. I high recommend the vs code extention `Markdown All In One` which automates that.
 Don't worry too much about finding the perfect writing system, you can spend weeks trying different note taking tools and systems and comparing them, I spend some time in that rabbit hole, going from tool to tool, but it's not worth it.
 Also, a quick note: while taking a course, be careful not to just copy paste things from the course into your notes, that's an illusion of learning, equivalent to highlighting everything a book you're reading.
 
@@ -416,11 +441,11 @@ Here some things I enjoy:
 
 - A friend of mine came up with a wild idea which is having a weekly meeting at a coffee shop where we teach each other some random stuff we learned that week, at one time he litarally kept explaining some interesting facts about geology to me. I feel lucky knowing such people.
 
-#### Words and Time
+#### Some Useful Programming Concepts
 
 - It's worth having a basic understanding of Unicode and how text is represented
   - [Dive Into Python Chapter 4: Strings](http://getpython3.com/diveintopython3/strings.html)
-
+  - Have an idea about LF and CRLF line ending characters.
 - It's also worth learning a bit about timezones and how to store dates correctly.
   - Pre-requisites: Time basics; you know what _timezones_ are, you understand what `12:30 UTC+04` means, Daylight Saving Time (DST), timestamps, why storing in time in UTC is generally a good idea.
   - [UTC is Enough for Everyone... Right?](https://zachholman.com/talk/utc-is-enough-for-everyone-right)
@@ -1050,10 +1075,7 @@ _The Bottom Line_: This one was okay, it's not a bad course by any means. The co
 
 ### Algorithms Specialization
 
-![alt text](/media/course-banners/test3.png)
-
-> I defintely owe you a proof
-> #todo
+#todo
 
 ### FullstackOpen
 
@@ -1099,3 +1121,9 @@ _The Bottom Line_: This one was okay, it's not a bad course by any means. The co
 
 [^computers] Computer Science, at least in theory, isn't really about computers either! (though computers are really cool) but as the famous quote goes "Computer science is no more about computers than astronomy is about telescopes". In many European countries they use the term _Informatics_, (e.g. _informatique_ in French and _informatica_ in Italian) becuase the field is all about _information_ and data and the transformation we apply on it (computation); different abstractions we create for doing so. Also, Some other countries use "datalogi" in Swedish emphasizing "Data".
 It's funny though that we brought the term in arabic -- in Tunisia, we took the french term (Informatique) and translated it, but the translation was really misleading and makes it sound like "media studies". And becuse of that we used the same trick again! It seems we just slapped "Science" at it! So basically we say "Informatics science". Translation is hard.
+
+[^science]: As in emperical science, that is, using the scientific method, etc. CS has very little to do with that.
+
+[^hacker]: the term "hacker" has more than one meaning; here it means someone who is a skilled with computer
+
+[^cave]: I don't use social media much -never on my phone- and I don't watch TV. In the first two years at university the courses were intensive and I literally felt I was living under a case, I knew very little about what's going on in my country and the world. And while it made discussion fun because we tend to love talking about news. But you should spend some time having an idea what's going on. 10m per day is more than enough.
