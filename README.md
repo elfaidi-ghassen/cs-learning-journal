@@ -28,7 +28,8 @@ This is not a roadmaps. It's just my personal experiences and the resources I we
     - [Learning Tips](#learning-tips)
       - [Reflect on Your Journey](#reflect-on-your-journey)
       - [Enjoy small wins](#enjoy-small-wins)
-      - [Most useful things I've learned so far](#most-useful-things-ive-learned-so-far)
+      - [Some of the most useful things I've learned so far](#some-of-the-most-useful-things-ive-learned-so-far)
+      - [Small Details About the World](#small-details-about-the-world)
       - [Chunking in Computer Science](#chunking-in-computer-science)
       - [No perfect roadmap](#no-perfect-roadmap)
     - [Practical Tips](#practical-tips)
@@ -61,7 +62,6 @@ This is not a roadmaps. It's just my personal experiences and the resources I we
     - [Head First Git](#head-first-git)
     - [Databases](#databases)
     - [Object-Oriented Design -- Alberta](#object-oriented-design----alberta)
-    - [UML Distilled](#uml-distilled)
     - [Java MOOC](#java-mooc)
     - [Writing in the Sciences](#writing-in-the-sciences)
     - [Data and Reality](#data-and-reality)
@@ -235,15 +235,23 @@ We often tell each other "take care" but we rarely stop and think what it means.
 Don't be a person who never notices how good the food tastes because they're already thinking about what to do next.
 Take care of yourself.
 
-#### Most useful things I've learned so far
+#### Some of the most useful things I've learned so far
 
 - **Meta-cognition**, taking Learning [How to Learn](#learning-how-to-learn) had such a compounding effect. I've described it in more details in the reviews section, but I'd add here: understanding how we learn gives you _EMPATHY_ for yourself and your learning challenges. Being able to see my struggles from above, to ask good questions about why I struggle at something and how to solve it, all while having _mercy_ on myself and struggles.
 - English as a second language, I spent two years studying english extensively in highschool from good online resources, it helped me _tremendously_ throughout my journey, to easily read books, watch lectures, and understand nerdy jokes! I keep telling my roommate who's working on his English "it's the programming language of the future!" --[^dash] and we would laugh every time. Seriously, it's very important in this field.
 - Learning Git early has helped me tremendously in so many different and unexpected ways.
 
+#### Small Details About the World
+
+You need to build the skill of noticing the small details. You should should probably develop some understanding about `locale`, know what `i18n`, understanding why good translation is hard to produce, even now in the age of AI.
+
+- Did you know that countries format numbers differently
+
+you don't need to spend much time on this, you'll often learn such things on the way, but just be aware such details.
+
 #### Chunking in Computer Science
 
-> Mathematics is amazingly compressible. You may struggle a long time, step by step, to work through the same process or idea from several different approaches. But once you really understand it and have the mental perspective to see it as a whole, there is often a tremendous mental compression. You can file it away, recall it quickly and completely when you need it, and use it as just one step in some other mental process. -- William Thurston
+> Mathematics is amazingly compressible. You may struggle a long time, step by step, to work through the same process or idea from several different approaches. But once you really understand it and have the mental perspective to see it as a whole, there is often a tremendous mental compression. You can file it away, recall it quickly and completely when you need it, and use it as just one step in some other mental process. - William Thurston
 
 It's a very good skill to be able to identify the important _chunks_ of knowledge in the subject you're learning. I have learned about this concept of chunks from [Learning How to Learn](#learning-how-to-learn) and I think it's worth discussing here. (I must say that a complete beginner in a subject might not be able to identify the missing chunks, that's the role of a good teacher -- to create scaffolding i.e. divide the subject into small chunks and have students master them one by one)
 
@@ -396,6 +404,7 @@ That said, if you haven't used flashcards before, I do recommend trying Anki.
 #### Taking notes
 
 I recommend that you take notes on your computer sometimes, while research says taking notes on paper leads to better learning, but I think it's useful to take notes on computer occasionally. I really like Obsidian, markdown is awesome. I also take notes in Markdown files and even preview them in VS code, if you do so, make sure you install the linter like `markdownlint`, it helps a lot. Also if you're make a [table to contents](#table-of-contents) (TOC); it's really hard to manage manually because you have to remember to re-order the TOC each time you update the headings. I high recommend the vs code extention `Markdown All In One` which automates that.
+
 Don't worry too much about finding the perfect writing system, you can spend weeks trying different note taking tools and systems and comparing them, I spend some time in that rabbit hole, going from tool to tool, but it's not worth it.
 Also, a quick note: while taking a course, be careful not to just copy paste things from the course into your notes, that's an illusion of learning, equivalent to highlighting everything a book you're reading.
 
@@ -661,6 +670,7 @@ Here are some things you can learn from the course:
 - You'll deeply understand what's is a server, you'll even implement your own servers, and understand what it means for an application to be on the internet?
 - You'll understand what the internet is and how it works
 - You'll learn about protocols and realize they're just a bunch of standardized text files, and that people implement them (e.g. browser implements the HTTP protocol)
+- It's very useful to have some idea about how wireless networks work because they are everywhere! Especially WiFi. The book does cover it well.
 
 Some Tips:
 
@@ -918,7 +928,11 @@ I especially loved the "_there are no_ **DUMB QUESTIONS**" sections were my favo
 
 The book also did something really smart which is not using programs but just plain text for all examples, which instills the idea that you can basically use Git for ANYTHING.
 
-_The Bottom Line_: If you want to learn how git really works and immediately start to work with others and contribute to open source, this is a great option.
+- Some Tips:
+  - VS Code (and most editors) has a good Git integration, I found it useful at times, for example after editing multiple files (say 10 files) then wanting to group them logically (say every 3 or 4 files) into commits. A GUI makes it easier. Also it visualizes diffs and conflicts really well. But first you should learn using in the command line, that's what I use most of the time.
+  - "commit early and commit often" is no joke, you should commit as early as you can. You don't want to edit 30 files then say, okay now I'll commit them into logical units. It's much harder that way, don't postone it, just commit early.
+
+_The Bottom Line_: If you want to learn how git works and immediately start to work with others and contribute to open source, this is a great option.
 
 ### Databases
 
@@ -935,8 +949,6 @@ It is where I coined the term "audiobook lecture". At some point it feels like A
 This one is not different.
 
 _The Bottom Line_: Don't take this course.
-
-### UML Distilled
 
 When you start learning something like UML, you'd be surprised by the amount of boring nonsense, it's kind of ridiculous at times.
 
